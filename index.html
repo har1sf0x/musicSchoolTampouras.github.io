@@ -150,12 +150,20 @@
                  src="sheets/svg/ρυθμοί_Καλαματιανός_inΝτο_πενιές.svg" 
                  alt="Ρυθμοί - Καλαματιανός - inΝτο - πενιές">
         </div>
+        <!-- Modal for iOS fallback -->
+        <div id="modal" class="modal">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <img id="modalImage" src="" alt="">
+        </div>
     </div>
 
     <script>
         const select = document.getElementById('photoSelect');
         const placeholder = document.getElementById('placeholder');
         const photos = document.querySelectorAll('.sheet');
+        const modal = document.getElementById('modal');
+        const modalImage = document.getElementById('modalImage');
+        const modalClose = document.getElementById('modalClose');
         
         select.addEventListener('change', function() {
             const selectedValue = this.value;
@@ -181,13 +189,45 @@
         // Add click event to all photos for fullscreen view
         photos.forEach(photo => {
             photo.addEventListener('click', function() {
-                this.requestFullscreen().catch(err => {
-                    console.log('Fullscreen not supported or denied:', err);
-                });
+                if (this.requestFullscreen) {
+                    this.requestFullscreen().catch(err => {
+                        // Fallback to modal for iOS/Safari
+                        showModal(this.src, this.alt);
+                    });
+                } else {
+                    // Use modal for browsers without fullscreen support
+                    showModal(this.src, this.alt);
+                }
+                // this.requestFullscreen().catch(err => {
+                    // console.log('Fullscreen not supported or denied:', err);
+                // });
             });
             
             // Add cursor pointer to indicate clickable
             photo.style.cursor = 'pointer';
+        });
+        // Function to show modal
+        function showModal(src, alt) {
+            modalImage.src = src;
+            modalImage.alt = alt;
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden'; // Prevent scrolling
+        }
+        
+        // Function to close modal
+        function closeModal() {
+            modal.classList.remove('active');
+            document.body.style.overflow = ''; // Restore scrolling
+        }
+        
+        // Close modal on button click
+        modalClose.addEventListener('click', closeModal);
+        
+        // Close modal when clicking outside the image
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) {
+                closeModal();
+            }
         });
         // Exit fullscreen when clicked again
         document.addEventListener('fullscreenchange', function() {
