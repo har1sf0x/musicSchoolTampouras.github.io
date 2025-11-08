@@ -70,6 +70,18 @@
             display: block;
             animation: fadeIn 0.5s;
         }
+
+        .sheet:fullscreen {
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .sheet::backdrop {
+            background-color: white;
+        }
         
         @keyframes fadeIn {
             from {
