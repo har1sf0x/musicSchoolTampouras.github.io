@@ -193,6 +193,7 @@
             if (document.fullscreenElement) {
                 document.fullscreenElement.style.cursor = 'zoom-out';
                 document.fullscreenElement.addEventListener('click', function exitFS() {
+                    document.style.cursor = 'pointer';
                     document.exitFullscreen();
                     this.removeEventListener('click', exitFS);
                 });
