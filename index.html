@@ -52,7 +52,7 @@
         }
         
         .photo-container {
-/*            background-image: url("paperBack.webp");*/
+            /* background-image: url("paperBack.webp"); */
             margin-top: 30px;
             text-align: center;
             min-height: 400px;
@@ -64,7 +64,7 @@
             height: auto;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            cursor: pointer;
+            /* cursor: pointer; */
         }
         
         .sheet.active {
@@ -192,7 +192,7 @@
         // Exit fullscreen when clicked again
         document.addEventListener('fullscreenchange', function() {
             if (document.fullscreenElement) {
-                //document.fullscreenElement.style.cursor = 'zoom-out';
+                // document.fullscreenElement.style.cursor = 'zoom-out';
                 document.fullscreenElement.addEventListener('click', function exitFS() {
                     document.exitFullscreen();
                     this.removeEventListener('click', exitFS);
