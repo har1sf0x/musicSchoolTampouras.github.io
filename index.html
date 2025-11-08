@@ -192,7 +192,7 @@
         // Exit fullscreen when clicked again
         document.addEventListener('fullscreenchange', function() {
             if (document.fullscreenElement) {
-                document.fullscreenElement.style.cursor = 'zoom-out';
+                //document.fullscreenElement.style.cursor = 'zoom-out';
                 document.fullscreenElement.addEventListener('click', function exitFS() {
                     document.exitFullscreen();
                     this.removeEventListener('click', exitFS);
