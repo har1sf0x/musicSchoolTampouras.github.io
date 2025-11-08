@@ -64,6 +64,7 @@
             height: auto;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            cursor: pointer;
         }
         
         .sheet.active {
@@ -193,7 +194,6 @@
             if (document.fullscreenElement) {
                 document.fullscreenElement.style.cursor = 'zoom-out';
                 document.fullscreenElement.addEventListener('click', function exitFS() {
-                    document.style.cursor = 'pointer';
                     document.exitFullscreen();
                     this.removeEventListener('click', exitFS);
                 });
