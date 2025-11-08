@@ -165,6 +165,27 @@
                 }
             }
         });
+        // Add click event to all photos for fullscreen view
+        photos.forEach(photo => {
+            photo.addEventListener('click', function() {
+                this.requestFullscreen().catch(err => {
+                    console.log('Fullscreen not supported or denied:', err);
+                });
+            });
+            
+            // Add cursor pointer to indicate clickable
+            photo.style.cursor = 'pointer';
+        });
+        // Exit fullscreen when clicked again
+        document.addEventListener('fullscreenchange', function() {
+            if (document.fullscreenElement) {
+                document.fullscreenElement.style.cursor = 'zoom-out';
+                document.fullscreenElement.addEventListener('click', function exitFS() {
+                    document.exitFullscreen();
+                    this.removeEventListener('click', exitFS);
+                });
+            }
+        });
     </script>
 </body>
 </html>
