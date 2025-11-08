@@ -58,7 +58,7 @@
             min-height: 400px;
         }
         
-        .photo {
+        .sheet {
             display: none;
             max-width: 100%;
             height: auto;
@@ -66,7 +66,7 @@
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
         
-        .photo.active {
+        .sheet.active {
             display: block;
             animation: fadeIn 0.5s;
         }
@@ -112,28 +112,28 @@
             <div id="placeholder" class="placeholder">
                 Διαλέξτε μία παρτιτούρα
             </div>
-            <img id="photo1" class="photo" 
+            <img id="photo1" class="sheet" 
                  src="sheets/svg/Ege zeybek.svg"
                  alt="Ege zeybek">
-            <img id="photo2" class="photo" 
+            <img id="photo2" class="sheet" 
                  src="sheets/svg/Ege zeybek_πενιές.svg" 
                  alt="Ege zeybek - πενιές">
-            <img id="photo3" class="photo" 
+            <img id="photo3" class="sheet" 
                  src="sheets/svg/Ege zeybek_inΝτο.svg" 
                  alt="Ege zeybek - inΝτο">
-            <img id="photo4" class="photo" 
+            <img id="photo4" class="sheet" 
                  src="sheets/svg/Ege zeybek_inΝτο_πενιές.svg" 
                  alt="Ege zeybek - inΝτο - πενιές">
-            <img id="photo5" class="photo" 
+            <img id="photo5" class="sheet" 
                  src="sheets/svg/ρυθμοί_Καλαματιανός.svg" 
                  alt="Ρυθμοί - Καλαματιανός">
-            <img id="photo6" class="photo" 
+            <img id="photo6" class="sheet" 
                  src="sheets/svg/ρυθμοί_Καλαματιανός_πενιές.svg" 
                  alt="Ρυθμοί - Καλαματιανός - πενιές">
-            <img id="photo7" class="photo" 
+            <img id="photo7" class="sheet" 
                  src="sheets/svg/ρυθμοί_Καλαματιανός_inΝτο.svg" 
                  alt="Ρυθμοί - Καλαματιανός - inΝτο">
-            <img id="photo8" class="photo" 
+            <img id="photo8" class="sheet" 
                  src="sheets/svg/ρυθμοί_Καλαματιανός_inΝτο_πενιές.svg" 
                  alt="Ρυθμοί - Καλαματιανός - inΝτο - πενιές">
         </div>
@@ -142,7 +142,7 @@
     <script>
         const select = document.getElementById('photoSelect');
         const placeholder = document.getElementById('placeholder');
-        const photos = document.querySelectorAll('.photo');
+        const photos = document.querySelectorAll('.sheet');
         
         select.addEventListener('change', function() {
             const selectedValue = this.value;
