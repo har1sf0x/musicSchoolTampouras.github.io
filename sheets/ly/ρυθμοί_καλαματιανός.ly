@@ -9,37 +9,37 @@ pieceFilename = "ρυθμοί_Καλαματιανός"
 pieceNotes = \new Voice \relative c'' {
   \setKalamTime
   \sectionLabel "1"
-  <<\single \greyNote g8 \single \greyNote g d'8>> <<\single \greyNote g,8 \single \greyNote g d'8>> <<\single \greyNote g,8 \single \greyNote g d'8>>
-  <<\single \greyNote g,8 \single \greyNote g d'8>> <<\single \greyNote g,8 \single \greyNote g d'8>>
-  <<\single \greyNote g,8 \single \greyNote g d'8>> <<\single \greyNote g,8 \single \greyNote g d'8>> \FBarline
+  <<\single \greyNote g8 \single \greyNote d d'8>> <<\single \greyNote g,8 \single \greyNote d d'8>> <<\single \greyNote g,8 \single \greyNote d d'8>>
+  <<\single \greyNote g,8 \single \greyNote d d'8>> <<\single \greyNote g,8 \single \greyNote d d'8>>
+  <<\single \greyNote g,8 \single \greyNote d d'8>> <<\single \greyNote g,8 \single \greyNote d d'8>> \FBarline
   \sectionLabel "2"
-  <<\single \greyNote g,4 \single \greyNote g d'4>> <<\single \greyNote g,8 \single \greyNote g d'8>>
-  <<\single \greyNote g,8 \single \greyNote g d'8>> <<\single \greyNote g,8 \single \greyNote g d'8>>
-  <<\single \greyNote g,8 \single \greyNote g d'8>> <<\single \greyNote g,8 \single \greyNote g d'8>> \FBarline
+  <<\single \greyNote g,4 \single \greyNote d d'4>> <<\single \greyNote g,8 \single \greyNote d d'8>>
+  <<\single \greyNote g,8 \single \greyNote d d'8>> <<\single \greyNote g,8 \single \greyNote d d'8>>
+  <<\single \greyNote g,8 \single \greyNote d d'8>> <<\single \greyNote g,8 \single \greyNote d d'8>> \FBarline
   \break
   \sectionLabel "3α" \set Score.currentBarNumber = #1
-  <<\single \greyNote g,4 \single \greyNote g d'4>> <<\single \greyNote g,8 \single \greyNote g d'8>>
-  <<\single \greyNote g,4 \single \greyNote g d'4>>
-  <<\single \greyNote g,8 \single \greyNote g d'8>> <<\single \greyNote g,8 \single \greyNote g d'8>>\FBarline
+  <<\single \greyNote g,4 \single \greyNote d d'4>> <<\single \greyNote g,8 \single \greyNote d d'8>>
+  <<\single \greyNote g,4 \single \greyNote d d'4>>
+  <<\single \greyNote g,8 \single \greyNote d d'8>> <<\single \greyNote g,8 \single \greyNote d d'8>>\FBarline
   \sectionLabel "3β"
-  <<\single \greyNote g,4 \single \greyNote g d'4>> <<\single \greyNote g,8 \single \greyNote g d'8>>
-  <<\single \greyNote g,4 \single \greyNote g d'4>>
-  <<\single \greyNote g,8 \single \greyNote g d'8>> <<\single \greyNote g,8 \single \greyNote g d'8>>\FBarline
+  <<\single \greyNote g,4 \single \greyNote d d'4>> <<\single \greyNote g,8 \single \greyNote d d'8>>
+  <<\single \greyNote g,4 \single \greyNote d d'4>>
+  <<\single \greyNote g,8 \single \greyNote d d'8>> <<\single \greyNote g,8 \single \greyNote d d'8>>\FBarline
   \break
   \sectionLabel "4α" \set Score.currentBarNumber = #1
-  <<\single \greyNote g,4 \single \greyNote g d'4>> <<\single \greyNote g,8 \single \greyNote g d'8>>
-  <<\single \greyNote g,4 \single \greyNote g d'4>>
-  \grace {\stemDown <<\single \greyNote g,16 \single \greyNote g d'16>>}
-  <<\single \greyNote g,8 \single \greyNote g d'8>> <<\single \greyNote g,8 \single \greyNote g d'8>>\FBarline
+  <<\single \greyNote g,4 \single \greyNote d d'4>> <<\single \greyNote g,8 \single \greyNote d d'8>>
+  <<\single \greyNote g,4 \single \greyNote d d'4>>
+  \grace {<<\single \greyNote g,16 \single \greyNote d d'16>>}
+  <<\single \greyNote g,8 \single \greyNote d d'8>> <<\single \greyNote g,8 \single \greyNote d d'8>>\FBarline
   \sectionLabel "4β1"
-  <<\single \greyNote g,4 \single \greyNote g d'4>> <<\single \greyNote g,8 \single \greyNote g d'8>>
-  <<\single \greyNote g,4 \single \greyNote g d'4>>
-  \grace {\stemDown <<\single \greyNote g,16 \single \greyNote g d'16>>}
-  <<\single \greyNote g,8 \single \greyNote g d'8>> <<\single \greyNote g,8 \single \greyNote g d'8>>\FBarline
+  <<\single \greyNote g,4 \single \greyNote d d'4>> <<\single \greyNote g,8 \single \greyNote d d'8>>
+  <<\single \greyNote g,4 \single \greyNote d d'4>>
+  \grace {<<\single \greyNote g,16 \single \greyNote d d'16>>}
+  <<\single \greyNote g,8 \single \greyNote d d'8>> <<\single \greyNote g,8 \single \greyNote d d'8>>\FBarline
   \sectionLabel "4β2"
-  <<\single \greyNote g,4 \single \greyNote g d'4>> <<\single \greyNote g,8 \single \greyNote g d'8>>
-  <<\single \greyNote g,4 \single \greyNote g d'4>>
-  <<\single \greyNote g,8 \single \greyNote g d'8>> <<\single \greyNote g,8 \single \greyNote g d'8>>\FBarline
+  <<\single \greyNote g,4 \single \greyNote d d'4>> <<\single \greyNote g,8 \single \greyNote d d'8>>
+  <<\single \greyNote g,4 \single \greyNote d d'4>>
+  <<\single \greyNote g,8 \single \greyNote d d'8>> <<\single \greyNote g,8 \single \greyNote d d'8>>\FBarline
 }
 pieceArrows = \new Voice {
   s8^\arrowDown s^\arrowUp s^\arrowUp
@@ -73,7 +73,7 @@ pieceArrows = \new Voice {
 
 \layout {
   indent = #0
-  #(set-default-paper-size '(cons (* 210 mm) (* 80 mm)))
+  #(set-default-paper-size '(cons (* 210 mm) (* 90 mm)))
 }
 
 \layout {
