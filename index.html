@@ -60,23 +60,32 @@
         }
         
         .radio-group.active {
-            display: block;
+            /* display: block; */
+            display: grid;
+            grid-template-areas: 'A A A A' 'B C D E';
         }
+
+        .radio-group :nth-child(1) {grid-area: A;}
+        .radio-group :nth-child(2) {grid-area: B;}
+        .radio-group :nth-child(3) {grid-area: C;}
+        .radio-group :nth-child(4) {grid-area: D;}
+        .radio-group :nth-child(5) {grid-area: E;}
         
         .radio-group label {
             font-weight: normal;
-            display: flex;
+            /* display: flex; */
+            text-align: center;
             align-items: center;
             margin: 8px 0;
             cursor: pointer;
         }
         
-        .radio-group input[type="radio"] {
+        /* .radio-group input[type="radio"] {
             margin-right: 10px;
             cursor: pointer;
             width: 18px;
             height: 18px;
-        }
+        } */
         
         .photo-container {
             /* background-image: url("paperBack.webp"); */
