@@ -50,6 +50,33 @@
             outline: none;
             border-color: #4CAF50;
         }
+
+        .radio-group {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            display: none;
+        }
+        
+        .radio-group.active {
+            display: block;
+        }
+        
+        .radio-group label {
+            font-weight: normal;
+            display: flex;
+            align-items: center;
+            margin: 8px 0;
+            cursor: pointer;
+        }
+        
+        .radio-group input[type="radio"] {
+            margin-right: 10px;
+            cursor: pointer;
+            width: 18px;
+            height: 18px;
+        }
         
         .photo-container {
             /* background-image: url("paperBack.webp"); */
@@ -175,8 +202,35 @@
                 <option value="ρυθμοί_Καλαματιανός_inΝτο_πενιές">Ρυθμοί - Καλαματιανός - inΝτο - πενιές</option>
             </select>
         </div>
-        
+
+        <div class="radio-group" id="radioGroup">
+            <label>Επιλέξτε έκδοση:</label>
+            <label>
+                <input type="radio" name="version" value="" checked>
+                Κανονική
+            </label>
+            <label>
+                <input type="radio" name="version" value="_πενιές">
+                Πενιές
+            </label>
+            <label>
+                <input type="radio" name="version" value="_inΝτο">
+                in Ντο
+            </label>
+            <label>
+                <input type="radio" name="version" value="_inΝτο_πενιές">
+                in Ντο - Πενιές
+            </label>
+        </div>
+
         <div class="photo-container">
+            <div id="placeholder" class="placeholder">
+                Διαλέξτε μία παρτιτούρα
+            </div>
+            <img id="sheetImage" class="sheet" src="" alt="">
+        </div>
+        
+        <!-- <div class="photo-container">
             <div id="placeholder" class="placeholder">
                 Διαλέξτε μία παρτιτούρα
             </div>
@@ -244,7 +298,7 @@
             <img id="ρυθμοί_Καλαματιανός_inΝτο_πενιές" class="sheet" 
                  src="sheets/svg/ρυθμοί_Καλαματιανός_inΝτο_πενιές.svg" 
                  alt="Ρυθμοί - Καλαματιανός - inΝτο - πενιές">
-        </div>
+        </div> -->
         <!-- Modal for iOS fallback -->
         <div id="modal" class="modal">
             <button class="modal-close" id="modalClose">&times;</button>
@@ -255,52 +309,102 @@
     <script>
         const select = document.getElementById('photoSelect');
         const placeholder = document.getElementById('placeholder');
-        const photos = document.querySelectorAll('.sheet');
+        const radioGroup = document.getElementById('radioGroup');
+        const sheetImage = document.getElementById('sheetImage');
+        const sheets = document.querySelectorAll('.sheet');
         const modal = document.getElementById('modal');
         const modalImage = document.getElementById('modalImage');
         const modalClose = document.getElementById('modalClose');
+
+        let currentBase = '';
         
         select.addEventListener('change', function() {
             const selectedValue = this.value;
-            
-            // Hide all photos
-            photos.forEach(photo => {
-                photo.classList.remove('active');
-            });
-            
-            // Hide or show placeholder
+
             if (selectedValue === '') {
                 placeholder.style.display = 'block';
+                sheetImage.classList.remove('active');
+                radioGroup.classList.remove('active');
+                // videoContainer.classList.remove('active');
+                currentBase = '';
             } else {
+                currentBase = selectedValue;
                 placeholder.style.display = 'none';
+                radioGroup.classList.add('active');
                 
-                // Show selected photo
-                const selectedPhoto = document.getElementById(selectedValue);
-                if (selectedPhoto) {
-                    selectedPhoto.classList.add('active');
-                }
+                // Reset to first radio button
+                radioButtons[0].checked = true;
+                updateImage();
+                // updateVideo();
+            }
+            
+            // Hide all photos
+            // sheets.forEach(sheet => {
+            //     sheet.classList.remove('active');
+            // });
+            
+            // Hide or show placeholder
+            // if (selectedValue === '') {
+            //     placeholder.style.display = 'block';
+            // } else {
+            //     placeholder.style.display = 'none';
+                
+            //     // Show selected photo
+            //     const selectedPhoto = document.getElementById(selectedValue);
+            //     if (selectedPhoto) {
+            //         selectedPhoto.classList.add('active');
+            //     }
+            // }
+        });
+        
+        radioButtons.forEach(radio => {
+            radio.addEventListener('change', updateImage);
+        });
+
+        function updateImage() {
+            if (currentBase === '') return;
+            
+            const selectedVersion = document.querySelector('input[name="version"]:checked').value;
+            const imagePath = `sheets/svg/${currentBase}${selectedVersion}.svg`;
+            
+            sheetImage.src = imagePath;
+            sheetImage.alt = currentBase + selectedVersion;
+            sheetImage.classList.add('active');
+        }
+
+        // Fullscreen functionality
+        sheetImage.addEventListener('click', function() {
+            if (this.requestFullscreen) {
+                this.requestFullscreen().catch(err => {
+                    showModal(this.src, this.alt);
+                });
+            } else {
+                showModal(this.src, this.alt);
             }
         });
+        
+        sheetImage.style.cursor = 'pointer';
+        
         // Add click event to all photos for fullscreen view
-        photos.forEach(photo => {
-            photo.addEventListener('click', function() {
-                if (this.requestFullscreen) {
-                    this.requestFullscreen().catch(err => {
-                        // Fallback to modal for iOS/Safari
-                        showModal(this.src, this.alt);
-                    });
-                } else {
-                    // Use modal for browsers without fullscreen support
-                    showModal(this.src, this.alt);
-                }
-                // this.requestFullscreen().catch(err => {
-                    // console.log('Fullscreen not supported or denied:', err);
-                // });
-            });
+        // sheets.forEach(sheet => {
+        //     sheet.addEventListener('click', function() {
+        //         if (this.requestFullscreen) {
+        //             this.requestFullscreen().catch(err => {
+        //                 // Fallback to modal for iOS/Safari
+        //                 showModal(this.src, this.alt);
+        //             });
+        //         } else {
+        //             // Use modal for browsers without fullscreen support
+        //             showModal(this.src, this.alt);
+        //         }
+        //         // this.requestFullscreen().catch(err => {
+        //             // console.log('Fullscreen not supported or denied:', err);
+        //         // });
+        //     });
             
-            // Add cursor pointer to indicate clickable
-            photo.style.cursor = 'pointer';
-        });
+        //     // Add cursor pointer to indicate clickable
+        //     sheet.style.cursor = 'pointer';
+        // });
         // Function to show modal
         function showModal(src, alt) {
             modalImage.src = src;
