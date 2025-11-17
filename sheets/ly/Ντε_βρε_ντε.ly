@@ -27,9 +27,9 @@ pieceNotes = \new Voice \relative c'' {
   \repeat volta 4 {
     d4 d8 d4 d
     d16 d c8 d e4 e8 d
-    c16 (bfc) c8 e d4 d8 d
-    a8 bfc c d4 d8 d
-    \large c8. c16 e8 d4 d8 d
+    c16 (bfc) c8 e d4 d8 a
+    a8 bfc c d4 d8 a
+    \large c8. c16 e8 d4 d8 a
     a8. bfc16 c8 d4 d8 \normalsize g,
     a4 bfc8 c16 (bfc c d) c8 bfc
     d8 d c bfc4 bfc8 a
