@@ -16,7 +16,7 @@ pieceNotes = \new Voice \relative c'' {
   bfc8. c16 d4 e bfc8. c16 d8 e c8. bfc32 a bfc8 g <<a4 d, a'>> r
   bfc8. c16 d4 e bfc8 c16 c d d e8 c8. bfc32 a bfc8 g <<a4 d, a'>> r
   \section \break \sectionLabel "Γ" \set Score.currentBarNumber = #1
-  \repeat unfold 2 {g8 bfc bfc8. bfc32 a bfc8 a bfc8. a16 bfc8 d c c bfc16 (a g8) <<a4 d, a'>> r \noBreak}
+  \repeat unfold 2 {g8 bfc bfc8. bfc32 a bfc8 a bfc8. bfc32 a bfc8 d c c bfc16 (a g8) <<a4 d, a'>> r \noBreak}
   \section \break \sectionLabel "Δ" \set Score.currentBarNumber = #1
   \repeat unfold 2 {
     <<g8. \single \greyNote d' g,>> <<g16 bfc g>> <<g8 bfc g~>> g <<g8 bfc g~>> g
@@ -42,7 +42,7 @@ pieceArrows = \new Voice {
     
     \repeat unfold 2 {
       s8^\arrowDown s^\arrowUp s8.^\arrowDown s32^\arrowUpSmall s^\arrowDownSmall
-      s8^\arrowUp s^\arrowUp s8.^\arrowDown s16^\arrowZeybekB s8^\arrowUp s^\arrowUp
+      s8^\arrowUp s^\arrowUp s8.^\arrowDown s32^\arrowUpSmall s^\arrowDownSmall s8^\arrowUp s^\arrowUp
       s8^\arrowDown s^\arrowUp s16^\arrowTalipOzkan (s s8) s4^\arrowDown s8^\arrowDown s^\arrowUp
     }
     
