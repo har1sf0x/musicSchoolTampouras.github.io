@@ -66,6 +66,10 @@
             grid-template-areas: 'A A A A' 'B C D E';
         }
 
+        input:checked + .radio-group {
+            background-color: #2196F3;
+        }
+
         .radio-group :nth-child(1) {grid-area: A;}
         .radio-group :nth-child(2) {grid-area: B;}
         .radio-group :nth-child(3) {grid-area: C;}
