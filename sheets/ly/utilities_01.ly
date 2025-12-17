@@ -2,7 +2,7 @@
 
 \include "turkish-makam.ly"
 
-arrowDown = \markup {
+arrowDownMarkup = \markup {
   \fontsize #-1
   \override #'(thickness . 1.38)
   \translate #'(0.65 . 0) {
@@ -12,23 +12,31 @@ arrowDown = \markup {
   }
 }
 
-arrowUp = \markup {
-  \scale #'(1 . -1) \arrowDown
+arrowUpMarkup = \markup {
+  \scale #'(1 . -1) \arrowDownMarkup
 }
 
-arrowSilifke = \markup {
+arrowDownSmallMarkup = \markup {
+  \scale #'(1 . .5) \arrowDownMarkup
+}
+
+arrowUpSmallMarkup = \markup {
+  \scale #'(1 . .5) \arrowUpMarkup
+}
+
+arrowSilifkeMarkup = \markup {
   \combine
-    \arrowDown
+    \arrowDownMarkup
     \combine
       \teeny \translate #'(0.65 . 1.4) \arrow-head #Y #DOWN ##f
       \teeny \translate #'(0.65 . 1.8) \arrow-head #Y #UP ##f
 }
 
-arrowZeybek = \markup {
-  \scale #'(1 . -1) \arrowSilifke
+arrowZeybekMarkup = \markup {
+  \scale #'(1 . -1) \arrowSilifkeMarkup
 }
 
-arrowZeybekB = \markup {
+arrowZeybekBMarkup = \markup {
   \fontsize #-1
   \override #'(thickness . 1.38)
   \combine
@@ -38,20 +46,20 @@ arrowZeybekB = \markup {
       \teeny \translate #'(0.65 . .8) \arrow-head #Y #UP ##f
 }
 
-arrowSilifkeB = \markup {
-  \scale #'(1 . -1) \arrowZeybekB
+arrowSilifkeBMarkup = \markup {
+  \scale #'(1 . -1) \arrowZeybekBMarkup
 }
 
-arrowSelpe = \markup {
+arrowSelpeMarkup = \markup {
   \combine
-    \scale #'(1 . -1) \arrowDown
+    \scale #'(1 . -1) \arrowDownMarkup
     \combine
       \translate #'(0.65 . -0.5) \arrow-head #Y #UP ##f
       \translate #'(0.65 . -1) \arrow-head #Y #UP ##f
 }
 
-arrowTalipOzkan = \markup {
-  \scale #'(1 . -1) \arrowSelpe
+arrowTalipOzkanMarkup = \markup {
+  \scale #'(1 . -1) \arrowSelpeMarkup
 }
 
 SBarline = #(define-music-function () () #{\bar "|"#})
@@ -81,6 +89,223 @@ setKalamTime = {
   \time 7/8
   \set Timing.beatStructure = 3,2,2
 }
+
+setFourTime = {
+  \overrideTimeSignatureSettings
+    4/4        % timeSignatureFraction
+    1/4        % baseMomentFraction
+    1,1,1,1        % beatStructure
+    #'()       % beamExceptions
+  \time 4/4
+  \numericTimeSignature
+}
+
+RastChord =
+#(define-music-function (dur arrow) (ly:duration? ly:music?) #{
+  \fixed c' {<<g$dur -4-3 $arrow \single \greyNote d \single \greyNote  g>>}  % Notes with $ prefix use the duration argument
+#})
+
+ADChord =
+#(define-music-function (dur arrow) (ly:duration? ly:music?) #{
+  \fixed c' {<<a$dur -5 $arrow \single \greyNote d \single \greyNote  a>>}  % Notes with $ prefix use the duration argument
+#})
+
+AEChord =
+#(define-music-function (dur arrow) (ly:duration? ly:music?) #{
+  \fixed c' {<<a$dur -2-0 $arrow \single \greyNote e \single \greyNote  a>>}  % Notes with $ prefix use the duration argument
+#})
+
+
+
+#(set! default-script-alist (acons
+  'arrowDown `(
+    (stencil . ,(
+      lambda (grob) (let ((d (ly:grob-property grob 'direction UP))
+        (mstc (grob-interpret-markup grob (markup
+          #:override '(font-encoding . latin1)
+          #:center-align arrowDownMarkup ))))
+      (if (= d UP)
+        mstc
+        (ly:stencil-rotate
+          mstc 0 0 (interval-center (ly:stencil-extent mstc Y))))
+        )
+      )
+    ) (direction . ,UP)) default-script-alist
+  )
+)
+
+#(set! default-script-alist (acons
+  'arrowUp `(
+    (stencil . ,(
+      lambda (grob) (let ((d (ly:grob-property grob 'direction UP))
+        (mstc (grob-interpret-markup grob (markup
+          #:override '(font-encoding . latin1)
+          #:center-align arrowUpMarkup ))))
+      (if (= d UP)
+        mstc
+        (ly:stencil-rotate
+          mstc 0 0 (interval-center (ly:stencil-extent mstc Y))))
+        )
+      )
+    ) (direction . ,UP)) default-script-alist
+  )
+)
+
+#(set! default-script-alist (acons
+  'arrowDownSmall `(
+    (stencil . ,(
+      lambda (grob) (let ((d (ly:grob-property grob 'direction UP))
+        (mstc (grob-interpret-markup grob (markup
+          #:override '(font-encoding . latin1)
+          #:center-align arrowDownSmallMarkup ))))
+      (if (= d UP)
+        mstc
+        (ly:stencil-rotate
+          mstc 0 0 (interval-center (ly:stencil-extent mstc Y))))
+        )
+      )
+    ) (direction . ,UP)) default-script-alist
+  )
+)
+
+#(set! default-script-alist (acons
+  'arrowUpsmall `(
+    (stencil . ,(
+      lambda (grob) (let ((d (ly:grob-property grob 'direction UP))
+        (mstc (grob-interpret-markup grob (markup
+          #:override '(font-encoding . latin1)
+          #:center-align arrowUpSmallMarkup ))))
+      (if (= d UP)
+        mstc
+        (ly:stencil-rotate
+          mstc 0 0 (interval-center (ly:stencil-extent mstc Y))))
+        )
+      )
+    ) (direction . ,UP)) default-script-alist
+  )
+)
+
+#(set! default-script-alist (acons
+  'arrowSilifke `(
+    (stencil . ,(
+      lambda (grob) (let ((d (ly:grob-property grob 'direction UP))
+        (mstc (grob-interpret-markup grob (markup
+          #:override '(font-encoding . latin1)
+          #:center-align arrowSilifkeMarkup ))))
+      (if (= d UP)
+        mstc
+        (ly:stencil-rotate
+          mstc 0 0 (interval-center (ly:stencil-extent mstc Y))))
+        )
+      )
+    ) (direction . ,UP)) default-script-alist
+  )
+)
+
+#(set! default-script-alist (acons
+  'arrowZeybek `(
+    (stencil . ,(
+      lambda (grob) (let ((d (ly:grob-property grob 'direction UP))
+        (mstc (grob-interpret-markup grob (markup
+          #:override '(font-encoding . latin1)
+          #:center-align arrowZeybekMarkup ))))
+      (if (= d UP)
+        mstc
+        (ly:stencil-rotate
+          mstc 0 0 (interval-center (ly:stencil-extent mstc Y))))
+        )
+      )
+    ) (direction . ,UP)) default-script-alist
+  )
+)
+
+#(set! default-script-alist (acons
+  'arrowZeybekB `(
+    (stencil . ,(
+      lambda (grob) (let ((d (ly:grob-property grob 'direction UP))
+        (mstc (grob-interpret-markup grob (markup
+          #:override '(font-encoding . latin1)
+          #:center-align arrowZeybekBMarkup ))))
+      (if (= d UP)
+        mstc
+        (ly:stencil-rotate
+          mstc 0 0 (interval-center (ly:stencil-extent mstc Y))))
+        )
+      )
+    ) (direction . ,UP)) default-script-alist
+  )
+)
+
+#(set! default-script-alist (acons
+  'arrowSilifkeB `(
+    (stencil . ,(
+      lambda (grob) (let ((d (ly:grob-property grob 'direction UP))
+        (mstc (grob-interpret-markup grob (markup
+          #:override '(font-encoding . latin1)
+          #:center-align arrowSilifkeBMarkup ))))
+      (if (= d UP)
+        mstc
+        (ly:stencil-rotate
+          mstc 0 0 (interval-center (ly:stencil-extent mstc Y))))
+        )
+      )
+    ) (direction . ,UP)) default-script-alist
+  )
+)
+
+#(set! default-script-alist (acons
+  'arrowSelpe `(
+    (stencil . ,(
+      lambda (grob) (let ((d (ly:grob-property grob 'direction UP))
+        (mstc (grob-interpret-markup grob (markup
+          #:override '(font-encoding . latin1)
+          #:center-align arrowSelpeMarkup ))))
+      (if (= d UP)
+        mstc
+        (ly:stencil-rotate
+          mstc 0 0 (interval-center (ly:stencil-extent mstc Y))))
+        )
+      )
+    ) (direction . ,UP)) default-script-alist
+  )
+)
+
+#(set! default-script-alist (acons
+  'arrowTalipOzkan `(
+    (stencil . ,(
+      lambda (grob) (let ((d (ly:grob-property grob 'direction UP))
+        (mstc (grob-interpret-markup grob (markup
+          #:override '(font-encoding . latin1)
+          #:center-align arrowTalipOzkanMarkup ))))
+      (if (= d UP)
+        mstc
+        (ly:stencil-rotate
+          mstc 0 0 (interval-center (ly:stencil-extent mstc Y))))
+        )
+      )
+    ) (direction . ,UP)) default-script-alist
+  )
+)
+
+"arrowDown" = #(make-articulation 'arrowDown)
+"arrowUp" = #(make-articulation 'arrowUp)
+"arrowDownSmall" = #(make-articulation 'arrowDownSmall)
+"arrowUpSmall" = #(make-articulation 'arrowUpsmall)
+"arrowSilifke" = #(make-articulation 'arrowSilifke)
+"arrowZeybek" = #(make-articulation 'arrowZeybek)
+"arrowZeybekB" = #(make-articulation 'arrowZeybekB)
+"arrowSilifkeB" = #(make-articulation 'arrowSilifkeB)
+"arrowSelpe" = #(make-articulation 'arrowSelpe)
+"arrowTalipOzkan" = #(make-articulation 'arrowTalipOzkan)
+
+\layout { \context { \Score scriptDefinitions = #default-script-alist
+{ \override Staff.Script.avoid-slur = #'around
+  \override Staff.Script.padding = 0.6
+  \override Fingering.staff-padding = #1.0
+  } } }
+
+
+
 
 %{
 arrowUp = \markup {

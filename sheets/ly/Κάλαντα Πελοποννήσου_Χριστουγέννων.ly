@@ -9,18 +9,21 @@ keyA = \setRastKey
 keyB = \setRastBKey
 
 pieceNotes = \new Voice \relative c'' {
+  %\override Staff.Script.avoid-slur = #'around
+  %\override Staff.Script.padding = 0.6
+  %\override Fingering.staff-padding = #1.0
   \setFourTime
-  \partial 4 d,4-0^\arrowDown
+  \partial 4 d,4-0\arrowDown
   \repeat volta 2 {
-    \RastChord 4 ^\arrowDown \RastChord 8 ^\arrowDown \RastChord 8 ^\arrowUp \ADChord 4 ^\arrowDown \ADChord 4 ^\arrowUp
-    bfc'8-1^\arrowDown c-3^\arrowUp bfc-1^\arrowDown a-0^\arrowUp \RastChord 4 ^\arrowDown \RastChord 4 ^\arrowUp
-    c8-3^\arrowDown bfc-1^\arrowUp c-1^\arrowDown d-3^\arrowUp bfc-5^\arrowDown a-0^\arrowUp bfc-5^\arrowDown (g-0)
+    \RastChord 4 \arrowDown \RastChord 8 \arrowDown \RastChord 8 \arrowUp \ADChord 4 \arrowDown \ADChord 4 \arrowUp
+    bfc'8-1\arrowDown c-3\arrowUp bfc-1\arrowDown a-0\arrowUp \RastChord 4 \arrowDown \RastChord 4 \arrowUp
+    c8-3\arrowDown bfc-1\arrowUp c-1\arrowDown d-3\arrowUp bfc-5\arrowDown a-0\arrowUp bfc-5\arrowDown (g-0)
     \alternative {
       \volta 1 {
-        \ADChord 4 ^\arrowDown \ADChord 8 ^\arrowDown \ADChord 8 ^\arrowUp \ADChord 4 ^\arrowDown d4-0^\arrowDown
+        \ADChord 4 \arrowDown \ADChord 8 \arrowDown \ADChord 8 \arrowUp \ADChord 4 \arrowDown d4-0\arrowDown
       }
       \volta 2 {
-        \ADChord 2 ^\arrowDown \ADChord 2 ^\arrowDown \FBarline
+        \ADChord 2 \arrowDown \ADChord 2 \arrowDown \FBarline
       }
     }
   }
@@ -39,6 +42,7 @@ pieceNotes = \new Voice \relative c'' {
 \layout {
   \override TextScript.transparent = ##t
   \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
 }
 \book {
   \bookOutputName \pieceFilename
@@ -56,6 +60,7 @@ pieceNotes = \new Voice \relative c'' {
 \layout {
   \override TextScript.transparent = ##t
   \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #100
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_δάχτυλα")
@@ -68,10 +73,11 @@ pieceNotes = \new Voice \relative c'' {
   }
 }
 
+
 \layout {
   \override TextScript.transparent = ##f
   \override Fingering.transparent = ##t
-  \override TextScript.script-priority = #-200
+  \override Fingering.script-priority = #100
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_πενιές")
@@ -86,7 +92,7 @@ pieceNotes = \new Voice \relative c'' {
 \layout {
   \override TextScript.transparent = ##f
   \override Fingering.transparent = ##f
-  \override TextScript.script-priority = #200
+  \override Fingering.script-priority = #-200
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_πενιές_δάχτυλα")
@@ -101,6 +107,7 @@ pieceNotes = \new Voice \relative c'' {
 \layout {
   \override TextScript.transparent = ##t
   \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο")
@@ -115,6 +122,7 @@ pieceNotes = \new Voice \relative c'' {
 \layout {
   \override TextScript.transparent = ##t
   \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #100
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο_δάχτυλα")
@@ -129,7 +137,7 @@ pieceNotes = \new Voice \relative c'' {
 \layout {
   \override TextScript.transparent = ##f
   \override Fingering.transparent = ##t
-  \override TextScript.script-priority = #-200
+  \override Fingering.script-priority = #100
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές")
@@ -144,7 +152,7 @@ pieceNotes = \new Voice \relative c'' {
 \layout {
   \override TextScript.transparent = ##f
   \override Fingering.transparent = ##f
-  \override TextScript.script-priority = #200
+  \override Fingering.script-priority = #-200
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές_δάχτυλα")
