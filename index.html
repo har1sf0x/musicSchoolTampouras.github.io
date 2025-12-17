@@ -466,8 +466,8 @@
         const select = document.getElementById('photoSelect');
         const placeholder = document.getElementById('placeholder');
         const radioGroup = document.getElementById('radioGroup');
-        // const toggleButton = document.getElementById('toggleButton');
-        const toggleButtons = document.querySelectorAll('input[name="fingers"]');
+        const toggleButton = document.getElementById('slider');
+        // const toggleButtons = document.querySelectorAll('input[name="fingers"]');
         const sheetImage = document.getElementById('sheetImage');
         const radioButtons = document.querySelectorAll('input[name="version"]');
         const downloadButton = document.getElementById('downloadButton');
@@ -528,18 +528,23 @@
             });
         });
 
-        toggleButtons.forEach(toggle => {
-            toggle.addEventListener('change', function() {
-                updateImage();
-                updateDownloadButton();
-            });
+        // toggleButtons.forEach(toggle => {
+        //     toggle.addEventListener('change', function() {
+        //         updateImage();
+        //         updateDownloadButton();
+        //     });
+        // });
+
+        toggleButton.addEventListener('change', function() {
+            updateImage();
+            updateDownloadButton();
         });
 
         function updateImage() {
             if (currentBase === '') return;
             
             const selectedVersion = document.querySelector('input[name="version"]:checked').value;
-             const toggleButton = document.querySelector('input[name="fingers"]');
+            // const toggleButton = document.querySelector('input[name="fingers"]');
             let fingers = "";
             if (toggleButton.checked) {
                 fingers = "δάχτυλα";
@@ -558,7 +563,7 @@
             }
             
             const selectedVersion = document.querySelector('input[name="version"]:checked').value;
-            const toggleButton = document.querySelector('input[name="fingers"]');
+            // const toggleButton = document.querySelector('input[name="fingers"]');
             let fingers = "";
             if (toggleButton.checked) {
                 fingers = "δάχτυλα";
