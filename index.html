@@ -222,10 +222,18 @@
             display: grid;
             grid-template-areas: 'A' 'B';
         }
-
         
         .toggle-button :nth-child(1) {grid-area: A;}
         .toggle-button :nth-child(2) {grid-area: B;}
+
+        .toggle-button label {
+            font-weight: normal;
+            /* display: flex; */
+            text-align: center;
+            align-items: center;
+            margin: 8px 0;
+            cursor: pointer;
+        }
 
         /* The switch - the box around the slider */
         .switch {
