@@ -574,7 +574,7 @@
             downloadButton.onclick = function() {
                 const link = document.createElement('a');
                 link.href = pdfPath;
-                link.download = `${currentBase}${selectedVersion}.pdf`;
+                link.download = `${currentBase}${selectedVersion}${fingers}.pdf`;
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
