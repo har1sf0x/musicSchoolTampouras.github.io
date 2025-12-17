@@ -11,62 +11,44 @@ keyB = \setHuseyniBKey
 pieceNotes = \new Voice \relative c'' {
   \setZeybekTime
   \section \sectionLabel "A"
-  \repeat unfold 2 {g'8. fb16 g8 fb g fb e4 e8 d g8. fb16 g8 fb e4 r \noBreak}
+  \repeat unfold 2 {g'8.-1\arrowDown fb16-1\arrowZeybekB g8-2\arrowUp fb-1\arrowUp g-2\arrowDown fb-1\arrowUp
+  e4-1\arrowDown e8-1\arrowDown d-1\arrowUp g8.-1\arrowDown fb16-1\arrowZeybekB g8-2\arrowUp fb-1\arrowUp e4-1\arrowDown r4\arrowDown \noBreak}
   \section \break \sectionLabel "B" \set Score.currentBarNumber = #1
-  bfc8. c16 d4 e bfc8. c16 d8 e c8. bfc32 a bfc8 g <<a4 d, a'>> r
-  bfc8. c16 d4 e bfc8 c16 c d d e8 c8. bfc32 a bfc8 g <<a4 d, a'>> r
+  bfc8.-1\arrowDown c16-1\arrowZeybekB d4-1\arrowUp e-3\arrowUp bfc8.-1\arrowDown c16-1\arrowZeybekB d8-1\arrowUp e-3\arrowUp
+  c8.-3\arrowDown bfc32-1\arrowUpSmall a-0\arrowDownSmall bfc8-1\arrowUp g-0\arrowDown \ADChord 4 \arrowDown r4\arrowDown
+  bfc8.-1\arrowDown c16-1\arrowZeybekB d4-1\arrowUp e-3\arrowUp bfc8-1\arrowDown c16-1\arrowUp c-1\arrowDown d-1\arrowUp d-1\arrowDown e8-3\arrowUp
+  c8.-3\arrowDown bfc32-1\arrowUpSmall a-0\arrowDownSmall bfc8-1\arrowUp g-0\arrowDown \ADChord 4 \arrowDown r4\arrowDown
   \section \break \sectionLabel "Γ" \set Score.currentBarNumber = #1
-  \repeat unfold 2 {g8 bfc bfc8. bfc32 a bfc8 a bfc8. bfc32 a bfc8 d c c bfc16 (a g8) <<a4 d, a'>> r \noBreak}
+  \repeat unfold 2 {
+    g8-0\arrowDown bfc-1\arrowUp bfc8.-1\arrowDown bfc32-1\arrowUpSmall a-0\arrowDownSmall bfc8-1\arrowUp a-0\arrowUp
+    bfc8.-1\arrowDown bfc32-1\arrowUpSmall a-0\arrowDownSmall bfc8-1\arrowUp d-3\arrowUp
+    c-1\arrowDown c-1\arrowUp bfc16-5\arrowTalipOzkan (a g8) \ADChord 4 \arrowDown r4\arrowDown \noBreak
+  }
   \section \break \sectionLabel "Δ" \set Score.currentBarNumber = #1
   \repeat unfold 2 {
-    <<g8. \single \greyNote d' g,>> <<g16 bfc g>> <<g8 bfc g~>> g <<g8 bfc g~>> g
-    <<g8. bfc g>> <<g16 \single \greyNote d' g,>> <<g8 bfc g>> d' c c bfc16 (a g8) <<a4 d, a'>> r \noBreak
+    \RastChord 8. \arrowDown \BfcGDChord 16 \arrowZeybekB (\BfcGDChord 8 \arrowUp) \RastChord 8^"" (\BfcGDChord 8 \arrowUp) \RastChord 8^""
+    \BfcGDChord 8. \arrowDown \RastChord 16 \arrowZeybekB \BfcGDChord 8 \arrowUp d'8-3\arrowUp
+    c-1\arrowDown c-1\arrowUp bfc16-5\arrowTalipOzkan (a g8) \ADChord 4 \arrowDown r4\arrowDown \noBreak
   } \FBarline
 }
-pieceArrows = \new Voice {
-  \repeat unfold 2 {
-    s8.^\arrowDown s16^\arrowZeybekB s8^\arrowUp s^\arrowUp s^\arrowDown s^\arrowUp
-    s4^\arrowDown s8^\arrowDown s^\arrowUp s8.^\arrowDown s16^\arrowZeybekB
-    s8^\arrowUp s^\arrowUp s4^\arrowDown s8^\arrowDown s^\arrowUp
-  }
-    
-    s8.^\arrowDown s16^\arrowZeybekB s4^\arrowUp s^\arrowUp
-    s8.^\arrowDown s16^\arrowZeybekB s8^\arrowUp s^\arrowUp
-    s8.^\arrowDown s32^\arrowUpSmall s^\arrowDownSmall s8^\arrowUp s^\arrowDown
-    s4^\arrowDown s8^\arrowDown s^\arrowUp
-    
-    s8.^\arrowDown s16^\arrowZeybekB s4^\arrowUp s^\arrowUp
-    s8^\arrowDown s16^\arrowUp s^\arrowDown s^\arrowUp s^\arrowDown s8^\arrowUp
-    s8.^\arrowDown s32^\arrowUpSmall s^\arrowDownSmall s8^\arrowUp s^\arrowDown
-    s4^\arrowDown s8^\arrowDown s^\arrowUp
-    
-    \repeat unfold 2 {
-      s8^\arrowDown s^\arrowUp s8.^\arrowDown s32^\arrowUpSmall s^\arrowDownSmall
-      s8^\arrowUp s^\arrowUp s8.^\arrowDown s32^\arrowUpSmall s^\arrowDownSmall s8^\arrowUp s^\arrowUp
-      s8^\arrowDown s^\arrowUp s16^\arrowTalipOzkan (s s8) s4^\arrowDown s8^\arrowDown s^\arrowUp
-    }
-    
-    s8.^\arrowDown s16^\arrowZeybekB s4^\arrowUp s^\arrowUp
-    s8.^\arrowDown s16^\arrowSelpe s8^\arrowDown s^\arrowUp
-    s8^\arrowDown s^\arrowUp s16^\arrowTalipOzkan (s s8) s4^\arrowDown s8^\arrowDown s^\arrowUp
-    
-    s8.^\arrowDown s16^\arrowZeybekB s4^\arrowUp s^\arrowUp
-    s8.^\arrowDown s16^\arrowSelpe s8^\arrowDown s^\arrowUp
-    s8^\arrowDown s^\arrowUp s16^\arrowTalipOzkan (s s8) s4^\arrowDown s4
+pieceNotesB = \new Voice \relative c'' {
+  \repeat unfold 8 {s4*8 s8 s8\arrowUp}
 }
 
 \layout {
   indent = #0
-  #(set-default-paper-size '(cons (* 210 mm) (* 125 mm)))
+  #(set-default-paper-size '(cons (* 210 mm) (* 135 mm)))
 }
 
-\layout {
-  \override TextScript.transparent = ##t
-}
 \header {
   title = \pieceName
   subtitle = \pieceSubtitle
   copyright = "Χ. Κόχυλας"
+}
+\layout {
+  \override Script.transparent = ##t
+  \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
 }
 \book {
   \bookOutputName \pieceFilename
@@ -75,61 +57,116 @@ pieceArrows = \new Voice {
   }
   \bookpart {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-      \keyA
-      <<
-        \pieceNotes
-        \pieceArrows
-      >>
+        \keyA
+        <<\pieceNotes \pieceNotesB>>
       }
     }
   }
 }
 \layout {
-  \override TextScript.transparent = ##f
+  \override Script.transparent = ##t
+  \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #-200
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_δάχτυλα")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        \keyA
+        <<\pieceNotes \pieceNotesB>>
+      }
+    }
+  }
+}
+
+
+\layout {
+  \override Script.transparent = ##f
+  \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_πενιές")
   \bookpart {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-      \keyA
-      <<
-        \pieceNotes
-        \pieceArrows
-      >>
+        \keyA
+        <<\pieceNotes \pieceNotesB>>
       }
     }
   }
 }
 \layout {
-  \override TextScript.transparent = ##t
+  \override Script.transparent = ##f
+  \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #-200
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_πενιές_δάχτυλα")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        \keyA
+        <<\pieceNotes \pieceNotesB>>
+      }
+    }
+  }
+}
+\layout {
+  \override Script.transparent = ##t
+  \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο")
   \bookpart {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-      \keyB
-      <<
-        \transpose g c \pieceNotes
-        \pieceArrows
-      >>
+        \keyB
+        \transpose g c <<\pieceNotes \pieceNotesB>>
       }
     }
   }
 }
 \layout {
-  \override TextScript.transparent = ##f
+  \override Script.transparent = ##t
+  \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #-200
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_inΝτο_δάχτυλα")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        \keyB
+        \transpose g c <<\pieceNotes \pieceNotesB>>
+      }
+    }
+  }
+}
+\layout {
+  \override Script.transparent = ##f
+  \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές")
   \bookpart {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-      \keyB
-      <<
-        \transpose g c \pieceNotes
-        \pieceArrows
-      >>
+        \keyB
+        \transpose g c <<\pieceNotes \pieceNotesB>>
       }
     }
   }
 }
-  
+\layout {
+  \override Script.transparent = ##f
+  \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #-200
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές_δάχτυλα")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        \keyB
+        \transpose g c <<\pieceNotes \pieceNotesB>>
+      }
+    }
+  }
+}

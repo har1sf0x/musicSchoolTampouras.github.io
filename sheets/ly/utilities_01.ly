@@ -102,7 +102,7 @@ setFourTime = {
 
 RastChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
-  \fixed c' {<<g$dur -4-3 $arrow \single \greyNote d \single \greyNote  g>>}  % Notes with $ prefix use the duration argument
+  \fixed c' {<<g$dur -4-3 $arrow \single \greyNote d' \single \greyNote  g>>}  % Notes with $ prefix use the duration argument
 #})
 
 ADChord =
@@ -113,6 +113,11 @@ ADChord =
 AEChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
   \fixed c' {<<a$dur -2-0 $arrow \single \greyNote e \single \greyNote  a>>}  % Notes with $ prefix use the duration argument
+#})
+
+BfcGDChord =
+#(define-music-function (dur arrow) (ly:duration? ly:music?) #{
+  \fixed c' {<<bfc$dur -4-3-5 $arrow \single \greyNote g \single \greyNote  d'>>}  % Notes with $ prefix use the duration argument
 #})
 
 
