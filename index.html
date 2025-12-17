@@ -214,8 +214,14 @@
         }
 
         .toggle-button.active {
-            display: block;
+            /* display: block; */
+            display: grid;
+            grid-template-areas: 'A' 'B';
         }
+
+        
+        .toggle-button :nth-child(1) {grid-area: A;}
+        .toggle-button :nth-child(2) {grid-area: B;}
 
         /* The switch - the box around the slider */
         .switch {
