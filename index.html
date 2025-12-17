@@ -211,6 +211,7 @@
         .toggle-button {
             margin: 20px 0;
             padding: 15px;
+            align-items: center;
             /* background-color: #2196F3; */
             background-color: #f9f9f9;
             border-radius: 8px;
@@ -526,11 +527,20 @@
             });
         });
 
+        toggleButton.addEventListener('change', function() {
+            updateImage();
+            updateDownloadButton();
+        });
+
         function updateImage() {
             if (currentBase === '') return;
             
             const selectedVersion = document.querySelector('input[name="version"]:checked').value;
-            const imagePath = `sheets/svg/${currentBase}${selectedVersion}.svg`;
+            let fingers = "";
+            if (toggleButton.checked) {
+                fingers = "δάχτυλα";
+            }
+            const imagePath = `sheets/svg/${currentBase}${selectedVersion}${fingers}.svg`;
             
             sheetImage.src = imagePath;
             sheetImage.alt = currentBase + selectedVersion;
@@ -544,7 +554,11 @@
             }
             
             const selectedVersion = document.querySelector('input[name="version"]:checked').value;
-            const pdfPath = `sheets/pdf/${currentBase}${selectedVersion}.pdf`;
+            let fingers = "";
+            if (toggleButton.checked) {
+                fingers = "δάχτυλα";
+            }
+            const pdfPath = `sheets/pdf/${currentBase}${selectedVersion}${fingers}.pdf`;
             
             downloadButton.classList.add('active');
             downloadButton.onclick = function() {
