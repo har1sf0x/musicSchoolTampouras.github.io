@@ -35,9 +35,22 @@ pieceNotesB = \new Voice \relative c'' {
   \repeat unfold 8 {s4*8 s8 s8\arrowUp}
 }
 
-\layout {
+%%%%%%% pdf %%%%%%%
+% \paper {
+%   #(set-paper-size "a4")
+%   top-margin = 2\cm
+%   left-margin = 1\cm
+%   right-margin = 1\cm
+%   indent = #0
+% }
+
+%%%%%%% svg %%%%%%%
+\paper {
+  paper-width = 210\mm
+  paper-height = 135\mm
+  left-margin = 1\cm
+  right-margin = 1\cm
   indent = #0
-  #(set-default-paper-size '(cons (* 210 mm) (* 135 mm)))
 }
 
 \header {
