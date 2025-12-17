@@ -370,7 +370,7 @@
         <div class="toggle-button" id="toggleButton">
             <label>Δάχτυλα:</label>
             <label class="switch">
-              <input type="checkbox" class="fingers">
+              <input type="checkbox">
               <span class="slider round"></span>
             </label>
         </div>
@@ -466,8 +466,8 @@
         const select = document.getElementById('photoSelect');
         const placeholder = document.getElementById('placeholder');
         const radioGroup = document.getElementById('radioGroup');
-        const toggleButton = document.getElementByClassName('fingers');
-        // const toggleButtons = document.querySelectorAll('input[name="fingers"]');
+        // const toggleButton = document.getElementByClassName('fingers');
+        const toggleButtons = document.querySelectorAll('input[name="fingers"]');
         const sheetImage = document.getElementById('sheetImage');
         const radioButtons = document.querySelectorAll('input[name="version"]');
         const downloadButton = document.getElementById('downloadButton');
@@ -528,25 +528,25 @@
             });
         });
 
-        // toggleButtons.forEach(toggle => {
-        //     toggle.addEventListener('change', function() {
-        //         updateImage();
-        //         updateDownloadButton();
-        //     });
-        // });
-
-        toggleButton.addEventListener('change', function() {
-            updateImage();
-            updateDownloadButton();
+        toggleButtons.forEach(toggle => {
+            toggle.addEventListener('change', function() {
+                updateImage();
+                updateDownloadButton();
+            });
         });
+
+        // toggleButton.addEventListener('change', function() {
+        //     updateImage();
+        //     updateDownloadButton();
+        // });
 
         function updateImage() {
             if (currentBase === '') return;
             
             const selectedVersion = document.querySelector('input[name="version"]:checked').value;
-            // const toggleButton = document.querySelector('input[name="fingers"]');
+            const toggleButton = document.querySelector('input[name="fingers"]:checked');
             let fingers = "";
-            if (toggleButton.checked) {
+            if (toggleButton) {
                 fingers = "_δάχτυλα";
             }
             const imagePath = `sheets/svg/${currentBase}${selectedVersion}${fingers}.svg`;
@@ -563,9 +563,9 @@
             }
             
             const selectedVersion = document.querySelector('input[name="version"]:checked').value;
-            // const toggleButton = document.querySelector('input[name="fingers"]');
+             const toggleButton = document.querySelector('input[name="fingers"]:checked');
             let fingers = "";
-            if (toggleButton.checked) {
+            if (toggleButton) {
                 fingers = "_δάχτυλα";
             }
             const pdfPath = `sheets/pdf/${currentBase}${selectedVersion}${fingers}.pdf`;
