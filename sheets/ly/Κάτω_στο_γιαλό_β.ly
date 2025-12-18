@@ -1,0 +1,286 @@
+\version "2.24.4"
+
+\include "utilities_01.ly"
+
+pieceName = "Κάτω στο γιαλό (β)"
+pieceSubtitle = "Αιγαίο (Χίος)"
+pieceFilename = "Κάτω_στο_γιαλό_β"
+source = "https://vmrebetiko.gr/item/?id=4924"
+keyA = \setRastKey
+keyB = \setRastBKey
+
+melody = \relative c'' {
+  \time 2/4
+  \sectionLabel "A"
+  bfc8-1\arrowDown c16-1\arrowDown c-1\arrowUp d8-1\arrowDown e-3\arrowUp
+  d8-1\arrowUp d16-1\arrowDown d-1\arrowUp d8-1\arrowDown d-1\arrowUp
+  e8-3\arrowDown d16-1\arrowDown d-1\arrowUp c8-1\arrowDown bfc-1\arrowUp
+  c16-3\arrowDown (bfc-1) c-1\arrowDown d-3\arrowUp bfc8-1\arrowDown bfc-1\arrowUp \ERBarline
+  % d8-3\arrowDown d16-3\arrowDown d-3\arrowDown bfc8-1\arrowDown bfc-1\arrowUp \ERBarline
+
+  \section \break \sectionLabel "B" \set Score.currentBarNumber = #1
+  d8-3\arrowDown c16-1\arrowDown bfc-1\arrowUp \ADChord 8 \arrowDown \ADChord 8 \arrowUp
+  \RastChord 8 \arrowDown a16-0\arrowDown a-0\arrowUp bfc8-1\arrowDown c-1\arrowUp
+  d8-3\arrowDown c16-1\arrowDown bfc-1\arrowUp \ADChord 8 \arrowDown \ADChord 8 \arrowUp
+  \RastChord 8 \arrowDown a16-0\arrowDown a-0\arrowUp bfc8-1\arrowDown bfc-1\arrowUp \ERBarline
+
+  \section \sectionLabel "Γ" \set Score.currentBarNumber = #1
+  d16 efb fb efb d8 d16 c
+  d16 efb d c bfc a bfc c
+  d16 efb fb efb d8 d16 c
+  d16 efb d c bfc a bfc8 \ERBarline
+}
+
+verseOne = \lyricmode {
+  \set stanza = "1."
+  Κά -- τω _ στο για -- λό __ _ \skip 1 \skip 1 κα -- τω στο _ πε -- ρι -- γιά _ _ -- λί __ _
+  πλέ -- ναν _ ό -- μορ -- φες κό _ -- ντή __ _ νε -- ρα _ -- τζού -- λα φου -- ντω _ -- τή __ _
+}
+
+extraVerses = \markup {
+  \fill-line {
+    \column {
+      \line { \bold "1."
+        \column {
+          "Κάτω στο γιαλό, κατω στο περιγιάλι,"
+          "πλέναν όμορφες κοντή, νεραντζούλα φουντωτή."
+        }
+      }
+      \combine \null \vspace #0.1
+      \line { \bold "2."
+        \column {
+          "Πλέναν κι άπλωναν, και με την άμμο επαίζαν,"
+          "πλέναν κι άπλωναν κοντή, νεραντζούλα φουντωτή."
+        }
+      }
+    }
+    \column {
+      \line { \bold "3."
+        \column {
+          "Πλέναν κι άπλωναν, τ' αντρώς των τα βελούδα,"
+          "πλέναν κι άπλωναν κοντή, νεραντζούλα φουντωτή."
+        }
+      }
+      \combine \null \vspace #0.1
+      \line { \bold "4."
+        \column {
+          "Και μια όμορφη, και μια παπαδοπούλα,"
+          "και μια όμορφη κοντή, νεραντζούλα φουντωτή."
+        }
+      }
+    }
+  }
+}
+
+%%%%%%% pdf %%%%%%%
+\paper {
+  #(set-paper-size "a4")
+  top-margin = 2\cm
+  left-margin = 1\cm
+  right-margin = 1\cm
+  indent = #0
+}
+
+%%%%%%% svg %%%%%%%
+% \paper {
+%   paper-width = 210\mm
+%   paper-height = 150\mm
+%   left-margin = 1\cm
+%   right-margin = 1\cm
+%   indent = #0
+% }
+
+\header {
+  title = \pieceName
+  subtitle = \pieceSubtitle
+  copyright = "Χ. Κόχυλας"
+}
+\layout {
+  \override Script.transparent = ##t
+  \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
+}
+\book {
+  \bookOutputName \pieceFilename
+  \paper {
+    print-page-number = ##f
+  }
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \keyA
+            \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
+\layout {
+  \override Script.transparent = ##t
+  \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #-200
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_δάχτυλα")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \keyA
+            \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
+
+
+\layout {
+  \override Script.transparent = ##f
+  \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_πενιές")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \keyA
+            \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
+\layout {
+  \override Script.transparent = ##f
+  \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #-200
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_πενιές_δάχτυλα")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \keyA
+            \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
+\layout {
+  \override Script.transparent = ##t
+  \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_inΝτο")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \keyB
+            \transpose g c \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
+\layout {
+  \override Script.transparent = ##t
+  \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #-200
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_inΝτο_δάχτυλα")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \keyB
+            \transpose g c \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
+\layout {
+  \override Script.transparent = ##f
+  \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \keyB
+            \transpose g c \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
+\layout {
+  \override Script.transparent = ##f
+  \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #-200
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές_δάχτυλα")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \keyB
+            \transpose g c \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}

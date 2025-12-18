@@ -33,7 +33,7 @@ verseOne = \lyricmode {
     \new Lyrics {
       \set associatedVoice = "one"
       \set stanza = "1α."
-      Χρι -- στού -- γεν _ -- να, Πρω -- τού -- γεν _ -- να πρώ -- τη -- γιορ _ -- τή _ του χρό _ _ -- νου, για
+      Χρι -- στού -- γεν _ -- να, Πρω -- τού -- γεν _ -- να πρώ -- τη γιορ _ -- τή _ του χρό _ _ -- νου, για
     }
     \new Lyrics {
       \set associatedVoice = "one"
