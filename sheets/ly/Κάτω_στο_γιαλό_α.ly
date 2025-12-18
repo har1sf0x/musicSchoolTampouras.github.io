@@ -158,7 +158,6 @@ extraVerses = \markup {
   copyright = "Χ. Κόχυλας"
 }
 \layout {
-  \override Script.transparent = ##t
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
 }
@@ -171,6 +170,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #hideArrowsfermataNear
             \keyA
             \melody
           }
@@ -184,7 +184,6 @@ extraVerses = \markup {
   }
 }
 \layout {
-  \override Script.transparent = ##t
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
 }
@@ -194,6 +193,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #hideArrowsfermataNear
             \keyA
             \melody
           }
@@ -209,7 +209,6 @@ extraVerses = \markup {
 
 
 \layout {
-  \override Script.transparent = ##f
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
 }
@@ -219,6 +218,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #fermataNear
             \keyA
             \melody
           }
@@ -232,7 +232,6 @@ extraVerses = \markup {
   }
 }
 \layout {
-  \override Script.transparent = ##f
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
 }
@@ -242,6 +241,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #fermataNear
             \keyA
             \melody
           }
@@ -255,7 +255,6 @@ extraVerses = \markup {
   }
 }
 \layout {
-  \override Script.transparent = ##t
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
 }
@@ -265,6 +264,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #hideArrowsfermataNear
             \keyB
             \transpose g c \melody
           }
@@ -278,7 +278,6 @@ extraVerses = \markup {
   }
 }
 \layout {
-  \override Script.transparent = ##t
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
 }
@@ -288,6 +287,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #hideArrowsfermataNear
             \keyB
             \transpose g c \melody
           }
@@ -301,7 +301,6 @@ extraVerses = \markup {
   }
 }
 \layout {
-  \override Script.transparent = ##f
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
 }
@@ -311,6 +310,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #fermataNear
             \keyB
             \transpose g c \melody
           }
@@ -324,7 +324,6 @@ extraVerses = \markup {
   }
 }
 \layout {
-  \override Script.transparent = ##f
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
 }
@@ -334,6 +333,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #fermataNear
             \keyB
             \transpose g c \melody
           }

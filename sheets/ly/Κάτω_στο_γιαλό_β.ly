@@ -25,10 +25,10 @@ melody = \relative c'' {
   \RastChord 8 \arrowDown a16-0\arrowDown a-0\arrowUp bfc8-1\arrowDown bfc-1\arrowUp \ERBarline
 
   \section \sectionLabel "Γ" \set Score.currentBarNumber = #1
-  d16 efb fb efb d8 d16 c
-  d16 efb d c bfc a bfc c
-  d16 efb fb efb d8 d16 c
-  d16 efb d c bfc a bfc8 \ERBarline
+  d16-1\arrowDown (efb-1) fb-4\arrowDown efb-1\arrowUp d8-1\arrowDown d16-1\arrowUp (c)
+  d16-1\arrowDown (efb-2) d-1\arrowDown c-1\arrowUp bfc-1\arrowDown (a-0) bfc-1\arrowUp (c-1)
+  d16-1\arrowDown (efb-1) fb-4\arrowDown efb-1\arrowUp d8-1\arrowDown d16-1\arrowUp (c)
+  d16-1\arrowDown (efb-2) d-1\arrowDown c-1\arrowUp bfc-1\arrowDown (a-0) bfc8-1\arrowUp \ERBarline
 }
 
 verseOne = \lyricmode {
@@ -73,22 +73,22 @@ extraVerses = \markup {
 }
 
 %%%%%%% pdf %%%%%%%
-\paper {
-  #(set-paper-size "a4")
-  top-margin = 2\cm
-  left-margin = 1\cm
-  right-margin = 1\cm
-  indent = #0
-}
-
-%%%%%%% svg %%%%%%%
 % \paper {
-%   paper-width = 210\mm
-%   paper-height = 150\mm
+%   #(set-paper-size "a4")
+%   top-margin = 2\cm
 %   left-margin = 1\cm
 %   right-margin = 1\cm
 %   indent = #0
 % }
+
+%%%%%%% svg %%%%%%%
+\paper {
+  paper-width = 210\mm
+  paper-height = 150\mm
+  left-margin = 1\cm
+  right-margin = 1\cm
+  indent = #0
+}
 
 \header {
   title = \pieceName
@@ -96,7 +96,6 @@ extraVerses = \markup {
   copyright = "Χ. Κόχυλας"
 }
 \layout {
-  \override Script.transparent = ##t
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
 }
@@ -109,6 +108,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #hideArrowsfermataNear
             \keyA
             \melody
           }
@@ -122,7 +122,6 @@ extraVerses = \markup {
   }
 }
 \layout {
-  \override Script.transparent = ##t
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
 }
@@ -132,6 +131,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #hideArrowsfermataNear
             \keyA
             \melody
           }
@@ -147,7 +147,6 @@ extraVerses = \markup {
 
 
 \layout {
-  \override Script.transparent = ##f
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
 }
@@ -157,6 +156,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #fermataNear
             \keyA
             \melody
           }
@@ -170,7 +170,6 @@ extraVerses = \markup {
   }
 }
 \layout {
-  \override Script.transparent = ##f
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
 }
@@ -180,6 +179,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #fermataNear
             \keyA
             \melody
           }
@@ -193,7 +193,6 @@ extraVerses = \markup {
   }
 }
 \layout {
-  \override Script.transparent = ##t
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
 }
@@ -203,6 +202,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #hideArrowsfermataNear
             \keyB
             \transpose g c \melody
           }
@@ -216,7 +216,6 @@ extraVerses = \markup {
   }
 }
 \layout {
-  \override Script.transparent = ##t
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
 }
@@ -226,6 +225,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #hideArrowsfermataNear
             \keyB
             \transpose g c \melody
           }
@@ -239,7 +239,6 @@ extraVerses = \markup {
   }
 }
 \layout {
-  \override Script.transparent = ##f
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
 }
@@ -249,6 +248,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #fermataNear
             \keyB
             \transpose g c \melody
           }
@@ -262,7 +262,6 @@ extraVerses = \markup {
   }
 }
 \layout {
-  \override Script.transparent = ##f
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
 }
@@ -272,6 +271,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #fermataNear
             \keyB
             \transpose g c \melody
           }

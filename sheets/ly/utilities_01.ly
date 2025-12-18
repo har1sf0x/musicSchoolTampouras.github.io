@@ -309,7 +309,60 @@ BfcGDChord =
   \override Fingering.staff-padding = #1.0
   } } }
 
+#(define (custom-script-tweaks ls)
+  (lambda (grob)
+    (let* ((type (ly:event-property
+                    (ly:grob-property grob 'cause)
+                    'articulation-type))
+           (tweaks (assoc-ref ls type)))
+      (if tweaks
+          (for-each
+            (lambda (x) (ly:grob-set-property! grob (car x) (cdr x)))
+            tweaks)))))
 
+customScripts =
+#(define-music-function (settings) (list?)
+#{
+  \override Script.before-line-breaking =
+    #(custom-script-tweaks settings)
+#})
+
+revertCustomScripts = \revert Script.before-line-breaking
+
+% Predefine a list of desired tweaks.
+#(define hideArrows
+  '(
+      (arrowDown . ((stencil . #f)))
+      (arrowUp . ((stencil . #f)))
+      (arrowDownSmall . ((stencil . #f)))
+      (arrowUpsmall . ((stencil . #f)))
+      (arrowSilifke . ((stencil . #f)))
+      (arrowZeybek . ((stencil . #f)))
+      (arrowZeybekB . ((stencil . #f)))
+      (arrowSilifkeB . ((stencil . #f)))
+      (arrowSelpe . ((stencil . #f)))
+      (arrowTalipOzkan . ((stencil . #f)))
+    ))
+
+#(define hideArrowsfermataNear
+  '(
+      (arrowDown . ((stencil . #f)))
+      (arrowUp . ((stencil . #f)))
+      (arrowDownSmall . ((stencil . #f)))
+      (arrowUpsmall . ((stencil . #f)))
+      (arrowSilifke . ((stencil . #f)))
+      (arrowZeybek . ((stencil . #f)))
+      (arrowZeybekB . ((stencil . #f)))
+      (arrowSilifkeB . ((stencil . #f)))
+      (arrowSelpe . ((stencil . #f)))
+      (arrowTalipOzkan . ((stencil . #f)))
+      (fermata . ((script-priority . -300)))
+    ))
+
+#(define fermataNear
+  '(
+      (fermata . ((script-priority . -300)))
+    ))
 
 
 %{

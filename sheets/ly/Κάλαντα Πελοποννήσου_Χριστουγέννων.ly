@@ -18,6 +18,7 @@ melody = \relative c'' {
     c8-3\arrowDown (bfc-1) c-1\arrowDown d-3\arrowUp bfc-5\arrowDown a-0\arrowUp bfc-5\arrowDown (g-0)
     \alternative {
       \volta 1 {
+        \once \override TextScript.script-priority = #-100
         \ADChord 4 \arrowDown \ADChord 8 \arrowDown \ADChord 8 \arrowUp \ADChord 4 \arrowDown d4-0\arrowDown
       }
       \volta 2 {
@@ -28,7 +29,7 @@ melody = \relative c'' {
 }
 
 verseOne = \lyricmode {
-  \set fontSize = #-2 
+  \set fontSize = #-3 
   <<
     \new Lyrics {
       \set associatedVoice = "one"
@@ -162,7 +163,6 @@ extraVerses = \markup {
   copyright = "Χ. Κόχυλας"
 }
 \layout {
-  \override Script.transparent = ##t
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
 }
@@ -175,6 +175,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #hideArrowsfermataNear
             \keyA
             \melody
           }
@@ -188,7 +189,6 @@ extraVerses = \markup {
   }
 }
 \layout {
-  \override Script.transparent = ##t
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
 }
@@ -198,6 +198,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #hideArrowsfermataNear
             \keyA
             \melody
           }
@@ -213,7 +214,6 @@ extraVerses = \markup {
 
 
 \layout {
-  \override Script.transparent = ##f
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
 }
@@ -223,6 +223,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #fermataNear
             \keyA
             \melody
           }
@@ -236,7 +237,6 @@ extraVerses = \markup {
   }
 }
 \layout {
-  \override Script.transparent = ##f
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
 }
@@ -246,6 +246,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #fermataNear
             \keyA
             \melody
           }
@@ -259,7 +260,6 @@ extraVerses = \markup {
   }
 }
 \layout {
-  \override Script.transparent = ##t
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
 }
@@ -269,6 +269,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #hideArrowsfermataNear
             \keyB
             \transpose g c \melody
           }
@@ -282,7 +283,6 @@ extraVerses = \markup {
   }
 }
 \layout {
-  \override Script.transparent = ##t
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
 }
@@ -292,6 +292,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #hideArrowsfermataNear
             \keyB
             \transpose g c \melody
           }
@@ -305,7 +306,6 @@ extraVerses = \markup {
   }
 }
 \layout {
-  \override Script.transparent = ##f
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
 }
@@ -315,6 +315,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #fermataNear
             \keyB
             \transpose g c \melody
           }
@@ -328,7 +329,6 @@ extraVerses = \markup {
   }
 }
 \layout {
-  \override Script.transparent = ##f
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
 }
@@ -338,6 +338,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
+            \customScripts #fermataNear
             \keyB
             \transpose g c \melody
           }
