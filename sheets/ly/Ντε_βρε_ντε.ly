@@ -5,105 +5,144 @@
 pieceName = "Ντε βρε ντε"
 pieceSubtitle = "Μελί, Μικρά Ασία"
 pieceFilename = "Ντε_βρε_ντε"
+source = ""
 keyA = \setUssakKey
 keyB = \setUssakBKey
 
-pieceNotes = \new Voice \relative c'' {
+melody = \relative c'' {
   \setKalamTime
-  \large
+  \normalsize
   \repeat unfold 2 {
-    <<g8. \single \greyNote d' g,>> <<\single \greyNote cb16 fb,16>> <<g8 \single \greyNote d' g,>>
-    <<a4 d, a'>> <<a8 d, a'>> <<a8 d, a'>>
+    \RastChord 8. \arrowDown \FbCbChord 16 \arrowZeybekB \RastChord 8 \arrowUp
+    \ADChord 4 \arrowDown  \grace s16^\arrowSelpe \ADChord 8 \arrowDown \ADChord 8 \arrowUp
   }
-  e'8 e d8 d (c) c bfc
-  c8 c bfc16 (g) <<a4 d, a'>> <<a8 d, a'>> <<a8 d, a'>>
-  <<g8. \single \greyNote d' g,>> <<\single \greyNote cb16 fb,16>> <<g8 \single \greyNote d' g,>>
-  <<a4 d, a'>> <<a8 d, a'>> <<a8 d, a'>>
-  <<g8. \single \greyNote d' g,>> <<\single \greyNote cb16 fb,16>> <<g8 \single \greyNote d' g,>>
-  <<a8. d, a'>> bfc16 c8 d
-  e8 e d8 d (c) c16 c bfc8
-  c8 c bfc16 (g) <<a4 d, a'>> <<a8 d, a'>> \normalsize a8 | \break
-  %\set Score.printInitialRepeatBar = ##t
+  e8.-1\arrowDown e16-1\arrowZeybekB d8-1\arrowUp d8.-1\arrowDown c16-1\arrowSelpe c8-1\arrowDown bfc-5\arrowDown
+  c8-1\arrowDown c-1\arrowUp bfc16-5\arrowDown (g-0)
+  \ADChord 4 \arrowDown \grace s16^\arrowSelpe \ADChord 8 \arrowDown \ADChord 8 \arrowUp
+
+  \RastChord 8. \arrowDown \FbCbChord 16 \arrowZeybekB \RastChord 8 \arrowUp
+  \ADChord 4 \arrowDown  \grace s16^\arrowSelpe \ADChord 8 \arrowDown \ADChord 8 \arrowUp
+  \RastChord 8. \arrowDown \FbCbChord 16 \arrowZeybekB \RastChord 8 \arrowUp
+  \ADChord 8. \arrowDown bfc16-1\arrowZeybekB c8-1\arrowUp d-1\arrowUp
+  e8.-1\arrowDown e16-1\arrowZeybekB d8-1\arrowUp d8.-1\arrowDown c16-1\arrowSelpe c8-1\arrowDown bfc-5\arrowDown
+  c8-1\arrowDown c-1\arrowUp bfc16-5\arrowDown (g-0)
+  \ADChord 4 \arrowDown \grace s16^\arrowSelpe \ADChord 8 \arrowDown \tiny a8-0\arrowDown | \break
   \repeat volta 4 {
-    d4 d8 d4 d
-    d16 d c8 d e4 e8 d
-    c16 (bfc) c8 e d4 d8 a
-    a8 bfc c d4 d8 a
-    \large c8. c16 e8 d4 d8 a
-    a8. bfc16 c8 d4 d8 \normalsize g,
-    a4 bfc8 c16 (bfc c d) c8 bfc
-    d8 d c bfc4 bfc8 a
-    g16 g fb8 g a4 a8 a
-    g16 g fb8 g a bfc c d
-    e4 d8 d (c) c16 c bfc8
-    c8 c bfc16 (g) <<a4 d, a'>> \large <<a8 d, a'>> <<a8 d, a'>>
-    <<g8. \single \greyNote d' g,>> <<\single \greyNote cb16 fb,16>> <<g8 \single \greyNote d' g,>>
-    <<a4 d, a'>> <<a8 d, a'>> <<a8 d, a'>>
-    <<g8. \single \greyNote d' g,>> <<\single \greyNote cb16 fb,16>> <<g8 \single \greyNote d' g,>>
-    <<a8. d, a'>> bfc16 c8 d
-    e8 e d8 d (c) c16 c bfc8
+    d4-1\arrowDown d8-1\arrowDown d-1\arrowDown (a-0) d-1\arrowDown (a-0)
+    d8-1\arrowDown c8-1\arrowDown d-1\arrowDown e4-1\arrowDown \trill e8-1\arrowDown d-1\arrowDown
+    c4-1\arrowDown \trill e8-3\arrowDown d4-1\arrowDown d8-1\arrowDown (a-0)
+    a8-0\arrowDown bfc-5\arrowDown c-1\arrowDown d4-1\arrowDown d8-1\arrowDown (a-0)
+    \normalsize c8.-1\arrowDown \trill c16-1\arrowZeybekB e8-3\arrowUp d4-1\arrowDown d8-1\arrowDown (a-0)
+    a8.-0\arrowDown bfc16-1\arrowZeybekB c8-1\arrowUp d4-1\arrowDown d8-1\arrowDown \tiny g,-0\arrowDown
+    a4-0\arrowDown bfc8-1\arrowDown c16-3\arrowDown (bfc-1 c-1 d-3) c8-1\arrowDown bfc-5\arrowDown
+    \acciaccatura c16-1 \glissando d8-1\arrowDown d-1\arrowDown c-1\arrowDown bfc4-1\arrowDown \trill bfc8-1\arrowDown a-0\arrowUp
+    g16-1\arrowDown g-1\arrowDown fb8-1\arrowDown g-2\arrowDown a4-0\arrowDown a8-0\arrowDown a-0\arrowUp
+    g16-1\arrowDown g-1\arrowDown fb8-1\arrowDown g-2\arrowDown a4-0\arrowDown a8-0\arrowDown e'-1\arrowUp
+    e8-1\arrowDown e8-1\arrowDown d8-1\arrowDown d-1\arrowDown c-1\arrowDown c16-1\arrowDown c-1\arrowUp bfc8-5\arrowDown
+    c8-1\arrowDown c-1\arrowUp bfc16-5\arrowDown (g) \ADChord 4 \arrowDown \normalsize \ADChord 8 \arrowDown \ADChord 8 \arrowUp
+    \RastChord 8. \arrowDown \FbCbChord 16 \arrowZeybekB \RastChord 8 \arrowUp
+    \ADChord 4 \arrowDown  \grace s16^\arrowSelpe \ADChord 8 \arrowDown \ADChord 8 \arrowUp
+    \RastChord 8. \arrowDown \FbCbChord 16 \arrowZeybekB \RastChord 8 \arrowUp
+    \ADChord 8. \arrowDown bfc16-1\arrowZeybekB c8-1\arrowUp d-1\arrowUp
+    e8.-1\arrowDown e16-1\arrowZeybekB d8-1\arrowUp d8.-1\arrowDown c16-1\arrowSelpe c8-1\arrowDown bfc-5\arrowDown
     \alternative {
       \volta 1,2,3 {
-        c8 c bfc16 (g) <<a4 d, a'>> <<a8 d, a'>> \normalsize a8
+        c8-1\arrowDown c-1\arrowUp bfc16-5\arrowDown (g-0)
+        \ADChord 4 \arrowDown \grace s16^\arrowSelpe \ADChord 8 \arrowDown \tiny a8-0\arrowDown
       }
       \volta 4 {
-        \large c8 c bfc16 (g) <<a2 d, a'>> \FBarline
+        \normalsize c8-1\arrowDown c-1\arrowUp bfc16-5\arrowDown (g-0)) \ADChord 2 \arrowDown \FBarline
       }
     }
   }
 }
-pieceArrows = \new Voice {
-  \repeat unfold 2 {
-    s8.^\arrowDown s16^\arrowZeybekB s8^\arrowUp
-    s4^\arrowDown \grace s16^\arrowSelpe s8^\arrowDown s8^\arrowUp
-  }
-  s8^\arrowDown s^\arrowUp s^\arrowUp s^\arrowDown s s^\arrowDown s^\arrowDown
-  s8^\arrowDown s^\arrowUp s^\arrowDown s4^\arrowDown \grace s16^\arrowSelpe s8^\arrowDown s8^\arrowUp
-  s8.^\arrowDown s16^\arrowZeybekB s8^\arrowUp
-  s4^\arrowDown \grace s16^\arrowSelpe s8^\arrowDown s8^\arrowUp
-  s8.^\arrowDown s16^\arrowZeybekB s8^\arrowUp
-  s8.^\arrowDown s16^\arrowZeybekB s8^\arrowUp s8^\arrowUp
-  s8^\arrowDown s^\arrowUp s^\arrowUp s^\arrowDown s s16^\arrowDown s^\arrowUp s8^\arrowDown
-  s8^\arrowDown s^\arrowUp s^\arrowDown s4^\arrowDown \grace s16^\arrowSelpe s8^\arrowDown s8^\arrowDown
-  \repeat volta 4 {
-    s4^\arrowDown s8^\arrowDown s4^\arrowDown s^\arrowDown
-    s16^\arrowDown s^\arrowUp s8^\arrowDown s^\arrowDown s4^\arrowDown s8^\arrowDown s^\arrowDown
-    s8^\arrowDown s^\arrowDown s^\arrowDown s4^\arrowDown s8^\arrowDown s^\arrowUp
-    s8^\arrowDown s^\arrowDown s^\arrowDown s4^\arrowDown s8^\arrowDown s^\arrowUp
-    s8.^\arrowDown s16^\arrowZeybekB s8^\arrowUp s4^\arrowDown \grace s16^\arrowSelpe s8^\arrowDown s8^\arrowUp
-    s8.^\arrowDown s16^\arrowZeybekB s8^\arrowUp s4^\arrowDown \grace s16^\arrowSelpe s8^\arrowDown s8^\arrowDown
-    s4^\arrowDown s8^\arrowDown s4^\arrowDown s8^\arrowDown s^\arrowDown
-    s8^\arrowDown s^\arrowDown s^\arrowDown s4^\arrowDown s8^\arrowDown s^\arrowUp
-    s16^\arrowDown s^\arrowUp s8^\arrowDown s^\arrowDown s4^\arrowDown s8^\arrowDown s^\arrowUp
-    s16^\arrowDown s^\arrowUp s8^\arrowDown s^\arrowDown s^\arrowDown s^\arrowUp s^\arrowDown s^\arrowUp
-    s4^\arrowDown s8^\arrowDown s^\arrowDown s s16^\arrowDown s^\arrowUp s8^\arrowDown
-    s8^\arrowDown s^\arrowUp s^\arrowDown s4^\arrowDown \grace s16^\arrowSelpe s8^\arrowDown s8^\arrowUp
-    s8.^\arrowDown s16^\arrowZeybekB s8^\arrowUp
-    s4^\arrowDown \grace s16^\arrowSelpe s8^\arrowDown s8^\arrowUp
-    s8.^\arrowDown s16^\arrowZeybekB s8^\arrowUp
-    s8.^\arrowDown s16^\arrowZeybekB s8^\arrowUp s8^\arrowUp
-    s8^\arrowDown s^\arrowUp s^\arrowUp s^\arrowDown s s16^\arrowDown s^\arrowUp s8^\arrowDown
-    \volta 1,2,3 {
-      s8^\arrowDown s^\arrowUp s^\arrowDown s4^\arrowDown \grace s16^\arrowSelpe s8^\arrowDown s8^\arrowDown
+
+verseOne = \lyricmode {
+  \set fontSize = #-8
+  <<
+    \new Lyrics {
+      \set associatedVoice = "one"
+      \repeat unfold 25 {_ _}
+      \set stanza = "1."
+      Να 'χα μια πέ -- "τρ' α" -- μάν _ α -- μάν __ _ _ άι -- ντε ντε _ ντε __ _ βρε ντε
+      \repeat unfold 5 {_ _}
+      _ να σου 'κα -- να βρα _ -- χιό -- λια κα -- λέ _ _ άι _ _ -- ντε ντε _ _ ντε __ _ _ βρε ντε _ η
+      κό _ -- ρη θέ _ _ _ -- λει με _ τα με
+      \repeat unfold 13 {_ _} _ \set stanza = "2." Να
     }
-    \volta 4 {
-      s8^\arrowDown s^\arrowUp s^\arrowDown s2^\arrowDown
+    % \new Lyrics {
+    %   \set associatedVoice = "one"
+    %   \set stanza = "1β."
+    %   για 'βγά -- τε _ ιδέ -- στε μά -- θε _ -- τε ν'οπ' ο Χρι _ -- στός _ γεν -- νιέ _ _ -- ται. Γεν... πόρ -- τα
+    % }
+  >>
+}
+
+extraVerses = \markup {
+  \fill-line {
+    \column {
+      \line { \bold "1."
+        \column {
+          "Να ‘χα μια πέτρα αμάν αμάν άιντε ντε ντε βρε ντε,"
+          "να σου ‘κανα βραχιόλια καλέ άιντε ντε  ντε βρε ντε,"
+          "η κόρη θέλει με τα ‘με."
+        }
+      }
+      \combine \null \vspace #0.1
+      \line { \bold "2."
+        \column {
+          "Να βάζεις στα χεράκια σου άιντε ντε ντε βρε ντε,"
+          "που είν’ άσπρα σαν τα χιόνια καλέ άιντε ντε ντε βρε ντε,"
+          "πάντρεψέ με μάνα ντε."
+        }
+      }
+    }
+    \column {
+      \line { \bold "3."
+        \column {
+          "Να ‘μουνα πέτρα και μυστρί άιντε ντε ντε βρε ντε,"
+          "και λάσπη να με χτίζεις καλέ άιντε ντε ντε βρε ντε,"
+          "η κόρη θέλει με τα ‘με."
+        }
+      }
+      \combine \null \vspace #0.1
+      \line { \bold "4."
+        \column {
+          "Να ‘μουν και χερομάντηλο άιντε ντε ντε βρε ντε,"
+          "τον ίδρο να σκουπίζεις καλέ άιντε ντε ντε βρε ντε,"
+          "πάντρεψέ με μάνα ντε."
+        }
+      }
     }
   }
 }
 
-\layout {
+%%%%%%% pdf %%%%%%%
+\paper {
+  #(set-paper-size "a4")
+  top-margin = 2\cm
+  left-margin = 1\cm
+  right-margin = 1\cm
   indent = #0
-  #(set-default-paper-size '(cons (* 210 mm) (* 165 mm)))
 }
 
-\layout {
-  \override TextScript.transparent = ##t
-}
+%%%%%%% svg %%%%%%%
+% \paper {
+%   paper-width = 210\mm
+%   paper-height = 250\mm
+%   left-margin = 1\cm
+%   right-margin = 1\cm
+%   indent = #0
+% }
+
 \header {
   title = \pieceName
   subtitle = \pieceSubtitle
   copyright = "Χ. Κόχυλας"
+}
+\layout {
+  \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
 }
 \book {
   \bookOutputName \pieceFilename
@@ -112,61 +151,179 @@ pieceArrows = \new Voice {
   }
   \bookpart {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-      \keyA
-      <<
-        \pieceNotes
-        \pieceArrows
-      >>
+        <<
+          \new Voice = "one" {
+            \customScripts #hideArrowsArticulationNear
+            \keyA
+            \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
       }
     }
+    \extraVerses
   }
 }
 \layout {
-  \override TextScript.transparent = ##f
+  \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #-200
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_δάχτυλα")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \customScripts #hideArrowsArticulationNear
+            \keyA
+            \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
+\layout {
+  \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_πενιές")
   \bookpart {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-      \keyA
-      <<
-        \pieceNotes
-        \pieceArrows
-      >>
+        <<
+          \new Voice = "one" {
+            \customScripts #articulationNear
+            \keyA
+            \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
       }
     }
+    \extraVerses
   }
 }
 \layout {
-  \override TextScript.transparent = ##t
+  \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #-200
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_πενιές_δάχτυλα")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \customScripts #articulationNear
+            \keyA
+            \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
+\layout {
+  \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο")
   \bookpart {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-      \keyB
-      <<
-        \transpose g c \pieceNotes
-        \pieceArrows
-      >>
+        <<
+          \new Voice = "one" {
+            \customScripts #hideArrowsArticulationNear
+            \keyB
+            \transpose g c \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
       }
     }
+    \extraVerses
   }
 }
 \layout {
-  \override TextScript.transparent = ##f
+  \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #-200
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_inΝτο_δάχτυλα")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \customScripts #hideArrowsArticulationNear
+            \keyB
+            \transpose g c \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
+\layout {
+  \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές")
   \bookpart {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-      \keyB
-      <<
-        \transpose g c \pieceNotes
-        \pieceArrows
-      >>
+        <<
+          \new Voice = "one" {
+            \customScripts #articulationNear
+            \keyB
+            \transpose g c \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
       }
     }
+    \extraVerses
   }
 }
-  
+\layout {
+  \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #-200
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές_δάχτυλα")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \customScripts #articulationNear
+            \keyB
+            \transpose g c \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}

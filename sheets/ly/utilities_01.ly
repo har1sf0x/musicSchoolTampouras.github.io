@@ -119,7 +119,10 @@ BfcGDChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
   \fixed c' {<<bfc$dur -4-3-5 $arrow \single \greyNote g \single \greyNote  d'>>}  % Notes with $ prefix use the duration argument
 #})
-
+FbCbChord =
+#(define-music-function (dur arrow) (ly:duration? ly:music?) #{
+  \fixed c' {<<fb$dur -1 $arrow \single \greyNote cb'>>}  % Notes with $ prefix use the duration argument
+#})
 
 
 #(set! default-script-alist (acons
@@ -344,7 +347,7 @@ revertCustomScripts = \revert Script.before-line-breaking
       (arrowTalipOzkan . ((stencil . #f)))
     ))
 
-#(define hideArrowsfermataNear
+#(define hideArrowsArticulationNear
   '(
       (arrowDown . ((stencil . #f)))
       (arrowUp . ((stencil . #f)))
@@ -357,11 +360,13 @@ revertCustomScripts = \revert Script.before-line-breaking
       (arrowSelpe . ((stencil . #f)))
       (arrowTalipOzkan . ((stencil . #f)))
       (fermata . ((script-priority . -300)))
+      (trill . ((script-priority . -300)))
     ))
 
-#(define fermataNear
+#(define articulationNear
   '(
       (fermata . ((script-priority . -300)))
+      (trill . ((script-priority . -300)))
     ))
 
 

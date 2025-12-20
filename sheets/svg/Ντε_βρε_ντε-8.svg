@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" width="210.00mm" height="250.00mm" viewBox="0.0000 -0.0000 119.5016 142.2638">
+<style type="text/css">
+<![CDATA[
+tspan { white-space: pre; }
+]]>
+</style>
+<g transform="translate(5.6906, 5.5239)">
+<text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>Ντε βρε ντε</tspan>
+</text>
+</g>
+<g transform="translate(5.6906, 8.3032)">
+<text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>Μελί, Μικρά Ασία</tspan>
+</text>
+</g>
+<g transform="translate(30.6607, 138.3214)">
+<a xlink:href="https://lilypond.org/">
+<rect x="0.0000" y="-0.5280" width="58.1802" height="2.2001" fill="none" stroke="none" stroke-width="0.0"/>
+</a>
+</g>
+<g transform="translate(30.6607, 138.3214)">
+<text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>Music engraving by LilyPond 2.24.4—www.lilypond.org</tspan>
+</text>
+</g>
+</svg>

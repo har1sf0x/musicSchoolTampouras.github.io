@@ -175,7 +175,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
-            \customScripts #hideArrowsfermataNear
+            \customScripts #hideArrowsArticulationNear
             \keyA
             \melody
           }
@@ -198,7 +198,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
-            \customScripts #hideArrowsfermataNear
+            \customScripts #hideArrowsArticulationNear
             \keyA
             \melody
           }
@@ -223,7 +223,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
-            \customScripts #fermataNear
+            \customScripts #articulationNear
             \keyA
             \melody
           }
@@ -246,7 +246,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
-            \customScripts #fermataNear
+            \customScripts #articulationNear
             \keyA
             \melody
           }
@@ -269,7 +269,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
-            \customScripts #hideArrowsfermataNear
+            \customScripts #hideArrowsArticulationNear
             \keyB
             \transpose g c \melody
           }
@@ -292,7 +292,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
-            \customScripts #hideArrowsfermataNear
+            \customScripts #hideArrowsArticulationNear
             \keyB
             \transpose g c \melody
           }
@@ -315,7 +315,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
-            \customScripts #fermataNear
+            \customScripts #articulationNear
             \keyB
             \transpose g c \melody
           }
@@ -338,7 +338,7 @@ extraVerses = \markup {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
-            \customScripts #fermataNear
+            \customScripts #articulationNear
             \keyB
             \transpose g c \melody
           }
