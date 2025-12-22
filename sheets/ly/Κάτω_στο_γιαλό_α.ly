@@ -13,9 +13,9 @@ melody = \relative c'' {
   \time 2/4
   \sectionLabel "A"
   bfc8-1\arrowDown c16-1\arrowDown c-1\arrowUp d8-1\arrowDown e-3\arrowUp
-  d8-1\arrowUp d16-1\arrowDown d-1\arrowUp d8-1\arrowDown \tweak Parentheses.font-size -2 \parenthesize <d-1\arrowUp bfc>
+  d8-1\arrowDown d16-1\arrowDown d-1\arrowUp d8-1\arrowDown \tweak Parentheses.font-size -2 \parenthesize <d-1\arrowUp bfc>
   e8-3\arrowDown d16-1\arrowDown d-1\arrowUp c8-1\arrowDown bfc-1\arrowUp
-  d8-3\arrowDown d16-3\arrowDown d-3\arrowDown bfc8-1\arrowDown bfc-1\arrowUp \ERBarline
+  d8-3\arrowDown d16-3\arrowDown d-3\arrowUp bfc8-1\arrowDown bfc-1\arrowUp \ERBarline
   \section \break \sectionLabel "B" \set Score.currentBarNumber = #1
   d8-3\arrowDown c16-1\arrowDown bfc-1\arrowUp \ADChord 8 \arrowDown \ADChord 8 \arrowUp
   \RastChord 8 \arrowDown a16-0\arrowDown a-0\arrowUp bfc8-1\arrowDown c-1\arrowUp
@@ -135,22 +135,22 @@ extraVerses = \markup {
 }
 
 %%%%%%% pdf %%%%%%%
-\paper {
-  #(set-paper-size "a4")
-  top-margin = 2\cm
-  left-margin = 1\cm
-  right-margin = 1\cm
-  indent = #0
-}
-
-%%%%%%% svg %%%%%%%
 % \paper {
-%   paper-width = 210\mm
-%   paper-height = 180\mm
+%   #(set-paper-size "a4")
+%   top-margin = 2\cm
 %   left-margin = 1\cm
 %   right-margin = 1\cm
 %   indent = #0
 % }
+
+%%%%%%% svg %%%%%%%
+\paper {
+  paper-width = 210\mm
+  paper-height = 180\mm
+  left-margin = 1\cm
+  right-margin = 1\cm
+  indent = #0
+}
 
 \header {
   title = \pieceName
