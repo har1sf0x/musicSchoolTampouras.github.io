@@ -8,116 +8,270 @@ pieceFilename = "Ασκήσεις_α_no_001"
 keyA = \setRastKey
 keyB = \setRastBKey
 
-pieceNotes = \new Voice \relative c'' {
-  \section \offset Y-offset 2 \sectionLabel "1.1"
-  \repeat unfold 4 {a4} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "1.2"
-  \repeat unfold 4 {bfc4} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "1.3"
-  \repeat unfold 4 {c4} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "1.4"
-  \repeat unfold 4 {d4} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "1.5"
-  \repeat unfold 4 {e4} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "1.6"
-  \repeat unfold 4 {fb4} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "1.7"
-  \repeat unfold 4 {g4} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "1.8"
-  \repeat unfold 4 {<<g,4 \single \greyNote d'>>} \ERBarline \break
-  \set Score.currentBarNumber = #1
-  \section \offset Y-offset 2 \sectionLabel "2.1"
-  \repeat unfold 4 {a4} \repeat unfold 4 {bfc4} \DRBarline \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "2.2"
-  \repeat unfold 4 {bfc4} \repeat unfold 4 {c4} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "2.3"
-  \repeat unfold 4 {c4} \repeat unfold 4 {d4} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "2.4"
-  \repeat unfold 4 {d4} \repeat unfold 4 {e4} \DRBarline \break
-  \section \offset Y-offset 2  \sectionLabel "2.5"
-  \repeat unfold 4 {e4} \repeat unfold 4 {f4} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "2.6"
-  \repeat unfold 4 {e4} \repeat unfold 4 {fb4} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "2.7"
-  \repeat unfold 4 {fb4} \repeat unfold 4 {g4} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "2.8"
-  \repeat unfold 4 {<<g,4 \single \greyNote d'>>} \repeat unfold 4 {a4} \ERBarline \break
-  \set Score.currentBarNumber = #1
-  \section \offset Y-offset 2 \sectionLabel "3.1"
-  \repeat unfold 2 {a4} \repeat unfold 2 {bfc4} \DRBarline \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "3.2"
-  \repeat unfold 2 {bfc4} \repeat unfold 2 {c4} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "3.3"
-  \repeat unfold 2 {c4} \repeat unfold 2 {d4} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "3.4"
-  \repeat unfold 2 {d4} \repeat unfold 2 {e4} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "3.5"
-  \repeat unfold 2 {e4} \repeat unfold 2 {f4} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "3.6"
-  \repeat unfold 2 {e4} \repeat unfold 2 {fb4} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "3.7"
-  \repeat unfold 2 {fb4} \repeat unfold 2 {g4} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "3.8"
-  \repeat unfold 2 {<<g,4 \single \greyNote d'>>} \repeat unfold 2 {a4} \ERBarline \break
-  \set Score.currentBarNumber = #1
-  \section \offset Y-offset 2 \sectionLabel "4.1"
-  \repeat unfold 2 {a4 bfc} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "4.2"
-  \repeat unfold 2 {bfc4 c} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "4.3"
-  \repeat unfold 2 {c4 d} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "4.4"
-  \repeat unfold 2 {d4 e} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "4.5"
-  \repeat unfold 2 {e4 f} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "4.6"
-  \repeat unfold 2 {e4 fb} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "4.7"
-  \repeat unfold 2 {fb4 g} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "4.8"
-  \repeat unfold 2 {<<g,4 \single \greyNote d'>> a} \ERBarline \break
-  \set Score.currentBarNumber = #1
-  \section \offset Y-offset 2 \sectionLabel "5.1"
-  \repeat unfold 2 {bfc4 a} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "5.2"
-  \repeat unfold 2 {c4 bfc} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "5.3"
-  \repeat unfold 2 {d4 c} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "5.4"
-  \repeat unfold 2 {e4 d} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "5.5"
-  \repeat unfold 2 {f4 e} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "5.6"
-  \repeat unfold 2 {fb4 e} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "5.7"
-  \repeat unfold 2 {g4 fb} \DRBarline
-  \section \offset X-offset -2 \offset Y-offset 2  \sectionLabel "5.8"
-  \repeat unfold 2 {a,4 <<g \single \greyNote d'>>} \ERBarline \break
-}
-pieceArrows = \new Voice {
-  \repeat unfold 16 {s4^\arrowDown s4^\arrowUp}
-  
-  \repeat unfold 32 {s4^\arrowDown s4^\arrowUp}
-  
-  \repeat unfold 16 {s4^\arrowDown s4^\arrowUp}
-  
-  \repeat unfold 16 {s4^\arrowDown s4^\arrowUp}
-  
-  \repeat unfold 16 {s4^\arrowDown s4^\arrowUp}
+melody = \new Voice \fixed c' {
+  \autoBreaksOff
+  \section %\offset X-offset 7.6 \sectionLabel "1.1"
+  \mark "1.1" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 2 {\RastChord 4 \arrowDown \RastChord 4 \arrowUp}
+    \repeat unfold 2 {a-0\arrowDown a-0\arrowUp}
+  }
+  \section %\offset X-offset -1.8 \sectionLabel "1.2"
+  \mark "1.2" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 2 {\ADChord 4 \arrowDown \ADChord 4 \arrowUp}
+    \repeat unfold 2 {bfc-1\arrowDown bfc-1\arrowUp}
+  }
+  \section %\offset X-offset -1.8 \sectionLabel "1.3"
+  \mark "1.3" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 2 {bfc-1\arrowDown bfc-1\arrowUp}
+    \repeat unfold 2 {c'-3\arrowDown c'-3\arrowUp}
+  } \break
+  \section %\offset X-offset -1.8 \sectionLabel "1.3"
+  \mark "1.4" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 2 {c'-1\arrowDown c'-1\arrowUp}
+    \repeat unfold 2 {d'-3\arrowDown d'-3\arrowUp}
+  }
+  \section %\offset X-offset -1.8 \sectionLabel "1.3"
+  \mark "1.5" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 2 {d'-1\arrowDown d'-1\arrowUp}
+    \repeat unfold 2 {e'-3\arrowDown e'-3\arrowUp}
+  } \break
+
+  \section %\offset X-offset 7.6 \sectionLabel "1.1"
+  \mark "2.1" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 2 {\RastChord 4 \arrowDown \RastChord 4 \arrowUp a-0\arrowDown a-0\arrowUp}
+  }
+  \section %\offset X-offset -1.8 \sectionLabel "1.2"
+  \mark "2.2" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 2 {\ADChord 4 \arrowDown \ADChord 4 \arrowUp bfc-1\arrowDown bfc-1\arrowUp}
+  }
+  \section %\offset X-offset -1.8 \sectionLabel "1.3"
+  \mark "2.3" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 2 {bfc-1\arrowDown bfc-1\arrowUp c'-3\arrowDown c'-3\arrowUp}
+  } \break
+  \section %\offset X-offset -1.8 \sectionLabel "1.3"
+  \mark "2.4" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 2 {c'-1\arrowDown c'-1\arrowUp d'-3\arrowDown d'-3\arrowUp}
+  }
+  \section %\offset X-offset -1.8 \sectionLabel "1.3"
+  \mark "2.5" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 2 {d'-1\arrowDown d'-1\arrowUp e'-3\arrowDown e'-3\arrowUp}
+  } \break
+
+  \section %\offset X-offset 7.6 \sectionLabel "1.1"
+  \mark "3.1" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 4 {\RastChord 4 \arrowDown a-0\arrowUp}
+  }
+  \section %\offset X-offset -1.8 \sectionLabel "1.2"
+  \mark "3.2" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 4 {\ADChord 4 \arrowDown bfc-1\arrowUp}
+  }
+  \section %\offset X-offset -1.8 \sectionLabel "1.3"
+  \mark "3.3" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 4 {bfc-1\arrowDown c'-3\arrowUp}
+  } \break
+  \section %\offset X-offset -1.8 \sectionLabel "1.3"
+  \mark "3.4" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 4 {c'-1\arrowDown d'-3\arrowUp}
+  }
+  \section %\offset X-offset -1.8 \sectionLabel "1.3"
+  \mark "3.5" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 4 {d'-1\arrowDown e'-3\arrowUp}
+  } \break
+
+  \section %\offset X-offset 7.6 \sectionLabel "1.1"
+  \mark "4.1" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 4 {a-0\arrowDown \RastChord 4 \arrowUp}
+  }
+  \section %\offset X-offset -1.8 \sectionLabel "1.2"
+  \mark "4.2" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 4 {bfc-1\arrowDown \ADChord 4 \arrowUp}
+  }
+  \section %\offset X-offset -1.8 \sectionLabel "1.3"
+  \mark "4.3" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 4 {c'-3\arrowDown bfc-1\arrowUp}
+  } \break
+  \section %\offset X-offset -1.8 \sectionLabel "1.3"
+  \mark "4.4" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 4 {d'-3\arrowDown c'-1\arrowUp}
+  }
+  \section %\offset X-offset -1.8 \sectionLabel "1.3"
+  \mark "4.5" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    \repeat unfold 4 {e'-3\arrowDown d'-1\arrowUp}
+  }
 }
 
-\layout {
+verseOne = \lyricmode {
+  % \set fontSize = #-2 
+  % <<
+  %   \new Lyrics {
+  %     \set associatedVoice = "one"
+  %     \set stanza = "1α."
+  %     Χρι -- στού -- γεν _ -- να, Πρω -- τού -- γεν _ -- να πρώ -- τη -- γιορ _ -- τή _ του χρό _ _ -- νου, για
+  %   }
+  %   \new Lyrics {
+  %     \set associatedVoice = "one"
+  %     \set stanza = "1β."
+  %     για 'βγά -- τε _ ιδέ -- στε μά -- θε _ -- τε ν'οπ' ο Χρι _ -- στός _ γεν -- νιέ _ _ -- ται. Γεν... πόρ -- τα
+  %   }
+  % >>
+}
+
+extraVerses = \markup {
+  % \fill-line {
+  %   \column {
+  %     \line { \bold "1."
+  %       \column {
+  %         "Κάτω στο γιαλό, κατω στο περιγιάλι,"
+  %         "κάτω στο γιαλό κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "2."
+  %       \column {
+  %         "Πλύνουν Χιώτισσες, πλυνουν παπα(δ)οπούλες"
+  %         "πλύνουν Χιώτισσες κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "3."
+  %       \column {
+  %         "Πλύνουν κι άπλωναν, και μεσ’ τον άμμο επαίζαν,"
+  %         "πλύναν κι έπαιζαν κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "4."
+  %       \column {
+  %         "Φύσηξε ο βοριάς, μαΐστρος δραμουντάνας,"
+  %         "φύσηξε ο βοριάς κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "5."
+  %       \column {
+  %         "Κι ανασήκωσε, το μεσοφούστανό της,"
+  %         "κι ανασήκωσε κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "6."
+  %       \column {
+  %         "Και της φάνηκε, το ποδαστράγαλό της,"
+  %         "και της φάνηκε κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "7."
+  %       \column {
+  %         "Κι έλαμψε ο γιαλός, κι ολο το περιγιάλι,"
+  %         "κι έλαμψε ο γιαλός κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %   }
+  %   \column {
+  %     \line { \bold "8."
+  %       \column {
+  %         "Κάτεργο περνά, κι ελάμψαν τ’ άρμενά του,"
+  %         "κάτεργο περνά κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "9."
+  %       \column {
+  %         "Λέει ο ναύκληρος, λεει ο καραβοκύρης,"
+  %         "λέει ο ναύκληρος κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "10."
+  %       \column {
+  %         "Άλα βρε παιδιά, αλα βρε παλικάρια"
+  %         "άλα βρε παιδιά κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "11."
+  %       \column {
+  %         "Ν’ αποσώσομε, σ’ αυτό που λάμπει ομπρός μας,"
+  %         "ν’ αποσώσομε κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "12."
+  %       \column {
+  %         "Κι αν ειν’ κάτεργο, να ’ν’ του καραβοκύρη,"
+  %         "κι αν ειν’ κάτεργο κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "13."
+  %       \column {
+  %         "Κι αν ειν’ μάλαμα, να ’ναι της συντροφιάς μας,"
+  %         "κι αν ειν’ μάλαμα κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "14."
+  %       \column {
+  %         "Κι αν ειν’ κοπελιά, κι αν είν’ παπαδοπούλα,"
+  %         "κι αν ειν’ κοπελιά κοντή, να ‘ναι του τραγουδιστή."
+  %       }
+  %     }
+  %   }
+  % }
+}
+
+\paper {
+  ragged-right = ##t
+  ragged-last = ##t
+}
+
+%%%%%%% pdf %%%%%%%
+\paper {
+  #(set-paper-size "a4")
+  top-margin = 2\cm
+  left-margin = 1\cm
+  right-margin = 1\cm
   indent = #0
-  #(set-default-paper-size '(cons (* 210 mm) (* 170 mm)))
 }
 
-\layout {
-  \override TextScript.transparent = ##t
-}
+%%%%%%% svg %%%%%%%
+% \paper {
+%   paper-width = 210\mm
+%   paper-height = 220\mm
+%   left-margin = 1\cm
+%   right-margin = 1\cm
+%   indent = #0
+% }
+
 \header {
   title = \pieceName
   subtitle = \pieceSubtitle
   copyright = "Χ. Κόχυλας"
+}
+\layout {
+  \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
 }
 \book {
   \bookOutputName \pieceFilename
@@ -126,61 +280,179 @@ pieceArrows = \new Voice {
   }
   \bookpart {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-      \keyA
-      <<
-        \pieceNotes
-        \pieceArrows
-      >>
+        <<
+          \new Voice = "one" {
+            \customScripts #hideArrowsArticulationNear
+            \keyA
+            \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
       }
     }
+    \extraVerses
   }
 }
 \layout {
-  \override TextScript.transparent = ##f
+  \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #-200
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_δάχτυλα")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \customScripts #hideArrowsArticulationNear
+            \keyA
+            \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
+\layout {
+  \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_πενιές")
   \bookpart {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-      \keyA
-      <<
-        \pieceNotes
-        \pieceArrows
-      >>
+        <<
+          \new Voice = "one" {
+            \customScripts #articulationNear
+            \keyA
+            \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
       }
     }
+    \extraVerses
   }
 }
 \layout {
-  \override TextScript.transparent = ##t
+  \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #-200
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_πενιές_δάχτυλα")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \customScripts #articulationNear
+            \keyA
+            \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
+\layout {
+  \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο")
   \bookpart {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-      \keyB
-      <<
-        \transpose g c \pieceNotes
-        \pieceArrows
-      >>
+        <<
+          \new Voice = "one" {
+            \customScripts #hideArrowsArticulationNear
+            \keyB
+            \transpose g c \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
       }
     }
+    \extraVerses
   }
 }
 \layout {
-  \override TextScript.transparent = ##f
+  \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #-200
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_inΝτο_δάχτυλα")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \customScripts #hideArrowsArticulationNear
+            \keyB
+            \transpose g c \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
+\layout {
+  \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές")
   \bookpart {
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-      \keyB
-      <<
-        \transpose g c \pieceNotes
-        \pieceArrows
-      >>
+        <<
+          \new Voice = "one" {
+            \customScripts #articulationNear
+            \keyB
+            \transpose g c \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
       }
     }
+    \extraVerses
   }
 }
-  
+\layout {
+  \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #-200
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές_δάχτυλα")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \customScripts #articulationNear
+            \keyB
+            \transpose g c \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
