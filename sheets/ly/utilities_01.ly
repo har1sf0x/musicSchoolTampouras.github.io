@@ -90,6 +90,11 @@ setKalamTime = {
   \set Timing.beatStructure = 3,2,2
 }
 
+setZonaradikosTime = {
+  \time 6/8
+  \set Timing.beatStructure = 3,3
+}
+
 setFourTime = {
   \overrideTimeSignatureSettings
     4/4        % timeSignatureFraction
