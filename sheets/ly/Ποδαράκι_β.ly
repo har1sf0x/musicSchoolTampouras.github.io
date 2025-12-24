@@ -13,15 +13,15 @@ melody = \relative c'' {
   \setZonaradikosTime
   \sectionLabel "A"
   e4-3\arrowDown d8-1\arrowUp d4-1\arrowDown e8-3\arrowUp d4.-1\arrowDown c4-3\arrowDown bfc8-1\arrowUp
-  g4.-0\arrowDown d'-1\arrowUp d-1\arrowDown r
+  g4.-0\arrowDown d'-1\arrowSelpe d-1\arrowDown d-1\arrowUp
   e4-3\arrowDown d8-1\arrowUp d4-1\arrowDown e8-3\arrowUp d4.-1\arrowDown c4-3\arrowDown bfc8-1\arrowUp
-  g4.-0\arrowDown \AEChord 4. \arrowUp \AEChord 4. \arrowDown r4.
+  g4.-0\arrowDown \AEChord 4. \arrowSelpe \AEChord 4. \arrowDown \AEChord 4. \arrowUp
   \ERBarline
   \section \break \sectionLabel "B" \set Score.currentBarNumber = #1
   g4.-0\arrowDown a4-0\arrowSelpe (bfc8-5) g4.-0\arrowDown a4-0\arrowSelpe (bfc8-5)
-  g4.-0\arrowDown d'-3\arrowUp d-3\arrowDown r
-  g,4.-0\arrowDown a4-0\arrowSelpe (bfc8-5) c4-3\arrowDown (bfc8-5) d4-3\arrowSelpe (bfc8-5)
-  g4.-0\arrowDown \AEChord 4. \arrowUp \AEChord 4. \arrowDown r4.
+  g4.-0\arrowDown d'-3\arrowSelpe d-3\arrowDown d-3\arrowUp
+  g,4.-0\arrowDown a4-0\arrowSelpe (bfc8-5) c4-3\3\arrowDown (bfc8-5) d4-3\arrowSelpe (bfc8-5)
+  g4.-0\arrowDown \AEChord 4. \arrowSelpe \AEChord 4. \arrowDown \AEChord 4. \arrowUp
   \FBarline
 }
 
@@ -147,22 +147,22 @@ extraVerses = \markup {
 }
 
 %%%%%%% pdf %%%%%%%
-\paper {
-  #(set-paper-size "a4")
-  top-margin = 2\cm
-  left-margin = 1\cm
-  right-margin = 1\cm
-  indent = #0
-}
-
-%%%%%%% svg %%%%%%%
 % \paper {
-%   paper-width = 210\mm
-%   paper-height = 90\mm
+%   #(set-paper-size "a4")
+%   top-margin = 2\cm
 %   left-margin = 1\cm
 %   right-margin = 1\cm
 %   indent = #0
 % }
+
+%%%%%%% svg %%%%%%%
+\paper {
+  paper-width = 210\mm
+  paper-height = 90\mm
+  left-margin = 1\cm
+  right-margin = 1\cm
+  indent = #0
+}
 
 \header {
   title = \pieceName

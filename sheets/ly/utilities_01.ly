@@ -315,6 +315,7 @@ FbCbChord =
 { \override Staff.Script.avoid-slur = #'around
   \override Staff.Script.padding = 0.6
   \override Fingering.staff-padding = #1.0
+  \set stringNumberOrientations = #'(down)
   } } }
 
 #(define (custom-script-tweaks ls)
