@@ -2,25 +2,58 @@
 
 \include "utilities_01.ly"
 
-pieceName = ""
-pieceSubtitle = ""
-pieceFilename = ""
+pieceName = "Ποδαράκι (α)"
+pieceSubtitle = "Θράκη"
+pieceFilename = "Ποδαράκι_α"
 source = ""
-keyA = \setRastKey
-keyB = \setRastBKey
+keyA = \setUssakKey
+keyB = \setUssakBKey
 
 melody = \relative c'' {
-  % \time 2/4
-  % \sectionLabel "A"
-  % bfc8-1\arrowDown c16-1\arrowDown c-1\arrowUp d8-1\arrowDown e-3\arrowUp
-  % d8-1\arrowUp d16-1\arrowDown d-1\arrowUp d8-1\arrowDown \tweak Parentheses.font-size -2 \parenthesize <d-1\arrowUp bfc>
-  % e8-3\arrowDown d16-1\arrowDown d-1\arrowUp c8-1\arrowDown bfc-1\arrowUp
-  % d8-3\arrowDown d16-3\arrowDown d-3\arrowDown bfc8-1\arrowDown bfc-1\arrowUp \ERBarline
-  % \section \break \sectionLabel "B" \set Score.currentBarNumber = #1
-  % d8-3\arrowDown c16-1\arrowDown bfc-1\arrowUp \ADChord 8 \arrowDown \ADChord 8 \arrowUp
-  % \RastChord 8 \arrowDown a16-0\arrowDown a-0\arrowUp bfc8-1\arrowDown c-1\arrowUp
-  % d8-3\arrowDown c16-1\arrowDown bfc-1\arrowUp \ADChord 8 \arrowDown \ADChord 8 \arrowUp
-  % \RastChord 8 \arrowDown a16-0\arrowDown a-0\arrowUp bfc8-1\arrowDown bfc-1\arrowUp \ERBarline
+  \time 2/4
+  \sectionLabel "A"
+  \repeat unfold 2 {
+    a4-0\arrowDown e'8-3\arrowDown e8-3\arrowUp
+    a,4-0\arrowDown d8-3\arrowDown d8-3\arrowUp
+    g,4-0\arrowDown \AEChord 4 \arrowUp
+    \AEChord 4 \arrowDown r4
+  } \FBarline
+  \section \break \sectionLabel "B" \set Score.currentBarNumber = #1
+  \RastChord 4 \arrowDown a8-0\arrowUp bfc8-5\arrowDown
+  c4-1\arrowDown \trill bfc8-5\arrowDown a8-0\arrowUp
+  \RastChord 4 \arrowDown c8-1\arrowUp (d8-3)
+  d4-3\arrowDown r4
+  \RastChord 4 \arrowDown a8-0\arrowUp bfc8-5\arrowDown
+  c4-1\arrowDown \trill bfc8-5\arrowDown a8-0\arrowUp
+  g4-0\arrowDown \AEChord 4 \arrowUp
+  \AEChord 4 \arrowDown r4 \FBarline
+  \section \break \sectionLabel "B'" \set Score.currentBarNumber = #1
+  \RastChord 4 \arrowDown a8-0\arrowUp bfc8-5\arrowDown
+  c4-1\arrowDown \trill bfc8-5\arrowDown a8-0\arrowUp
+  a4-0\arrowDown c8-1\arrowUp (d8-3)
+  d4-3\arrowDown r4
+  \RastChord 4 \arrowDown a8-0\arrowUp bfc8-5\arrowDown
+  c4-1\arrowDown \trill bfc8-5\arrowDown a8-0\arrowUp
+  a4-0\arrowDown c8-1\arrowUp (d8-3)
+  a4-0\arrowDown r4 \FBarline
+  \section \break \sectionLabel "Γ" \set Score.currentBarNumber = #1
+  d4-1\arrowDown e8-3\arrowDown d8-1\arrowUp
+  c4-1\arrowDown \trill bfc8-5\arrowDown a8-0\arrowUp
+  g4-0\arrowDown c8-1\arrowUp (d8-3)
+  d4-3\arrowDown r4
+  d4-1\arrowDown e8-3\arrowDown d8-1\arrowUp
+  c4-1\arrowDown \trill bfc8-5\arrowDown a8-0\arrowUp
+  g4-0\arrowDown \AEChord 4 \arrowUp
+  \AEChord 4 \arrowDown r4 \FBarline
+  \section \break \sectionLabel "Γ'" \set Score.currentBarNumber = #1
+  d'4-1\arrowDown e8-3\arrowDown d8-1\arrowUp
+  c8-1\arrowDown d8-3\arrowUp c8-1\arrowUp bfc8-5\arrowDown
+  g4-0\arrowDown c8-1\arrowUp (d8-3)
+  d4-3\arrowDown r4
+  d4-1\arrowDown e8-3\arrowDown d8-1\arrowUp
+  c8-1\arrowDown d8-3\arrowUp c8-1\arrowUp bfc8-5\arrowDown
+  g4-0\arrowDown \AEChord 4 \arrowUp
+  \AEChord 4 \arrowDown r4 \FBarline
 }
 
 verseOne = \lyricmode {
@@ -156,7 +189,7 @@ extraVerses = \markup {
 %%%%%%% svg %%%%%%%
 % \paper {
 %   paper-width = 210\mm
-%   paper-height = 250\mm
+%   paper-height = 170\mm
 %   left-margin = 1\cm
 %   right-margin = 1\cm
 %   indent = #0
