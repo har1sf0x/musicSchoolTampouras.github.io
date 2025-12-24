@@ -39,7 +39,7 @@ melody = \relative c'' {
   \section \break \sectionLabel "Γ" \set Score.currentBarNumber = #1
   d4-1\arrowDown e8-3\arrowDown d8-1\arrowUp
   c4-1\arrowDown \trill bfc8-5\arrowDown a8-0\arrowUp
-  g4-0\arrowDown c8-1\arrowUp (d8-3)
+  g4-0\arrowDown d'4-3\arrowUp
   d4-3\arrowDown r4
   d4-1\arrowDown e8-3\arrowDown d8-1\arrowUp
   c4-1\arrowDown \trill bfc8-5\arrowDown a8-0\arrowUp
@@ -48,7 +48,7 @@ melody = \relative c'' {
   \section \break \sectionLabel "Γ'" \set Score.currentBarNumber = #1
   d'4-1\arrowDown e8-3\arrowDown d8-1\arrowUp
   c8-1\arrowDown d8-3\arrowUp c8-1\arrowUp bfc8-5\arrowDown
-  g4-0\arrowDown c8-1\arrowUp (d8-3)
+  g4-0\arrowDown d'4-3\arrowUp
   d4-3\arrowDown r4
   d4-1\arrowDown e8-3\arrowDown d8-1\arrowUp
   c8-1\arrowDown d8-3\arrowUp c8-1\arrowUp bfc8-5\arrowDown
