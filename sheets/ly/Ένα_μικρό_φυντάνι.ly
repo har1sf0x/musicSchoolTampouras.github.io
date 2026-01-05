@@ -3,7 +3,7 @@
 \include "utilities_01.ly"
 
 pieceName = "Ένα μικρό φυντάνι"
-pieceSubtitle = "Προποντίδα, Νικόμήδεια"
+pieceSubtitle = "Προποντίδα, Νικομήδεια"
 pieceFilename = "Ένα_μικρό_φυντάνι"
 source = ""
 keyA = \setRastKey
@@ -84,22 +84,22 @@ extraVersesA = \markup {
 }
 
 %%%%%%% pdf %%%%%%%
-\paper {
-  #(set-paper-size "a4")
-  top-margin = 2\cm
-  left-margin = 1\cm
-  right-margin = 1\cm
-  indent = #0
-}
-
-%%%%%%% svg %%%%%%%
 % \paper {
-%   paper-width = 210\mm
-%   paper-height = 130\mm
+%   #(set-paper-size "a4")
+%   top-margin = 2\cm
 %   left-margin = 1\cm
 %   right-margin = 1\cm
 %   indent = #0
 % }
+
+%%%%%%% svg %%%%%%%
+\paper {
+  paper-width = 210\mm
+  paper-height = 130\mm
+  left-margin = 1\cm
+  right-margin = 1\cm
+  indent = #0
+}
 
 \header {
   title = \pieceName
