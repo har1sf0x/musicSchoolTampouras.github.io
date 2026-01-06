@@ -124,9 +124,15 @@ BfcGDChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
   \fixed c' {<<bfc$dur -4-3-5 $arrow \single \greyNote g \single \greyNote  d'>>}  % Notes with $ prefix use the duration argument
 #})
+
 FbCbChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
   \fixed c' {<<fb$dur -1 $arrow \single \greyNote cb'>>}  % Notes with $ prefix use the duration argument
+#})
+
+hiddenGraceArrow =
+#(define-music-function (arrow) (ly:music?) #{
+  \hideNotes \grace s8 $arrow \unHideNotes % Notes with $ prefix use the duration argument
 #})
 
 
@@ -374,6 +380,13 @@ revertCustomScripts = \revert Script.before-line-breaking
       (fermata . ((script-priority . -300)))
       (trill . ((script-priority . -300)))
     ))
+
+
+restDownUp = {
+  << { r4 }
+    \new Voice { s8\arrowDown s\arrowUp }
+  >> \oneVoice
+}
 
 
 %{
