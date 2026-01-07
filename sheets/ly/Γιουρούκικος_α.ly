@@ -27,7 +27,7 @@ pieceNotes = \new Voice \relative c'' {
   \section \break \sectionLabel "Δ" \set Score.currentBarNumber = #1
   \repeat unfold 2 {
     \RastChord 8. \arrowDown \BfcGDChord 16 \arrowZeybekB (\BfcGDChord 8 \arrowUp) \RastChord 8^"" (\BfcGDChord 8 \arrowUp) \RastChord 8^""
-    \BfcGDChord 8. \arrowDown \RastChord 16 \arrowZeybekB \BfcGDChord 8 \arrowUp d'8-3\arrowUp
+    \BfcGDChord 8. \arrowDown \RastChord 16 \arrowSelpe \BfcGDChord 8 \arrowDown d'8-3\arrowUp
     c-1\arrowDown c-1\arrowUp bfc16-5\arrowTalipOzkan (a g8) \ADChord 4 \arrowDown r4\arrowDown \noBreak
   } \FBarline
 }
@@ -36,22 +36,22 @@ pieceNotesB = \new Voice \relative c'' {
 }
 
 %%%%%%% pdf %%%%%%%
-% \paper {
-%   #(set-paper-size "a4")
-%   top-margin = 2\cm
-%   left-margin = 1\cm
-%   right-margin = 1\cm
-%   indent = #0
-% }
-
-%%%%%%% svg %%%%%%%
 \paper {
-  paper-width = 210\mm
-  paper-height = 135\mm
+  #(set-paper-size "a4")
+  top-margin = 2\cm
   left-margin = 1\cm
   right-margin = 1\cm
   indent = #0
 }
+
+%%%%%%% svg %%%%%%%
+% \paper {
+%   paper-width = 210\mm
+%   paper-height = 135\mm
+%   left-margin = 1\cm
+%   right-margin = 1\cm
+%   indent = #0
+% }
 
 \header {
   title = \pieceName
