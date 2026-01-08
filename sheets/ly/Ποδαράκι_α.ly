@@ -14,7 +14,7 @@ melody = \relative c'' {
   \sectionLabel "A"
   \repeat unfold 2 {
     a4-0\arrowDown e'8-3\arrowDown e8-3\arrowUp
-    a,4-0\arrowDown d8-3\arrowDown d8-3\arrowUp
+    a,4-0\arrowDown d8-1\arrowDown d8-1\arrowUp
     g,4-0\arrowDown \AEChord 4 \arrowUp
     \AEChord 4 \arrowDown r4
   } \FBarline
@@ -187,13 +187,13 @@ extraVerses = \markup {
 }
 
 %%%%%%% svg %%%%%%%
-% \paper {
-%   paper-width = 210\mm
-%   paper-height = 170\mm
-%   left-margin = 1\cm
-%   right-margin = 1\cm
-%   indent = #0
-% }
+\paper {
+  paper-width = 210\mm
+  paper-height = 170\mm
+  left-margin = 1\cm
+  right-margin = 1\cm
+  indent = #0
+}
 
 \header {
   title = \pieceName

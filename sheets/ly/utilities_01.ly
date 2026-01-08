@@ -62,6 +62,8 @@ arrowTalipOzkanMarkup = \markup {
   \scale #'(1 . -1) \arrowSelpeMarkup
 }
 
+vibratoMarkup = \markup {"vib."}
+
 SBarline = #(define-music-function () () #{\bar "|"#})
 DotBarline = #(define-music-function () () #{\bar ";"#})
 DsBarline = #(define-music-function () () #{\bar "!"#})
@@ -79,6 +81,8 @@ setUssakKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)))
 setUssakBKey = \set Staff.keyAlterations = #`((2 . ,(- KOMA)))
 setRastKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (3 . , BAKIYE))
 setRastBKey = \set Staff.keyAlterations = #`((2 . ,(- KOMA)) (6 . , (- KOMA)))
+setHicazKey = \set Staff.keyAlterations = #`((6 . ,(- BAKIYE)) (3 . , BAKIYE) (0 . , BAKIYE))
+setHicazBKey = \set Staff.keyAlterations = #`((2 . ,(- BAKIYE)) (6 . , (- KOMA)))
 
 setZeybekTime = {
   \time 9/4
@@ -130,11 +134,20 @@ FbCbChord =
   \fixed c' {<<fb$dur -1 $arrow \single \greyNote cb'>>}  % Notes with $ prefix use the duration argument
 #})
 
-hiddenGraceArrow =
-#(define-music-function (arrow) (ly:music?) #{
-  \hideNotes \grace s8 $arrow \unHideNotes % Notes with $ prefix use the duration argument
+ECbAChord =
+#(define-music-function (dur arrow) (ly:duration? ly:music?) #{
+  \fixed c'' {<<e$dur -2-3-5 $arrow \single \greyNote cb \single \greyNote a,>>}  % Notes with $ prefix use the duration argument
 #})
 
+hiddenGraceArrow =
+#(define-music-function (arrow) (ly:music?) #{
+  \grace s8 $arrow % Notes with $ prefix use the duration argument
+#})
+
+% hiddenGraceArrow =
+% #(define-music-function (arrow) (ly:music?) #{
+%   \hideNotes \grace s8 $arrow \unHideNotes % Notes with $ prefix use the duration argument
+% #})
 
 #(set! default-script-alist (acons
   'arrowDown `(
@@ -306,6 +319,23 @@ hiddenGraceArrow =
   )
 )
 
+#(set! default-script-alist (acons
+  'vibrato `(
+    (stencil . ,(
+      lambda (grob) (let ((d (ly:grob-property grob 'direction UP))
+        (mstc (grob-interpret-markup grob (markup
+          #:override '(font-encoding . latin1)
+          #:center-align vibratoMarkup ))))
+      (if (= d UP)
+        mstc
+        (ly:stencil-rotate
+          mstc 0 0 (interval-center (ly:stencil-extent mstc Y))))
+        )
+      )
+    ) (direction . ,UP)) default-script-alist
+  )
+)
+
 "arrowDown" = #(make-articulation 'arrowDown)
 "arrowUp" = #(make-articulation 'arrowUp)
 "arrowDownSmall" = #(make-articulation 'arrowDownSmall)
@@ -316,6 +346,7 @@ hiddenGraceArrow =
 "arrowSilifkeB" = #(make-articulation 'arrowSilifkeB)
 "arrowSelpe" = #(make-articulation 'arrowSelpe)
 "arrowTalipOzkan" = #(make-articulation 'arrowTalipOzkan)
+"vibrato" = #(make-articulation 'vibrato)
 
 \layout { \context { \Score scriptDefinitions = #default-script-alist
 { \override Staff.Script.avoid-slur = #'around
@@ -373,12 +404,14 @@ revertCustomScripts = \revert Script.before-line-breaking
       (arrowTalipOzkan . ((stencil . #f)))
       (fermata . ((script-priority . -300)))
       (trill . ((script-priority . -300)))
+      (vibrato . ((script-priority . -300)))
     ))
 
 #(define articulationNear
   '(
       (fermata . ((script-priority . -300)))
       (trill . ((script-priority . -300)))
+      (vibrato . ((script-priority . -300)))
     ))
 
 
