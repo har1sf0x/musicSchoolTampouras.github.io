@@ -19,20 +19,20 @@ melody = \relative c'' {
     \AEChord 4 \arrowDown r4
   } \FBarline
   \section \break \sectionLabel "B" \set Score.currentBarNumber = #1
-  \RastChord 4 \arrowDown a8-0\arrowUp bfc8-5\arrowDown
+  g4-0\arrowDown a8-0\arrowUp bfc8-5\arrowDown
   c4-1\arrowDown \trill bfc8-5\arrowDown a8-0\arrowUp
-  \RastChord 4 \arrowDown c8-1\arrowUp (d8-3)
+  g4-0\arrowDown c8-1\arrowUp (d8-3)
   d4-3\arrowDown r4
-  \RastChord 4 \arrowDown a8-0\arrowUp bfc8-5\arrowDown
+  g,4-0\arrowDown a8-0\arrowUp bfc8-5\arrowDown
   c4-1\arrowDown \trill bfc8-5\arrowDown a8-0\arrowUp
   g4-0\arrowDown \AEChord 4 \arrowUp
   \AEChord 4 \arrowDown r4 \FBarline
   \section \break \sectionLabel "B'" \set Score.currentBarNumber = #1
-  \RastChord 4 \arrowDown a8-0\arrowUp bfc8-5\arrowDown
+  g4-0\arrowDown a8-0\arrowUp bfc8-5\arrowDown
   c4-1\arrowDown \trill bfc8-5\arrowDown a8-0\arrowUp
   a4-0\arrowDown c8-1\arrowUp (d8-3)
   d4-3\arrowDown r4
-  \RastChord 4 \arrowDown a8-0\arrowUp bfc8-5\arrowDown
+  g,4-0\arrowDown a8-0\arrowUp bfc8-5\arrowDown
   c4-1\arrowDown \trill bfc8-5\arrowDown a8-0\arrowUp
   a4-0\arrowDown c8-1\arrowUp (d8-3)
   a4-0\arrowDown r4 \FBarline
@@ -187,13 +187,13 @@ extraVerses = \markup {
 }
 
 %%%%%%% svg %%%%%%%
-\paper {
-  paper-width = 210\mm
-  paper-height = 170\mm
-  left-margin = 1\cm
-  right-margin = 1\cm
-  indent = #0
-}
+% \paper {
+%   paper-width = 210\mm
+%   paper-height = 170\mm
+%   left-margin = 1\cm
+%   right-margin = 1\cm
+%   indent = #0
+% }
 
 \header {
   title = \pieceName
