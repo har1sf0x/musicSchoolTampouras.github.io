@@ -15,13 +15,13 @@ melody = \relative c'' {
   e4-3\arrowDown d8-1\arrowUp d4-1\arrowDown e8-3\arrowUp d4.-1\arrowDown c4-3\arrowDown bfc8-1\arrowUp
   g4.-0\arrowDown d'-1\arrowSelpe d-1\arrowDown d-1\arrowUp
   e4-3\arrowDown d8-1\arrowUp d4-1\arrowDown e8-3\arrowUp d4.-1\arrowDown c4-3\arrowDown bfc8-1\arrowUp
-  g4.-0\arrowDown \AEChord 4. \arrowSelpe \AEChord 4. \arrowDown \AEChord 4. \arrowUp
+  g4.-0\arrowDown \AEAChord 4. \arrowSelpe \AEAChord 4. \arrowDown \AEAChord 4. \arrowUp
   \ERBarline
   \section \break \sectionLabel "B" \set Score.currentBarNumber = #1
   g4.-0\arrowDown a4-0\arrowSelpe (bfc8-5) g4.-0\arrowDown a4-0\arrowSelpe (bfc8-5)
   g4.-0\arrowDown d'-3\arrowSelpe d-3\arrowDown d-3\arrowUp
   g,4.-0\arrowDown a4-0\arrowSelpe (bfc8-5) c4-3\3\arrowDown (bfc8-5) d4-3\arrowSelpe (bfc8-5)
-  g4.-0\arrowDown \AEChord 4. \arrowSelpe \AEChord 4. \arrowDown \AEChord 4. \arrowUp
+  g4.-0\arrowDown \AEAChord 4. \arrowSelpe \AEAChord 4. \arrowDown \AEAChord 4. \arrowUp
   \FBarline
 }
 

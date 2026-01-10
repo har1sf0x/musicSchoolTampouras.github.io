@@ -13,16 +13,16 @@ melody = \relative c'' {
   \setFourTime
   \partial 4 d,4-0\arrowDown
   \repeat volta 2 {
-    \RastChord 4 \arrowDown \RastChord 8 \arrowDown \RastChord 8 \arrowUp \ADChord 4 \arrowDown \ADChord 4 \arrowUp
+    \RastChord 4 \arrowDown \RastChord 8 \arrowDown \RastChord 8 \arrowUp \ADAChord 4 \arrowDown \ADAChord 4 \arrowUp
     bfc'8-1\arrowDown (c-3) bfc-1\arrowDown a-0\arrowUp \RastChord 4 \arrowDown \RastChord 4 \arrowUp
     c8-3\arrowDown (bfc-1) c-1\arrowDown d-3\arrowUp bfc-5\arrowDown a-0\arrowUp bfc-5\arrowDown (g-0)
     \alternative {
       \volta 1 {
         \once \override TextScript.script-priority = #-100
-        \ADChord 4 \arrowDown \ADChord 8 \arrowDown \ADChord 8 \arrowUp \ADChord 4 \arrowDown d4-0\arrowDown
+        \ADAChord 4 \arrowDown \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp \ADAChord 4 \arrowDown d4-0\arrowDown
       }
       \volta 2 {
-        \ADChord 2 {\arrowDown \fermata} \ADChord 4 {\arrowDown \fermata} \FBarline
+        \ADAChord 2 {\arrowDown \fermata} \ADAChord 4 {\arrowDown \fermata} \FBarline
       }
     }
   }

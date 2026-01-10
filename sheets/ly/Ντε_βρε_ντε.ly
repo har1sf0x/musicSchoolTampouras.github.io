@@ -14,19 +14,19 @@ melody = \relative c'' {
   \normalsize
   \repeat unfold 2 {
     \RastChord 8. \arrowDown \FbCbChord 16 \arrowZeybekB \RastChord 8 \arrowUp
-    \ADChord 4 \arrowDown  \grace s16^\arrowSelpe \ADChord 8 \arrowDown \ADChord 8 \arrowUp
+    \ADAChord 4 \arrowDown  \grace s16^\arrowSelpe \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
   }
   e8.-1\arrowDown e16-1\arrowZeybekB d8-1\arrowUp d8.-1\arrowDown c16-1\arrowSelpe c8-1\arrowDown bfc-5\arrowDown
   c8-1\arrowDown c-1\arrowUp bfc16-5\arrowDown (g-0)
-  \ADChord 4 \arrowDown \grace s16^\arrowSelpe \ADChord 8 \arrowDown \ADChord 8 \arrowUp
+  \ADAChord 4 \arrowDown \grace s16^\arrowSelpe \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
 
   \RastChord 8. \arrowDown \FbCbChord 16 \arrowZeybekB \RastChord 8 \arrowUp
-  \ADChord 4 \arrowDown  \grace s16^\arrowSelpe \ADChord 8 \arrowDown \ADChord 8 \arrowUp
+  \ADAChord 4 \arrowDown  \grace s16^\arrowSelpe \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
   \RastChord 8. \arrowDown \FbCbChord 16 \arrowZeybekB \RastChord 8 \arrowUp
-  \ADChord 8. \arrowDown bfc16-1\arrowZeybekB c8-1\arrowUp d-1\arrowUp
+  \ADAChord 8. \arrowDown bfc16-1\arrowZeybekB c8-1\arrowUp d-1\arrowUp
   e8.-1\arrowDown e16-1\arrowZeybekB d8-1\arrowUp d8.-1\arrowDown c16-1\arrowSelpe c8-1\arrowDown bfc-5\arrowDown
   c8-1\arrowDown c-1\arrowUp bfc16-5\arrowDown (g-0)
-  \ADChord 4 \arrowDown \grace s16^\arrowSelpe \ADChord 8 \arrowDown \tiny a8-0\arrowDown | \break
+  \ADAChord 4 \arrowDown \grace s16^\arrowSelpe \ADAChord 8 \arrowDown \tiny a8-0\arrowDown | \break
   \repeat volta 4 {
     d4-1\arrowDown d8-1\arrowDown d-1\arrowDown (a-0) d-1\arrowDown (a-0)
     d8-1\arrowDown c8-1\arrowDown d-1\arrowDown e4-1\arrowDown \trill e8-1\arrowDown d-1\arrowDown
@@ -39,19 +39,19 @@ melody = \relative c'' {
     g16-1\arrowDown g-1\arrowDown fb8-1\arrowDown g-2\arrowDown a4-0\arrowDown a8-0\arrowDown a-0\arrowUp
     g16-1\arrowDown g-1\arrowDown fb8-1\arrowDown g-2\arrowDown a4-0\arrowDown a8-0\arrowDown e'-1\arrowUp
     e8-1\arrowDown e8-1\arrowDown d8-1\arrowDown d-1\arrowDown c-1\arrowDown c16-1\arrowDown c-1\arrowUp bfc8-5\arrowDown
-    c8-1\arrowDown c-1\arrowUp bfc16-5\arrowDown (g) \ADChord 4 \arrowDown \normalsize \ADChord 8 \arrowDown \ADChord 8 \arrowUp
+    c8-1\arrowDown c-1\arrowUp bfc16-5\arrowDown (g) \ADAChord 4 \arrowDown \normalsize \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
     \RastChord 8. \arrowDown \FbCbChord 16 \arrowZeybekB \RastChord 8 \arrowUp
-    \ADChord 4 \arrowDown  \grace s16^\arrowSelpe \ADChord 8 \arrowDown \ADChord 8 \arrowUp
+    \ADAChord 4 \arrowDown  \grace s16^\arrowSelpe \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
     \RastChord 8. \arrowDown \FbCbChord 16 \arrowZeybekB \RastChord 8 \arrowUp
-    \ADChord 8. \arrowDown bfc16-1\arrowZeybekB c8-1\arrowUp d-1\arrowUp
+    \ADAChord 8. \arrowDown bfc16-1\arrowZeybekB c8-1\arrowUp d-1\arrowUp
     e8.-1\arrowDown e16-1\arrowZeybekB d8-1\arrowUp d8.-1\arrowDown c16-1\arrowSelpe c8-1\arrowDown bfc-5\arrowDown
     \alternative {
       \volta 1,2,3 {
         c8-1\arrowDown c-1\arrowUp bfc16-5\arrowDown (g-0)
-        \ADChord 4 \arrowDown \grace s16^\arrowSelpe \ADChord 8 \arrowDown \tiny a8-0\arrowDown
+        \ADAChord 4 \arrowDown \grace s16^\arrowSelpe \ADAChord 8 \arrowDown \tiny a8-0\arrowDown
       }
       \volta 4 {
-        \normalsize c8-1\arrowDown c-1\arrowUp bfc16-5\arrowDown (g-0)) \ADChord 2 \arrowDown \FBarline
+        \normalsize c8-1\arrowDown c-1\arrowUp bfc16-5\arrowDown (g-0)) \ADAChord 2 \arrowDown \FBarline
       }
     }
   }

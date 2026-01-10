@@ -17,9 +17,9 @@ melody = \relative c'' {
   e8-3\arrowDown d16-1\arrowDown d-1\arrowUp c8-1\arrowDown bfc-1\arrowUp
   d8-3\arrowDown d16-3\arrowDown d-3\arrowUp bfc8-1\arrowDown bfc-1\arrowUp \ERBarline
   \section \break \sectionLabel "B" \set Score.currentBarNumber = #1
-  d8-3\arrowDown c16-1\arrowDown bfc-1\arrowUp \ADChord 8 \arrowDown \ADChord 8 \arrowUp
+  d8-3\arrowDown c16-1\arrowDown bfc-1\arrowUp \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
   \RastChord 8 \arrowDown a16-0\arrowDown a-0\arrowUp bfc8-1\arrowDown c-1\arrowUp
-  d8-3\arrowDown c16-1\arrowDown bfc-1\arrowUp \ADChord 8 \arrowDown \ADChord 8 \arrowUp
+  d8-3\arrowDown c16-1\arrowDown bfc-1\arrowUp \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
   \RastChord 8 \arrowDown a16-0\arrowDown a-0\arrowUp bfc8-1\arrowDown bfc-1\arrowUp \ERBarline
 }
 

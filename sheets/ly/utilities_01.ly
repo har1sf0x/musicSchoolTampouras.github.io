@@ -114,14 +114,29 @@ RastChord =
   \fixed c' {<<g$dur -4-3 $arrow \single \greyNote d' \single \greyNote  g>>}  % Notes with $ prefix use the duration argument
 #})
 
-ADChord =
+GDChord =
+#(define-music-function (dur arrow) (ly:duration? ly:music?) #{
+  \fixed c' {<<g$dur -4-3 $arrow \single \greyNote d}  % Notes with $ prefix use the duration argument
+#})
+
+ADAChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
   \fixed c' {<<a$dur -5 $arrow \single \greyNote d \single \greyNote  a>>}  % Notes with $ prefix use the duration argument
 #})
 
-AEChord =
+ADChord =
+#(define-music-function (dur arrow) (ly:duration? ly:music?) #{
+  \fixed c' {<<a$dur -5 $arrow \single \greyNote d}  % Notes with $ prefix use the duration argument
+#})
+
+AEAChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
   \fixed c' {<<a$dur -2-0 $arrow \single \greyNote e \single \greyNote  a>>}  % Notes with $ prefix use the duration argument
+#})
+
+AEChord =
+#(define-music-function (dur arrow) (ly:duration? ly:music?) #{
+  \fixed c' {<<a$dur -2-0 $arrow \single \greyNote e>>}  % Notes with $ prefix use the duration argument
 #})
 
 BfcGDChord =

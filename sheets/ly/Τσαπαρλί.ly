@@ -34,7 +34,7 @@ melody = \relative c'' {
     e8.-1\arrowDown fb16-1\arrowZeybekB g8.-2\arrowUp fb16-1\arrowZeybekB g8-1\arrowUp a8-3\arrowUp
     g8.-1\arrowDown f16-1\arrowZeybekB e8-1\arrowUp d-1\arrowUp
     c8.-3\arrowDown bfc32-1\arrowUpSmall a-0\arrowDownSmall bfc8-1\arrowUp g-0\arrowDown
-    \ADChord 4 \arrowDown \restDownUp
+    \ADAChord 4 \arrowDown \restDownUp
   }
   \section \break \sectionLabel "Δ" \set Score.currentBarNumber = #1
   \repeat volta 2 {
@@ -45,7 +45,7 @@ melody = \relative c'' {
     bfc8.-1\arrowDown c16-1\arrowZeybekB d8.-3\arrowUp c16-1\arrowZeybekB d8-1\arrowUp e8-3\arrowUp
     d8.-1\arrowDown c16-1\arrowZeybekB bfc8-1\arrowUp a-0\arrowUp
     \RastChord 8. \arrowDown a16-0\arrowZeybekB bfc8-1\arrowUp c-3\arrowUp
-    \ADChord 4 \arrowDown \restDownUp
+    \ADAChord 4 \arrowDown \restDownUp
   }
   \section \break \sectionLabel "Α'" \set Score.currentBarNumber = #1
   \repeat unfold 2 {

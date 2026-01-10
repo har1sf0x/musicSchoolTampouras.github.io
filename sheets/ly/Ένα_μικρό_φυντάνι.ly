@@ -11,9 +11,9 @@ keyB = \setRastBKey
 
 melody = \relative c'' {
   \time 2/4
-  \ADChord 8 \arrowDown bfc16-1\arrowDown bfc-1\arrowUp c8-1\arrowDown d8-3\arrowUp
+  \ADAChord 8 \arrowDown bfc16-1\arrowDown bfc-1\arrowUp c8-1\arrowDown d8-3\arrowUp
   bfc8-1\arrowDown bfc16-1\arrowDown bfc-1\arrowUp bfc8-1\arrowDown g-0\arrowDown
-  \ADChord 8 \arrowDown a16-0\arrowDown a-0\arrowUp \RastChord 8 \arrowDown \FbCbChord 8 \arrowUp
+  \ADAChord 8 \arrowDown a16-0\arrowDown a-0\arrowUp \RastChord 8 \arrowDown \FbCbChord 8 \arrowUp
   \RastChord 8 \arrowDown \RastChord 16 \arrowDown \RastChord 16 \arrowUp
   \RastChord 8 \arrowDown \RastChord 8 \arrowUp \FBarline
 }

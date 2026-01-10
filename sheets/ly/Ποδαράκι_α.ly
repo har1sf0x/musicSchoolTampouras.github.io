@@ -15,8 +15,8 @@ melody = \relative c'' {
   \repeat unfold 2 {
     a4-0\arrowDown e'8-3\arrowDown e8-3\arrowUp
     a,4-0\arrowDown d8-1\arrowDown d8-1\arrowUp
-    g,4-0\arrowDown \AEChord 4 \arrowUp
-    \AEChord 4 \arrowDown r4
+    g,4-0\arrowDown \AEAChord 4 \arrowUp
+    \AEAChord 4 \arrowDown r4
   } \FBarline
   \section \break \sectionLabel "B" \set Score.currentBarNumber = #1
   g4-0\arrowDown a8-0\arrowUp bfc8-5\arrowDown
@@ -25,8 +25,8 @@ melody = \relative c'' {
   d4-3\arrowDown r4
   g,4-0\arrowDown a8-0\arrowUp bfc8-5\arrowDown
   c4-1\arrowDown \trill bfc8-5\arrowDown a8-0\arrowUp
-  g4-0\arrowDown \AEChord 4 \arrowUp
-  \AEChord 4 \arrowDown r4 \FBarline
+  g4-0\arrowDown \AEAChord 4 \arrowUp
+  \AEAChord 4 \arrowDown r4 \FBarline
   \section \break \sectionLabel "B'" \set Score.currentBarNumber = #1
   g4-0\arrowDown a8-0\arrowUp bfc8-5\arrowDown
   c4-1\arrowDown \trill bfc8-5\arrowDown a8-0\arrowUp
@@ -43,8 +43,8 @@ melody = \relative c'' {
   d4-3\arrowDown r4
   d4-1\arrowDown e8-3\arrowDown d8-1\arrowUp
   c4-1\arrowDown \trill bfc8-5\arrowDown a8-0\arrowUp
-  g4-0\arrowDown \AEChord 4 \arrowUp
-  \AEChord 4 \arrowDown r4 \FBarline
+  g4-0\arrowDown \AEAChord 4 \arrowUp
+  \AEAChord 4 \arrowDown r4 \FBarline
   \section \break \sectionLabel "Γ'" \set Score.currentBarNumber = #1
   d'4-1\arrowDown e8-3\arrowDown d8-1\arrowUp
   c8-1\arrowDown d8-3\arrowUp c8-1\arrowUp bfc8-5\arrowDown
@@ -52,8 +52,8 @@ melody = \relative c'' {
   d4-3\arrowDown r4
   d4-1\arrowDown e8-3\arrowDown d8-1\arrowUp
   c8-1\arrowDown d8-3\arrowUp c8-1\arrowUp bfc8-5\arrowDown
-  g4-0\arrowDown \AEChord 4 \arrowUp
-  \AEChord 4 \arrowDown r4 \FBarline
+  g4-0\arrowDown \AEAChord 4 \arrowUp
+  \AEAChord 4 \arrowDown r4 \FBarline
 }
 
 verseOne = \lyricmode {

@@ -15,20 +15,20 @@ pieceNotes = \new Voice \relative c'' {
   e4-1\arrowDown e8-1\arrowDown d-1\arrowUp g8.-1\arrowDown fb16-1\arrowZeybekB g8-2\arrowUp fb-1\arrowUp e4-1\arrowDown r4\arrowDown \noBreak}
   \section \break \sectionLabel "B" \set Score.currentBarNumber = #1
   bfc8.-1\arrowDown c16-1\arrowZeybekB d4-1\arrowUp e-3\arrowUp bfc8.-1\arrowDown c16-1\arrowZeybekB d8-1\arrowUp e-3\arrowUp
-  c8.-3\arrowDown bfc32-1\arrowUpSmall a-0\arrowDownSmall bfc8-1\arrowUp g-0\arrowDown \ADChord 4 \arrowDown r4\arrowDown
+  c8.-3\arrowDown bfc32-1\arrowUpSmall a-0\arrowDownSmall bfc8-1\arrowUp g-0\arrowDown \ADAChord 4 \arrowDown r4\arrowDown
   bfc8.-1\arrowDown c16-1\arrowZeybekB d4-1\arrowUp e-3\arrowUp bfc8-1\arrowDown c16-1\arrowUp c-1\arrowDown d-1\arrowUp d-1\arrowDown e8-3\arrowUp
-  c8.-3\arrowDown bfc32-1\arrowUpSmall a-0\arrowDownSmall bfc8-1\arrowUp g-0\arrowDown \ADChord 4 \arrowDown r4\arrowDown
+  c8.-3\arrowDown bfc32-1\arrowUpSmall a-0\arrowDownSmall bfc8-1\arrowUp g-0\arrowDown \ADAChord 4 \arrowDown r4\arrowDown
   \section \break \sectionLabel "Γ" \set Score.currentBarNumber = #1
   \repeat unfold 2 {
     g8-0\arrowDown bfc-1\arrowUp bfc8.-1\arrowDown bfc32-1\arrowUpSmall a-0\arrowDownSmall bfc8-1\arrowUp a-0\arrowUp
     bfc8.-1\arrowDown bfc32-1\arrowUpSmall a-0\arrowDownSmall bfc8-1\arrowUp d-3\arrowUp
-    c-1\arrowDown c-1\arrowUp bfc16-5\arrowTalipOzkan (a g8) \ADChord 4 \arrowDown r4\arrowDown \noBreak
+    c-1\arrowDown c-1\arrowUp bfc16-5\arrowTalipOzkan (a g8) \ADAChord 4 \arrowDown r4\arrowDown \noBreak
   }
   \section \break \sectionLabel "Δ" \set Score.currentBarNumber = #1
   \repeat unfold 2 {
     \RastChord 8. \arrowDown \BfcGDChord 16 \arrowZeybekB (\BfcGDChord 8 \arrowUp) \RastChord 8^"" (\BfcGDChord 8 \arrowUp) \RastChord 8^""
     \BfcGDChord 8. \arrowDown \RastChord 16 \arrowSelpe \BfcGDChord 8 \arrowDown d'8-3\arrowUp
-    c-1\arrowDown c-1\arrowUp bfc16-5\arrowTalipOzkan (a g8) \ADChord 4 \arrowDown r4\arrowDown \noBreak
+    c-1\arrowDown c-1\arrowUp bfc16-5\arrowTalipOzkan (a g8) \ADAChord 4 \arrowDown r4\arrowDown \noBreak
   } \FBarline
 }
 pieceNotesB = \new Voice \relative c'' {

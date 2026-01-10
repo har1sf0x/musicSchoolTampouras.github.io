@@ -19,7 +19,7 @@ melody = \new Voice \fixed c' {
   \section %\offset X-offset -1.8 \sectionLabel "1.2"
   \mark "1.2" \set Score.currentBarNumber = #1
   \repeat volta 2 {
-    \repeat unfold 2 {\ADChord 4 \arrowDown \ADChord 4 \arrowUp}
+    \repeat unfold 2 {\ADAChord 4 \arrowDown \ADAChord 4 \arrowUp}
     \repeat unfold 2 {bfc-1\arrowDown bfc-1\arrowUp}
   }
   \section %\offset X-offset -1.8 \sectionLabel "1.3"
@@ -49,7 +49,7 @@ melody = \new Voice \fixed c' {
   \section %\offset X-offset -1.8 \sectionLabel "1.2"
   \mark "2.2" \set Score.currentBarNumber = #1
   \repeat volta 2 {
-    \repeat unfold 2 {\ADChord 4 \arrowDown \ADChord 4 \arrowUp bfc-1\arrowDown bfc-1\arrowUp}
+    \repeat unfold 2 {\ADAChord 4 \arrowDown \ADAChord 4 \arrowUp bfc-1\arrowDown bfc-1\arrowUp}
   }
   \section %\offset X-offset -1.8 \sectionLabel "1.3"
   \mark "2.3" \set Score.currentBarNumber = #1
@@ -75,7 +75,7 @@ melody = \new Voice \fixed c' {
   \section %\offset X-offset -1.8 \sectionLabel "1.2"
   \mark "3.2" \set Score.currentBarNumber = #1
   \repeat volta 2 {
-    \repeat unfold 4 {\ADChord 4 \arrowDown bfc-1\arrowUp}
+    \repeat unfold 4 {\ADAChord 4 \arrowDown bfc-1\arrowUp}
   }
   \section %\offset X-offset -1.8 \sectionLabel "1.3"
   \mark "3.3" \set Score.currentBarNumber = #1
@@ -101,7 +101,7 @@ melody = \new Voice \fixed c' {
   \section %\offset X-offset -1.8 \sectionLabel "1.2"
   \mark "4.2" \set Score.currentBarNumber = #1
   \repeat volta 2 {
-    \repeat unfold 4 {bfc-1\arrowDown \ADChord 4 \arrowUp}
+    \repeat unfold 4 {bfc-1\arrowDown \ADAChord 4 \arrowUp}
   }
   \section %\offset X-offset -1.8 \sectionLabel "1.3"
   \mark "4.3" \set Score.currentBarNumber = #1
