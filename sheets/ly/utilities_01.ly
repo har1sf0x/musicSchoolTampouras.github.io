@@ -131,12 +131,12 @@ ADChord =
 
 AEAChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
-  \fixed c' {<<a$dur -2-0 $arrow \single \greyNote e \single \greyNote  a>>}  % Notes with $ prefix use the duration argument
+  \fixed c' {<<a$dur -2-5 $arrow \single \greyNote e \single \greyNote  a>>}  % Notes with $ prefix use the duration argument
 #})
 
 AEChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
-  \fixed c' {<<a$dur -2-0 $arrow \single \greyNote e>>}  % Notes with $ prefix use the duration argument
+  \fixed c' {<<a$dur -2-5 $arrow \single \greyNote e>>}  % Notes with $ prefix use the duration argument
 #})
 
 BfbDDChord =
