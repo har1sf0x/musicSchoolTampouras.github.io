@@ -30,15 +30,15 @@ melody = \relative c'' {
   \repeat volta 4 {
     d4-1\arrowDown d8-1\arrowDown d-1\arrowDown (a-0) d-1\arrowDown (a-0)
     d8-1\arrowDown c8-1\arrowDown d-1\arrowDown e4-1\arrowDown \trill e8-1\arrowDown d-1\arrowDown
-    c4-1\arrowDown \trill e8-3\arrowDown d4-1\arrowDown d8-1\arrowDown (a-0)
-    a8-0\arrowDown bfc-5\arrowDown c-1\arrowDown d4-1\arrowDown d8-1\arrowDown (a-0)
-    \normalsize c8.-1\arrowDown \trill c16-1\arrowZeybekB e8-3\arrowUp d4-1\arrowDown d8-1\arrowDown (a-0)
-    a8.-0\arrowDown bfc16-1\arrowZeybekB c8-1\arrowUp d4-1\arrowDown d8-1\arrowDown \tiny g,-0\arrowDown
+    c4-1\arrowDown \trill e8-3\arrowDown d8-1\arrowDown (a-0) d8-1\arrowDown (a-0)
+    a8-0\arrowDown bfc-5\arrowDown c-1\arrowDown d8-1\arrowDown (a-0) d8-1\arrowDown (a-0)
+    \normalsize c8.-1\arrowDown \trill c16-1\arrowZeybekB e8-3\arrowUp d4-1\arrowDown \hiddenGraceArrow \arrowSelpe d8-1\arrowDown (a-0)
+    a8.-0\arrowDown bfc16-1\arrowZeybekB c8-1\arrowUp d4-1\arrowDown \hiddenGraceArrow \arrowSelpe d8-1\arrowDown \tiny g,-0\arrowDown
     a4-0\arrowDown bfc8-1\arrowDown c16-3\arrowDown (bfc-1 c-1 d-3) c8-1\arrowDown bfc-5\arrowDown
     \acciaccatura c16-1 \glissando d8-1\arrowDown d-1\arrowDown c-1\arrowDown bfc4-1\arrowDown \trill bfc8-1\arrowDown a-0\arrowUp
     g16-1\arrowDown g-1\arrowDown fb8-1\arrowDown g-2\arrowDown a4-0\arrowDown a8-0\arrowDown a-0\arrowUp
-    g16-1\arrowDown g-1\arrowDown fb8-1\arrowDown g-2\arrowDown a4-0\arrowDown a8-0\arrowDown e'-1\arrowUp
-    e8-1\arrowDown e8-1\arrowDown d8-1\arrowDown d-1\arrowDown c-1\arrowDown c16-1\arrowDown c-1\arrowUp bfc8-5\arrowDown
+    g16-1\arrowDown g-1\arrowDown fb8-1\arrowDown g-2\arrowDown a4-0\arrowDown a8-0\arrowDown a-0\arrowUp
+    e'8-1\arrowDown e8-1\arrowDown d8-1\arrowDown d-1\arrowDown c-1\arrowDown c16-1\arrowDown c-1\arrowUp bfc8-5\arrowDown
     c8-1\arrowDown c-1\arrowUp bfc16-5\arrowDown (g) \ADAChord 4 \arrowDown \normalsize \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
     \RastChord 8. \arrowDown \FbCbChord 16 \arrowZeybekB \RastChord 8 \arrowUp
     \ADAChord 4 \arrowDown  \grace s16^\arrowSelpe \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
@@ -118,22 +118,22 @@ extraVerses = \markup {
 }
 
 %%%%%%% pdf %%%%%%%
-\paper {
-  #(set-paper-size "a4")
-  top-margin = 2\cm
-  left-margin = 1\cm
-  right-margin = 1\cm
-  indent = #0
-}
-
-%%%%%%% svg %%%%%%%
 % \paper {
-%   paper-width = 210\mm
-%   paper-height = 250\mm
+%   #(set-paper-size "a4")
+%   top-margin = 2\cm
 %   left-margin = 1\cm
 %   right-margin = 1\cm
 %   indent = #0
 % }
+
+%%%%%%% svg %%%%%%%
+\paper {
+  paper-width = 210\mm
+  paper-height = 250\mm
+  left-margin = 1\cm
+  right-margin = 1\cm
+  indent = #0
+}
 
 \header {
   title = \pieceName

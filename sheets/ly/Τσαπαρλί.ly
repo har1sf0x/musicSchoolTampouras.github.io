@@ -13,7 +13,7 @@ melody = \relative c'' {
   \setZeybekTime
   \section \sectionLabel "A"
   \repeat unfold 2 {
-    g'4-1\arrowDown \hiddenGraceArrow \arrowZeybekB fb-1\arrowUp g-2\arrowUp
+    g'4-1\arrowDown \hiddenGraceArrow \arrowZeybekB fb-1\arrowUp \vibrato g-2\arrowUp
     e4-1\arrowDown \trill e8-1\arrowDown d-1\arrowUp
     d8.-1\arrowDown g16-2\arrowZeybekB fb8-1\arrowUp g-2\arrowUp
     e4-1\arrowDown \trill \restDownUp
