@@ -32,13 +32,13 @@ melody = \relative c'' {
     d8-1\arrowDown c8-1\arrowDown d-1\arrowDown e4-1\arrowDown \trill e8-1\arrowDown d-1\arrowDown
     c4-1\arrowDown \trill e8-3\arrowDown d8-1\arrowDown (a-0) d8-1\arrowDown (a-0)
     a8-0\arrowDown bfc-5\arrowDown c-1\arrowDown d8-1\arrowDown (a-0) d8-1\arrowDown (a-0)
-    \normalsize c8.-1\arrowDown \trill c16-1\arrowZeybekB e8-3\arrowUp d4-1\arrowDown \hiddenGraceArrow \arrowSelpe d8-1\arrowDown (a-0)
+    \normalsize c8.-1\arrowDown \trill c16-1\arrowZeybekB e8-3\arrowUp d4-1\arrowDown \hiddenGraceArrow \arrowSelpe d8-1\arrowDown a-0\arrowUp
     a8.-0\arrowDown bfc16-1\arrowZeybekB c8-1\arrowUp d4-1\arrowDown \hiddenGraceArrow \arrowSelpe d8-1\arrowDown \tiny g,-0\arrowDown
-    a4-0\arrowDown bfc8-1\arrowDown c16-3\arrowDown (bfc-1 c-1 d-3) c8-1\arrowDown bfc-5\arrowDown
-    \acciaccatura c16-1 \glissando d8-1\arrowDown d-1\arrowDown c-1\arrowDown bfc4-1\arrowDown \trill bfc8-1\arrowDown a-0\arrowUp
+    a4-0-5\arrowDown bfc8-1\arrowDown c16-3\arrowDown (bfc-1 c-1 d-3) c8-1\arrowDown bfc-5\arrowDown
+    \acciaccatura c16-1\arrowDown d8-1 d-1\arrowDown c-1\arrowDown bfc4-1\arrowDown \vibrato bfc8-1\arrowDown a-0\arrowUp
     g16-1\arrowDown g-1\arrowDown fb8-1\arrowDown g-2\arrowDown a4-0\arrowDown a8-0\arrowDown a-0\arrowUp
     g16-1\arrowDown g-1\arrowDown fb8-1\arrowDown g-2\arrowDown a4-0\arrowDown a8-0\arrowDown a-0\arrowUp
-    e'8-1\arrowDown e8-1\arrowDown d8-1\arrowDown d-1\arrowDown c-1\arrowDown c16-1\arrowDown c-1\arrowUp bfc8-5\arrowDown
+    e'4-1\arrowDown d8-1\arrowDown d-1\arrowDown (c-1) c-1\arrowDown bfc8-5\arrowDown
     c8-1\arrowDown c-1\arrowUp bfc16-5\arrowDown (g) \ADAChord 4 \arrowDown \normalsize \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
     \RastChord 8. \arrowDown \FbCbChord 16 \arrowZeybekB \RastChord 8 \arrowUp
     \ADAChord 4 \arrowDown  \grace s16^\arrowSelpe \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
@@ -62,13 +62,18 @@ verseOne = \lyricmode {
   <<
     \new Lyrics {
       \set associatedVoice = "one"
-      \repeat unfold 25 {_ _}
-      \set stanza = "1."
+      % \repeat unfold 25 {_ _}
+      % \set stanza = "1."
+      \repeat unfold 24 {_ _} _
+      "1."
       Να 'χα μια πέ -- "τρ' α" -- μάν _ α -- μάν __ _ _ άι -- ντε ντε _ ντε __ _ βρε ντε
-      \repeat unfold 5 {_ _}
-      _ να σου 'κα -- να βρα _ -- χιό -- λια κα -- λέ _ _ άι _ _ -- ντε ντε _ _ ντε __ _ _ βρε ντε _ η
-      κό _ -- ρη θέ _ _ _ -- λει με _ τα με
-      \repeat unfold 13 {_ _} _ \set stanza = "2." Να
+      \repeat unfold 6 {_ _}
+      να σου 'κα -- να _ βρα -- χιό -- λια κα -- λέ _ _ άι _ _ -- ντε ντε _ _ ντε __ _ _ βρε ντε _ η
+      κό -- ρη θέ _ -- λει με _ τα με
+      % \repeat unfold 13 {_ _} _
+      % \set stanza = "2." Να
+      \repeat unfold 13 {_ _}
+      "2." Να
     }
     % \new Lyrics {
     %   \set associatedVoice = "one"
@@ -118,22 +123,22 @@ extraVerses = \markup {
 }
 
 %%%%%%% pdf %%%%%%%
-% \paper {
-%   #(set-paper-size "a4")
-%   top-margin = 2\cm
-%   left-margin = 1\cm
-%   right-margin = 1\cm
-%   indent = #0
-% }
-
-%%%%%%% svg %%%%%%%
 \paper {
-  paper-width = 210\mm
-  paper-height = 250\mm
+  #(set-paper-size "a4")
+  top-margin = 2\cm
   left-margin = 1\cm
   right-margin = 1\cm
   indent = #0
 }
+
+%%%%%%% svg %%%%%%%
+% \paper {
+%   paper-width = 210\mm
+%   paper-height = 250\mm
+%   left-margin = 1\cm
+%   right-margin = 1\cm
+%   indent = #0
+% }
 
 \header {
   title = \pieceName
@@ -141,6 +146,7 @@ extraVerses = \markup {
   copyright = "Χ. Κόχυλας"
 }
 \layout {
+  \override LyricText.font-size=#-2
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
 }

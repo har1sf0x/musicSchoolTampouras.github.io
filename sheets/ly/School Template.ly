@@ -168,6 +168,7 @@ extraVerses = \markup {
   copyright = "Χ. Κόχυλας"
 }
 \layout {
+  \override LyricText.font-size=#-2
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
 }
