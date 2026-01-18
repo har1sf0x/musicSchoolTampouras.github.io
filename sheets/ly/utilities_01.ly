@@ -74,6 +74,7 @@ ERBarline = #(define-music-function () () #{\bar ":|."#})
 DRBarline = #(define-music-function () () #{\bar ":|.|:"#})
 
 greyNote = \override Voice.NoteHead.color = #(rgb-color 0.5 0.5 0.5) %\tweak color #(rgb-color 0.5 0.5 0.5)
+blackNote = \override Voice.NoteHead.color = #(rgb-color 0 0 0)
 
 setHuseyniKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (3 . , BAKIYE))
 setHuseyniBKey = \set Staff.keyAlterations = #`((2 . ,(- KOMA)) (6 . , (- KOMA)))
@@ -111,57 +112,61 @@ setFourTime = {
 
 RastChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
-  \fixed c' {<<g$dur -4-3 $arrow \single \greyNote d' \single \greyNote  g>>}  % Notes with $ prefix use the duration argument
+  \fixed c' {<g $arrow \single \greyNote d' \single \greyNote  g> $dur -4-3}  % Notes with $ prefix use the duration argument
 #})
 
 GDChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
-  \fixed c' {<<g$dur -0 $arrow \single \greyNote d>>}  % Notes with $ prefix use the duration argument
+  \fixed c' {<g $arrow \single \greyNote d> $dur -0}  % Notes with $ prefix use the duration argument
 #})
 
 ADAChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
-  \fixed c' {<<a$dur -5 $arrow \single \greyNote d \single \greyNote  a>>}  % Notes with $ prefix use the duration argument
+  \fixed c' {<a $arrow \single \greyNote d \single \greyNote  a> $dur -5}  % Notes with $ prefix use the duration argument
 #})
 
 ADChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
-  \fixed c' {<<a$dur -5 $arrow \single \greyNote d>>}  % Notes with $ prefix use the duration argument
+  \fixed c' {<a $arrow \single \greyNote d> $dur -5}  % Notes with $ prefix use the duration argument
 #})
 
 AEAChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
-  \fixed c' {<<a$dur -2-5 $arrow \single \greyNote e \single \greyNote  a>>}  % Notes with $ prefix use the duration argument
+  \fixed c' {<a $arrow \single \greyNote e \single \greyNote  a> $dur -2-5}  % Notes with $ prefix use the duration argument
 #})
 
 AEChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
-  \fixed c' {<<a$dur -2-5 $arrow \single \greyNote e>>}  % Notes with $ prefix use the duration argument
+  \fixed c' {<a $arrow \single \greyNote e> $dur -2-5}  % Notes with $ prefix use the duration argument
 #})
 
 BfbDDChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
-  \fixed c' {<<bfb$dur -4-5 $arrow \single \greyNote d \single \greyNote d'>>}  % Notes with $ prefix use the duration argument
+  \fixed c' {<bfb $arrow \single \greyNote d \single \greyNote d'> $dur -4-5}  % Notes with $ prefix use the duration argument
 #})
 
 BfcGDChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
-  \fixed c' {<<bfc$dur -4-3-5 $arrow \single \greyNote g \single \greyNote  d'>>}  % Notes with $ prefix use the duration argument
+  \fixed c' {<bfc $arrow \single \greyNote g \single \greyNote  d'>> $dur -4-3-5}  % Notes with $ prefix use the duration argument
 #})
 
 FbCbChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
-  \fixed c' {<<fb$dur -1 $arrow \single \greyNote cb'>>}  % Notes with $ prefix use the duration argument
+  \fixed c' {<fb $arrow \single \greyNote cb'> $dur -1}  % Notes with $ prefix use the duration argument
 #})
 
 ECbAChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
-  \fixed c'' {<<e$dur -2-3-5 $arrow \single \greyNote cb \single \greyNote a,>>}  % Notes with $ prefix use the duration argument
+  \fixed c'' {<e $arrow \single \greyNote cb \single \greyNote a,> $dur -2-3-5}  % Notes with $ prefix use the duration argument
 #})
 
 hiddenGraceArrow =
 #(define-music-function (arrow) (ly:music?) #{
   \grace s8 $arrow % Notes with $ prefix use the duration argument
+#})
+
+downBeatChord = #(define-music-function (p1 p2 p3 fin dur) (ly:pitch? ly:pitch? ly:pitch? ly:event? ly:duration?) #{
+  \fixed c' {< $p1 \arrowDown \single \greyNote $p2 \single \greyNote $p3 > $dur $fin }
 #})
 
 % hiddenGraceArrow =

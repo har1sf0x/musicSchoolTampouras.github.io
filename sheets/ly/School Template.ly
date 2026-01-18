@@ -10,6 +10,8 @@ keyA = \setRastKey
 keyB = \setRastBKey
 
 melody = \relative c'' {
+  % \set Score.dalSegnoTextFormatter = #format-dal-segno-text-brief
+  % \set Score.alternativeNumberingStyle = #'numbers-with-letters
   % \time 2/4
   % \sectionLabel "A"
   % bfc8-1\arrowDown c16-1\arrowDown c-1\arrowUp d8-1\arrowDown e-3\arrowUp
@@ -24,6 +26,11 @@ melody = \relative c'' {
 }
 
 verseOne = \lyricmode {
+  % \new Lyrics {
+  %   \set associatedVoice = "one"
+  %   \repeat unfold 5 {\skip 1} "1α."
+  %   Χρι -- στού -- γεν _ -- να, Πρω -- τού -- γεν _ -- να πρώ -- τη -- γιορ _ -- τή _ του χρό _ _ -- νου, για
+  % }
   % \set fontSize = #-2 
   % <<
   %   \new Lyrics {
@@ -40,6 +47,7 @@ verseOne = \lyricmode {
 }
 
 extraVerses = \markup {
+  % \abs-fontsize #10
   % \fill-line {
   %   \column {
   %     \line { \bold "1."

@@ -11,8 +11,8 @@ keyB = \setRastBKey
 
 melody = \relative c'' {
   \set Score.dalSegnoTextFormatter = #format-dal-segno-text-brief
-  \setFourTime
   \set Score.alternativeNumberingStyle = #'numbers-with-letters
+  \setFourTime
   \partial 4 c8-3\arrowDown bfc-1\arrowUp
   \sectionLabel "A"
   \repeat volta 2 {
