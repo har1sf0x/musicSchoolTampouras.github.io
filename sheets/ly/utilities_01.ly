@@ -95,6 +95,11 @@ setKalamTime = {
   \set Timing.beatStructure = 3,2,2
 }
 
+setMantilTime = {
+  \time 7/8
+  \set Timing.beatStructure = 2,2,3
+}
+
 setZonaradikosTime = {
   \time 6/8
   \set Timing.beatStructure = 3,3
@@ -167,6 +172,10 @@ hiddenGraceArrow =
 
 downBeatChord = #(define-music-function (p1 p2 p3 fin dur) (ly:pitch? ly:pitch? ly:pitch? ly:event? ly:duration?) #{
   \fixed c' {< $p1 \arrowDown \single \greyNote $p2 \single \greyNote $p3 > $dur $fin }
+#})
+
+customChord = #(define-music-function (p1 p2 p3 fin dur arrow) (ly:pitch? ly:pitch? ly:pitch? ly:event? ly:duration? ly:music?) #{
+  \fixed c' {< $p1 $arrow \single \greyNote $p2 \single \greyNote $p3 > $dur $fin }
 #})
 
 % hiddenGraceArrow =

@@ -28,7 +28,9 @@ melody = \relative c'' {
 verseOne = \lyricmode {
   % \new Lyrics {
   %   \set associatedVoice = "one"
-  %   \repeat unfold 5 {\skip 1} "1α."
+  %   \repeat unfold 5 {\skip 1} %"1α."
+  %   \override StanzaNumber.font-series = #'medium
+  %   \set stanza = "1α."
   %   Χρι -- στού -- γεν _ -- να, Πρω -- τού -- γεν _ -- να πρώ -- τη -- γιορ _ -- τή _ του χρό _ _ -- νου, για
   % }
   % \set fontSize = #-2 
