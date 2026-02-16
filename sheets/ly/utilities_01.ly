@@ -84,6 +84,8 @@ setRastKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (3 . , BAKIYE))
 setRastBKey = \set Staff.keyAlterations = #`((2 . ,(- KOMA)) (6 . , (- KOMA)))
 setHicazKey = \set Staff.keyAlterations = #`((6 . ,(- BAKIYE)) (3 . , BAKIYE) (0 . , BAKIYE))
 setHicazBKey = \set Staff.keyAlterations = #`((2 . ,(- BAKIYE)) (6 . , (- KOMA)))
+setSegahKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (2 . ,(- KOMA)) (3 . , BAKIYE))
+setSegahBKey = \set Staff.keyAlterations = #`((2 . ,(- KOMA)) (5 . , (- KOMA)) (6 . , (- KOMA)))
 
 setZeybekTime = {
   \time 9/4
@@ -167,7 +169,7 @@ ECbAChord =
 
 hiddenGraceArrow =
 #(define-music-function (arrow) (ly:music?) #{
-  \grace s8 $arrow % Notes with $ prefix use the duration argument
+  \grace { \once \override Script.font-size = #0 s8 $arrow }
 #})
 
 downBeatChord = #(define-music-function (p1 p2 p3 fin dur) (ly:pitch? ly:pitch? ly:pitch? ly:event? ly:duration?) #{

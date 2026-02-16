@@ -14,18 +14,6 @@ tspan { white-space: pre; }
 <tspan>Μελί, Μικρά Ασία</tspan>
 </text>
 </g>
-<g transform="translate(113.6210, 21.2136)">
-<rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
-</g>
-<g transform="translate(39.6301, 21.2136)">
-<rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
-</g>
-<g transform="translate(64.7816, 21.2136)">
-<rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
-</g>
-<g transform="translate(89.2485, 21.2136)">
-<rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
-</g>
 <g transform="translate(5.6906, 23.2136)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
 </g>
@@ -41,13 +29,20 @@ tspan { white-space: pre; }
 <g transform="translate(5.6906, 19.2136)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
 </g>
+<g transform="translate(39.6301, 21.2136)">
+<rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(64.7816, 21.2136)">
+<rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(113.6210, 21.2136)">
+<rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(89.2485, 21.2136)">
+<rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:19:50:51">
 <g transform="translate(75.9644, 20.2136)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
-</g>
-</a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:19:83:84">
-<g transform="translate(82.4469, 20.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
@@ -81,6 +76,11 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:19:83:84">
+<g transform="translate(82.4469, 20.7136)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
 <g transform="translate(76.0294, 21.2136)">
 <rect x="-0.0650" y="-0.8139" width="0.1300" height="3.6268" ry="0.0400" fill="currentColor"/>
 </g>
@@ -104,16 +104,9 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <g transform="translate(85.9775, 21.2136)">
 <rect x="-0.0650" y="0.1861" width="0.1300" height="2.8105" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:86:87">
-<g transform="scale(1.0000, -1.0000)">
-<g transform="translate(61.7182, -14.2698)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
+<g transform="translate(62.3053, 21.2136)">
+<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(61.7182, -13.8198)">
-<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
-</g>
-</g>
-</a>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:20:6:7">
 <g transform="translate(90.9508, 14.7141)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
@@ -194,9 +187,16 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(62.3053, 21.2136)">
-<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:93:94">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(61.7182, -14.2698)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
 </g>
+<g transform="translate(61.7182, -13.8198)">
+<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
+</g>
+</g>
+</a>
 <g transform="translate(107.6141, 18.4036)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="3.5555 -0.2000 3.5555 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
@@ -249,10 +249,7 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(111.1447, 21.2136)">
-<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
-</g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:83:84">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:90:91">
 <g transform="scale(1.0000, -1.0000)">
 <g transform="translate(110.5576, -14.2698)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
@@ -262,35 +259,35 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 </g>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:71:72">
+<g transform="translate(111.1447, 21.2136)">
+<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:78:79">
 <g transform="translate(110.1649, 17.6636)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
 s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 -6 112 -52 112c-41 0 -84 -1 -107 -33c-6 -8 -14 -11 -22 -11c-14 0 -27 10 -27 27v209c0 17 11 30 26 30h4z" fill="currentColor"/>
 </g>
 </a>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:71:72">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:78:79">
 <g transform="translate(111.1447, 21.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 </g>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:71:72">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:78:79">
 <g transform="translate(109.9055, 23.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:71:72">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:78:79">
 <g transform="translate(109.9055, 21.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(107.6791, 21.2136)">
-<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
-</g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:60:61">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:67:68">
 <g transform="translate(107.0920, 15.4104)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
 </g>
@@ -298,45 +295,48 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:48:49">
+<g transform="translate(107.6791, 21.2136)">
+<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:55:56">
 <g transform="translate(106.6994, 17.6636)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
 s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 -6 112 -52 112c-41 0 -84 -1 -107 -33c-6 -8 -14 -11 -22 -11c-14 0 -27 10 -27 27v209c0 17 11 30 26 30h4z" fill="currentColor"/>
 </g>
 </a>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:48:49">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:55:56">
 <g transform="translate(107.6791, 21.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 </g>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:48:49">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:55:56">
 <g transform="translate(106.4399, 23.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:48:49">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:55:56">
 <g transform="translate(106.4399, 21.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:35:36">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:43:44">
 <g transform="scale(1.0000, -1.0000)">
 <g transform="translate(105.2077, -16.8946)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
 </g>
 <g transform="translate(105.2077, -16.4446)">
-<path transform="scale(0.0025, -0.0025)" d="M-97 250c7 0 14 -2 19 -7c33 -31 60 -69 78 -111c18 42 45 80 78 111c5 5 12 7 19 7c15 0 28 -13 28 -28c0 -7 -3 -15 -9 -20c-56 -52 -88 -125 -88 -202c0 -18 -14 -28 -28 -28s-28 10 -28 28c0 77 -32 150 -88 202c-6 5 -9 13 -9 20c0 15 13 28 28 28z" fill="currentColor"/>
+<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </g>
 <g transform="translate(105.2077, 16.9446)">
-<path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
+<path transform="scale(0.0040, -0.0040)" d="M-105 -250c-11 0 -20 9 -20 20c0 6 2 11 7 15c62 54 98 133 98 215c0 13 10 20 20 20s20 -7 20 -20c0 -82 36 -161 98 -215c5 -4 7 -9 7 -15c0 -11 -9 -20 -20 -20c-5 0 -9 2 -13 5c-41 36 -73 82 -92 133c-19 -51 -51 -97 -92 -133c-4 -3 -8 -5 -13 -5z" fill="currentColor"/>
 </g>
 <g transform="translate(105.2077, 17.4446)">
-<path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
+<path transform="scale(0.0040, -0.0040)" d="M-105 -250c-11 0 -20 9 -20 20c0 6 2 11 7 15c62 54 98 133 98 215c0 13 10 20 20 20s20 -7 20 -20c0 -82 36 -161 98 -215c5 -4 7 -9 7 -15c0 -11 -9 -20 -20 -20c-5 0 -9 2 -13 5c-41 36 -73 82 -92 133c-19 -51 -51 -97 -92 -133c-4 -3 -8 -5 -13 -5z" fill="currentColor"/>
 </g>
 </a>
 <g transform="translate(91.4729, 17.7136)">
@@ -418,9 +418,6 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <g transform="translate(100.6039, 21.2136)">
 <rect x="-0.0650" y="-2.8149" width="0.1300" height="3.6288" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(102.9887, 21.2136)">
-<rect x="-0.0650" y="-3.0000" width="0.1300" height="5.3139" ry="0.0400" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:14:15">
 <g transform="translate(102.4016, 15.9104)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
@@ -429,6 +426,9 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </a>
+<g transform="translate(102.9887, 21.2136)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="5.3139" ry="0.0400" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:21:2:3">
 <g transform="translate(102.0090, 18.1636)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
@@ -481,9 +481,6 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 -6 112 -52 112c-41 0 -84 -1 -107 -33c-6 -8 -14 -11 -22 -11c-14 0 -27 10 -27 27v209c0 17 11 30 26 30h4z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(28.9978, 21.2136)">
-<rect x="-0.0650" y="-3.0000" width="0.1300" height="5.3139" ry="0.0400" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:16:17">
 <g transform="translate(28.4107, 15.9104)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
@@ -492,6 +489,9 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </a>
+<g transform="translate(28.9978, 21.2136)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="5.3139" ry="0.0400" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:4:5">
 <g transform="translate(28.0180, 18.1636)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
@@ -517,25 +517,22 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:38:39">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:46:47">
 <g transform="scale(1.0000, -1.0000)">
 <g transform="translate(31.2167, -16.8946)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
 </g>
 <g transform="translate(31.2167, -16.4446)">
-<path transform="scale(0.0025, -0.0025)" d="M-97 250c7 0 14 -2 19 -7c33 -31 60 -69 78 -111c18 42 45 80 78 111c5 5 12 7 19 7c15 0 28 -13 28 -28c0 -7 -3 -15 -9 -20c-56 -52 -88 -125 -88 -202c0 -18 -14 -28 -28 -28s-28 10 -28 28c0 77 -32 150 -88 202c-6 5 -9 13 -9 20c0 15 13 28 28 28z" fill="currentColor"/>
+<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </g>
 <g transform="translate(31.2167, 16.9446)">
-<path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
+<path transform="scale(0.0040, -0.0040)" d="M-105 -250c-11 0 -20 9 -20 20c0 6 2 11 7 15c62 54 98 133 98 215c0 13 10 20 20 20s20 -7 20 -20c0 -82 36 -161 98 -215c5 -4 7 -9 7 -15c0 -11 -9 -20 -20 -20c-5 0 -9 2 -13 5c-41 36 -73 82 -92 133c-19 -51 -51 -97 -92 -133c-4 -3 -8 -5 -13 -5z" fill="currentColor"/>
 </g>
 <g transform="translate(31.2167, 17.4446)">
-<path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
+<path transform="scale(0.0040, -0.0040)" d="M-105 -250c-11 0 -20 9 -20 20c0 6 2 11 7 15c62 54 98 133 98 215c0 13 10 20 20 20s20 -7 20 -20c0 -82 36 -161 98 -215c5 -4 7 -9 7 -15c0 -11 -9 -20 -20 -20c-5 0 -9 2 -13 5c-41 36 -73 82 -92 133c-19 -51 -51 -97 -92 -133c-4 -3 -8 -5 -13 -5z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(25.5322, 21.2136)">
-<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:16:70:71">
 <g transform="scale(1.0000, -1.0000)">
 <g transform="translate(24.9451, -11.2673)">
@@ -546,6 +543,9 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 </g>
 </g>
 </a>
+<g transform="translate(25.5322, 21.2136)">
+<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:16:57:58">
 <g transform="translate(24.4842, 16.2836)">
 <path transform="scale(0.0022, -0.0022)" d="M204 223c21 13 46 23 59 45c8 14 10 46 31 46c11 0 24 -8 24 -25v-110h70c18 0 27 -14 27 -27s-9 -27 -27 -27h-70c2 -45 36 -82 80 -82c14 0 22 -10 22 -21s-8 -22 -22 -22c-49 0 -96 14 -145 14s-97 -14 -146 -14c-14 0 -21 11 -21 22s7 21 21 21c44 0 79 37 81 82
@@ -572,13 +572,7 @@ c-84 0 -160 54 -160 133c0 32 26 58 58 58s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -
 </g>
 </a>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:74:75">
-<g transform="translate(61.3255, 17.6636)">
-<path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
-s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 -6 112 -52 112c-41 0 -84 -1 -107 -33c-6 -8 -14 -11 -22 -11c-14 0 -27 10 -27 27v209c0 17 11 30 26 30h4z" fill="currentColor"/>
-</g>
-</a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:86:87">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:93:94">
 <g transform="scale(1.0000, -1.0000)">
 <g transform="translate(36.5666, -14.2698)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
@@ -588,27 +582,36 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 </g>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:74:75">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:81:82">
+<g transform="translate(61.3255, 17.6636)">
+<path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
+s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 -6 112 -52 112c-41 0 -84 -1 -107 -33c-6 -8 -14 -11 -22 -11c-14 0 -27 10 -27 27v209c0 17 11 30 26 30h4z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(37.1537, 21.2136)">
+<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:81:82">
 <g transform="translate(36.1740, 17.6636)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
 s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 -6 112 -52 112c-41 0 -84 -1 -107 -33c-6 -8 -14 -11 -22 -11c-14 0 -27 10 -27 27v209c0 17 11 30 26 30h4z" fill="currentColor"/>
 </g>
 </a>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:74:75">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:81:82">
 <g transform="translate(37.1537, 21.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 </g>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:74:75">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:81:82">
 <g transform="translate(35.9145, 23.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:74:75">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:81:82">
 <g transform="translate(35.9145, 21.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -618,10 +621,7 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(33.6882, 21.2136)">
-<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
-</g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:63:64">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:70:71">
 <g transform="translate(33.1011, 15.4104)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
 </g>
@@ -629,31 +629,47 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:51:52">
+<g transform="translate(33.6882, 21.2136)">
+<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:58:59">
 <g transform="translate(32.7084, 17.6636)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
 s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 -6 112 -52 112c-41 0 -84 -1 -107 -33c-6 -8 -14 -11 -22 -11c-14 0 -27 10 -27 27v209c0 17 11 30 26 30h4z" fill="currentColor"/>
 </g>
 </a>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:51:52">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:58:59">
 <g transform="translate(33.6882, 21.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 </g>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:51:52">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:58:59">
 <g transform="translate(32.4490, 23.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:51:52">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:58:59">
 <g transform="translate(32.4490, 21.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
+<g transform="translate(6.4906, 22.2136)">
+<path transform="scale(0.0040, -0.0040)" d="M266 -635h-6c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65h4zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247
+c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM335 -262
+c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 125 -45 190c-6 52 -7 104 -7 156c0 115 55 224 149 292c6 5 14 5 20 0c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207c4 0 9 1 13 1c155 0 256 -128 256 -261
+c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -119 -88 -225 -202 -228l1 43c93 2 153 92 159 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8zM428 916c0 55 -4 79 -20 129c-99 -48 -162 -149 -162 -259
+c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
+</g>
+<g transform="translate(18.4441, 22.7136)">
+<path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
+</g>
+<g transform="translate(18.4441, 19.7136)">
+<path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:16:18:19">
 <g transform="translate(16.1808, 12.4079)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
@@ -662,19 +678,13 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(18.4441, 22.7136)">
-<path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
-</g>
-<g transform="translate(18.4441, 19.7136)">
-<path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
-</g>
 <g transform="translate(16.7679, 21.2136)">
 <rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
 </g>
 <g transform="translate(18.4441, 21.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/utilities_01.ly:93:2:3">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/utilities_01.ly:96:2:3">
 <g transform="translate(12.1289, 21.2136)">
 <path transform="scale(0.0040, -0.0040)" d="M71 412c-34 0 -42 -42 -42 -72v-75c0 -10 -7 -15 -14 -15s-15 5 -15 15v220c0 10 8 15 15 15s14 -5 14 -15v-14c0 -9 12 -19 15 -15c20 29 52 44 85 44c28 0 56 -11 77 -32c13 -13 31 -19 48 -19c29 0 59 17 79 45c3 5 7 6 11 6c8 0 16 -6 16 -14c0 -3 -1 -6 -3 -9
 c-83 -118 -161 -248 -161 -386c0 -24 3 -50 8 -75c2 -10 -6 -19 -16 -16c-23 7 -47 13 -71 13s-48 -6 -71 -13c-11 -3 -21 6 -17 16c55 130 136 246 219 360c-21 -11 -41 -17 -61 -17c-23 0 -44 8 -63 27c-16 16 -36 26 -53 26z" fill="currentColor"/>
@@ -686,13 +696,6 @@ c0 -46 -25 -86 -56 -121zM103 244c-31 -30 -59 -61 -59 -104c0 -69 66 -117 139 -117
 </a>
 <g transform="translate(10.1106, 21.2136)">
 <path transform="scale(0.0040, -0.0040)" d="M143 41c-1 33 -22 63 -53 63c-29 0 -43 -34 -43 -67c0 -59 48 -101 93 -139c3 22 4 44 4 66v11zM185 -138c0 -14 -10 -25 -23 -25c-21 0 -30 25 -45 38c-61 52 -147 89 -147 169c0 54 37 102 89 102c33 0 66 -13 91 -34l-7 345c8 5 18 8 27 8s19 -3 27 -8z" fill="currentColor"/>
-</g>
-<g transform="translate(6.4906, 22.2136)">
-<path transform="scale(0.0040, -0.0040)" d="M266 -635h-6c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65h4zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247
-c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM335 -262
-c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 125 -45 190c-6 52 -7 104 -7 156c0 115 55 224 149 292c6 5 14 5 20 0c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207c4 0 9 1 13 1c155 0 256 -128 256 -261
-c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -119 -88 -225 -202 -228l1 43c93 2 153 92 159 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8zM428 916c0 55 -4 79 -20 129c-99 -48 -162 -149 -162 -259
-c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:16:4:5">
 <g transform="translate(15.7199, 16.2836)">
@@ -740,9 +743,6 @@ v-158c0 -10 -8 -19 -18 -19s-19 9 -19 19v145l-83 -31v-158c0 -10 -9 -19 -19 -19s-1
 <path transform="scale(0.0040, -0.0040)" d="M0 119c0 8 5 15 13 18l46 17v158c0 10 8 19 18 19s19 -9 19 -19v-145l83 31v158c0 10 9 19 19 19s18 -9 18 -19v-145l32 12c2 1 5 1 7 1c11 0 20 -9 20 -20v-60c0 -8 -5 -16 -13 -19l-46 -16v-160l32 11c2 1 5 1 7 1c11 0 20 -9 20 -20v-60c0 -8 -5 -15 -13 -18l-46 -17
 v-158c0 -10 -8 -19 -18 -19s-19 9 -19 19v145l-83 -31v-158c0 -10 -9 -19 -19 -19s-18 9 -18 19v145l-32 -12c-2 -1 -5 -1 -7 -1c-11 0 -20 9 -20 20v60c0 8 5 16 13 19l46 16v160l-32 -11c-2 -1 -5 -1 -7 -1c-11 0 -20 9 -20 20v60zM179 95l-83 -30v-160l83 30v160z" fill="currentColor"/>
 </g>
-<g transform="translate(23.1474, 21.2136)">
-<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.5039" ry="0.0400" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:16:43:44">
 <g transform="translate(22.5602, 14.4786)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-0.8000"/>
@@ -754,15 +754,15 @@ v-158c0 -10 -8 -19 -18 -19s-19 9 -19 19v145l-83 -31v-158c0 -10 -9 -19 -19 -19s-1
 <path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
 </g>
 </a>
+<g transform="translate(23.1474, 21.2136)">
+<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.5039" ry="0.0400" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:16:29:30">
 <g transform="translate(22.1505, 16.2836)">
 <path transform="scale(0.0022, -0.0022)" d="M194 486c15 0 25 15 41 15c13 0 24 -13 24 -31v-341c0 -47 35 -86 81 -86c14 0 21 -10 21 -21s-7 -22 -21 -22c-49 0 -97 14 -146 14s-96 -14 -145 -14c-14 0 -22 11 -22 22s8 21 22 21c46 0 80 39 80 86v137c0 23 -16 35 -30 35c-7 0 -13 -4 -17 -11l-34 -65
 c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20 0 35 -20 54 -20z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(37.1537, 21.2136)">
-<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:16:29:30">
 <g transform="translate(21.9081, 22.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
@@ -786,9 +786,6 @@ h-134c-43 0 -57 25 -57 42c0 5 1 10 3 12c73 81 123 182 123 291c0 17 11 31 25 31c2
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(50.6838, 21.2136)">
-<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:16:70:71">
 <g transform="scale(1.0000, -1.0000)">
 <g transform="translate(50.0967, -11.2673)">
@@ -799,6 +796,9 @@ h-134c-43 0 -57 25 -57 42c0 5 1 10 3 12c73 81 123 182 123 291c0 17 11 31 25 31c2
 </g>
 </g>
 </a>
+<g transform="translate(50.6838, 21.2136)">
+<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
+</g>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:4:5">
 <g transform="translate(54.1493, 21.7136)">
@@ -839,36 +839,44 @@ v-158c0 -10 -8 -19 -18 -19s-19 9 -19 19v145l-83 -31v-158c0 -10 -9 -19 -19 -19s-1
 <path transform="scale(0.0040, -0.0040)" d="M0 119c0 8 5 15 13 18l46 17v158c0 10 8 19 18 19s19 -9 19 -19v-145l83 31v158c0 10 9 19 19 19s18 -9 18 -19v-145l32 12c2 1 5 1 7 1c11 0 20 -9 20 -20v-60c0 -8 -5 -16 -13 -19l-46 -16v-160l32 11c2 1 5 1 7 1c11 0 20 -9 20 -20v-60c0 -8 -5 -15 -13 -18l-46 -17
 v-158c0 -10 -8 -19 -18 -19s-19 9 -19 19v145l-83 -31v-158c0 -10 -9 -19 -19 -19s-18 9 -18 19v145l-32 -12c-2 -1 -5 -1 -7 -1c-11 0 -20 9 -20 20v60c0 8 5 16 13 19l46 16v160l-32 -11c-2 -1 -5 -1 -7 -1c-11 0 -20 9 -20 20v60zM179 95l-83 -30v-160l83 30v160z" fill="currentColor"/>
 </g>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:16:43:44">
+<g transform="translate(47.7118, 14.4786)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-0.8000"/>
+</g>
+<g transform="translate(47.7118, 13.8786)">
+<path transform="scale(0.0028, -0.0028)" d="M-100 250c6 0 13 -3 18 -7c36 -32 63 -72 82 -116c19 44 46 84 82 116c5 4 12 7 18 7c13 0 25 -11 25 -25c0 -7 -2 -14 -8 -19c-58 -53 -92 -128 -92 -206c0 -17 -12 -25 -25 -25s-25 8 -25 25c0 78 -34 153 -92 206c-6 5 -8 12 -8 19c0 14 12 25 25 25z" fill="currentColor"/>
+</g>
+<g transform="translate(47.7118, 13.4786)">
+<path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
+</g>
+</a>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:51:52">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:58:59">
 <g transform="translate(58.8397, 21.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 </g>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:74:75">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:81:82">
 <g transform="translate(62.3053, 21.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 </g>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:74:75">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:81:82">
 <g transform="translate(61.0661, 23.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:74:75">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:81:82">
 <g transform="translate(61.0661, 21.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(58.8397, 21.2136)">
-<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
-</g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:63:64">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:70:71">
 <g transform="translate(58.2526, 15.4104)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
 </g>
@@ -876,43 +884,43 @@ v-158c0 -10 -8 -19 -18 -19s-19 9 -19 19v145l-83 -31v-158c0 -10 -9 -19 -19 -19s-1
 <path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:51:52">
+<g transform="translate(58.8397, 21.2136)">
+<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:58:59">
 <g transform="translate(57.8600, 17.6636)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
 s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 -6 112 -52 112c-41 0 -84 -1 -107 -33c-6 -8 -14 -11 -22 -11c-14 0 -27 10 -27 27v209c0 17 11 30 26 30h4z" fill="currentColor"/>
 </g>
 </a>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:51:52">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:58:59">
 <g transform="translate(57.6005, 23.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:51:52">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:58:59">
 <g transform="translate(57.6005, 21.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:38:39">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:46:47">
 <g transform="scale(1.0000, -1.0000)">
 <g transform="translate(56.3683, -16.8946)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
 </g>
 <g transform="translate(56.3683, -16.4446)">
-<path transform="scale(0.0025, -0.0025)" d="M-97 250c7 0 14 -2 19 -7c33 -31 60 -69 78 -111c18 42 45 80 78 111c5 5 12 7 19 7c15 0 28 -13 28 -28c0 -7 -3 -15 -9 -20c-56 -52 -88 -125 -88 -202c0 -18 -14 -28 -28 -28s-28 10 -28 28c0 77 -32 150 -88 202c-6 5 -9 13 -9 20c0 15 13 28 28 28z" fill="currentColor"/>
+<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </g>
 <g transform="translate(56.3683, 16.9446)">
-<path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
+<path transform="scale(0.0040, -0.0040)" d="M-105 -250c-11 0 -20 9 -20 20c0 6 2 11 7 15c62 54 98 133 98 215c0 13 10 20 20 20s20 -7 20 -20c0 -82 36 -161 98 -215c5 -4 7 -9 7 -15c0 -11 -9 -20 -20 -20c-5 0 -9 2 -13 5c-41 36 -73 82 -92 133c-19 -51 -51 -97 -92 -133c-4 -3 -8 -5 -13 -5z" fill="currentColor"/>
 </g>
 <g transform="translate(56.3683, 17.4446)">
-<path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
+<path transform="scale(0.0040, -0.0040)" d="M-105 -250c-11 0 -20 9 -20 20c0 6 2 11 7 15c62 54 98 133 98 215c0 13 10 20 20 20s20 -7 20 -20c0 -82 36 -161 98 -215c5 -4 7 -9 7 -15c0 -11 -9 -20 -20 -20c-5 0 -9 2 -13 5c-41 36 -73 82 -92 133c-19 -51 -51 -97 -92 -133c-4 -3 -8 -5 -13 -5z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(54.1493, 21.2136)">
-<rect x="-0.0650" y="-3.0000" width="0.1300" height="5.3139" ry="0.0400" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:16:17">
 <g transform="translate(53.5622, 15.9104)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
@@ -921,6 +929,9 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </a>
+<g transform="translate(54.1493, 21.2136)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="5.3139" ry="0.0400" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:17:4:5">
 <g transform="translate(53.1696, 18.1636)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
@@ -933,15 +944,6 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <g transform="translate(43.5957, 19.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
 </g>
-<g transform="translate(48.2989, 21.2136)">
-<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.5039" ry="0.0400" fill="currentColor"/>
-</g>
-<g transform="translate(41.9195, 21.2136)">
-<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
-</g>
-<g transform="translate(43.5957, 21.7136)">
-<path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:16:18:19">
 <g transform="translate(41.3324, 12.4079)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
@@ -950,6 +952,12 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </a>
+<g transform="translate(41.9195, 21.2136)">
+<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(43.5957, 21.7136)">
+<path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:16:4:5">
 <g transform="translate(40.8715, 16.2836)">
 <path transform="scale(0.0022, -0.0022)" d="M204 223c21 13 46 23 59 45c8 14 10 46 31 46c11 0 24 -8 24 -25v-110h70c18 0 27 -14 27 -27s-9 -27 -27 -27h-70c2 -45 36 -82 80 -82c14 0 22 -10 22 -21s-8 -22 -22 -22c-49 0 -96 14 -145 14s-97 -14 -146 -14c-14 0 -21 11 -21 22s7 21 21 21c44 0 79 37 81 82
@@ -994,17 +1002,9 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 </g>
 </a>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:16:43:44">
-<g transform="translate(47.7118, 14.4786)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-0.8000"/>
+<g transform="translate(48.2989, 21.2136)">
+<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.5039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(47.7118, 13.8786)">
-<path transform="scale(0.0028, -0.0028)" d="M-100 250c6 0 13 -3 18 -7c36 -32 63 -72 82 -116c19 44 46 84 82 116c5 4 12 7 18 7c13 0 25 -11 25 -25c0 -7 -2 -14 -8 -19c-58 -53 -92 -128 -92 -206c0 -17 -12 -25 -25 -25s-25 8 -25 25c0 78 -34 153 -92 206c-6 5 -8 12 -8 19c0 14 12 25 25 25z" fill="currentColor"/>
-</g>
-<g transform="translate(47.7118, 13.4786)">
-<path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
-</g>
-</a>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:16:29:30">
 <g transform="translate(47.0597, 22.7136)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
@@ -1259,6 +1259,14 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:67:68">
+<g transform="translate(107.3891, 28.9352)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
+</g>
+<g transform="translate(107.3891, 29.3852)">
+<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
+</g>
+</a>
 <g transform="translate(111.1979, 34.7384)">
 <rect x="-0.0650" y="-2.8100" width="0.1300" height="3.1740" ry="0.0400" fill="currentColor"/>
 </g>
@@ -1269,7 +1277,7 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:81:82">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:88:89">
 <g transform="translate(110.7467, 29.1769)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
 </g>
@@ -1277,12 +1285,12 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <path transform="scale(0.0028, -0.0028)" d="M-100 250c6 0 13 -3 18 -7c36 -32 63 -72 82 -116c19 44 46 84 82 116c5 4 12 7 18 7c13 0 25 -11 25 -25c0 -7 -2 -14 -8 -19c-58 -53 -92 -128 -92 -206c0 -17 -12 -25 -25 -25s-25 8 -25 25c0 78 -34 153 -92 206c-6 5 -8 12 -8 19c0 14 12 25 25 25z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:79:80">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:86:87">
 <g transform="translate(110.4052, 31.1884)">
 <path transform="scale(0.0018, -0.0018)" d="M190 446c-56 0 -61 -84 -61 -155v-41v-41c0 -71 5 -155 61 -155s61 84 61 155v41v41c0 71 -5 155 -61 155zM190 500c118 0 190 -122 190 -250s-72 -250 -190 -250s-190 122 -190 250s72 250 190 250z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:77:78">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:84:85">
 <g transform="translate(110.2304, 35.2384)">
 <path transform="scale(0.0032, -0.0032)" d="M212 138c59 0 113 -31 113 -95c0 -71 -52 -120 -99 -148c-34 -21 -73 -33 -113 -33c-59 0 -113 31 -113 95c0 71 53 120 100 148c34 21 72 33 112 33z" fill="currentColor"/>
 </g>
@@ -1297,53 +1305,45 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:60:61">
-<g transform="translate(107.3891, 28.9352)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
-</g>
-<g transform="translate(107.3891, 29.3852)">
-<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
-</g>
-</a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:48:49">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:55:56">
 <g transform="translate(106.9964, 31.1884)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
 s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 -6 112 -52 112c-41 0 -84 -1 -107 -33c-6 -8 -14 -11 -22 -11c-14 0 -27 10 -27 27v209c0 17 11 30 26 30h4z" fill="currentColor"/>
 </g>
 </a>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:48:49">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:55:56">
 <g transform="translate(107.9762, 35.2384)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 </g>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:48:49">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:55:56">
 <g transform="translate(106.7370, 37.2384)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:48:49">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:55:56">
 <g transform="translate(106.7370, 35.2384)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:35:36">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:43:44">
 <g transform="scale(1.0000, -1.0000)">
 <g transform="translate(105.4991, -30.4194)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
 </g>
 <g transform="translate(105.4991, -29.9694)">
-<path transform="scale(0.0025, -0.0025)" d="M-97 250c7 0 14 -2 19 -7c33 -31 60 -69 78 -111c18 42 45 80 78 111c5 5 12 7 19 7c15 0 28 -13 28 -28c0 -7 -3 -15 -9 -20c-56 -52 -88 -125 -88 -202c0 -18 -14 -28 -28 -28s-28 10 -28 28c0 77 -32 150 -88 202c-6 5 -9 13 -9 20c0 15 13 28 28 28z" fill="currentColor"/>
+<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </g>
 <g transform="translate(105.4991, 30.4694)">
-<path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
+<path transform="scale(0.0040, -0.0040)" d="M-105 -250c-11 0 -20 9 -20 20c0 6 2 11 7 15c62 54 98 133 98 215c0 13 10 20 20 20s20 -7 20 -20c0 -82 36 -161 98 -215c5 -4 7 -9 7 -15c0 -11 -9 -20 -20 -20c-5 0 -9 2 -13 5c-41 36 -73 82 -92 133c-19 -51 -51 -97 -92 -133c-4 -3 -8 -5 -13 -5z" fill="currentColor"/>
 </g>
 <g transform="translate(105.4991, 30.9694)">
-<path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
+<path transform="scale(0.0040, -0.0040)" d="M-105 -250c-11 0 -20 9 -20 20c0 6 2 11 7 15c62 54 98 133 98 215c0 13 10 20 20 20s20 -7 20 -20c0 -82 36 -161 98 -215c5 -4 7 -9 7 -15c0 -11 -9 -20 -20 -20c-5 0 -9 2 -13 5c-41 36 -73 82 -92 133c-19 -51 -51 -97 -92 -133c-4 -3 -8 -5 -13 -5z" fill="currentColor"/>
 </g>
 </a>
 <g transform="translate(14.5848, 30.5484)">
@@ -1428,9 +1428,6 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <path transform="scale(0.0022, -0.0022)" d="M190 446c-56 0 -61 -84 -61 -155v-41v-41c0 -71 5 -155 61 -155s61 84 61 155v41v41c0 71 -5 155 -61 155zM190 500c118 0 190 -122 190 -250s-72 -250 -190 -250s-190 122 -190 250s72 250 190 250z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(103.2355, 34.7384)">
-<rect x="-0.0650" y="-3.0000" width="0.1300" height="5.3139" ry="0.0400" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:14:15">
 <g transform="translate(102.6484, 29.4352)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
@@ -1439,6 +1436,9 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </a>
+<g transform="translate(103.2355, 34.7384)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="5.3139" ry="0.0400" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:29:2:3">
 <g transform="translate(102.2558, 31.6884)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
@@ -1494,9 +1494,6 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(26.9215, 34.7384)">
-<rect x="-0.0650" y="-3.0000" width="0.1300" height="5.3139" ry="0.0400" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:14:15">
 <g transform="translate(26.3344, 29.4352)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
@@ -1505,6 +1502,9 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </a>
+<g transform="translate(26.9215, 34.7384)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="5.3139" ry="0.0400" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:2:3">
 <g transform="translate(25.9417, 31.6884)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
@@ -1530,25 +1530,22 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:36:37">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:44:45">
 <g transform="scale(1.0000, -1.0000)">
 <g transform="translate(29.1851, -30.4194)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
 </g>
 <g transform="translate(29.1851, -29.9694)">
-<path transform="scale(0.0025, -0.0025)" d="M-97 250c7 0 14 -2 19 -7c33 -31 60 -69 78 -111c18 42 45 80 78 111c5 5 12 7 19 7c15 0 28 -13 28 -28c0 -7 -3 -15 -9 -20c-56 -52 -88 -125 -88 -202c0 -18 -14 -28 -28 -28s-28 10 -28 28c0 77 -32 150 -88 202c-6 5 -9 13 -9 20c0 15 13 28 28 28z" fill="currentColor"/>
+<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </g>
 <g transform="translate(29.1851, 30.4694)">
-<path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
+<path transform="scale(0.0040, -0.0040)" d="M-105 -250c-11 0 -20 9 -20 20c0 6 2 11 7 15c62 54 98 133 98 215c0 13 10 20 20 20s20 -7 20 -20c0 -82 36 -161 98 -215c5 -4 7 -9 7 -15c0 -11 -9 -20 -20 -20c-5 0 -9 2 -13 5c-41 36 -73 82 -92 133c-19 -51 -51 -97 -92 -133c-4 -3 -8 -5 -13 -5z" fill="currentColor"/>
 </g>
 <g transform="translate(29.1851, 30.9694)">
-<path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
+<path transform="scale(0.0040, -0.0040)" d="M-105 -250c-11 0 -20 9 -20 20c0 6 2 11 7 15c62 54 98 133 98 215c0 13 10 20 20 20s20 -7 20 -20c0 -82 36 -161 98 -215c5 -4 7 -9 7 -15c0 -11 -9 -20 -20 -20c-5 0 -9 2 -13 5c-41 36 -73 82 -92 133c-19 -51 -51 -97 -92 -133c-4 -3 -8 -5 -13 -5z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(23.4280, 34.7384)">
-<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:23:68:69">
 <g transform="scale(1.0000, -1.0000)">
 <g transform="translate(22.8409, -24.7920)">
@@ -1559,6 +1556,9 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 </g>
 </g>
 </a>
+<g transform="translate(23.4280, 34.7384)">
+<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:23:55:56">
 <g transform="translate(22.3800, 29.8084)">
 <path transform="scale(0.0022, -0.0022)" d="M204 223c21 13 46 23 59 45c8 14 10 46 31 46c11 0 24 -8 24 -25v-110h70c18 0 27 -14 27 -27s-9 -27 -27 -27h-70c2 -45 36 -82 80 -82c14 0 22 -10 22 -21s-8 -22 -22 -22c-49 0 -96 14 -145 14s-97 -14 -146 -14c-14 0 -21 11 -21 22s7 21 21 21c44 0 79 37 81 82
@@ -1585,7 +1585,7 @@ c-84 0 -160 54 -160 133c0 32 26 58 58 58s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -
 </g>
 </a>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:72:73">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:79:80">
 <g transform="translate(33.9164, 35.2384)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -1598,31 +1598,21 @@ c-84 0 -160 54 -160 133c0 32 26 58 58 58s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -
 <g transform="translate(35.1556, 34.7384)">
 <rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:84:85">
-<g transform="scale(1.0000, -1.0000)">
-<g transform="translate(34.5685, -27.7946)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
-</g>
-<g transform="translate(34.5685, -27.3446)">
-<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
-</g>
-</g>
-</a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:72:73">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:79:80">
 <g transform="translate(34.1758, 31.1884)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
 s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 -6 112 -52 112c-41 0 -84 -1 -107 -33c-6 -8 -14 -11 -22 -11c-14 0 -27 10 -27 27v209c0 17 11 30 26 30h4z" fill="currentColor"/>
 </g>
 </a>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:72:73">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:79:80">
 <g transform="translate(35.1556, 35.2384)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 </g>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:72:73">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:79:80">
 <g transform="translate(33.9164, 37.2384)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -1633,10 +1623,7 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(31.6621, 34.7384)">
-<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
-</g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:61:62">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:68:69">
 <g transform="translate(31.0750, 28.9352)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
 </g>
@@ -1644,42 +1631,40 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:49:50">
+<g transform="translate(31.6621, 34.7384)">
+<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:56:57">
 <g transform="translate(30.6824, 31.1884)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
 s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 -6 112 -52 112c-41 0 -84 -1 -107 -33c-6 -8 -14 -11 -22 -11c-14 0 -27 10 -27 27v209c0 17 11 30 26 30h4z" fill="currentColor"/>
 </g>
 </a>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:49:50">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:56:57">
 <g transform="translate(31.6621, 35.2384)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 </g>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:49:50">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:56:57">
 <g transform="translate(30.4229, 37.2384)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:49:50">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:56:57">
 <g transform="translate(30.4229, 35.2384)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
+<g transform="translate(14.6498, 34.7384)">
+<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
+</g>
 <g transform="translate(16.3260, 35.2384)">
 <path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:23:16:17">
-<g transform="translate(14.0627, 25.9326)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
-</g>
-<g transform="translate(14.0627, 26.3826)">
-<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
-</g>
-</a>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:23:2:3">
 <g transform="translate(13.6017, 29.8084)">
 <path transform="scale(0.0022, -0.0022)" d="M204 223c21 13 46 23 59 45c8 14 10 46 31 46c11 0 24 -8 24 -25v-110h70c18 0 27 -14 27 -27s-9 -27 -27 -27h-70c2 -45 36 -82 80 -82c14 0 22 -10 22 -21s-8 -22 -22 -22c-49 0 -96 14 -145 14s-97 -14 -146 -14c-14 0 -21 11 -21 22s7 21 21 21c44 0 79 37 81 82
@@ -1711,9 +1696,6 @@ c-84 0 -160 54 -160 133c0 32 26 58 58 58s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(14.6498, 34.7384)">
-<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
-</g>
 <g transform="translate(4.8028, 31.6680)">
 <text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>5</tspan>
@@ -1744,9 +1726,6 @@ v-158c0 -10 -8 -19 -18 -19s-19 9 -19 19v145l-83 -31v-158c0 -10 -9 -19 -19 -19s-1
 <path transform="scale(0.0040, -0.0040)" d="M0 119c0 8 5 15 13 18l46 17v158c0 10 8 19 18 19s19 -9 19 -19v-145l83 31v158c0 10 9 19 19 19s18 -9 18 -19v-145l32 12c2 1 5 1 7 1c11 0 20 -9 20 -20v-60c0 -8 -5 -16 -13 -19l-46 -16v-160l32 11c2 1 5 1 7 1c11 0 20 -9 20 -20v-60c0 -8 -5 -15 -13 -18l-46 -17
 v-158c0 -10 -8 -19 -18 -19s-19 9 -19 19v145l-83 -31v-158c0 -10 -9 -19 -19 -19s-18 9 -18 19v145l-32 -12c-2 -1 -5 -1 -7 -1c-11 0 -20 9 -20 20v60c0 8 5 16 13 19l46 16v160l-32 -11c-2 -1 -5 -1 -7 -1c-11 0 -20 9 -20 20v60zM179 95l-83 -30v-160l83 30v160z" fill="currentColor"/>
 </g>
-<g transform="translate(21.0292, 34.7384)">
-<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.5039" ry="0.0400" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:23:41:42">
 <g transform="translate(20.4421, 28.0034)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-0.8000"/>
@@ -1758,10 +1737,23 @@ v-158c0 -10 -8 -19 -18 -19s-19 9 -19 19v145l-83 -31v-158c0 -10 -9 -19 -19 -19s-1
 <path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
 </g>
 </a>
+<g transform="translate(21.0292, 34.7384)">
+<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.5039" ry="0.0400" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:23:27:28">
 <g transform="translate(20.0324, 29.8084)">
 <path transform="scale(0.0022, -0.0022)" d="M194 486c15 0 25 15 41 15c13 0 24 -13 24 -31v-341c0 -47 35 -86 81 -86c14 0 21 -10 21 -21s-7 -22 -21 -22c-49 0 -97 14 -146 14s-96 -14 -145 -14c-14 0 -22 11 -22 22s8 21 22 21c46 0 80 39 80 86v137c0 23 -16 35 -30 35c-7 0 -13 -4 -17 -11l-34 -65
 c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20 0 35 -20 54 -20z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:24:91:92">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(34.5685, -27.7946)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
+</g>
+<g transform="translate(34.5685, -27.3446)">
+<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
+</g>
 </g>
 </a>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:23:27:28">
@@ -1775,20 +1767,30 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <g transform="translate(16.3260, 33.2384)">
 <path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
 </g>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:23:16:17">
+<g transform="translate(14.0627, 25.9326)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
+</g>
+<g transform="translate(14.0627, 26.3826)">
+<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:25:68:69">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(48.1451, -24.7920)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
+</g>
+<g transform="translate(48.1451, -24.3420)">
+<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
+</g>
+</g>
+</a>
 <g transform="translate(52.2256, 34.7384)">
 <rect x="-0.0650" y="-3.1947" width="0.1300" height="5.5086" ry="0.0400" fill="currentColor"/>
 </g>
 <g transform="translate(53.9799, 34.2384)">
 <path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:26:15:16">
-<g transform="translate(51.6385, 28.5505)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
-</g>
-<g transform="translate(51.6385, 29.0005)">
-<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
-</g>
-</a>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:26:2:3">
 <g transform="translate(51.2459, 30.8037)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
@@ -1817,16 +1819,6 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <g transform="translate(48.7322, 34.7384)">
 <rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:25:68:69">
-<g transform="scale(1.0000, -1.0000)">
-<g transform="translate(48.1451, -24.7920)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
-</g>
-<g transform="translate(48.1451, -24.3420)">
-<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
-</g>
-</g>
-</a>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:25:55:56">
 <g transform="translate(47.6841, 29.8084)">
 <path transform="scale(0.0022, -0.0022)" d="M204 223c21 13 46 23 59 45c8 14 10 46 31 46c11 0 24 -8 24 -25v-110h70c18 0 27 -14 27 -27s-9 -27 -27 -27h-70c2 -45 36 -82 80 -82c14 0 22 -10 22 -21s-8 -22 -22 -22c-49 0 -96 14 -145 14s-97 -14 -146 -14c-14 0 -21 11 -21 22s7 21 21 21c44 0 79 37 81 82
@@ -1928,6 +1920,14 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <g transform="translate(53.9799, 37.2384)">
 <path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
 </g>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:26:15:16">
+<g transform="translate(51.6385, 28.5505)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
+</g>
+<g transform="translate(51.6385, 29.0005)">
+<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
+</g>
+</a>
 <g transform="translate(41.6301, 35.2384)">
 <path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
 </g>
@@ -1940,17 +1940,17 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <g transform="translate(41.6301, 33.2384)">
 <path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:25:41:42">
-<g transform="translate(45.7462, 28.0034)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-0.8000"/>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:25:16:17">
+<g transform="translate(39.3668, 25.9326)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
 </g>
-<g transform="translate(45.7462, 27.4034)">
-<path transform="scale(0.0028, -0.0028)" d="M-100 250c6 0 13 -3 18 -7c36 -32 63 -72 82 -116c19 44 46 84 82 116c5 4 12 7 18 7c13 0 25 -11 25 -25c0 -7 -2 -14 -8 -19c-58 -53 -92 -128 -92 -206c0 -17 -12 -25 -25 -25s-25 8 -25 25c0 78 -34 153 -92 206c-6 5 -8 12 -8 19c0 14 12 25 25 25z" fill="currentColor"/>
-</g>
-<g transform="translate(45.7462, 27.0034)">
-<path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
+<g transform="translate(39.3668, 26.3826)">
+<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </a>
+<g transform="translate(46.3333, 34.7384)">
+<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.5039" ry="0.0400" fill="currentColor"/>
+</g>
 <g color="rgb(50.0000%, 50.0000%, 50.0000%)">
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:25:2:3">
 <g transform="translate(39.8759, 35.7384)">
@@ -1964,9 +1964,17 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 c-84 0 -160 54 -160 133c0 32 26 58 58 58s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -33 42 -42 80 -42c41 0 56 50 56 98v21c0 44 -2 77 -43 77h-65c-18 0 -27 14 -27 27s9 27 27 27h65c42 0 43 36 43 83v11c0 43 -20 70 -61 70z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(46.3333, 34.7384)">
-<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.5039" ry="0.0400" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:25:41:42">
+<g transform="translate(45.7462, 28.0034)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-0.8000"/>
 </g>
+<g transform="translate(45.7462, 27.4034)">
+<path transform="scale(0.0028, -0.0028)" d="M-100 250c6 0 13 -3 18 -7c36 -32 63 -72 82 -116c19 44 46 84 82 116c5 4 12 7 18 7c13 0 25 -11 25 -25c0 -7 -2 -14 -8 -19c-58 -53 -92 -128 -92 -206c0 -17 -12 -25 -25 -25s-25 8 -25 25c0 78 -34 153 -92 206c-6 5 -8 12 -8 19c0 14 12 25 25 25z" fill="currentColor"/>
+</g>
+<g transform="translate(45.7462, 27.0034)">
+<path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
+</g>
+</a>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:25:27:28">
 <g transform="translate(45.3365, 29.8084)">
 <path transform="scale(0.0022, -0.0022)" d="M194 486c15 0 25 15 41 15c13 0 24 -13 24 -31v-341c0 -47 35 -86 81 -86c14 0 21 -10 21 -21s-7 -22 -21 -22c-49 0 -97 14 -146 14s-96 -14 -145 -14c-14 0 -22 11 -22 22s8 21 22 21c46 0 80 39 80 86v137c0 23 -16 35 -30 35c-7 0 -13 -4 -17 -11l-34 -65
@@ -1991,14 +1999,6 @@ h-134c-43 0 -57 25 -57 42c0 5 1 10 3 12c73 81 123 182 123 291c0 17 11 31 25 31c2
 </g>
 </a>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:25:16:17">
-<g transform="translate(39.3668, 25.9326)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
-</g>
-<g transform="translate(39.3668, 26.3826)">
-<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
-</g>
-</a>
 <g transform="translate(5.6906, 49.4572)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
 </g>
@@ -2444,14 +2444,14 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
 </g>
 <g transform="translate(106.4510, -42.6882)">
-<path transform="scale(0.0025, -0.0025)" d="M-97 250c7 0 14 -2 19 -7c33 -31 60 -69 78 -111c18 42 45 80 78 111c5 5 12 7 19 7c15 0 28 -13 28 -28c0 -7 -3 -15 -9 -20c-56 -52 -88 -125 -88 -202c0 -18 -14 -28 -28 -28s-28 10 -28 28c0 77 -32 150 -88 202c-6 5 -9 13 -9 20c0 15 13 28 28 28z" fill="currentColor"/>
+<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </g>
 <g transform="translate(106.4510, 43.1882)">
-<path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
+<path transform="scale(0.0040, -0.0040)" d="M-105 -250c-11 0 -20 9 -20 20c0 6 2 11 7 15c62 54 98 133 98 215c0 13 10 20 20 20s20 -7 20 -20c0 -82 36 -161 98 -215c5 -4 7 -9 7 -15c0 -11 -9 -20 -20 -20c-5 0 -9 2 -13 5c-41 36 -73 82 -92 133c-19 -51 -51 -97 -92 -133c-4 -3 -8 -5 -13 -5z" fill="currentColor"/>
 </g>
 <g transform="translate(106.4510, 43.6882)">
-<path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
+<path transform="scale(0.0040, -0.0040)" d="M-105 -250c-11 0 -20 9 -20 20c0 6 2 11 7 15c62 54 98 133 98 215c0 13 10 20 20 20s20 -7 20 -20c0 -82 36 -161 98 -215c5 -4 7 -9 7 -15c0 -11 -9 -20 -20 -20c-5 0 -9 2 -13 5c-41 36 -73 82 -92 133c-19 -51 -51 -97 -92 -133c-4 -3 -8 -5 -13 -5z" fill="currentColor"/>
 </g>
 </a>
 <g transform="translate(95.8458, 46.9572)">
@@ -3174,7 +3174,7 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <path transform="scale(0.0032, -0.0032)" d="M212 138c59 0 113 -31 113 -95c0 -71 -52 -120 -99 -148c-34 -21 -73 -33 -113 -33c-59 0 -113 31 -113 95c0 71 53 120 100 148c34 21 72 33 112 33z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit://C:/Program%20Files/lilypond-2.24.4/share/lilypond/2.24.4/ly/grace-init.ly:41:6:7">
+<a style="color:inherit;" xlink:href="textedit://C:/Program%20Files%20%28x86%29/lilypond/lilypond-2.24.4-mingw-x86_64/lilypond-2.24.4/share/lilypond/2.24.4/ly/grace-init.ly:41:6:7">
 <g transform="translate(63.1328, 61.2337)">
 <path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.3923 0.3189C0.9659 0.7498 1.7616 0.6490 2.2095 0.0887L2.2095 0.0887C1.7465 0.5300 0.9508 0.6307 0.3923 0.3189z"/>
 </g>
@@ -3394,14 +3394,14 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
 </g>
 <g transform="translate(28.5208, -56.4647)">
-<path transform="scale(0.0025, -0.0025)" d="M-97 250c7 0 14 -2 19 -7c33 -31 60 -69 78 -111c18 42 45 80 78 111c5 5 12 7 19 7c15 0 28 -13 28 -28c0 -7 -3 -15 -9 -20c-56 -52 -88 -125 -88 -202c0 -18 -14 -28 -28 -28s-28 10 -28 28c0 77 -32 150 -88 202c-6 5 -9 13 -9 20c0 15 13 28 28 28z" fill="currentColor"/>
+<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </g>
 <g transform="translate(28.5208, 56.9647)">
-<path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
+<path transform="scale(0.0040, -0.0040)" d="M-105 -250c-11 0 -20 9 -20 20c0 6 2 11 7 15c62 54 98 133 98 215c0 13 10 20 20 20s20 -7 20 -20c0 -82 36 -161 98 -215c5 -4 7 -9 7 -15c0 -11 -9 -20 -20 -20c-5 0 -9 2 -13 5c-41 36 -73 82 -92 133c-19 -51 -51 -97 -92 -133c-4 -3 -8 -5 -13 -5z" fill="currentColor"/>
 </g>
 <g transform="translate(28.5208, 57.4647)">
-<path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
+<path transform="scale(0.0040, -0.0040)" d="M-105 -250c-11 0 -20 9 -20 20c0 6 2 11 7 15c62 54 98 133 98 215c0 13 10 20 20 20s20 -7 20 -20c0 -82 36 -161 98 -215c5 -4 7 -9 7 -15c0 -11 -9 -20 -20 -20c-5 0 -9 2 -13 5c-41 36 -73 82 -92 133c-19 -51 -51 -97 -92 -133c-4 -3 -8 -5 -13 -5z" fill="currentColor"/>
 </g>
 </a>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:36:120:121">
@@ -3764,18 +3764,30 @@ c-84 0 -160 54 -160 133c0 32 26 58 58 58s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -
 <g transform="translate(5.6906, 75.7763)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
 </g>
-<g transform="translate(113.6210, 77.7763)">
-<rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
-</g>
-<g transform="translate(86.6112, 77.7763)">
-<rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
-</g>
 <g transform="translate(61.4180, 77.7763)">
 <rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
 <g transform="translate(37.7417, 77.7763)">
 <rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
+<g transform="translate(113.6210, 77.7763)">
+<rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(86.6112, 77.7763)">
+<rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<g color="rgb(50.0000%, 50.0000%, 50.0000%)">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:43:4:5">
+<g transform="translate(87.7218, 76.7763)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+</g>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:43:4:5">
+<g transform="translate(87.7218, 78.7763)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:42:123:124">
 <g transform="scale(1.0000, -1.0000)">
 <g transform="translate(83.1996, -70.8325)">
@@ -3793,27 +3805,9 @@ c-84 0 -160 54 -160 133c0 32 26 58 58 58s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -
 </g>
 </a>
 </g>
-<g color="rgb(50.0000%, 50.0000%, 50.0000%)">
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:43:4:5">
-<g transform="translate(87.7218, 76.7763)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
-</g>
-</a>
-</g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:43:4:5">
-<g transform="translate(87.7218, 78.7763)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
-</g>
-</a>
 <g transform="translate(83.7867, 77.7763)">
 <rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:43:4:5">
-<g transform="translate(87.9812, 71.2215)">
-<path transform="scale(0.0022, -0.0022)" d="M155 457c-34 0 -71 -8 -71 -38c0 -19 32 -23 32 -42c0 -28 -23 -51 -51 -51s-51 23 -51 51c0 72 66 123 141 123c93 0 174 -31 174 -113c0 -36 -10 -65 -42 -80c-17 -8 -26 -25 -26 -41s9 -32 26 -40c37 -17 59 -45 59 -85c0 -94 -83 -141 -186 -141
-c-84 0 -160 54 -160 133c0 32 26 58 58 58s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -33 42 -42 80 -42c41 0 56 50 56 98v21c0 44 -2 77 -43 77h-65c-18 0 -27 14 -27 27s9 27 27 27h65c42 0 43 36 43 83v11c0 43 -20 70 -61 70z" fill="currentColor"/>
-</g>
-</a>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:42:111:112">
 <g transform="translate(82.8070, 74.2263)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
@@ -3839,19 +3833,24 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(79.9730, 77.7763)">
-<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:42:100:101">
+<g transform="translate(79.3859, 71.9731)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
 </g>
-<g transform="translate(90.6372, 76.2763)">
-<path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
+<g transform="translate(79.3859, 72.4231)">
+<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
+</a>
 <g transform="translate(90.6372, 79.2763)">
 <path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
 </g>
-<g transform="translate(88.9610, 77.7763)">
-<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:43:4:5">
+<g transform="translate(87.9812, 71.2215)">
+<path transform="scale(0.0022, -0.0022)" d="M155 457c-34 0 -71 -8 -71 -38c0 -19 32 -23 32 -42c0 -28 -23 -51 -51 -51s-51 23 -51 51c0 72 66 123 141 123c93 0 174 -31 174 -113c0 -36 -10 -65 -42 -80c-17 -8 -26 -25 -26 -41s9 -32 26 -40c37 -17 59 -45 59 -85c0 -94 -83 -141 -186 -141
+c-84 0 -160 54 -160 133c0 32 26 58 58 58s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -33 42 -42 80 -42c41 0 56 50 56 98v21c0 44 -2 77 -43 77h-65c-18 0 -27 14 -27 27s9 27 27 27h65c42 0 43 36 43 83v11c0 43 -20 70 -61 70z" fill="currentColor"/>
 </g>
-<g transform="translate(90.6372, 78.2763)">
+</a>
+<g transform="translate(90.6372, 76.2763)">
 <path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
 </g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:43:18:19">
@@ -3862,6 +3861,12 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </a>
+<g transform="translate(88.9610, 77.7763)">
+<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(90.6372, 78.2763)">
+<path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:43:4:5">
 <g transform="translate(87.9129, 72.8463)">
 <path transform="scale(0.0022, -0.0022)" d="M204 223c21 13 46 23 59 45c8 14 10 46 31 46c11 0 24 -8 24 -25v-110h70c18 0 27 -14 27 -27s-9 -27 -27 -27h-70c2 -45 36 -82 80 -82c14 0 22 -10 22 -21s-8 -22 -22 -22c-49 0 -96 14 -145 14s-97 -14 -146 -14c-14 0 -21 11 -21 22s7 21 21 21c44 0 79 37 81 82
@@ -3924,12 +3929,11 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <g transform="translate(106.9178, 74.9663)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="3.9037 -0.2000 3.9037 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:42:65:66">
-<g transform="translate(74.4533, 72.7130)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
-</g>
-<g transform="translate(74.4533, 73.1630)">
-<path transform="scale(0.0028, -0.0028)" d="M-100 250c6 0 13 -3 18 -7c36 -32 63 -72 82 -116c19 44 46 84 82 116c5 4 12 7 18 7c13 0 25 -11 25 -25c0 -7 -2 -14 -8 -19c-58 -53 -92 -128 -92 -206c0 -17 -12 -25 -25 -25s-25 8 -25 25c0 78 -34 153 -92 206c-6 5 -8 12 -8 19c0 14 12 25 25 25z" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:72:35:36">
+<g transform="translate(73.9370, 82.7261)">
+<text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
+<tspan>με</tspan>
+</text>
 </g>
 </a>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:42:88:89">
@@ -3957,24 +3961,20 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:42:65:66">
+<g transform="translate(74.4533, 72.7130)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
+</g>
+<g transform="translate(74.4533, 73.1630)">
+<path transform="scale(0.0028, -0.0028)" d="M-100 250c6 0 13 -3 18 -7c36 -32 63 -72 82 -116c19 44 46 84 82 116c5 4 12 7 18 7c13 0 25 -11 25 -25c0 -7 -2 -14 -8 -19c-58 -53 -92 -128 -92 -206c0 -17 -12 -25 -25 -25s-25 8 -25 25c0 78 -34 153 -92 206c-6 5 -8 12 -8 19c0 14 12 25 25 25z" fill="currentColor"/>
+</g>
+</a>
 <g transform="translate(74.9045, 77.7763)">
 <rect x="-0.0650" y="-3.0000" width="0.1300" height="5.3640" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:72:35:36">
-<g transform="translate(73.9370, 82.7261)">
-<text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
-<tspan>με</tspan>
-</text>
+<g transform="translate(79.9730, 77.7763)">
+<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
 </g>
-</a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:42:100:101">
-<g transform="translate(79.3859, 71.9731)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
-</g>
-<g transform="translate(79.3859, 72.4231)">
-<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
-</g>
-</a>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:42:53:54">
 <g transform="translate(74.1460, 74.7263)">
 <path transform="scale(0.0018, -0.0018)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
@@ -4008,9 +4008,6 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0032, -0.0032)" d="M212 138c59 0 113 -31 113 -95c0 -71 -52 -120 -99 -148c-34 -21 -73 -33 -113 -33c-59 0 -113 31 -113 95c0 71 53 120 100 148c34 21 72 33 112 33z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(110.7965, 77.7763)">
-<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:44:86:87">
 <g transform="scale(1.0000, -1.0000)">
 <g transform="translate(110.2094, -70.8325)">
@@ -4021,6 +4018,9 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 </g>
 </g>
 </a>
+<g transform="translate(110.7965, 77.7763)">
+<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:44:74:75">
 <g transform="translate(109.8168, 74.2263)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
@@ -4044,6 +4044,14 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:44:74:75">
 <g transform="translate(109.5573, 78.2763)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:44:63:64">
+<g transform="translate(106.3957, 71.9731)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
+</g>
+<g transform="translate(106.3957, 72.4231)">
+<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </a>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:41:49:50">
@@ -4105,9 +4113,6 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0040, -0.0040)" d="M0 119c0 8 5 15 13 18l46 17v158c0 10 8 19 18 19s19 -9 19 -19v-145l83 31v158c0 10 9 19 19 19s18 -9 18 -19v-145l32 12c2 1 5 1 7 1c11 0 20 -9 20 -20v-60c0 -8 -5 -16 -13 -19l-46 -16v-160l32 11c2 1 5 1 7 1c11 0 20 -9 20 -20v-60c0 -8 -5 -15 -13 -18l-46 -17
 v-158c0 -10 -8 -19 -18 -19s-19 9 -19 19v145l-83 -31v-158c0 -10 -9 -19 -19 -19s-18 9 -18 19v145l-32 -12c-2 -1 -5 -1 -7 -1c-11 0 -20 9 -20 20v60c0 8 5 16 13 19l46 16v160l-32 -11c-2 -1 -5 -1 -7 -1c-11 0 -20 9 -20 20v60zM179 95l-83 -30v-160l83 30v160z" fill="currentColor"/>
 </g>
-<g transform="translate(97.8994, 77.7763)">
-<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:43:70:71">
 <g transform="scale(1.0000, -1.0000)">
 <g transform="translate(97.3123, -67.8299)">
@@ -4118,6 +4123,9 @@ v-158c0 -10 -8 -19 -18 -19s-19 9 -19 19v145l-83 -31v-158c0 -10 -9 -19 -19 -19s-1
 </g>
 </g>
 </a>
+<g transform="translate(97.8994, 77.7763)">
+<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:43:57:58">
 <g transform="translate(96.8513, 72.8463)">
 <path transform="scale(0.0022, -0.0022)" d="M204 223c21 13 46 23 59 45c8 14 10 46 31 46c11 0 24 -8 24 -25v-110h70c18 0 27 -14 27 -27s-9 -27 -27 -27h-70c2 -45 36 -82 80 -82c14 0 22 -10 22 -21s-8 -22 -22 -22c-49 0 -96 14 -145 14s-97 -14 -146 -14c-14 0 -21 11 -21 22s7 21 21 21c44 0 79 37 81 82
@@ -4153,9 +4161,6 @@ c-84 0 -160 54 -160 133c0 32 26 58 58 58s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -
 <path transform="scale(0.0040, -0.0040)" d="M0 119c0 8 5 15 13 18l46 17v158c0 10 8 19 18 19s19 -9 19 -19v-145l83 31v158c0 10 9 19 19 19s18 -9 18 -19v-145l32 12c2 1 5 1 7 1c11 0 20 -9 20 -20v-60c0 -8 -5 -16 -13 -19l-46 -16v-160l32 11c2 1 5 1 7 1c11 0 20 -9 20 -20v-60c0 -8 -5 -15 -13 -18l-46 -17
 v-158c0 -10 -8 -19 -18 -19s-19 9 -19 19v145l-83 -31v-158c0 -10 -9 -19 -19 -19s-18 9 -18 19v145l-32 -12c-2 -1 -5 -1 -7 -1c-11 0 -20 9 -20 20v60c0 8 5 16 13 19l46 16v160l-32 -11c-2 -1 -5 -1 -7 -1c-11 0 -20 9 -20 20v60zM179 95l-83 -30v-160l83 30v160z" fill="currentColor"/>
 </g>
-<g transform="translate(95.3404, 77.7763)">
-<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.5039" ry="0.0400" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:43:43:44">
 <g transform="translate(94.7533, 71.0413)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-0.8000"/>
@@ -4167,6 +4172,9 @@ v-158c0 -10 -8 -19 -18 -19s-19 9 -19 19v145l-83 -31v-158c0 -10 -9 -19 -19 -19s-1
 <path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
 </g>
 </a>
+<g transform="translate(95.3404, 77.7763)">
+<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.5039" ry="0.0400" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:43:29:30">
 <g transform="translate(94.3436, 72.8463)">
 <path transform="scale(0.0022, -0.0022)" d="M194 486c15 0 25 15 41 15c13 0 24 -13 24 -31v-341c0 -47 35 -86 81 -86c14 0 21 -10 21 -21s-7 -22 -21 -22c-49 0 -97 14 -146 14s-96 -14 -145 -14c-14 0 -22 11 -22 22s8 21 22 21c46 0 80 39 80 86v137c0 23 -16 35 -30 35c-7 0 -13 -4 -17 -11l-34 -65
@@ -4185,17 +4193,17 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(106.9828, 77.7763)">
-<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
-</g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:44:63:64">
-<g transform="translate(106.3957, 71.9731)">
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:44:16:17">
+<g transform="translate(101.1260, 72.4731)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
 </g>
-<g transform="translate(106.3957, 72.4231)">
+<g transform="translate(101.1260, 72.9231)">
 <path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </a>
+<g transform="translate(106.9828, 77.7763)">
+<rect x="-0.0650" y="-2.8100" width="0.1300" height="5.1239" ry="0.0400" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:44:51:52">
 <g transform="translate(106.0030, 74.2263)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
@@ -4240,14 +4248,6 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <g transform="translate(101.7131, 77.7763)">
 <rect x="-0.0650" y="-3.0000" width="0.1300" height="5.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:44:16:17">
-<g transform="translate(101.1260, 72.4731)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
-</g>
-<g transform="translate(101.1260, 72.9231)">
-<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
-</g>
-</a>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:44:4:5">
 <g transform="translate(100.7333, 74.7263)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
@@ -4742,14 +4742,6 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:51:66:67">
-<g transform="translate(85.1309, 88.7776)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
-</g>
-<g transform="translate(85.1309, 89.2276)">
-<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
-</g>
-</a>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:51:54:55">
 <g transform="translate(84.7383, 91.0308)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
@@ -4791,9 +4783,6 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(80.6555, 94.5808)">
-<rect x="-0.0650" y="-3.0000" width="0.1300" height="5.3139" ry="0.0400" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:51:20:21">
 <g transform="translate(80.0684, 89.2776)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
@@ -4802,6 +4791,17 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </a>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:51:66:67">
+<g transform="translate(85.1309, 88.7776)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
+</g>
+<g transform="translate(85.1309, 89.2276)">
+<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(80.6555, 94.5808)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="5.3139" ry="0.0400" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:51:8:9">
 <g transform="translate(79.6757, 91.5308)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
@@ -4923,9 +4923,6 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20 0 35 -20 54 -20z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(107.6698, 94.5808)">
-<rect x="-0.0650" y="-3.0000" width="0.1300" height="5.2410" ry="0.0400" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:54:84:85">
 <g transform="translate(107.0462, 89.2776)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
@@ -4934,6 +4931,9 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </a>
+<g transform="translate(107.6698, 94.5808)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="5.2410" ry="0.0400" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:54:72:73">
 <g transform="translate(106.6535, 91.5308)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
@@ -5147,9 +5147,6 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(23.5175, 94.5808)">
-<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:46:4:5">
 <g transform="translate(26.2100, 90.6463)">
 <path transform="scale(0.0022, -0.0022)" d="M64 500c42 -7 84 -14 127 -14s85 7 127 14c2 0 5 1 7 1c17 0 28 -12 28 -22c0 -4 -1 -6 -4 -9c-61 -61 -145 -91 -231 -91c-17 0 -30 -14 -30 -31v-41c25 25 62 25 97 25h5c115 0 181 -55 181 -166c0 -99 -96 -166 -202 -166c-88 0 -169 52 -169 133c0 32 26 58 58 58
@@ -5175,14 +5172,6 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:46:17:18">
-<g transform="translate(26.6026, 88.3931)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
-</g>
-<g transform="translate(26.6026, 88.8431)">
-<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
-</g>
-</a>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:45:70:71">
 <g transform="scale(1.0000, -1.0000)">
 <g transform="translate(22.9303, -84.6344)">
@@ -5193,6 +5182,12 @@ s58 -26 58 -58c0 -22 -36 -26 -36 -48c0 -36 47 -42 89 -42c52 0 73 63 73 123c0 53 
 </g>
 </g>
 </a>
+<g transform="translate(28.9440, 94.0808)">
+<path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
+</g>
+<g transform="translate(23.5175, 94.5808)">
+<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:45:57:58">
 <g transform="translate(22.4694, 89.6508)">
 <path transform="scale(0.0022, -0.0022)" d="M204 223c21 13 46 23 59 45c8 14 10 46 31 46c11 0 24 -8 24 -25v-110h70c18 0 27 -14 27 -27s-9 -27 -27 -27h-70c2 -45 36 -82 80 -82c14 0 22 -10 22 -21s-8 -22 -22 -22c-49 0 -96 14 -145 14s-97 -14 -146 -14c-14 0 -21 11 -21 22s7 21 21 21c44 0 79 37 81 82
@@ -5274,11 +5269,16 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <g transform="translate(28.9440, 97.0808)">
 <path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
 </g>
+<a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:46:17:18">
+<g transform="translate(26.6026, 88.3931)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
+</g>
+<g transform="translate(26.6026, 88.8431)">
+<path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
+</g>
+</a>
 <g transform="translate(27.1898, 94.5808)">
 <rect x="-0.0650" y="-3.1945" width="0.1300" height="5.5084" ry="0.0400" fill="currentColor"/>
-</g>
-<g transform="translate(28.9440, 94.0808)">
-<path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
 </g>
 <g transform="translate(10.1106, 94.5808)">
 <path transform="scale(0.0040, -0.0040)" d="M143 41c-1 33 -22 63 -53 63c-29 0 -43 -34 -43 -67c0 -59 48 -101 93 -139c3 22 4 44 4 66v11zM185 -138c0 -14 -10 -25 -23 -25c-21 0 -30 25 -45 38c-61 52 -147 89 -147 169c0 54 37 102 89 102c33 0 66 -13 91 -34l-7 345c8 5 18 8 27 8s19 -3 27 -8z" fill="currentColor"/>
@@ -5337,9 +5337,6 @@ h-137c-42 0 -55 25 -55 41c0 5 1 9 3 11c74 82 126 183 126 293c0 16 11 31 24 31c2 
 <g transform="translate(92.3017, 84.1830)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1600" stroke="currentColor" x1="1.0100" y1="-0.0000" x2="21.4293" y2="-0.0000"/>
 </g>
-<g transform="translate(21.0292, 94.5808)">
-<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.5039" ry="0.0400" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:45:43:44">
 <g transform="translate(20.4421, 87.8458)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-0.8000"/>
@@ -5351,6 +5348,9 @@ h-137c-42 0 -55 25 -55 41c0 5 1 9 3 11c74 82 126 183 126 293c0 16 11 31 24 31c2 
 <path transform="scale(0.0028, -0.0028)" d="M-100 -250c-13 0 -25 11 -25 25c0 7 2 14 8 19c58 53 92 128 92 206c0 17 12 25 25 25s25 -8 25 -25c0 -78 34 -153 92 -206c6 -5 8 -12 8 -19c0 -14 -12 -25 -25 -25c-6 0 -13 3 -18 7c-36 32 -63 72 -82 116c-19 -44 -46 -84 -82 -116c-5 -4 -12 -7 -18 -7z" fill="currentColor"/>
 </g>
 </a>
+<g transform="translate(21.0292, 94.5808)">
+<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.5039" ry="0.0400" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:45:29:30">
 <g transform="translate(20.0324, 89.6508)">
 <path transform="scale(0.0022, -0.0022)" d="M194 486c15 0 25 15 41 15c13 0 24 -13 24 -31v-341c0 -47 35 -86 81 -86c14 0 21 -10 21 -21s-7 -22 -21 -22c-49 0 -97 14 -146 14s-96 -14 -145 -14c-14 0 -22 11 -22 22s8 21 22 21c46 0 80 39 80 86v137c0 23 -16 35 -30 35c-7 0 -13 -4 -17 -11l-34 -65
@@ -5375,12 +5375,6 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <g transform="translate(16.3260, 93.0808)">
 <path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
 </g>
-<g transform="translate(14.6498, 94.5808)">
-<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
-</g>
-<g transform="translate(16.3260, 95.0808)">
-<path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
-</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:45:18:19">
 <g transform="translate(14.0627, 85.7750)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1380" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.6000"/>
@@ -5389,6 +5383,12 @@ c-5 -10 -14 -15 -23 -15c-14 0 -28 12 -28 27c0 4 1 8 3 13l129 250c2 4 7 6 11 6c20
 <path transform="scale(0.0036, -0.0036)" d="M-103 250c5 0 10 -1 14 -5c40 -35 70 -79 89 -128c19 49 49 93 89 128c4 4 9 5 14 5c11 0 22 -10 22 -22c0 -6 -2 -12 -7 -16c-61 -54 -96 -131 -96 -212c0 -14 -11 -22 -22 -22s-22 8 -22 22c0 81 -35 158 -96 212c-5 4 -7 10 -7 16c0 12 11 22 22 22z" fill="currentColor"/>
 </g>
 </a>
+<g transform="translate(14.6498, 94.5808)">
+<rect x="-0.0650" y="-4.1900" width="0.1300" height="5.0039" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(16.3260, 95.0808)">
+<path transform="scale(0.0040, -0.0040)" d="M0 0c0 31 25 56 56 56s56 -25 56 -56s-25 -56 -56 -56s-56 25 -56 56z" fill="currentColor"/>
+</g>
 <a style="color:inherit;" xlink:href="textedit://C:/Users/har1sf0x/Documents/GitHub/musicSchoolTampouras.github.io/sheets/ly/%ce%9d%cf%84%ce%b5_%ce%b2%cf%81%ce%b5_%ce%bd%cf%84%ce%b5.ly:45:4:5">
 <g transform="translate(13.6017, 89.6508)">
 <path transform="scale(0.0022, -0.0022)" d="M204 223c21 13 46 23 59 45c8 14 10 46 31 46c11 0 24 -8 24 -25v-110h70c18 0 27 -14 27 -27s-9 -27 -27 -27h-70c2 -45 36 -82 80 -82c14 0 22 -10 22 -21s-8 -22 -22 -22c-49 0 -96 14 -145 14s-97 -14 -146 -14c-14 0 -21 11 -21 22s7 21 21 21c44 0 79 37 81 82

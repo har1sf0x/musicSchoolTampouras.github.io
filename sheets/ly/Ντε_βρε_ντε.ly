@@ -14,19 +14,19 @@ melody = \relative c'' {
   \normalsize
   \repeat unfold 2 {
     \RastChord 8. \arrowDown \FbCbChord 16 \arrowZeybekB \RastChord 8 \arrowUp
-    \ADAChord 4 \arrowDown  \grace s16^\arrowSelpe \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
+    \ADAChord 4 \arrowDown  \hiddenGraceArrow \arrowSelpe \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
   }
   e8.-1\arrowDown e16-1\arrowZeybekB d8-1\arrowUp d8.-1\arrowDown c16-1\arrowSelpe c8-1\arrowDown bfc-5\arrowDown
   c8-1\arrowDown c-1\arrowUp bfc16-5\arrowDown (g-0)
-  \ADAChord 4 \arrowDown \grace s16^\arrowSelpe \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
+  \ADAChord 4 \arrowDown \hiddenGraceArrow \arrowSelpe \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
 
   \RastChord 8. \arrowDown \FbCbChord 16 \arrowZeybekB \RastChord 8 \arrowUp
-  \ADAChord 4 \arrowDown  \grace s16^\arrowSelpe \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
+  \ADAChord 4 \arrowDown  \hiddenGraceArrow \arrowSelpe \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
   \RastChord 8. \arrowDown \FbCbChord 16 \arrowZeybekB \RastChord 8 \arrowUp
   \ADAChord 8. \arrowDown bfc16-1\arrowZeybekB c8-1\arrowUp d-1\arrowUp
   e8.-1\arrowDown e16-1\arrowZeybekB d8-1\arrowUp d8.-1\arrowDown c16-1\arrowSelpe c8-1\arrowDown bfc-5\arrowDown
   c8-1\arrowDown c-1\arrowUp bfc16-5\arrowDown (g-0)
-  \ADAChord 4 \arrowDown \grace s16^\arrowSelpe \ADAChord 8 \arrowDown \tiny a8-0\arrowDown | \break
+  \ADAChord 4 \arrowDown \hiddenGraceArrow \arrowSelpe \ADAChord 8 \arrowDown \tiny a8-0\arrowDown | \break
   \repeat volta 4 {
     d4-1\arrowDown d8-1\arrowDown d-1\arrowDown (a-0) d-1\arrowDown (a-0)
     d8-1\arrowDown c8-1\arrowDown d-1\arrowDown e4-1\arrowDown \trill e8-1\arrowDown d-1\arrowDown
@@ -123,22 +123,22 @@ extraVerses = \markup {
 }
 
 %%%%%%% pdf %%%%%%%
-\paper {
-  #(set-paper-size "a4")
-  top-margin = 2\cm
-  left-margin = 1\cm
-  right-margin = 1\cm
-  indent = #0
-}
-
-%%%%%%% svg %%%%%%%
 % \paper {
-%   paper-width = 210\mm
-%   paper-height = 250\mm
+%   #(set-paper-size "a4")
+%   top-margin = 2\cm
 %   left-margin = 1\cm
 %   right-margin = 1\cm
 %   indent = #0
 % }
+
+%%%%%%% svg %%%%%%%
+\paper {
+  paper-width = 210\mm
+  paper-height = 250\mm
+  left-margin = 1\cm
+  right-margin = 1\cm
+  indent = #0
+}
 
 \header {
   title = \pieceName
