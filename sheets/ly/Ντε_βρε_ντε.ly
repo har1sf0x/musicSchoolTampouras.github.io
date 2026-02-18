@@ -13,27 +13,39 @@ melody = \relative c'' {
   \setKalamTime
   \normalsize
   \repeat unfold 2 {
+    % measure 1 and 2
     \RastChord 8. \arrowDown \FbCbChord 16 \arrowZeybekB \RastChord 8 \arrowUp
     \ADAChord 4 \arrowDown  \hiddenGraceArrow \arrowSelpe \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
   }
+  % measure 3
   e8.-1\arrowDown e16-1\arrowZeybekB d8-1\arrowUp d8.-1\arrowDown c16-1\arrowSelpe c8-1\arrowDown bfc-5\arrowDown
+  % measure 4
   c8-1\arrowDown c-1\arrowUp bfc16-5\arrowDown (g-0)
   \ADAChord 4 \arrowDown \hiddenGraceArrow \arrowSelpe \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
-
+  % measure 5
   \RastChord 8. \arrowDown \FbCbChord 16 \arrowZeybekB \RastChord 8 \arrowUp
   \ADAChord 4 \arrowDown  \hiddenGraceArrow \arrowSelpe \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
+  % measure 6
   \RastChord 8. \arrowDown \FbCbChord 16 \arrowZeybekB \RastChord 8 \arrowUp
   \ADAChord 8. \arrowDown bfc16-1\arrowZeybekB c8-1\arrowUp d-1\arrowUp
+  % measure 7
   e8.-1\arrowDown e16-1\arrowZeybekB d8-1\arrowUp d8.-1\arrowDown c16-1\arrowSelpe c8-1\arrowDown bfc-5\arrowDown
+  % measure 8
   c8-1\arrowDown c-1\arrowUp bfc16-5\arrowDown (g-0)
   \ADAChord 4 \arrowDown \hiddenGraceArrow \arrowSelpe \ADAChord 8 \arrowDown \tiny a8-0\arrowDown | \break
   \repeat volta 4 {
+    % measure 9
     d4-1\arrowDown d8-1\arrowDown d-1\arrowDown (a-0) d-1\arrowDown (a-0)
+    % measure 10
     d8-1\arrowDown c8-1\arrowDown d-1\arrowDown e4-1\arrowDown \trill e8-1\arrowDown d-1\arrowDown
+    % measure 11
     c4-1\arrowDown \trill e8-3\arrowDown d8-1\arrowDown (a-0) d8-1\arrowDown (a-0)
+    % measure 12
     a8-0\arrowDown bfc-5\arrowDown c-1\arrowDown d8-1\arrowDown (a-0) d8-1\arrowDown (a-0)
+    % measure 13
     \normalsize c8.-1\arrowDown \trill c16-1\arrowZeybekB e8-3\arrowUp d4-1\arrowDown \hiddenGraceArrow \arrowSelpe d8-1\arrowDown a-0\arrowUp
-    a8.-0\arrowDown bfc16-1\arrowZeybekB c8-1\arrowUp d4-1\arrowDown \hiddenGraceArrow \arrowSelpe d8-1\arrowDown \tiny g,-0\arrowDown
+    % measure 14
+    \ADAChord 8.\arrowDown bfc16-1\arrowZeybekB c8-1\arrowUp d4-3\arrowDown \hiddenGraceArrow \arrowSelpe d8-3\arrowDown \tiny g,-0\arrowDown
     a4-0-5\arrowDown bfc8-1\arrowDown c16-3\arrowDown (bfc-1 c-1 d-3) c8-1\arrowDown bfc-5\arrowDown
     \acciaccatura c16-1\arrowDown d8-1 d-1\arrowDown c-1\arrowDown bfc4-1\arrowDown \vibrato bfc8-1\arrowDown a-0\arrowUp
     g16-1\arrowDown g-1\arrowDown fb8-1\arrowDown g-2\arrowDown a4-0\arrowDown a8-0\arrowDown a-0\arrowUp
