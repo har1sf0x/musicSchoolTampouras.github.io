@@ -53,7 +53,7 @@ melody = \relative c'' {
           % measure 11a
           \ADAChord 4 \arrowDown a8-0\arrowDown bfc-1\arrowUp c-1\arrowDown e-3\arrowUp d-1\arrowDown c-1\arrowUp
           % measure 12a
-          bfc-1\arrowDown c-3\arrowUp a-0\arrowDown bfc-1\arrowUp \RastChord 4 \arrowDown \tiny bfc-1\arrowDown c8-1\arrowUp
+          bfc-1\arrowDown c-3\arrowUp a-0\arrowDown bfc-1\arrowUp \RastChord 4 \arrowDown \tiny bfc-5\arrowDown c8-1\arrowUp
         }
         \volta 2 {
           % measure 10b
@@ -168,22 +168,22 @@ extraVerses = \markup {
 }
 
 %%%%%%% pdf %%%%%%%
-% \paper {
-%   #(set-paper-size "a4")
-%   top-margin = 2\cm
-%   left-margin = 1\cm
-%   right-margin = 1\cm
-%   indent = #0
-% }
-
-%%%%%%% svg %%%%%%%
 \paper {
-  paper-width = 210\mm
-  paper-height = 220\mm
+  #(set-paper-size "a4")
+  top-margin = 2\cm
   left-margin = 1\cm
   right-margin = 1\cm
   indent = #0
 }
+
+%%%%%%% svg %%%%%%%
+% \paper {
+%   paper-width = 210\mm
+%   paper-height = 220\mm
+%   left-margin = 1\cm
+%   right-margin = 1\cm
+%   indent = #0
+% }
 
 \header {
   title = \pieceName
