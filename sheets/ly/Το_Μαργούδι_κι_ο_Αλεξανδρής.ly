@@ -31,7 +31,7 @@ melody = \relative c'' {
         {c16-1\arrowDown (d-3) c-1\arrowUp (d-3) c-1\arrowDown (d-3) b-1\arrowUp (c-3) a-0\arrowDown (c-3) a-0\arrowUp (c-3) g8-0\arrowDown}
       >>
       % measure 3
-      bfc8-1\arrowDown bfc-1\arrowUp c-1\arrowDown bfc-1\arrowUp a-0\arrowDown a-0\arrowUp g-0\arrowDown
+      bfc8-1\arrowDown bfc-1\arrowUp c-3\arrowDown bfc-1\arrowUp a-0\arrowDown a-0\arrowUp g-0\arrowDown
       % measure 4
       a16-0\arrowDown (bfc-1) bfc8-1\arrowZeybekB bfc8-1\arrowZeybekB bfc8-1\arrowUp bfc4-1\arrowDown a8-0\arrowUp
       % measure 5
@@ -41,7 +41,7 @@ melody = \relative c'' {
       \alternative {
         \volta 1 {
           % measure 7a
-          bfc8-1\arrowDown bfc-1\arrowUp c-1\arrowDown bfc-1\arrowUp a-0\arrowDown a-0\arrowUp g-0\arrowDown
+          bfc8-1\arrowDown bfc-1\arrowUp c-3\arrowDown bfc-1\arrowUp a-0\arrowDown a-0\arrowUp g-0\arrowDown
           % measure 8a
           \AEAChord8\arrowDown \AEAChord8\arrowZeybekB \AEAChord8\arrowZeybekB \AEAChord8\arrowUp \AEAChord4\arrowDown a8-0\arrowUp
         }
@@ -66,7 +66,7 @@ melody = \relative c'' {
     % measure 13
     c4-1\arrowDown c8-1\arrowDown c-1\arrowUp c-1\arrowDown c-1\arrowUp bfc-5\arrowDown
     % measure 14
-    c8-1\arrowDown (d-3) d8-3\arrowDown d-3\arrowUp c4-1\arrowDown a8-0\arrowDown
+    c8-1\arrowDown (d-3) d8-3\arrowDown d-3\arrowUp c4-1\arrowDown a8-0\arrowUp
     \section \break \sectionLabel "Γ"
     % measure 15
     <<
@@ -87,7 +87,7 @@ melody = \relative c'' {
     % measure 18
     bfc8-1\arrowDown bfc-1\arrowUp bfc8-1\arrowDown a-0\arrowUp c-1\arrowDown c-1\arrowUp bfc-5\arrowDown
     % measure 19
-    a4-0\arrowDown \AEAChord8\arrowDown \AEAChord8\arrowUp \AEAChord4\arrowDown \customChord g a e -2 8 \arrowUp
+    a4-0\arrowDown \AEAChord8\arrowDown \AEAChord8\arrowUp \AEAChord4\arrowDown (\customChord g a e -2 8 \noArrow)
     % measure 20
     \AEAChord4\arrowDown \AEAChord8\arrowDown \AEAChord8\arrowUp \AEAChord4\arrowDown a8-0\arrowUp
     % measure 21
@@ -99,7 +99,7 @@ melody = \relative c'' {
     % measure 24
     bfc8-1\arrowDown bfc-1\arrowUp bfc8-1\arrowDown a-0\arrowUp c-1\arrowDown c-1\arrowUp bfc-5\arrowDown
     % measure 25
-    a4-0\arrowDown \AEAChord8\arrowDown \AEAChord8\arrowUp \AEAChord4\arrowDown \customChord g a e -2 8 \arrowUp
+    a4-0\arrowDown \AEAChord8\arrowDown \AEAChord8\arrowUp \AEAChord4\arrowDown (\customChord g a e -2 8 \noArrow)
     % measure 26
     \AEAChord4\arrowDown \AEAChord8\arrowDown \AEAChord8\arrowUp \AEAChord4\arrowDown a8-0\arrowUp \FBarline
   }
@@ -113,10 +113,10 @@ verseOne = \lyricmode {
     \set stanza = "1α."
     Το Μαρ _ -- γού _ -- δι κι Α _ _ _ _ -- λέ -- ξαν _ -- δρής, _ _
     Το Μαρ _ -- γού _ -- δι κι Α _ _ _ _ -- λέ -- ξαν _ -- δρής _
-    \repeat unfold 3 {
-      βγαί _ -- νουν _ στην _ αυ -- λή κρυ _ _ _ -- φά κρύ _ -- φά, _
-    }
-    βγαί _ -- νουν _ στην _ αυ -- λή κρυ _ _ _ -- φά κρύ _ -- φά.
+    βγαί _ -- νουν _ στην _ αυ -- λή κρυ _ _ _ -- φά κρύ _ -- φά, _
+    βγαί _ -- νουν _ στην _ αυ -- λή κρυ _ _ -- φά κρύ _ -- φά, _
+    βγαί _ -- νουν _ στην _ αυ -- λή κρυ _ _ _ -- φά κρύ _ -- φά, _
+    βγαί _ -- νουν _ στην _ αυ -- λή κρυ _ _ -- φά κρύ _ -- φά.
   }
   % \set fontSize = #-2 
   % <<

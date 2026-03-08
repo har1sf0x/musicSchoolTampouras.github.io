@@ -2,79 +2,134 @@
 
 \include "utilities_01.ly"
 
-pieceName = "Χαρμάνταλι"
-pieceSubtitle = "Αϊδίνι, Ζεϊμπέκικο"
-pieceFilename = "Χαρμάνταλι"
+pieceName = "Μεγαρίτικος Καρσιλαμάς"
+pieceSubtitle = "Μέγαρα, Καρσιλαμάς/Αργιλαμάς"
+pieceFilename = "Μεγαρίτικος_Καρσιλαμάς"
 source = ""
 keyA = \setHicazKey
 keyB = \setHicazBKey
 
 melody = \relative c'' {
-  \setZeybekTime
+  % \set Score.dalSegnoTextFormatter = #format-dal-segno-text-brief
+  % \set Score.alternativeNumberingStyle = #'numbers-with-letters
+  % \time 2/4
+  \setArgilamTime
   \sectionLabel "A"
-  % measure 1
-  d16-1\arrowDown d-1\arrowZeybek e-1\arrowUp fb-1\arrowUp
-  \repeat unfold 2 { g32-1\arrowDown fb-1\arrowZeybekB g16-2\arrowUp fb8-1\arrowUp\vibrato }
-  g32-1\arrowDown fb-1\arrowZeybekB g16-2\arrowUp a8-3\arrowUp
-  d,32-1\arrowDown (e16.-3) \ECbAChord 16 \arrowZeybek \ECbAChord 16 \arrowUp
-  \ECbAChord16\arrowTalipOzkan \ECbAChord16\arrowUp \ECbAChord8\arrowUp
-  e32-1\arrowDown f-2\arrowUp g-1\arrowDown a-3\arrowUp g-1\arrowDown f-1\arrowUp e-1\arrowDown d-1\arrowUp
-  cb32-5\arrowDown d-1\arrowUp e-3\arrowDown f-4\arrowUp e-3\arrowDown d-1\arrowUp cb-5\arrowDown bfb-4\2\arrowUp
-  a4-0\arrowDown
-  % measure 2
-  d16-1\arrowDown d-1\arrowZeybek e-1\arrowUp fb-1\arrowUp
-  \repeat unfold 2 { g32-1\arrowDown fb-1\arrowZeybekB g16-2\arrowUp fb8-1\arrowUp\vibrato }
-  g32-1\arrowDown fb-1\arrowZeybekB g16-2\arrowUp a8-3\arrowUp
-  d,32-1\arrowDown (e16.-3) \ECbAChord 16 \arrowZeybek \ECbAChord 16 \arrowUp
-  \ECbAChord16\arrowTalipOzkan \ECbAChord16\arrowUp \ECbAChord8\arrowUp
-  g32-1\arrowDown g-1\arrowUp a16-1\arrowDown a-1\arrowZeybek a32-1\arrowUp (g-1)
-  a32-1\arrowDown bfb-2\arrowUp a-1\arrowDown g-1\arrowUp fb16-1\arrowDown \hiddenGraceArrow \arrowZeybekB g-1\arrowUp
-  \afterGrace a4-1\arrowUp \glissando {\once \override Stem.stencil = ##f g \vibrato}
-  % measure 3
-  fb32-1\arrowDown fb-1\arrowUp g16-1\arrowDown g-1\arrowZeybek g32-1\arrowUp (fb-1)
-  g32-1\arrowDown a-3\arrowUp g-1\arrowDown f-1\arrowUp e16-1\arrowDown \hiddenGraceArrow \arrowZeybekB d-1\arrowUp
-  e32-1\arrowDown e-1\arrowUp f16-2\arrowDown f-2\arrowZeybek f-2\arrowUp
-  e32-1\arrowDown f-2\arrowUp e-1\arrowDown d-1\arrowUp cb32-2\arrowDown cb-2\arrowUp bfb-5\arrowDown a-0\arrowUp
-  \ADAChord 8. \arrowDown (\ADAChord 32 \arrowUp) g32-0
-  \ADAChord 32 \arrowDown cb32-2 \arrowUp bfb-5 \arrowDown a-0\arrowUp \RastChord 8 \arrowDown
-  \ADAChord 16 \arrowDown \ADAChord 32 \arrowDown g32-0\arrowUp \ADAChord 32 \arrowDown \ADAChord 32 \arrowUp bfb16-0 \arrowDown
-  \GDChord 16 \arrowDown cb16-1\arrowSilifke \GDChord 16 \arrowDown d16-1\arrowSilifke
-  \GDChord 16 \arrowDown e16-1\arrowSilifke fb8-1\arrowUp\vibrato
-  % measure 4
-  fb32-1\arrowDown fb-1\arrowUp g16-1\arrowDown g-1\arrowZeybek g32-1\arrowUp (fb-1)
-  g32-1\arrowDown a-3\arrowUp g-1\arrowDown f-1\arrowUp e16-1\arrowDown \hiddenGraceArrow \arrowZeybekB d-1\arrowUp
-  e32-1\arrowDown e-1\arrowUp f16-2\arrowDown f-2\arrowZeybek f-2\arrowUp
-  e32-1\arrowDown f-2\arrowUp e-1\arrowDown d-1\arrowUp cb32-2\arrowDown cb-2\arrowUp bfb-5\arrowDown a-0\arrowUp
-  \ADAChord 8. \arrowDown (\ADAChord 32 \arrowUp) g32-0
-  \ADAChord 32 \arrowDown cb32-2 \arrowUp bfb-5 \arrowDown a-0\arrowUp \RastChord 8 \arrowDown
-  \ADAChord 16. \arrowDown bfb32-1\arrowZeybekB cb16-1\arrowUp d-1\arrowUp
-  e16-3\arrowDown cb-2\arrowUp d-4\arrowUp bfb32-5\arrowDown a32-0\arrowUp
-  \ADAChord 8. \arrowDown \ADAChord 16 \arrowUp
+  \repeat volta 2 {
+    \repeat unfold 2 {
+      % measure 1 & 2
+      \FbCbChord 8 \arrowDown (\RastChord 8 \noArrow)
+      a16-0 \arrowDown (cb-2) bfb-5 \arrowDown a-0 \arrowUp g8-0 \arrowDown
+      \beatAG 8 \arrowDown \beatAG 8 \arrowUp
+    }
+    % measure 3
+    \FbCbChord 8 \arrowDown (\RastChord 8 \noArrow)
+    a16-0 \arrowDown (cb-2) bfb-5 \arrowDown a-0 \arrowUp g8-0 \arrowDown
+    \ADAChord 16 \arrowDown bfb16-1 \arrowUp cb-1 \arrowDown d-1 \arrowUp
+    e16-3 \arrowDown f-4 \arrowUp e-3 \arrowDown d-1\arrowUp
+    % measure 4
+    cb-5 \arrowDown d-1 \arrowUp e-3 \arrowDown d-1\arrowUp
+    cb16-2 \arrowDown cb-2 \arrowUp bfb-5 \arrowDown a-0 \arrowUp g8-0 \arrowDown
+    \beatAG 8 \arrowDown \beatAG 8 \arrowUp \fine
+  }
   \section \break \sectionLabel "B" \set Score.currentBarNumber = #1
+  \set Score.repeatCommands = #'(start-repeat)
+  % measure 1
+  e'16-3 \arrowDown d-1 \arrowUp cb-5 \arrowDown d-1\arrowUp
+  e8-1 \arrowDown fb-1 \arrowUp a-3 \arrowUp
+  g16-1 \arrowDown g-1 \arrowUp fb-1 \arrowDown g-2 \arrowUp
+  e16-1 \arrowDown e-1 \arrowUp d-1 \arrowDown e-3 \arrowUp
+  % measure 2
+  cb-5 \arrowDown d-1 \arrowUp e-3 \arrowDown d-1\arrowUp
+  cb16-2 \arrowDown cb-2 \arrowUp bfb-5 \arrowDown a-0 \arrowUp g8-0 \arrowDown
+  \ADAChord 16 \arrowDown bfb16-1 \arrowUp cb-1 \arrowDown d-1 \arrowUp
+  e8-3 \arrowDown (a,-0)
+  % measure 3
+  e'16-3 \arrowDown d-1 \arrowUp cb-5 \arrowDown d-1\arrowUp
+  e8-1 \arrowDown fb-1 \arrowUp a-3 \arrowUp
+  g16-1 \arrowDown g-1 \arrowUp fb-1 \arrowDown g-2 \arrowUp
+  e16-1 \arrowDown e-1 \arrowUp d-1 \arrowDown e-3 \arrowUp
+  \set Score.repeatCommands = #'((volta #f) (volta ""))
+  \once \override Score.VoltaBracket.text = \markup \text \normalsize "Α. Β. Γ. Ε."
+  % measure 4a
+  cb16-5 \arrowDown d-1 \arrowUp e-3 \arrowDown d-1\arrowUp
+  cb16-2 \arrowDown cb-2 \arrowUp bfb-5 \arrowDown a-0 \arrowUp g8-0 \arrowDown
+  \beatAG 8 \arrowDown \beatAG 8 \arrowUp
+  \set Score.repeatCommands = #'((volta #f) (volta "") end-repeat)
+  \once \override Score.VoltaBracket.text = \markup \text \normalsize "Δ."
+  % measure 4b
+  cb16-5 \arrowDown d-1 \arrowUp e-3 \arrowDown d-1\arrowUp
+  cb16-2 \arrowDown cb-2 \arrowUp bfb-5 \arrowDown a-0 \arrowUp g8-0 \arrowDown
+  \beatAG 8 \arrowDown \beatAG 16 \arrowUp a16-5 \arrowDown bfc-1 \arrowUp
+  \set Score.repeatCommands = #'((volta #f))
+  \section \break \sectionLabel "Γ" \set Score.currentBarNumber = #1
+  \repeat volta 4 {
+    % measure 1
+    \ADChord 16 \arrowDown (\customChord bfb d a -1 8. \noArrow) \hiddenGraceArrow \arrowSelpe
+    \customChord bfb d-1 bfb -3 16 \arrowDown (\customChord a d-1 bfb -5 16 \noArrow)
+    \customChord bfb d-1 bfb -3 16 \arrowUp (\customChord a d-1 bfb -5 16 \noArrow)
+    \customChord bfb d-1 bfb -3 8 \arrowUp
+    bfb16-5 \arrowDown a-0 \arrowUp bfb-5 \arrowDown cb-2 \arrowUp
+    bfb16-5 \arrowDown a-0 \arrowUp \RastChord 8 \arrowDown
+    % measure 2
+    a16-0 \arrowDown (cb-3) bfb8-5 \arrowDown
+    cb16-2 \arrowDown cb-2 \arrowUp bfb-5 \arrowDown a-0 \arrowUp g8-0 \arrowDown
+    \beatAG 8 \arrowDown \beatAG 8 \arrowUp
+  }
+  \section \break \sectionLabel "Δ" \set Score.currentBarNumber = #1
   \repeat volta 2 {
     % measure 1
-    cb16-1\arrowDown d16-1\arrowDown d16-1\arrowZeybek d32-1\arrowUp (cb-1)
-    d16.-1\arrowDown cb32-2\arrowUp bfb32-5\arrowDown a32-0\arrowUp bfb16-5\arrowDown
-    cb16-1\arrowDown d16-1\arrowDown d16-1\arrowZeybek d32-1\arrowUp (cb-1)
-    d16.-1\arrowDown cb32-2\arrowUp bfb16-5\arrowDown cb32-2\arrowUp (d-4)
-    bfb8.-5 \arrowDown \BfbDDChord 16 \arrowUp \BfbDDChord 16 \arrowTalipOzkan \BfbDDChord 16 \arrowUp \BfbDDChord 8 \arrowUp
-    \ADAChord 16 \arrowDown \ADAChord 32 \arrowDown g32-0\arrowUp \ADAChord 32 \arrowDown \ADAChord 32 \arrowUp bfb16-0 \arrowDown
-    \GDChord 16 \arrowDown cb16-1\arrowSilifke \GDChord 16 \arrowDown d16-1\arrowSilifke
-    \GDChord 16 \arrowDown e16-1\arrowSilifke fb8-1\arrowUp\vibrato
+    c16-3 \arrowDown bfc-1 \arrowUp c-1 \arrowDown d-3 \arrowUp
+    bfc16-5 \arrowDown a-0\arrowUp g-0\arrowDown fb-2\arrowUp g-0 \arrowDown a-0 \arrowUp
+    bfc8.-1\arrowDown f'16-2 \arrowUp
+    e16-1 \arrowDown f-2 \arrowUp e-1 \arrowDown d-1 \arrowUp
+    \alternative {
+      \volta 1 {
+        % measure 2
+        cb-5 \arrowDown d-1 \arrowUp e-3 \arrowDown d-1\arrowUp
+        cb16-2 \arrowDown cb-2 \arrowUp bfb-5 \arrowDown a-0 \arrowUp g8-0 \arrowDown
+        \beatAG 8 \arrowDown \beatAG 16 \arrowUp a16-5 \arrowDown bfc-1 \arrowUp
+      }
+      \volta 2 {
+        % measure 2
+        cb-5 \arrowDown d-1 \arrowUp e-3 \arrowDown d-1\arrowUp
+        cb16-2 \arrowDown cb-2 \arrowUp bfb-5 \arrowDown a-0 \arrowUp g8-0 \arrowDown
+        \beatAG 8 \arrowDown \beatAG 8 \arrowUp \FBarline
+      }
+    }
+  }
+  \section \break \sectionLabel "Ε" \set Score.currentBarNumber = #1
+  \repeat volta 2 {
+    % measure 1
+    \FbCbChord 8 \arrowDown (\RastChord 8 \noArrow)
+    a8-0 \arrowDown bfc-1 \arrowUp g-0 \arrowDown
+    c16-3 \arrowDown bfc-1 \arrowUp c-1 \arrowDown d-3 \arrowUp
+    c8-1 \arrowDown bfc-1 \arrowUp
     % measure 2
-    fb32-1\arrowDown fb-1\arrowUp g16-1\arrowDown g-1\arrowZeybek g32-1\arrowUp (fb-1)
-    g32-1\arrowDown a-3\arrowUp g-1\arrowDown f-1\arrowUp e16-1\arrowDown \hiddenGraceArrow \arrowZeybekB d-1\arrowUp
-    e32-1\arrowDown e-1\arrowUp f16-2\arrowDown f-2\arrowZeybek f-2\arrowUp
-    e32-1\arrowDown f-2\arrowUp e-1\arrowDown d-1\arrowUp cb32-2\arrowDown cb-2\arrowUp bfb-5\arrowDown a-0\arrowUp
-    \ADAChord 8. \arrowDown (\ADAChord 32 \arrowUp) g32-0
-    \ADAChord 32 \arrowDown cb32-2 \arrowUp bfb-5 \arrowDown a-0\arrowUp \RastChord 8 \arrowDown
-    \ADAChord 16. \arrowDown bfb32-1\arrowZeybekB cb16-1\arrowUp d-1\arrowUp
-    e16-3\arrowDown cb-2\arrowUp d-4\arrowUp bfb32-5\arrowDown a32-0\arrowUp
-    \ADAChord 4 \arrowDown
+    bfc-1 \arrowDown a-0 \arrowUp
+    g8-0 \arrowDown a-0 \arrowUp bfc-1 \arrowDown
+    c16-3 \arrowDown bfc-1 \arrowUp c-1 \arrowDown d-3 \arrowUp
+    c8-1 \arrowDown bfc-1 \arrowUp
+    % measure 3
+    bfc-1 \arrowDown a-0 \arrowUp
+    g8-0 \arrowDown a-0 \arrowUp bfc-1 \arrowDown
+    c16-3 \arrowDown bfc-1 \arrowUp c-1 \arrowDown d-1 \arrowUp
+    e16-3 \arrowDown f-4 \arrowUp e-3 \arrowDown d-1 \arrowUp
+    % measure 3
+    cb-5 \arrowDown d-1 \arrowUp e-3 \arrowDown d-1\arrowUp
+    cb16-2 \arrowDown cb-2 \arrowUp bfb-5 \arrowDown a-0 \arrowUp g8-0 \arrowDown
+    \beatAG 8 \arrowDown \beatAG 8 \arrowUp \FBarline
   }
 }
 
 verseOne = \lyricmode {
+  % \new Lyrics {
+  %   \set associatedVoice = "one"
+  %   \repeat unfold 5 {\skip 1} %"1α."
+  %   \override StanzaNumber.font-series = #'medium
+  %   \set stanza = "1α."
+  %   Χρι -- στού -- γεν _ -- να, Πρω -- τού -- γεν _ -- να πρώ -- τη -- γιορ _ -- τή _ του χρό _ _ -- νου, για
+  % }
   % \set fontSize = #-2 
   % <<
   %   \new Lyrics {
@@ -91,6 +146,7 @@ verseOne = \lyricmode {
 }
 
 extraVerses = \markup {
+  % \abs-fontsize #10
   % \fill-line {
   %   \column {
   %     \line { \bold "1."
@@ -196,22 +252,22 @@ extraVerses = \markup {
 }
 
 %%%%%%% pdf %%%%%%%
-\paper {
-  #(set-paper-size "a4")
-  top-margin = 2\cm
-  left-margin = 1\cm
-  right-margin = 1\cm
-  indent = #0
-}
-
-%%%%%%% svg %%%%%%%
 % \paper {
-%   paper-width = 210\mm
-%   paper-height = 220\mm
+%   #(set-paper-size "a4")
+%   top-margin = 2\cm
 %   left-margin = 1\cm
 %   right-margin = 1\cm
 %   indent = #0
 % }
+
+%%%%%%% svg %%%%%%%
+\paper {
+  paper-width = 210\mm
+  paper-height = 240\mm
+  left-margin = 1\cm
+  right-margin = 1\cm
+  indent = #0
+}
 
 \header {
   title = \pieceName
@@ -219,6 +275,7 @@ extraVerses = \markup {
   copyright = "Χ. Κόχυλας"
 }
 \layout {
+  \override LyricText.font-size=#-2
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
 }

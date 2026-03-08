@@ -62,6 +62,8 @@ arrowTalipOzkanMarkup = \markup {
   \scale #'(1 . -1) \arrowSelpeMarkup
 }
 
+noArrowMarkup = \markup {""}
+
 vibratoMarkup = \markup {"vib."}
 
 SBarline = #(define-music-function () () #{\bar "|"#})
@@ -83,13 +85,18 @@ setUssakBKey = \set Staff.keyAlterations = #`((2 . ,(- KOMA)))
 setRastKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (3 . , BAKIYE))
 setRastBKey = \set Staff.keyAlterations = #`((2 . ,(- KOMA)) (6 . , (- KOMA)))
 setHicazKey = \set Staff.keyAlterations = #`((6 . ,(- BAKIYE)) (3 . , BAKIYE) (0 . , BAKIYE))
-setHicazBKey = \set Staff.keyAlterations = #`((2 . ,(- BAKIYE)) (6 . , (- KOMA)))
+setHicazBKey = \set Staff.keyAlterations = #`((6 . , (- KOMA)) (2 . ,(- BAKIYE)) (3 . ,BAKIYE))
 setSegahKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (2 . ,(- KOMA)) (3 . , BAKIYE))
 setSegahBKey = \set Staff.keyAlterations = #`((2 . ,(- KOMA)) (5 . , (- KOMA)) (6 . , (- KOMA)))
 
 setZeybekTime = {
   \time 9/4
   \set Timing.beatStructure = 1,1,1,1,1,1,1,1,1
+}
+
+setArgilamTime = {
+  \time 9/8
+  \set Timing.beatStructure = 2,3,2,2
 }
 
 setKalamTime = {
@@ -176,7 +183,7 @@ downBeatChord = #(define-music-function (p1 p2 p3 fin dur) (ly:pitch? ly:pitch? 
   \fixed c' {< $p1 \arrowDown \single \greyNote $p2 \single \greyNote $p3 > $dur $fin }
 #})
 
-customChord = #(define-music-function (p1 p2 p3 fin dur arrow) (ly:pitch? ly:pitch? ly:pitch? ly:event? ly:duration? ly:music?) #{
+customChord = #(define-music-function (p1 p2 p3 fin dur arrow) (ly:pitch? ly:music? ly:pitch? ly:event? ly:duration? ly:music?) #{
   \fixed c' {< $p1 $arrow \single \greyNote $p2 \single \greyNote $p3 > $dur $fin }
 #})
 
@@ -356,6 +363,23 @@ customChord = #(define-music-function (p1 p2 p3 fin dur arrow) (ly:pitch? ly:pit
 )
 
 #(set! default-script-alist (acons
+  'noArrow `(
+    (stencil . ,(
+      lambda (grob) (let ((d (ly:grob-property grob 'direction UP))
+        (mstc (grob-interpret-markup grob (markup
+          #:override '(font-encoding . latin1)
+          #:center-align noArrowMarkup ))))
+      (if (= d UP)
+        mstc
+        (ly:stencil-rotate
+          mstc 0 0 (interval-center (ly:stencil-extent mstc Y))))
+        )
+      )
+    ) (direction . ,UP)) default-script-alist
+  )
+)
+
+#(set! default-script-alist (acons
   'vibrato `(
     (stencil . ,(
       lambda (grob) (let ((d (ly:grob-property grob 'direction UP))
@@ -382,6 +406,7 @@ customChord = #(define-music-function (p1 p2 p3 fin dur arrow) (ly:pitch? ly:pit
 "arrowSilifkeB" = #(make-articulation 'arrowSilifkeB)
 "arrowSelpe" = #(make-articulation 'arrowSelpe)
 "arrowTalipOzkan" = #(make-articulation 'arrowTalipOzkan)
+"noArrow" = #(make-articulation 'noArrow)
 "vibrato" = #(make-articulation 'vibrato)
 
 \layout { \context { \Score scriptDefinitions = #default-script-alist
@@ -456,6 +481,19 @@ restDownUp = {
     \new Voice { s8\arrowDown s\arrowUp }
   >> \oneVoice
 }
+
+% aeNotes =
+% #(define-music-function (dur) (ly:duration?) #{
+%   \fixed c' {<\single \greyNote a \single \greyNote e> $dur }  % Notes with $ prefix use the duration argument
+% #})
+
+beatAG = #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
+  <<
+    {a $dur -2-5 $arrow (g-2-0)}
+    {\single \greyNote e $dur (\single \greyNote e)}
+    {\single \greyNote a $dur (\single \greyNote a)}
+  >>
+#})
 
 
 %{
