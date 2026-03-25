@@ -15,7 +15,7 @@ melody = \relative c'' {
   % measure 1
   d16-1\arrowDown d-1\arrowZeybek e-1\arrowUp fb-1\arrowUp
   \repeat unfold 2 { g32-1\arrowDown fb-1\arrowZeybekB g16-2\arrowUp fb8-1\arrowUp\vibrato }
-  g32-1\arrowDown fb-1\arrowZeybekB g16-2\arrowUp a8-3\arrowUp
+  g32-1\arrowDown fb-1\arrowZeybekB g16-1\arrowUp a8-3\arrowUp
   d,32-1\arrowDown (e16.-3) \ECbAChord 16 \arrowZeybek \ECbAChord 16 \arrowUp
   \ECbAChord16\arrowTalipOzkan \ECbAChord16\arrowUp \ECbAChord8\arrowUp
   e32-1\arrowDown f-2\arrowUp g-1\arrowDown a-3\arrowUp g-1\arrowDown f-1\arrowUp e-1\arrowDown d-1\arrowUp
@@ -24,7 +24,7 @@ melody = \relative c'' {
   % measure 2
   d16-1\arrowDown d-1\arrowZeybek e-1\arrowUp fb-1\arrowUp
   \repeat unfold 2 { g32-1\arrowDown fb-1\arrowZeybekB g16-2\arrowUp fb8-1\arrowUp\vibrato }
-  g32-1\arrowDown fb-1\arrowZeybekB g16-2\arrowUp a8-3\arrowUp
+  g32-1\arrowDown fb-1\arrowZeybekB g16-1\arrowUp a8-3\arrowUp
   d,32-1\arrowDown (e16.-3) \ECbAChord 16 \arrowZeybek \ECbAChord 16 \arrowUp
   \ECbAChord16\arrowTalipOzkan \ECbAChord16\arrowUp \ECbAChord8\arrowUp
   g32-1\arrowDown g-1\arrowUp a16-1\arrowDown a-1\arrowZeybek a32-1\arrowUp (g-1)
@@ -196,22 +196,22 @@ extraVerses = \markup {
 }
 
 %%%%%%% pdf %%%%%%%
-\paper {
-  #(set-paper-size "a4")
-  top-margin = 2\cm
-  left-margin = 1\cm
-  right-margin = 1\cm
-  indent = #0
-}
-
-%%%%%%% svg %%%%%%%
 % \paper {
-%   paper-width = 210\mm
-%   paper-height = 220\mm
+%   #(set-paper-size "a4")
+%   top-margin = 2\cm
 %   left-margin = 1\cm
 %   right-margin = 1\cm
 %   indent = #0
 % }
+
+%%%%%%% svg %%%%%%%
+\paper {
+  paper-width = 210\mm
+  paper-height = 220\mm
+  left-margin = 1\cm
+  right-margin = 1\cm
+  indent = #0
+}
 
 \header {
   title = \pieceName
