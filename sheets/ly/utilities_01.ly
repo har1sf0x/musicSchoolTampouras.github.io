@@ -88,6 +88,8 @@ setHicazKey = \set Staff.keyAlterations = #`((6 . ,(- BAKIYE)) (3 . , BAKIYE) (0
 setHicazBKey = \set Staff.keyAlterations = #`((6 . , (- KOMA)) (2 . ,(- BAKIYE)) (3 . ,BAKIYE))
 setSegahKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (2 . ,(- KOMA)) (3 . , BAKIYE))
 setSegahBKey = \set Staff.keyAlterations = #`((2 . ,(- KOMA)) (5 . , (- KOMA)) (6 . , (- KOMA)))
+setNikrizKey = \set Staff.keyAlterations = #`((6 . ,(- BAKIYE)) (0 . , BAKIYE))
+setNikrizBKey = \set Staff.keyAlterations = #`((2 . ,(- BAKIYE)) (3 . ,BAKIYE))
 
 setZeybekTime = {
   \time 9/4
@@ -161,7 +163,7 @@ BfbDDChord =
 
 BfcGDChord =
 #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
-  \fixed c' {<bfc $arrow \single \greyNote g \single \greyNote  d'>> $dur -4-3-5}  % Notes with $ prefix use the duration argument
+  \fixed c' {<bfc $arrow \single \greyNote g \single \greyNote  d'> $dur -4-3-5}  % Notes with $ prefix use the duration argument
 #})
 
 FbCbChord =
