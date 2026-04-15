@@ -34,9 +34,9 @@ melody = \relative c'' {
     % measure 1
     \ADChord 4 \arrowDown a8-0\arrowSilifke bfc-1\arrowUp c16-1\arrowDown (d16-3) c8-1\arrowUp d4-1\arrowDown
     % measure 2
-    \downBeatChord g d e' -3 8. f16-4\arrowUp e16-3\arrowDown (f-4) d8-1\arrowUp \downBeatChord g d c' -1 16 (d16-3) c-1\arrowUp (d-3) bfc8-5\arrowDown (g-0)
+    e8.-3\arrowDown f16-4\arrowUp e16-3\arrowDown (f-4) d8-1\arrowUp c16-1\arrowDown (d16-3) c-1\arrowUp (d-3) bfc8-5\arrowDown (g-0)
     % measure 3
-    \downBeatChord g d c' -1 8 (d'8-3) d-3\arrowDown c16-1\arrowUp (d-3) \downBeatChord g d c' -1 16 (d16-3) bfc-1\arrowUp (c-3) bfc-1\arrowDown (c-3) a8-0\arrowUp
+    c8-1\arrowDown (d8-3) d-3\arrowDown c16-1\arrowUp (d-3) c16-1\arrowDown (d16-3) bfc-1\arrowUp (c-3) bfc-1\arrowDown (c-3) a8-0\arrowUp
     \alternative {
       % measure 4a
       \volta 1 {\measureAG}
@@ -46,29 +46,29 @@ melody = \relative c'' {
   }
   \section \break \sectionLabel "B" %\set Score.currentBarNumber = #1
   % measure 5
-  \downBeatChord g d e' -1 4 e'8-1\arrowDown f-2\arrowUp \downBeatChord g d e' -1 16 (f16-2) e-1\arrowUp (f-2) d4-1\arrowDown
+  e'4-1\arrowDown e8-1\arrowDown f-2\arrowUp e16-1\arrowDown (f16-2) e-1\arrowUp (f-2) d4-1\arrowDown
   % measure 6
-  \downBeatChord g d d' -1 4 c8-1\arrowDown d-3\arrowUp \downBeatChord g d c' -1 16 (d16-3) c8-1\arrowUp d4-3\arrowDown
+  d4-1\arrowDown c8-1\arrowDown d-3\arrowUp c16-1\arrowDown (d16-3) c8-1\arrowUp d4-3\arrowDown
   % measure 7
-  \downBeatChord g d e' -1 4 f8-2\arrowDown g-4\arrowUp \downBeatChord g d e' -1 16 (f16-2) e-1\arrowUp (f-2) d4-1\arrowDown
+  e4-1\arrowDown f8-2\arrowDown g-4\arrowUp e16-1\arrowDown (f16-2) e-1\arrowUp (f-2) d4-1\arrowDown
   % measure 8
   \downBeatChord g d d' -1 4 d8-1\arrowSilifke d-1\arrowUp \downBeatChord g d d' -1 8 d8-1\arrowUp d4-1\arrowDown
   % measure 9
-  \downBeatChord g d g' -1 16 (a'16-3) g16-1\arrowUp (a-3) f8-1\arrowDown g-3\arrowUp \downBeatChord g d e' -1 16 (f16-2) e-1\arrowUp (f-2) d4-1\arrowDown
+  g16-1\arrowDown (a16-3) g16-1\arrowUp (a-3) f8-1\arrowDown g-3\arrowUp e16-1\arrowDown (f16-2) e-1\arrowUp (f-2) d4-1\arrowDown
   % measure 10
-  \downBeatChord g d d' -1 4 c8-1\arrowDown d-3\arrowUp \downBeatChord g d c' -1 16 (d16-3) c8-1\arrowUp d4-3\arrowDown
+  d4-1\arrowDown c8-1\arrowDown d-3\arrowUp c16-1\arrowDown (d16-3) c8-1\arrowUp d4-3\arrowDown
   % measure 11
-  \downBeatChord g d e' -1 4 f8-2\arrowDown g-4\arrowUp \downBeatChord g d e' -1 16 (f16-2) e-1\arrowUp (f-2) d4-1\arrowDown
+  e4-1\arrowDown f8-2\arrowDown g-4\arrowUp e16-1\arrowDown (f16-2) e-1\arrowUp (f-2) d4-1\arrowDown
   % measure 12
   \downBeatChord g d d' -1 4 d8-1\arrowSilifke d-1\arrowUp \downBeatChord g d d' -1 8 d8-1\arrowUp g,4-1\arrowDown
   \section \break \sectionLabel "Γ"
   \repeat volta 2 {
     % measure 13
-    \ADChord 4 \arrowDown a8-0\arrowSilifke bfc-1\arrowUp \downBeatChord g d c' -1 16 (d16-3) c8-1\arrowUp d4-1\arrowDown
+    \ADChord 4 \arrowDown a8-0\arrowSilifke bfc-1\arrowUp c16-1\arrowDown (d16-3) c8-1\arrowUp d4-1\arrowDown
     % measure 14
-    \downBeatChord g d e' -3 8. f16-4\arrowUp e16-3\arrowDown (f-4) d8-1\arrowUp \downBeatChord g d c' -1 16 (d16-3) c-1\arrowUp (d-3) bfc8-5\arrowDown (g-0)
+    e8.-3\arrowDown f16-4\arrowUp e16-3\arrowDown (f-4) d8-1\arrowUp c16-1\arrowDown (d16-3) c-1\arrowUp (d-3) bfc8-5\arrowDown (g-0)
     % measure 15
-    \downBeatChord g d c' -1 8 (d'8-3) d-3\arrowDown c16-1\arrowUp (d-3) \downBeatChord g d c' -1 16 (d16-3) bfc-1\arrowUp (c-3) bfc-1\arrowDown (c-3) a8-0\arrowUp
+    c8-1\arrowDown (d8-3) d-3\arrowDown c16-1\arrowUp (d-3) c16-1\arrowDown (d16-3) bfc-1\arrowUp (c-3) bfc-1\arrowDown (c-3) a8-0\arrowUp
     \alternative {
       % measure 16a
       \volta 1 {\measureAG}
@@ -148,22 +148,22 @@ extraVerses = \markup {
 }
 
 %%%%%%% pdf %%%%%%%
-\paper {
-  #(set-paper-size "a4")
-  top-margin = 2\cm
-  left-margin = 1\cm
-  right-margin = 1\cm
-  indent = #0
-}
-
-%%%%%%% svg %%%%%%%
 % \paper {
-%   paper-width = 210\mm
-%   paper-height = 297\mm
+%   #(set-paper-size "a4")
+%   top-margin = 2\cm
 %   left-margin = 1\cm
 %   right-margin = 1\cm
 %   indent = #0
 % }
+
+%%%%%%% svg %%%%%%%
+\paper {
+  paper-width = 210\mm
+  paper-height = 297\mm
+  left-margin = 1\cm
+  right-margin = 1\cm
+  indent = #0
+}
 
 \header {
   title = \pieceName
