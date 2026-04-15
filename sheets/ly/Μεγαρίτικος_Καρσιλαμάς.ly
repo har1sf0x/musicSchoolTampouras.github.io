@@ -65,10 +65,10 @@ melody = \relative c'' {
   \section \break \sectionLabel "Γ" \set Score.currentBarNumber = #1
   \repeat volta 4 {
     % measure 1
-    \ADChord 16 \arrowDown (\customChord bfb d a -1 8. \noArrow) \hiddenGraceArrow \arrowSelpe
-    \customChord bfb d-1 bfb -3 16 \arrowDown (\customChord a d-1 bfb -5 16 \noArrow)
-    \customChord bfb d-1 bfb -3 16 \arrowUp (\customChord a d-1 bfb -5 16 \noArrow)
-    \customChord bfb d-1 bfb -3 8 \arrowUp
+    \ADChord 16 \arrowDown (\customTriChord bfb d a -1 8. \noArrow) \hiddenGraceArrow \arrowSelpe
+    \customTriChord bfb d-1 bfb -3 16 \arrowDown (\customTriChord a d-1 bfb -5 16 \noArrow)
+    \customTriChord bfb d-1 bfb -3 16 \arrowUp (\customTriChord a d-1 bfb -5 16 \noArrow)
+    \customTriChord bfb d-1 bfb -3 8 \arrowUp
     bfb16-5 \arrowDown a-0 \arrowUp bfb-5 \arrowDown cb-2 \arrowUp
     bfb16-5 \arrowDown a-0 \arrowUp \RastChord 8 \arrowDown
     % measure 2

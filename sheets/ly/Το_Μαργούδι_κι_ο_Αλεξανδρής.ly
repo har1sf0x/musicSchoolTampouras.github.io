@@ -87,7 +87,7 @@ melody = \relative c'' {
     % measure 18
     bfc8-1\arrowDown bfc-1\arrowUp bfc8-1\arrowDown a-0\arrowUp c-1\arrowDown c-1\arrowUp bfc-5\arrowDown
     % measure 19
-    a4-0\arrowDown \AEAChord8\arrowDown \AEAChord8\arrowUp \AEAChord4\arrowDown (\customChord g a e -2 8 \noArrow)
+    a4-0\arrowDown \AEAChord8\arrowDown \AEAChord8\arrowUp \AEAChord4\arrowDown (\customTriChord g a e -2 8 \noArrow)
     % measure 20
     \AEAChord4\arrowDown \AEAChord8\arrowDown \AEAChord8\arrowUp \AEAChord4\arrowDown a8-0\arrowUp
     % measure 21
@@ -99,7 +99,7 @@ melody = \relative c'' {
     % measure 24
     bfc8-1\arrowDown bfc-1\arrowUp bfc8-1\arrowDown a-0\arrowUp c-1\arrowDown c-1\arrowUp bfc-5\arrowDown
     % measure 25
-    a4-0\arrowDown \AEAChord8\arrowDown \AEAChord8\arrowUp \AEAChord4\arrowDown (\customChord g a e -2 8 \noArrow)
+    a4-0\arrowDown \AEAChord8\arrowDown \AEAChord8\arrowUp \AEAChord4\arrowDown (\customTriChord g a e -2 8 \noArrow)
     % measure 26
     \AEAChord4\arrowDown \AEAChord8\arrowDown \AEAChord8\arrowUp \AEAChord4\arrowDown a8-0\arrowUp \FBarline
   }

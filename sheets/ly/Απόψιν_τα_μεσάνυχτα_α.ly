@@ -32,7 +32,7 @@ melody = \relative c'' {
   \section \sectionLabel "A"
   \repeat volta 2 {
     % measure 1
-    \ADChord 4 \arrowDown a8-0\arrowSilifke bfc-1\arrowUp \downBeatChord g d c' -1 16 (d16-3) c8-1\arrowUp d4-1\arrowDown
+    \ADChord 4 \arrowDown a8-0\arrowSilifke bfc-1\arrowUp c16-1\arrowDown (d16-3) c8-1\arrowUp d4-1\arrowDown
     % measure 2
     \downBeatChord g d e' -3 8. f16-4\arrowUp e16-3\arrowDown (f-4) d8-1\arrowUp \downBeatChord g d c' -1 16 (d16-3) c-1\arrowUp (d-3) bfc8-5\arrowDown (g-0)
     % measure 3
