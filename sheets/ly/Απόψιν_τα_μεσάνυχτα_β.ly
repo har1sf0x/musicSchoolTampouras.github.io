@@ -174,6 +174,7 @@ extraVerses = \markup {
   \override LyricText.font-size=#-2
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
+  \omit Fingering
 }
 \book {
   \bookOutputName \pieceFilename
@@ -200,6 +201,7 @@ extraVerses = \markup {
 \layout {
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
+  \undo \omit Fingering
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_δάχτυλα")
@@ -223,6 +225,7 @@ extraVerses = \markup {
 \layout {
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
+  \omit Fingering
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_πενιές")
@@ -246,6 +249,7 @@ extraVerses = \markup {
 \layout {
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
+  \undo \omit Fingering
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_πενιές_δάχτυλα")
@@ -269,6 +273,7 @@ extraVerses = \markup {
 \layout {
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
+  \omit Fingering
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο")
@@ -292,6 +297,7 @@ extraVerses = \markup {
 \layout {
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
+  \undo \omit Fingering
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο_δάχτυλα")
@@ -315,6 +321,7 @@ extraVerses = \markup {
 \layout {
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
+  \omit Fingering
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές")
@@ -338,6 +345,7 @@ extraVerses = \markup {
 \layout {
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
+  \undo \omit Fingering
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές_δάχτυλα")

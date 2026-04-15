@@ -200,22 +200,22 @@ extraVerses = \markup {
 }
 
 %%%%%%% pdf %%%%%%%
-% \paper {
-%   #(set-paper-size "a4")
-%   top-margin = 2\cm
-%   left-margin = 1\cm
-%   right-margin = 1\cm
-%   indent = #0
-% }
-
-%%%%%%% svg %%%%%%%
 \paper {
-  paper-width = 210\mm
-  paper-height = 140\mm
+  #(set-paper-size "a4")
+  top-margin = 2\cm
   left-margin = 1\cm
   right-margin = 1\cm
   indent = #0
 }
+
+%%%%%%% svg %%%%%%%
+% \paper {
+%   paper-width = 210\mm
+%   paper-height = 140\mm
+%   left-margin = 1\cm
+%   right-margin = 1\cm
+%   indent = #0
+% }
 
 \header {
   title = \pieceName
@@ -226,6 +226,7 @@ extraVerses = \markup {
   \override LyricText.font-size=#-2
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
+  \omit Fingering
 }
 \book {
   \bookOutputName \pieceFilename
@@ -252,6 +253,7 @@ extraVerses = \markup {
 \layout {
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
+  \undo \omit Fingering
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_δάχτυλα")
@@ -275,6 +277,7 @@ extraVerses = \markup {
 \layout {
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
+  \omit Fingering
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_πενιές")
@@ -298,6 +301,7 @@ extraVerses = \markup {
 \layout {
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
+  \undo \omit Fingering
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_πενιές_δάχτυλα")
@@ -321,6 +325,7 @@ extraVerses = \markup {
 \layout {
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
+  \omit Fingering
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο")
@@ -344,6 +349,7 @@ extraVerses = \markup {
 \layout {
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
+  \undo \omit Fingering
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο_δάχτυλα")
@@ -367,6 +373,7 @@ extraVerses = \markup {
 \layout {
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
+  \omit Fingering
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές")
@@ -390,6 +397,7 @@ extraVerses = \markup {
 \layout {
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
+  \undo \omit Fingering
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές_δάχτυλα")
