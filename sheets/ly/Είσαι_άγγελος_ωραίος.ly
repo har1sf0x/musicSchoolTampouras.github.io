@@ -32,7 +32,7 @@ melody = \relative c'' {
       \volta 1 {
         % measure 3a
         bfc8-1\arrowDown bfc16-1\arrowDown ab-1\arrowUp bfc-1\arrowDown c-2\arrowUp
-        bfc4-1\arrowDown \hiddenGraceArrow \arrowSelpe efc8-1\arrowDown efc-1\arrowUp
+        bfc4-1\arrowDown efc8-1\arrowDown efc-1\arrowUp
       }
       \volta 2 {
         % measure 3b
@@ -148,109 +148,59 @@ verseOne = \lyricmode {
 }
 
 extraVerses = \markup {
-  % \abs-fontsize #10
-  % \fill-line {
-  %   \column {
-  %     \line { \bold "1."
-  %       \column {
-  %         "Κάτω στο γιαλό, κατω στο περιγιάλι,"
-  %         "κάτω στο γιαλό κοντή, νεραντζούλα φουντωτή."
-  %       }
-  %     }
-  %     \combine \null \vspace #0.1
-  %     \line { \bold "2."
-  %       \column {
-  %         "Πλύνουν Χιώτισσες, πλυνουν παπα(δ)οπούλες"
-  %         "πλύνουν Χιώτισσες κοντή, νεραντζούλα φουντωτή."
-  %       }
-  %     }
-  %     \combine \null \vspace #0.1
-  %     \line { \bold "3."
-  %       \column {
-  %         "Πλύνουν κι άπλωναν, και μεσ’ τον άμμο επαίζαν,"
-  %         "πλύναν κι έπαιζαν κοντή, νεραντζούλα φουντωτή."
-  %       }
-  %     }
-  %     \combine \null \vspace #0.1
-  %     \line { \bold "4."
-  %       \column {
-  %         "Φύσηξε ο βοριάς, μαΐστρος δραμουντάνας,"
-  %         "φύσηξε ο βοριάς κοντή, νεραντζούλα φουντωτή."
-  %       }
-  %     }
-  %     \combine \null \vspace #0.1
-  %     \line { \bold "5."
-  %       \column {
-  %         "Κι ανασήκωσε, το μεσοφούστανό της,"
-  %         "κι ανασήκωσε κοντή, νεραντζούλα φουντωτή."
-  %       }
-  %     }
-  %     \combine \null \vspace #0.1
-  %     \line { \bold "6."
-  %       \column {
-  %         "Και της φάνηκε, το ποδαστράγαλό της,"
-  %         "και της φάνηκε κοντή, νεραντζούλα φουντωτή."
-  %       }
-  %     }
-  %     \combine \null \vspace #0.1
-  %     \line { \bold "7."
-  %       \column {
-  %         "Κι έλαμψε ο γιαλός, κι ολο το περιγιάλι,"
-  %         "κι έλαμψε ο γιαλός κοντή, νεραντζούλα φουντωτή."
-  %       }
-  %     }
-  %   }
-  %   \column {
-  %     \line { \bold "8."
-  %       \column {
-  %         "Κάτεργο περνά, κι ελάμψαν τ’ άρμενά του,"
-  %         "κάτεργο περνά κοντή, νεραντζούλα φουντωτή."
-  %       }
-  %     }
-  %     \combine \null \vspace #0.1
-  %     \line { \bold "9."
-  %       \column {
-  %         "Λέει ο ναύκληρος, λεει ο καραβοκύρης,"
-  %         "λέει ο ναύκληρος κοντή, νεραντζούλα φουντωτή."
-  %       }
-  %     }
-  %     \combine \null \vspace #0.1
-  %     \line { \bold "10."
-  %       \column {
-  %         "Άλα βρε παιδιά, αλα βρε παλικάρια"
-  %         "άλα βρε παιδιά κοντή, νεραντζούλα φουντωτή."
-  %       }
-  %     }
-  %     \combine \null \vspace #0.1
-  %     \line { \bold "11."
-  %       \column {
-  %         "Ν’ αποσώσομε, σ’ αυτό που λάμπει ομπρός μας,"
-  %         "ν’ αποσώσομε κοντή, νεραντζούλα φουντωτή."
-  %       }
-  %     }
-  %     \combine \null \vspace #0.1
-  %     \line { \bold "12."
-  %       \column {
-  %         "Κι αν ειν’ κάτεργο, να ’ν’ του καραβοκύρη,"
-  %         "κι αν ειν’ κάτεργο κοντή, νεραντζούλα φουντωτή."
-  %       }
-  %     }
-  %     \combine \null \vspace #0.1
-  %     \line { \bold "13."
-  %       \column {
-  %         "Κι αν ειν’ μάλαμα, να ’ναι της συντροφιάς μας,"
-  %         "κι αν ειν’ μάλαμα κοντή, νεραντζούλα φουντωτή."
-  %       }
-  %     }
-  %     \combine \null \vspace #0.1
-  %     \line { \bold "14."
-  %       \column {
-  %         "Κι αν ειν’ κοπελιά, κι αν είν’ παπαδοπούλα,"
-  %         "κι αν ειν’ κοπελιά κοντή, να ‘ναι του τραγουδιστή."
-  %       }
-  %     }
-  %   }
-  % }
+  \column {
+    \fill-line {
+      \column {
+        \line { \bold "1."
+          \column {
+            "Είσαι άγγελος ωραίος έχεις μάτια γαλανά,"
+            "και χειλάκι κοραλλένιο μικρό μου"
+            "και τετράξανθα μαλλιά."
+          }
+        }
+        \combine \null \vspace #0.1
+        \line { \bold "Ρ."
+          \column {
+            "Ζαλίζομαι ζαλίζομαι όταν σε συλλογίζομαι."
+          }
+        }
+      }
+      \column {
+        \line { \bold "2."
+          \column {
+            "Στου Βοριά την κρύα βρύση έσκυψα να πιω νερό,"
+            "και μου φάνη’ πως μου ‘δωσαν μικρό μου"
+            "τα χεράκια σου τα δυο."
+          }
+        }
+        \combine \null \vspace #0.1
+        \line { \bold "Ρ."
+          \column {
+            "Πως να σε πω βασίλισσα π’ ακόμα δε σε φίλησα."
+          }
+        }
+      }
+    }
+    \combine \null \vspace #0.1
+    \fill-line {
+      \column {
+        \line { \bold "3."
+          \column {
+            "Αναστέναξα και είπα να μην είχα γεννηθεί,"
+            "και στην εδική σου αγάπη καλέ μου"
+            "να μην είχα μπερδευτεί."
+          }
+        }
+        \combine \null \vspace #0.1
+        \line { \bold "Ρ."
+          \column {
+            "Πως να σου πω το έχε γεια που κλαίει η δόλια μου καρδιά."
+            "Έλα κοντά κοντύτερα να σ’ αγαπώ καλύτερα."
+          }
+        }
+      }
+    }
+  }
 }
 
 %%%%%%% pdf %%%%%%%
@@ -280,78 +230,82 @@ extraVerses = \markup {
   \override LyricText.font-size=#-2
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
+  \omit Fingering
 }
-% \book {
-%   \bookOutputName \pieceFilename
-%   \paper {
-%     print-page-number = ##f
-%   }
-%   \bookpart {
-%     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-%         <<
-%           \new Voice = "one" {
-%             \customScripts #hideArrowsArticulationNear
-%             \keyA
-%             \melody
-%           }
-%           \new Lyrics \lyricsto "one" {
-%             \verseOne
-%           }
-%         >>
-%       }
-%     }
-%     \extraVerses
-%   }
-% }
-% \layout {
-%   \override Fingering.transparent = ##f
-%   \override Fingering.script-priority = #-200
-% }
-% \book {
-%   \bookOutputName #(string-append pieceFilename "_δάχτυλα")
-%   \bookpart {
-%     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-%         <<
-%           \new Voice = "one" {
-%             \customScripts #hideArrowsArticulationNear
-%             \keyA
-%             \melody
-%           }
-%           \new Lyrics \lyricsto "one" {
-%             \verseOne
-%           }
-%         >>
-%       }
-%     }
-%     \extraVerses
-%   }
-% }
-% \layout {
-%   \override Fingering.transparent = ##t
-%   \override Fingering.script-priority = #100
-% }
-% \book {
-%   \bookOutputName #(string-append pieceFilename "_πενιές")
-%   \bookpart {
-%     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-%         <<
-%           \new Voice = "one" {
-%             \customScripts #articulationNear
-%             \keyA
-%             \melody
-%           }
-%           \new Lyrics \lyricsto "one" {
-%             \verseOne
-%           }
-%         >>
-%       }
-%     }
-%     \extraVerses
-%   }
-% }
+\book {
+  \bookOutputName \pieceFilename
+  \paper {
+    print-page-number = ##f
+  }
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \customScripts #hideArrowsArticulationNear
+            \keyA
+            \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
 \layout {
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
+  \undo \omit Fingering
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_δάχτυλα")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \customScripts #hideArrowsArticulationNear
+            \keyA
+            \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
+\layout {
+  \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
+  \omit Fingering
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_πενιές")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \customScripts #articulationNear
+            \keyA
+            \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
+\layout {
+  \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #-200
+  \undo \omit Fingering
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_πενιές_δάχτυλα")
@@ -372,78 +326,82 @@ extraVerses = \markup {
     \extraVerses
   }
 }
-% \layout {
-%   \override Fingering.transparent = ##t
-%   \override Fingering.script-priority = #100
-% }
-% \book {
-%   \bookOutputName #(string-append pieceFilename "_inΝτο")
-%   \bookpart {
-%     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-%         <<
-%           \new Voice = "one" {
-%             \customScripts #hideArrowsArticulationNear
-%             \keyB
-%             \transpose g c \melody
-%           }
-%           \new Lyrics \lyricsto "one" {
-%             \verseOne
-%           }
-%         >>
-%       }
-%     }
-%     \extraVerses
-%   }
-% }
-% \layout {
-%   \override Fingering.transparent = ##f
-%   \override Fingering.script-priority = #-200
-% }
-% \book {
-%   \bookOutputName #(string-append pieceFilename "_inΝτο_δάχτυλα")
-%   \bookpart {
-%     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-%         <<
-%           \new Voice = "one" {
-%             \customScripts #hideArrowsArticulationNear
-%             \keyB
-%             \transpose g c \melody
-%           }
-%           \new Lyrics \lyricsto "one" {
-%             \verseOne
-%           }
-%         >>
-%       }
-%     }
-%     \extraVerses
-%   }
-% }
-% \layout {
-%   \override Fingering.transparent = ##t
-%   \override Fingering.script-priority = #100
-% }
-% \book {
-%   \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές")
-%   \bookpart {
-%     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-%         <<
-%           \new Voice = "one" {
-%             \customScripts #articulationNear
-%             \keyB
-%             \transpose g c \melody
-%           }
-%           \new Lyrics \lyricsto "one" {
-%             \verseOne
-%           }
-%         >>
-%       }
-%     }
-%     \extraVerses
-%   }
-% }
+\layout {
+  \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
+  \omit Fingering
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_inΝτο")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \customScripts #hideArrowsArticulationNear
+            \keyB
+            \transpose g c \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
 \layout {
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
+  \undo \omit Fingering
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_inΝτο_δάχτυλα")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \customScripts #hideArrowsArticulationNear
+            \keyB
+            \transpose g c \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
+\layout {
+  \override Fingering.transparent = ##t
+  \override Fingering.script-priority = #100
+  \omit Fingering
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            \customScripts #articulationNear
+            \keyB
+            \transpose g c \melody
+          }
+          \new Lyrics \lyricsto "one" {
+            \verseOne
+          }
+        >>
+      }
+    }
+    \extraVerses
+  }
+}
+\layout {
+  \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #-200
+  \undo \omit Fingering
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές_δάχτυλα")
