@@ -79,17 +79,19 @@ greyNote = \override Voice.NoteHead.color = #(rgb-color 0.5 0.5 0.5) %\tweak col
 blackNote = \override Voice.NoteHead.color = #(rgb-color 0 0 0)
 
 setHuseyniKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (3 . , BAKIYE))
-setHuseyniBKey = \set Staff.keyAlterations = #`((2 . ,(- KOMA)) (6 . , (- KOMA)))
+setHuseyniBKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (2 . , (- KOMA)))
 setUssakKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)))
 setUssakBKey = \set Staff.keyAlterations = #`((2 . ,(- KOMA)))
 setRastKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (3 . , BAKIYE))
-setRastBKey = \set Staff.keyAlterations = #`((2 . ,(- KOMA)) (6 . , (- KOMA)))
+setRastBKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (2 . , (- KOMA)))
 setHicazKey = \set Staff.keyAlterations = #`((6 . ,(- BAKIYE)) (3 . , BAKIYE) (0 . , BAKIYE))
 setHicazBKey = \set Staff.keyAlterations = #`((6 . , (- KOMA)) (2 . ,(- BAKIYE)) (3 . ,BAKIYE))
 setSegahKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (2 . ,(- KOMA)) (3 . , BAKIYE))
-setSegahBKey = \set Staff.keyAlterations = #`((2 . ,(- KOMA)) (5 . , (- KOMA)) (6 . , (- KOMA)))
+setSegahBKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (2 . , (- KOMA)) (5 . , (- KOMA)))
 setNikrizKey = \set Staff.keyAlterations = #`((6 . ,(- BAKIYE)) (0 . , BAKIYE))
-setNikrizBKey = \set Staff.keyAlterations = #`((2 . ,(- BAKIYE)) (3 . ,BAKIYE))
+setNikrizBKey = \set Staff.keyAlterations = #`((2 . ,(- BAKIYE)) (3 . , BAKIYE))
+setHicazkarKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (2 . , (- BAKIYE)) (5 . , (- BAKIYE)) (3 . , BAKIYE))
+setHicazkarBKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (2 . ,(- KOMA)) (5 . , (- BAKIYE)) (1 . , (- BAKIYE)))
 
 setZeybekTime = {
   \time 9/4
