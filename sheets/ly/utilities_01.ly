@@ -12,8 +12,26 @@ arrowDownMarkup = \markup {
   }
 }
 
+arrowDownStopMarkup = \markup {
+  \fontsize #-1
+  \override #'(thickness . 1.38)
+  \translate #'(0.65 . 0) {
+    \combine
+      \combine
+        \translate #'(0 . -0.1) \draw-line #'(-0.3 . 0)
+        \translate #'(0.3 . -0.1) \draw-line #'(-0.3 . 0)
+      \combine
+        \translate #'(0 . .45) \draw-line #'(0 . 1.5)
+        \arrow-head #Y #DOWN ##f
+  }
+}
+
 arrowUpMarkup = \markup {
   \scale #'(1 . -1) \arrowDownMarkup
+}
+
+arrowUpStopMarkup = \markup {
+  \scale #'(1 . -1) \arrowDownStopMarkup
 }
 
 arrowDownSmallMarkup = \markup {
@@ -88,6 +106,8 @@ setHicazKey = \set Staff.keyAlterations = #`((6 . ,(- BAKIYE)) (3 . , BAKIYE) (0
 setHicazBKey = \set Staff.keyAlterations = #`((6 . , (- KOMA)) (2 . ,(- BAKIYE)) (3 . ,BAKIYE))
 setSegahKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (2 . ,(- KOMA)) (3 . , BAKIYE))
 setSegahBKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (2 . , (- KOMA)) (5 . , (- KOMA)))
+setHuzzamKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (2 . ,(- BAKIYE)) (3 . , BAKIYE))
+setHuzzamBKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (2 . , (- KOMA)) (5 . , (- BAKIYE)))
 setNikrizKey = \set Staff.keyAlterations = #`((6 . ,(- BAKIYE)) (0 . , BAKIYE))
 setNikrizBKey = \set Staff.keyAlterations = #`((2 . ,(- BAKIYE)) (3 . , BAKIYE))
 setHicazkarKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (2 . , (- BAKIYE)) (5 . , (- BAKIYE)) (3 . , BAKIYE))
@@ -96,6 +116,11 @@ setHicazkarBKey = \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (2 . ,(- KOMA))
 setZeybekTime = {
   \time 9/4
   \set Timing.beatStructure = 1,1,1,1,1,1,1,1,1
+}
+
+setKarsilamTime = {
+  \time 9/8
+  \set Timing.beatStructure = 2,2,2,3
 }
 
 setArgilamTime = {
@@ -218,12 +243,46 @@ customTriChord = #(define-music-function (p1 p2 p3 fin dur arrow) (ly:pitch? ly:
 )
 
 #(set! default-script-alist (acons
+  'arrowDownStop `(
+    (stencil . ,(
+      lambda (grob) (let ((d (ly:grob-property grob 'direction UP))
+        (mstc (grob-interpret-markup grob (markup
+          #:override '(font-encoding . latin1)
+          #:center-align arrowDownStopMarkup ))))
+      (if (= d UP)
+        mstc
+        (ly:stencil-rotate
+          mstc 0 0 (interval-center (ly:stencil-extent mstc Y))))
+        )
+      )
+    ) (direction . ,UP)) default-script-alist
+  )
+)
+
+#(set! default-script-alist (acons
   'arrowUp `(
     (stencil . ,(
       lambda (grob) (let ((d (ly:grob-property grob 'direction UP))
         (mstc (grob-interpret-markup grob (markup
           #:override '(font-encoding . latin1)
           #:center-align arrowUpMarkup ))))
+      (if (= d UP)
+        mstc
+        (ly:stencil-rotate
+          mstc 0 0 (interval-center (ly:stencil-extent mstc Y))))
+        )
+      )
+    ) (direction . ,UP)) default-script-alist
+  )
+)
+
+#(set! default-script-alist (acons
+  'arrowUpStop `(
+    (stencil . ,(
+      lambda (grob) (let ((d (ly:grob-property grob 'direction UP))
+        (mstc (grob-interpret-markup grob (markup
+          #:override '(font-encoding . latin1)
+          #:center-align arrowUpStopMarkup ))))
       (if (= d UP)
         mstc
         (ly:stencil-rotate
@@ -405,7 +464,9 @@ customTriChord = #(define-music-function (p1 p2 p3 fin dur arrow) (ly:pitch? ly:
 )
 
 "arrowDown" = #(make-articulation 'arrowDown)
+"arrowDownStop" = #(make-articulation 'arrowDownStop)
 "arrowUp" = #(make-articulation 'arrowUp)
+"arrowUpStop" = #(make-articulation 'arrowUpStop)
 "arrowDownSmall" = #(make-articulation 'arrowDownSmall)
 "arrowUpSmall" = #(make-articulation 'arrowUpsmall)
 "arrowSilifke" = #(make-articulation 'arrowSilifke)
@@ -448,7 +509,9 @@ revertCustomScripts = \revert Script.before-line-breaking
 #(define hideArrows
   '(
       (arrowDown . ((stencil . #f)))
+      (arrowDownStop . ((stencil . #f)))
       (arrowUp . ((stencil . #f)))
+      (arrowUpStop . ((stencil . #f)))
       (arrowDownSmall . ((stencil . #f)))
       (arrowUpsmall . ((stencil . #f)))
       (arrowSilifke . ((stencil . #f)))
@@ -462,7 +525,9 @@ revertCustomScripts = \revert Script.before-line-breaking
 #(define hideArrowsArticulationNear
   '(
       (arrowDown . ((stencil . #f)))
+      (arrowDownStop . ((stencil . #f)))
       (arrowUp . ((stencil . #f)))
+      (arrowUpStop . ((stencil . #f)))
       (arrowDownSmall . ((stencil . #f)))
       (arrowUpsmall . ((stencil . #f)))
       (arrowSilifke . ((stencil . #f)))

@@ -2,20 +2,20 @@
 
 \include "utilities_01.ly"
 
-pieceName = ""
-pieceSubtitle = ""
-pieceFilename = "School_Template"
+pieceName = "Σαν θέλεις λίρες και φλουριά"
+pieceSubtitle = "Βουρλά, Ερυθραία Μικράς Ασίας"
+pieceFilename = "Σαν_θέλεις_λίρες_και_φλουριά"
 source = ""
-keyA = \setRastKey
-keyB = \setRastBKey
+keyA = \setHicazkarKey
+keyB = \setHicazkarBKey
 
-melodyA = \relative c'' {
+melody = \relative c'' {
   % \set Score.dalSegnoTextFormatter = #format-dal-segno-text-brief
   % \set Score.alternativeNumberingStyle = #'numbers-with-letters
   % \time 2/4
   \setZeybekTime
   \sectionLabel "A"
-  g'2 fb4 e d c bfc a g
+  g'4
   % bfc8-1\arrowDown c16-1\arrowDown c-1\arrowUp d8-1\arrowDown e-3\arrowUp
   % d8-1\arrowUp d16-1\arrowDown d-1\arrowUp d8-1\arrowDown \tweak Parentheses.font-size -2 \parenthesize <d-1\arrowUp bfc>
   % e8-3\arrowDown d16-1\arrowDown d-1\arrowUp c8-1\arrowDown bfc-1\arrowUp
@@ -25,26 +25,6 @@ melodyA = \relative c'' {
   % \RastChord 8 \arrowDown a16-0\arrowDown a-0\arrowUp bfc8-1\arrowDown c-1\arrowUp
   % d8-3\arrowDown c16-1\arrowDown bfc-1\arrowUp \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
   % \RastChord 8 \arrowDown a16-0\arrowDown a-0\arrowUp bfc8-1\arrowDown bfc-1\arrowUp \ERBarline
-}
-
-melodyB = \relative c'' {
-  \setZeybekTime
-  \section \break \sectionLabel "B"
-  g'2 fb4 efb d c bfc afb g
-}
-
-pieceOrig = {
-  \keyA
-  \melodyA
-  \setHicazkarKey
-  \melodyB
-}
-
-pieceTrans = {
-  \keyB
-  \transpose g c \melodyA
-  \setHicazkarBKey
-  \transpose g c \melodyB
 }
 
 verseOne = \lyricmode {
@@ -215,7 +195,8 @@ extraVerses = \markup {
         <<
           \new Voice = "one" {
             \customScripts #hideArrowsArticulationNear
-            \pieceOrig
+            \keyA
+            \melody
           }
           \new Lyrics \lyricsto "one" {
             \verseOne
@@ -238,7 +219,8 @@ extraVerses = \markup {
         <<
           \new Voice = "one" {
             \customScripts #hideArrowsArticulationNear
-            \pieceOrig
+            \keyA
+            \melody
           }
           \new Lyrics \lyricsto "one" {
             \verseOne
@@ -261,7 +243,8 @@ extraVerses = \markup {
         <<
           \new Voice = "one" {
             \customScripts #articulationNear
-            \pieceOrig
+            \keyA
+            \melody
           }
           \new Lyrics \lyricsto "one" {
             \verseOne
@@ -284,7 +267,8 @@ extraVerses = \markup {
         <<
           \new Voice = "one" {
             \customScripts #articulationNear
-            \pieceOrig
+            \keyA
+            \melody
           }
           \new Lyrics \lyricsto "one" {
             \verseOne
@@ -307,7 +291,8 @@ extraVerses = \markup {
         <<
           \new Voice = "one" {
             \customScripts #hideArrowsArticulationNear
-            \pieceTrans
+            \keyB
+            \transpose g c \melody
           }
           \new Lyrics \lyricsto "one" {
             \verseOne
@@ -330,7 +315,8 @@ extraVerses = \markup {
         <<
           \new Voice = "one" {
             \customScripts #hideArrowsArticulationNear
-            \pieceTrans
+            \keyB
+            \transpose g c \melody
           }
           \new Lyrics \lyricsto "one" {
             \verseOne
@@ -353,7 +339,8 @@ extraVerses = \markup {
         <<
           \new Voice = "one" {
             \customScripts #articulationNear
-            \pieceTrans
+            \keyB
+            \transpose g c \melody
           }
           \new Lyrics \lyricsto "one" {
             \verseOne
@@ -376,7 +363,8 @@ extraVerses = \markup {
         <<
           \new Voice = "one" {
             \customScripts #articulationNear
-            \pieceTrans
+            \keyB
+            \transpose g c \melody
           }
           \new Lyrics \lyricsto "one" {
             \verseOne

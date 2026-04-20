@@ -2,49 +2,140 @@
 
 \include "utilities_01.ly"
 
-pieceName = ""
-pieceSubtitle = ""
-pieceFilename = "School_Template"
+pieceName = "Τσιφτ"
+pieceSubtitle = "Ικόνιο"
+pieceFilename = "Τσιφτ"
 source = ""
-keyA = \setRastKey
-keyB = \setRastBKey
+keyA = \setHuzzamKey
+keyB = \setHuzzamBKey
 
 melodyA = \relative c'' {
   % \set Score.dalSegnoTextFormatter = #format-dal-segno-text-brief
-  % \set Score.alternativeNumberingStyle = #'numbers-with-letters
+  \set Score.alternativeNumberingStyle = #'numbers-with-letters
   % \time 2/4
-  \setZeybekTime
+  \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
+  \set Staff.printKeyCancellation = ##f
+  \setKarsilamTime
   \sectionLabel "A"
-  g'2 fb4 e d c bfc a g
-  % bfc8-1\arrowDown c16-1\arrowDown c-1\arrowUp d8-1\arrowDown e-3\arrowUp
-  % d8-1\arrowUp d16-1\arrowDown d-1\arrowUp d8-1\arrowDown \tweak Parentheses.font-size -2 \parenthesize <d-1\arrowUp bfc>
-  % e8-3\arrowDown d16-1\arrowDown d-1\arrowUp c8-1\arrowDown bfc-1\arrowUp
-  % d8-3\arrowDown d16-3\arrowDown d-3\arrowDown bfc8-1\arrowDown bfc-1\arrowUp \ERBarline
+  \repeat volta 2 {
+    % measure 1
+    bfc16-1\arrowDown c-2\arrowUp bfc-1\arrowDown c-2\arrowUp
+    d16-1\arrowDown efb-2\arrowUp fb-1\arrowDown g-2\arrowUp
+    fb16-1\arrowDown efb-1\arrowUp d-1\arrowDown c-5\arrowDown
+    d8-1\arrowDown d-1\arrowUp d-1\arrowDown
+    % measure 2
+    bfc16-1\arrowDown c-2\arrowUp bfc-1\arrowDown c-2\arrowUp
+    d-1\arrowDown efb-1\arrowUp fb-4\arrowDown efb-1\arrowUp
+    d-1\arrowDown c-1\arrowUp c-1\arrowDown bfc-1\arrowUp
+    bfc8-1\arrowDown 8-1\arrowUp 8-1\arrowDown
+  }
   % \section \break \sectionLabel "B" \set Score.currentBarNumber = #1
-  % d8-3\arrowDown c16-1\arrowDown bfc-1\arrowUp \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
-  % \RastChord 8 \arrowDown a16-0\arrowDown a-0\arrowUp bfc8-1\arrowDown c-1\arrowUp
-  % d8-3\arrowDown c16-1\arrowDown bfc-1\arrowUp \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
-  % \RastChord 8 \arrowDown a16-0\arrowDown a-0\arrowUp bfc8-1\arrowDown bfc-1\arrowUp \ERBarline
 }
 
 melodyB = \relative c'' {
-  \setZeybekTime
   \section \break \sectionLabel "B"
-  g'2 fb4 efb d c bfc afb g
+  \repeat volta 2 {
+    % measure 3
+    c8-2\arrowDown c16-2\arrowDown bfc-1\arrowUp
+    c8-2\arrowDown c16-2\arrowDown bfc-1\arrowUp
+    c16-2\arrowDown bfc-1\arrowUp c-1\arrowDown d-1\arrowUp
+    efc16-3\arrowDown d-1\arrowUp c-1\arrowDown bfc-1\arrowUp a8-0\arrowDown
+    % measure 4
+    bfc16-1\arrowDown c-2\arrowUp d-1\arrowDown efc-3\arrowUp
+    d16-1\arrowDown c-1\arrowUp c-1\arrowDown bfc-1\arrowUp
+    bfc8.-1\arrowDown g16-0\arrowDown bfc8-1\arrowDown 8-1\arrowUp 8-1\arrowDown 
+  }
+}
+
+melodyC = \relative c'' {
+  \section \break \sectionLabel "Γ"
+  \repeat volta 2 {
+    % measure 5
+    g'8-2 \arrowDownStop g16-2\arrowSilifke g-2\arrowUp
+    g8-2\arrowDownStop g16-2\arrowSilifke g-2\arrowUp
+    g8-2\arrowDownStop \hiddenGraceArrow \arrowSilifkeB fb16-1\arrowDown efb-1\arrowUp
+    g8-2\arrowDown fb16-1\arrowDown efb-1\arrowUp efb-1\arrowDown d-1\arrowUp
+    \alternative {
+      \volta 1 {
+        % measure 6a
+        d8-1\arrowDownStop d16-1\arrowSilifke d-1\arrowUp
+        d8-1\arrowDownStop d16-1\arrowSilifke d-1\arrowUp
+        fb8-1\arrowDown g32-2\arrowDown (fb-1) g16-1\arrowUp
+        a8-3\arrowDown a-3\arrowUp a-3\arrowDown
+      }
+      \volta 2 {
+        % measure 6a
+        d,8-1\arrowDownStop d16-1\arrowSilifke d-1\arrowUp
+        d8-1\arrowDownStop d16-1\arrowSilifke efc-3\arrowUp
+        d16-1\arrowDown c-1\arrowUp bfc-5\arrowDown c-1\arrowUp
+        d8-1\arrowDown d-1\arrowUp d-1\arrowDown
+      }
+    }
+  }
+}
+
+melodyD = \relative c'' {
+  \section \break \sectionLabel "Δ"
+  \repeat volta 2 {
+    % measure 7
+    bfc16-1\arrowDown c-2\arrowUp d8-1\arrowDown d-1\arrowDown d-1\arrowUp
+    d16.-1\arrowDown (efc32-3) d16-1\arrowDown c-5\arrowDown
+    d8-1\arrowDown d-1\arrowUp c-5\arrowDown
+    % measure 8
+    d16.-1\arrowDown (efc32-3) d16-1\arrowDown c-5\arrowDown
+    d8-1\arrowDown efc16-3\arrowDown d-1\arrowUp
+    d16-1\arrowDown c-1\arrowUp c-1\arrowDown bfc-1\arrowUp
+    bfc8-1\arrowDown 8-1\arrowUp 8-1\arrowDown
+    % measure 9
+    c8-1\arrowDown d-1\arrowUp d-1\arrowDown d-1\arrowUp
+    efc16-3\arrowDown d-1\arrowUp c-1\arrowDown bfc-1\arrowUp
+    c8-2\arrowDown c-2\arrowUp bfc-1\arrowDown
+    \alternative {
+      \volta 1 {
+        % measure 10a
+        fb'8-1\arrowDown efb16-2\arrowDown d-1\arrowUp
+        d16-1\arrowDown c-1\arrowUp c-1\arrowDown bfc-1\arrowUp
+        bfc8.-1\arrowDown c16-2\arrowUp
+        bfc16-1\arrowDown c-1\arrowUp d8-3\arrowDown d-3\arrowUp
+      }
+      \volta 2{
+        % measure 10a
+        fb8-1\arrowDown efb16-2\arrowDown d-1\arrowUp
+        d16-1\arrowDown c-1\arrowUp c-1\arrowDown bfc-1\arrowUp
+        bfc8.-1\arrowDown g16-0\arrowDown
+        bfc8-1\arrowDown 8-1\arrowUp 8-1\arrowDown
+        \jump "D.C." \fine
+      }
+    }
+  }
 }
 
 pieceOrig = {
   \keyA
   \melodyA
-  \setHicazkarKey
+  \once \override Staff.KeySignature.color = #red
+  \setSegahKey
   \melodyB
+  \once \override Staff.KeySignature.color = #red
+  \setHuzzamKey
+  \melodyC
+  \once \override Staff.KeySignature.color = #red
+  \setSegahKey
+  \melodyD
 }
 
 pieceTrans = {
   \keyB
   \transpose g c \melodyA
-  \setHicazkarBKey
+  \once \override Staff.KeySignature.color = #red
+  \setSegahBKey
   \transpose g c \melodyB
+  \once \override Staff.KeySignature.color = #red
+  \setHuzzamBKey
+  \transpose g c \melodyC
+  \once \override Staff.KeySignature.color = #red
+  \setSegahBKey
+  \transpose g c \melodyD
 }
 
 verseOne = \lyricmode {
@@ -188,7 +279,7 @@ extraVerses = \markup {
 %%%%%%% svg %%%%%%%
 % \paper {
 %   paper-width = 210\mm
-%   paper-height = 250\mm
+%   paper-height = 160\mm
 %   left-margin = 1\cm
 %   right-margin = 1\cm
 %   indent = #0
