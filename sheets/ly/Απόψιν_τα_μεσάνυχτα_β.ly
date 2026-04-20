@@ -60,7 +60,7 @@ melody = \relative c'' {
   % measure 11
   \downBeatChord g d e' -1 4 f8-2\arrowDown g-4\arrowUp \downBeatChord g d e' -1 16 (f16-2) e-1\arrowUp (f-2) d4-1\arrowDown
   % measure 12
-  \downBeatChord g d d' -1 4 d8-1\arrowSilifke d-1\arrowUp \downBeatChord g d d' -1 8 d8-1\arrowUp g,4-1\arrowDown
+  \downBeatChord g d d' -1 4 d8-1\arrowSilifke d-1\arrowUp \downBeatChord g d d' -1 8 d8-1\arrowUp g,4-0\arrowDown
   \section \break \sectionLabel "Γ"
   \repeat volta 2 {
     % measure 13
@@ -73,7 +73,7 @@ melody = \relative c'' {
       % measure 16a
       \volta 1 {\measureAG}
       % measure 16b
-      \volta 2 {\measureAA \jump "D.C. al Fine" \FBarline}
+      \volta 2 {\measureAG \jump "D.C. al Fine" \FBarline}
     }
   }
 }
@@ -148,22 +148,22 @@ extraVerses = \markup {
 }
 
 %%%%%%% pdf %%%%%%%
-% \paper {
-%   #(set-paper-size "a4")
-%   top-margin = 2\cm
-%   left-margin = 1\cm
-%   right-margin = 1\cm
-%   indent = #0
-% }
-
-%%%%%%% svg %%%%%%%
 \paper {
-  paper-width = 210\mm
-  paper-height = 297\mm
+  #(set-paper-size "a4")
+  top-margin = 2\cm
   left-margin = 1\cm
   right-margin = 1\cm
   indent = #0
 }
+
+%%%%%%% svg %%%%%%%
+% \paper {
+%   paper-width = 210\mm
+%   paper-height = 297\mm
+%   left-margin = 1\cm
+%   right-margin = 1\cm
+%   indent = #0
+% }
 
 \header {
   title = \pieceName
