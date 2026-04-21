@@ -41,7 +41,7 @@ melody = \relative c'' {
     % measure 11
     c4-1\arrowDown \trill e8-3\arrowDown d8-1\arrowDown (a-0) d8-1\arrowDown (a-0)
     % measure 12
-    a8-0\arrowDown bfc-5\arrowDown c-1\arrowDown d8-1\arrowDown (a-0) d8-1\arrowDown (a-0)
+    a8-0\arrowDown bfc-5\arrowDown c-1\arrowDown d8-3\arrowDown (a-0) d8-3\arrowDown (a-0)
     % measure 13
     \normalsize c8.-1\arrowDown \trill c16-1\arrowZeybekB e8-3\arrowUp d4-1\arrowDown \hiddenGraceArrow \arrowSelpe d8-1\arrowDown a-0\arrowUp
     % measure 14
@@ -135,22 +135,22 @@ extraVerses = \markup {
 }
 
 %%%%%%% pdf %%%%%%%
-% \paper {
-%   #(set-paper-size "a4")
-%   top-margin = 2\cm
-%   left-margin = 1\cm
-%   right-margin = 1\cm
-%   indent = #0
-% }
-
-%%%%%%% svg %%%%%%%
 \paper {
-  paper-width = 210\mm
-  paper-height = 250\mm
+  #(set-paper-size "a4")
+  top-margin = 2\cm
   left-margin = 1\cm
   right-margin = 1\cm
   indent = #0
 }
+
+%%%%%%% svg %%%%%%%
+% \paper {
+%   paper-width = 210\mm
+%   paper-height = 250\mm
+%   left-margin = 1\cm
+%   right-margin = 1\cm
+%   indent = #0
+% }
 
 \header {
   title = \pieceName
