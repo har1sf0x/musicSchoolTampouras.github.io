@@ -79,17 +79,17 @@ melodyD = \relative c'' {
   \repeat volta 2 {
     % measure 7
     bfc16-1\arrowDown c-2\arrowUp d8-1\arrowDown d-1\arrowDown d-1\arrowUp
-    d16.-1\arrowDown (efc32-3) d16-1\arrowDown c-5\arrowDown
+    d16.-1\arrowDown (efc32-3) d16-1\arrowUp c-5\arrowDown
     d8-1\arrowDown d-1\arrowUp c-5\arrowDown
     % measure 8
-    d16.-1\arrowDown (efc32-3) d16-1\arrowDown c-5\arrowDown
+    d16.-1\arrowDown (efc32-3) d16-1\arrowUp c-5\arrowDown
     d8-1\arrowDown efc16-3\arrowDown d-1\arrowUp
     d16-1\arrowDown c-1\arrowUp c-1\arrowDown bfc-1\arrowUp
     bfc8-1\arrowDown 8-1\arrowUp 8-1\arrowDown
     % measure 9
     c8-1\arrowDown d-1\arrowUp d-1\arrowDown d-1\arrowUp
     efc16-3\arrowDown d-1\arrowUp c-1\arrowDown bfc-1\arrowUp
-    c8-2\arrowDown c-2\arrowUp bfc-1\arrowDown
+    c8-2\arrowDown c-2\arrowUp bfc-1\arrowUp
     \alternative {
       \volta 1 {
         % measure 10a
