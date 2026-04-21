@@ -39,11 +39,11 @@ melodyB = \relative c'' {
     c8-2\arrowDown c16-2\arrowDown bfc-1\arrowUp
     c8-2\arrowDown c16-2\arrowDown bfc-1\arrowUp
     c16-2\arrowDown bfc-1\arrowUp c-1\arrowDown d-1\arrowUp
-    efc16-3\arrowDown d-1\arrowUp c-1\arrowDown bfc-1\arrowUp a8-0\arrowDown
+    efc16-3\arrowDown d-1\arrowUp c-1\arrowDown bfc-1\arrowUp \ADAChord 16 \arrowDown (g-0)
     % measure 4
     bfc16-1\arrowDown c-2\arrowUp d-1\arrowDown efc-3\arrowUp
     d16-1\arrowDown c-1\arrowUp c-1\arrowDown bfc-1\arrowUp
-    bfc8.-1\arrowDown g16-0\arrowDown bfc8-1\arrowDown 8-1\arrowUp 8-1\arrowDown 
+    bfc8-1\arrowDown bfc16-1\arrowUp g16-0\arrowDown bfc8-1\arrowDown 8-1\arrowUp 8-1\arrowDown 
   }
 }
 
@@ -102,7 +102,7 @@ melodyD = \relative c'' {
         % measure 10a
         fb8-1\arrowDown efb16-2\arrowDown d-1\arrowUp
         d16-1\arrowDown c-1\arrowUp c-1\arrowDown bfc-1\arrowUp
-        bfc8.-1\arrowDown g16-0\arrowDown
+        bfc8-1\arrowDown bfc16-1\arrowUp g16-0\arrowDown
         bfc8-1\arrowDown 8-1\arrowUp 8-1\arrowDown
         \jump "D.C." \fine
       }
@@ -268,22 +268,22 @@ extraVerses = \markup {
 }
 
 %%%%%%% pdf %%%%%%%
-\paper {
-  #(set-paper-size "a4")
-  top-margin = 2\cm
-  left-margin = 1\cm
-  right-margin = 1\cm
-  indent = #0
-}
-
-%%%%%%% svg %%%%%%%
 % \paper {
-%   paper-width = 210\mm
-%   paper-height = 160\mm
+%   #(set-paper-size "a4")
+%   top-margin = 2\cm
 %   left-margin = 1\cm
 %   right-margin = 1\cm
 %   indent = #0
 % }
+
+%%%%%%% svg %%%%%%%
+\paper {
+  paper-width = 210\mm
+  paper-height = 160\mm
+  left-margin = 1\cm
+  right-margin = 1\cm
+  indent = #0
+}
 
 \header {
   title = \pieceName
