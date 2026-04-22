@@ -39,9 +39,9 @@ melodyB = \relative c'' {
     c8-2\arrowDown c16-2\arrowDown bfc-1\arrowUp
     c8-2\arrowDown c16-2\arrowDown bfc-1\arrowUp
     c16-2\arrowDown bfc-1\arrowUp c-1\arrowDown d-1\arrowUp
-    efc16-3\arrowDown d-1\arrowUp c-1\arrowDown bfc-1\arrowUp \ADAChord 16 \arrowDown (g-0)
+    efb16-3\arrowDown d-1\arrowUp c-1\arrowDown bfc-1\arrowUp \ADAChord 16 \arrowDown (g-0)
     % measure 4
-    bfc16-1\arrowDown c-2\arrowUp d-1\arrowDown efc-3\arrowUp
+    bfc16-1\arrowDown c-2\arrowUp d-1\arrowDown efb-3\arrowUp
     d16-1\arrowDown c-1\arrowUp c-1\arrowDown bfc-1\arrowUp
     bfc8-1\arrowDown bfc16-1\arrowUp g16-0\arrowDown bfc8-1\arrowDown 8-1\arrowUp 8-1\arrowDown 
   }
@@ -64,9 +64,9 @@ melodyC = \relative c'' {
         a8-3\arrowDown a-3\arrowUp a-3\arrowDown
       }
       \volta 2 {
-        % measure 6a
+        % measure 6b
         d,8-1\arrowDownStop d16-1\arrowSilifke d-1\arrowUp
-        d8-1\arrowDownStop d16-1\arrowSilifke efc-3\arrowUp
+        d8-1\arrowDownStop d16-1\arrowSilifke efb-3\arrowUp
         d16-1\arrowDown c-1\arrowUp bfc-5\arrowDown c-1\arrowUp
         d8-1\arrowDown d-1\arrowUp d-1\arrowDown
       }
@@ -79,16 +79,16 @@ melodyD = \relative c'' {
   \repeat volta 2 {
     % measure 7
     bfc16-1\arrowDown c-2\arrowUp d8-1\arrowDown d-1\arrowDown d-1\arrowUp
-    d16.-1\arrowDown (efc32-3) d16-1\arrowUp c-5\arrowDown
+    d16.-1\arrowDown (efb32-3) d16-1\arrowUp c-5\arrowDown
     d8-1\arrowDown d-1\arrowUp c-5\arrowDown
     % measure 8
-    d16.-1\arrowDown (efc32-3) d16-1\arrowUp c-5\arrowDown
-    d8-1\arrowDown efc16-3\arrowDown d-1\arrowUp
+    d16.-1\arrowDown (efb32-3) d16-1\arrowUp c-5\arrowDown
+    d8-1\arrowDown efb16-3\arrowDown d-1\arrowUp
     d16-1\arrowDown c-1\arrowUp c-1\arrowDown bfc-1\arrowUp
     bfc8-1\arrowDown 8-1\arrowUp 8-1\arrowDown
     % measure 9
     c8-1\arrowDown d-1\arrowUp d-1\arrowDown d-1\arrowUp
-    efc16-3\arrowDown d-1\arrowUp c-1\arrowDown bfc-1\arrowUp
+    efb16-3\arrowDown d-1\arrowUp c-1\arrowDown bfc-1\arrowUp
     c8-2\arrowDown c-2\arrowUp bfc-1\arrowUp
     \alternative {
       \volta 1 {
@@ -113,28 +113,28 @@ melodyD = \relative c'' {
 pieceOrig = {
   \keyA
   \melodyA
-  \once \override Staff.KeySignature.color = #red
-  \setSegahKey
+  % \once \override Staff.KeySignature.color = #red
+  % \setSegahKey
   \melodyB
-  \once \override Staff.KeySignature.color = #red
-  \setHuzzamKey
+  % \once \override Staff.KeySignature.color = #red
+  % \setHuzzamKey
   \melodyC
-  \once \override Staff.KeySignature.color = #red
-  \setSegahKey
+  % \once \override Staff.KeySignature.color = #red
+  % \setSegahKey
   \melodyD
 }
 
 pieceTrans = {
   \keyB
   \transpose g c \melodyA
-  \once \override Staff.KeySignature.color = #red
-  \setSegahBKey
+  % \once \override Staff.KeySignature.color = #red
+  % \setSegahBKey
   \transpose g c \melodyB
-  \once \override Staff.KeySignature.color = #red
-  \setHuzzamBKey
+  % \once \override Staff.KeySignature.color = #red
+  % \setHuzzamBKey
   \transpose g c \melodyC
-  \once \override Staff.KeySignature.color = #red
-  \setSegahBKey
+  % \once \override Staff.KeySignature.color = #red
+  % \setSegahBKey
   \transpose g c \melodyD
 }
 
@@ -268,22 +268,22 @@ extraVerses = \markup {
 }
 
 %%%%%%% pdf %%%%%%%
-% \paper {
-%   #(set-paper-size "a4")
-%   top-margin = 2\cm
-%   left-margin = 1\cm
-%   right-margin = 1\cm
-%   indent = #0
-% }
-
-%%%%%%% svg %%%%%%%
 \paper {
-  paper-width = 210\mm
-  paper-height = 160\mm
+  #(set-paper-size "a4")
+  top-margin = 2\cm
   left-margin = 1\cm
   right-margin = 1\cm
   indent = #0
 }
+
+%%%%%%% svg %%%%%%%
+% \paper {
+%   paper-width = 210\mm
+%   paper-height = 160\mm
+%   left-margin = 1\cm
+%   right-margin = 1\cm
+%   indent = #0
+% }
 
 \header {
   title = \pieceName
