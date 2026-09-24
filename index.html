@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Παρτιτούρες</title>
     <style>
+        :root {
+            --zoomProperty: 100%;
+        }
         body {
             font-family: Arial, sans-serif;
-            max-width: 800px;
+            /*max-width: 800px;*/
+            max-width: 90%;
             margin: 50px auto;
             padding: 20px;
             background-color: #f5f5f5;
@@ -18,6 +22,9 @@
             padding: 30px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
         }
         
         h1 {
@@ -124,6 +131,8 @@
             margin-top: 30px;
             text-align: center;
             min-height: 400px;
+            display: flex;
+            justify-content: center;
         }
         
         .sheet {
@@ -133,6 +142,10 @@
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
             /* cursor: pointer; */
+            width: var(--zoomProperty);
+            /*height: 100%;*/
+            /*object-fit: fill;*/
+            /*zoom:1;*/
         }
         
         .sheet.active {
@@ -300,6 +313,11 @@
           border-radius: 50%;
         }
 
+        #sliderContainer {
+            display: none;
+            justify-content: center;
+        }
+
         
     </style>
 </head>
@@ -311,10 +329,8 @@
             <label for="photoSelect">Διαλέξτε μία παρτιτούρα:</label>
             <select id="photoSelect">
                 <option value="">-- Διαλέξτε --</option>
+
                 <option value="Ege_zeybek">Ege zeybek</option>
-                <!-- <option value="Ege_zeybek_πενιές">Ege zeybek - πενιές</option>
-                <option value="Ege_zeybek_inΝτο">Ege zeybek - inΝτο</option>
-                <option value="Ege_zeybek_inΝτο_πενιές">Ege zeybek - inΝτο - πενιές</option> -->
 
                 <option value="Από_ξένο_τόπο">Από ξένο τόπο</option>
 
@@ -323,9 +339,6 @@
                 <option value="Απόψιν_τα_μεσάνυχτα_β">Απόψιν τα μεσάνυχτα (β)</option>
 
                 <option value="Ασκήσεις_α_no_001">Ασκήσεις (α) - no. 001</option>
-                <!-- <option value="Ασκήσεις_α_no_001_πενιές">Ασκήσεις (α) - no. 001 - πενιές</option>
-                <option value="Ασκήσεις_α_no_001_inΝτο">Ασκήσεις (α) - no. 001 - inΝτο</option>
-                <option value="Ασκήσεις_α_no_001_inΝτο_πενιές">Ασκήσεις (α) - no. 001 - inΝτο - πενιές</option> -->
 
                 <option value="Ασκήσεις_α_no_002">Ασκήσεις (α) - no. 002</option>
 
@@ -345,19 +358,15 @@
 
                 <option value="Μαζωμένος">Μαζωμένος</option>
 
+                <option value="Μαλαματένιος_αργαλειός">Μαλαματένιος αργαλειός</option>
+
                 <option value="Μαντηλάτος_Νικρίζ">Μαντηλάτος Νικρίζ</option>
 
                 <option value="Μεγαρίτικος_Καρσιλαμάς">Μεγαρίτικος Καρσιλαμάς</option>
                 
                 <option value="Νταρσά_α">Νταρσά (α)</option>
-                <!-- <option value="Νταρσά_α_πενιές">Νταρσά (α) - πενιές</option>
-                <option value="Νταρσά_α_inΝτο">Νταρσά (α) - inΝτο</option>
-                <option value="Νταρσά_α_inΝτο_πενιές">Νταρσά (α) - inΝτο - πενιές</option> -->
 
                 <option value="Νταρσά_β">Νταρσά (β)</option>
-                <!-- <option value="Νταρσά_β_πενιές">Νταρσά (β) - πενιές</option>
-                <option value="Νταρσά_β_inΝτο">Νταρσά (β) - inΝτο</option>
-                <option value="Νταρσά_β_inΝτο_πενιές">Νταρσά (β) - inΝτο - πενιές</option> -->
 
                 <option value="Ντε_βρε_ντε">Ντε βρε ντε</option>
 
@@ -366,9 +375,8 @@
                 <option value="Ποδαράκι_β">Ποδαράκι (β)</option>
                 
                 <option value="ρυθμοί_Καλαματιανός">Ρυθμοί - Καλαματιανός</option>
-                <!-- <option value="ρυθμοί_Καλαματιανός_πενιές">Ρυθμοί - Καλαματιανός - πενιές</option>
-                <option value="ρυθμοί_Καλαματιανός_inΝτο">Ρυθμοί - Καλαματιανός - inΝτο</option>
-                <option value="ρυθμοί_Καλαματιανός_inΝτο_πενιές">Ρυθμοί - Καλαματιανός - inΝτο - πενιές</option> -->
+
+                <option value="Σαν_απόψι_τέτοιαν_ώρα">Σαν απόψι τέτοιαν ώρα</option>
 
                 <option value="Το_Μαργούδι_κι_ο_Αλεξανδρής">Το Μαργούδι κι ο Αλεξανδρής</option>
 
@@ -408,6 +416,12 @@
             </label>
         </div>
 
+        <div id="sliderContainer">
+            <p>Σμίκρυνση:</p>
+            <input type="range" min="10" max="100" value="100" id="zoomSlider">
+            <p id="zoomIndicator">100%</p>
+        </div>
+
         <div class="photo-container">
             <div id="placeholder" class="placeholder">
                 Διαλέξτε μία παρτιτούρα
@@ -419,75 +433,6 @@
             📥 Λήψη PDF
         </button>
         
-        <!-- <div class="photo-container">
-            <div id="placeholder" class="placeholder">
-                Διαλέξτε μία παρτιτούρα
-            </div>
-            <img id="Ege_zeybek" class="sheet" 
-                 src="sheets/svg/Ege_zeybek.svg"
-                 alt="Ege zeybek">
-            <img id="Ege_zeybek_πενιές" class="sheet" 
-                 src="sheets/svg/Ege_zeybek_πενιές.svg" 
-                 alt="Ege zeybek - πενιές">
-            <img id="Ege_zeybek_inΝτο" class="sheet" 
-                 src="sheets/svg/Ege_zeybek_inΝτο.svg" 
-                 alt="Ege zeybek - inΝτο">
-            <img id="Ege_zeybek_inΝτο_πενιές" class="sheet" 
-                 src="sheets/svg/Ege_zeybek_inΝτο_πενιές.svg" 
-                 alt="Ege zeybek - inΝτο - πενιές">
-
-            <img id="Ασκήσεις_α_no_001" class="sheet" 
-                 src="sheets/svg/Ασκήσεις_α_no_001.svg"
-                 alt="Ασκήσεις (α) - no. 001">
-            <img id="Ασκήσεις_α_no_001_πενιές" class="sheet" 
-                 src="sheets/svg/Ασκήσεις_α_no_001_πενιές.svg" 
-                 alt="Ασκήσεις (α) - no. 001 - πενιές">
-            <img id="Ασκήσεις_α_no_001_inΝτο" class="sheet" 
-                 src="sheets/svg/Ασκήσεις_α_no_001_inΝτο.svg" 
-                 alt="Ασκήσεις (α) - no. 001 - inΝτο">
-            <img id="Ασκήσεις_α_no_001_inΝτο_πενιές" class="sheet" 
-                 src="sheets/svg/Ασκήσεις_α_no_001_inΝτο_πενιές.svg" 
-                 alt="Ασκήσεις (α) - no. 001 - inΝτο - πενιές">
-
-            <img id="Νταρσά_α" class="sheet" 
-                 src="sheets/svg/Νταρσά_α.svg"
-                 alt="Νταρσά (α)">
-            <img id="Νταρσά_α_πενιές" class="sheet" 
-                 src="sheets/svg/Νταρσά_α_πενιές.svg" 
-                 alt="Νταρσά (α) - πενιές">
-            <img id="Νταρσά_α_inΝτο" class="sheet" 
-                 src="sheets/svg/Νταρσά_α_inΝτο.svg" 
-                 alt="Νταρσά (α) - inΝτο">
-            <img id="Νταρσά_α_inΝτο_πενιές" class="sheet" 
-                 src="sheets/svg/Νταρσά_α_inΝτο_πενιές.svg" 
-                 alt="Νταρσά (α) - inΝτο - πενιές">
-
-            <img id="Νταρσά_β" class="sheet" 
-                 src="sheets/svg/Νταρσά_β.svg"
-                 alt="Νταρσά (β)">
-            <img id="Νταρσά_β_πενιές" class="sheet" 
-                 src="sheets/svg/Νταρσά_β_πενιές.svg" 
-                 alt="Νταρσά (β) - πενιές">
-            <img id="Νταρσά_β_inΝτο" class="sheet" 
-                 src="sheets/svg/Νταρσά_β_inΝτο.svg" 
-                 alt="Νταρσά (β) - inΝτο">
-            <img id="Νταρσά_β_inΝτο_πενιές" class="sheet" 
-                 src="sheets/svg/Νταρσά_β_inΝτο_πενιές.svg" 
-                 alt="Νταρσά (β) - inΝτο - πενιές">
-            
-            <img id="ρυθμοί_Καλαματιανός" class="sheet" 
-                 src="sheets/svg/ρυθμοί_Καλαματιανός.svg" 
-                 alt="Ρυθμοί - Καλαματιανός">
-            <img id="ρυθμοί_Καλαματιανός_πενιές" class="sheet" 
-                 src="sheets/svg/ρυθμοί_Καλαματιανός_πενιές.svg" 
-                 alt="Ρυθμοί - Καλαματιανός - πενιές">
-            <img id="ρυθμοί_Καλαματιανός_inΝτο" class="sheet" 
-                 src="sheets/svg/ρυθμοί_Καλαματιανός_inΝτο.svg" 
-                 alt="Ρυθμοί - Καλαματιανός - inΝτο">
-            <img id="ρυθμοί_Καλαματιανός_inΝτο_πενιές" class="sheet" 
-                 src="sheets/svg/ρυθμοί_Καλαματιανός_inΝτο_πενιές.svg" 
-                 alt="Ρυθμοί - Καλαματιανός - inΝτο - πενιές">
-        </div> -->
         <!-- Modal for iOS fallback -->
         <div id="modal" class="modal">
             <button class="modal-close" id="modalClose">&times;</button>
@@ -496,6 +441,7 @@
     </div>
 
     <script>
+        const root = document.documentElement;
         const select = document.getElementById('photoSelect');
         const placeholder = document.getElementById('placeholder');
         const radioGroup = document.getElementById('radioGroup');
@@ -508,6 +454,14 @@
         const modal = document.getElementById('modal');
         const modalImage = document.getElementById('modalImage');
         const modalClose = document.getElementById('modalClose');
+        const sliderContainer = document.getElementById('sliderContainer');
+        const zoomSlider = document.getElementById("zoomSlider");
+        const zoomIndicator = document.getElementById("zoomIndicator");
+
+        zoomSlider.oninput = function() {
+            root.style.setProperty("--zoomProperty", this.value + "%");
+            zoomIndicator.innerHTML = this.value + "%";
+        }
 
         let currentBase = '';
         
@@ -588,6 +542,7 @@
             sheetImage.src = imagePath;
             sheetImage.alt = currentBase + selectedVersion;
             sheetImage.classList.add('active');
+            sliderContainer.style.display = 'flex';
         }
 
         function updateDownloadButton() {
