@@ -169,6 +169,7 @@ verseOne = \lyricmode {
 extraVerses = \markup {
   \abs-fontsize #10
   \fill-line {
+    \hspace #1
     \column {
       \line { \bold "1."
         \column {
@@ -187,6 +188,7 @@ extraVerses = \markup {
       }
       \combine \null \vspace #0.1
     }
+    \hspace #1
     \column {
       \line { \bold "3."
         \column {
@@ -203,25 +205,26 @@ extraVerses = \markup {
       }
       \combine \null \vspace #0.1
     }
+    \hspace #1
   }
 }
 
 %%%%%%% pdf %%%%%%%
-\paper {
-  #(set-paper-size "a4")
-  top-margin = 2\cm
-  left-margin = 1\cm
-  right-margin = 1\cm
-  indent = #0
-}
-
-%%%%%%% svg %%%%%%%
 % \paper {
-%   paper-width = 210\mm
-%   paper-height = 287\mm
+%   #(set-paper-size "a4")
+%   top-margin = 2\cm
 %   left-margin = 1\cm
 %   right-margin = 1\cm
 %   indent = #0
 % }
+
+%%%%%%% svg %%%%%%%
+\paper {
+  paper-width = 210\mm
+  paper-height = 287\mm
+  left-margin = 1\cm
+  right-margin = 1\cm
+  indent = #0
+}
 
 \include "render_data_01.ly"

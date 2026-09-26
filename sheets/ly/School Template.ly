@@ -68,6 +68,7 @@ verseOne = \lyricmode {
 extraVerses = \markup {
   % \abs-fontsize #10
   % \fill-line {
+  %   \hspace #1
   %   \column {
   %     \line { \bold "1."
   %       \column {
@@ -118,6 +119,7 @@ extraVerses = \markup {
   %       }
   %     }
   %   }
+  %   \hspace #1
   %   \column {
   %     \line { \bold "8."
   %       \column {
@@ -168,6 +170,7 @@ extraVerses = \markup {
   %       }
   %     }
   %   }
+  %   \hspace #1
   % }
 }
 
