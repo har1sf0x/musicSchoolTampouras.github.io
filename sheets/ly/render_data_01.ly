@@ -10,6 +10,10 @@
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
   \omit Fingering
+  % \context {
+  %   \Staff
+  %   \consists Measure_spanner_engraver
+  % }
 }
 \book {
   \bookOutputName \pieceFilename

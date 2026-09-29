@@ -14,17 +14,17 @@ melodyA = \relative c'' {
   % \set Score.alternativeNumberingStyle = #'numbers-with-letters
   % \time 2/4
   \setZeybekTime
-  \sectionLabel "A"
+  \themeLabel "A"
   % measure 1
   g'2 fb4 e d c bfc a g
-  % \section \break \sectionLabel "B" \set Score.currentBarNumber = #1
+  % \section \break \themeLabel "B" \set Score.currentBarNumber = #1
   % measure 2
   % d8-3\arrowDown c16-1\arrowDown bfc-1\arrowUp \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
 }
 
 melodyB = \relative c'' {
   \setZeybekTime
-  \section \break \sectionLabel "B"
+  \section \break \themeLabel "B"
   g'2 fb4 efb d c bfc afb g
 }
 

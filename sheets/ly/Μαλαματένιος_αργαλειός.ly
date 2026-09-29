@@ -12,13 +12,14 @@ keyB = \setRastBKey
 melodyA = \relative c'' {
   \set Score.dalSegnoTextFormatter = #format-dal-segno-text-brief
   \set Score.dalSegnoTextFormatter = #(lambda (context repeat-count markups) #{ \markup \right-column { "D.S. al Coda 6V" } #})
+  \override SegnoMark.break-visibility = ##(#f #t #t) 
   \set Score.alternativeNumberingStyle = #'numbers-with-letters
   \time 2/4
   \partial 4
   r8 \customDuoChord d g -0 8 \arrowUp
   \section
   % \tweak extra-offset #'(-1. . -3.5)
-  \sectionLabel "A"
+  \tweak extra-offset #'(4. . -3.5) \themeLabel "A"
   \repeat volta 2 {
     % measure 1
     \RastChord 8 \arrowDown \RastChord 16 \arrowDown \RastChord 16 \arrowUp \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
@@ -41,7 +42,7 @@ melodyA = \relative c'' {
       }
     }
   }
-  \section \break \sectionLabel "B" %\set Score.currentBarNumber = #1
+  \section \break \themeLabel "B" %\set Score.currentBarNumber = #1
   \repeat volta 2 {
     % measure 5
     c8-1\arrowDown c16-1\arrowDown c16-1\arrowUp c8-1\arrowDown bfc8-5\arrowDown
@@ -58,7 +59,7 @@ melodyA = \relative c'' {
       }
     }
   }
-  \section \break \sectionLabel "Α" %\set Score.currentBarNumber = #1
+  \section \break \themeLabel "Α" %\set Score.currentBarNumber = #1
   \repeat segno 7 {
   \repeat volta 2 {
     % measure 8
@@ -82,7 +83,7 @@ melodyA = \relative c'' {
       }
     }
   }
-  \section \break \sectionLabel "Β'" %\set Score.currentBarNumber = #1
+  \section \break \themeLabel "Β'" %\set Score.currentBarNumber = #1
   \repeat volta 2 {
     % measure 12
     c8-1\arrowDown c16-1\arrowDown c16-1\arrowUp c8-1\arrowDown bfc8-5\arrowDown
@@ -99,7 +100,7 @@ melodyA = \relative c'' {
       }
     }
   }
-  \section \break \sectionLabel "B" %\set Score.currentBarNumber = #1
+  \section \break \themeLabel "B" %\set Score.currentBarNumber = #1
   \repeat volta 2 {
     % measure 15
     c8-1\arrowDown c16-1\arrowDown c16-1\arrowUp c8-1\arrowDown bfc8-5\arrowDown
@@ -118,7 +119,7 @@ melodyA = \relative c'' {
     }
   }
   }
-  \section \sectionLabel "Coda"
+  \section \themeLabel "Coda"
   bfc2 \fine
 }
 
@@ -266,21 +267,21 @@ extraVerses = \markup {
 }
 
 %%%%%%% pdf %%%%%%%
-% \paper {
-%   #(set-paper-size "a4")
-%   top-margin = 2\cm
-%   left-margin = 1\cm
-%   right-margin = 1\cm
-%   indent = #0
-% }
-
-%%%%%%% svg %%%%%%%
 \paper {
-  paper-width = 210\mm
-  paper-height = 235\mm
+  #(set-paper-size "a4")
+  top-margin = 2\cm
   left-margin = 1\cm
   right-margin = 1\cm
   indent = #0
 }
+
+%%%%%%% svg %%%%%%%
+% \paper {
+%   paper-width = 210\mm
+%   paper-height = 235\mm
+%   left-margin = 1\cm
+%   right-margin = 1\cm
+%   indent = #0
+% }
 
 \include "render_data_01.ly"

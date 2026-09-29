@@ -213,6 +213,11 @@ acciaccaturaNote =
   \acciaccatura { \once \override Script.font-size = #0 $p }
 #})
 
+appoggiaturaNote =
+#(define-music-function (p) (ly:music?) #{
+  \appoggiatura { \once \override Script.font-size = #0 $p }
+#})
+
 downBeatChord = #(define-music-function (p1 p2 p3 fin dur) (ly:pitch? ly:pitch? ly:pitch? ly:event? ly:duration?) #{
   \fixed c' {< $p1 \arrowDown \single \greyNote $p2 \single \greyNote $p3 > $dur $fin }
 #})
@@ -574,6 +579,18 @@ beatAG = #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
     {\single \greyNote a $dur (\single \greyNote a)}
   >>
 #})
+
+themeLabel =
+#(define-music-function (text) (markup?)
+   #{
+     % Apply custom formatting inside the redefinition
+     % \once \override Score.TextMark.color = #blue
+     % \once \override Score.TextMark.font-series = #'bold
+     
+     % Use LilyPond's internal sequential text mark command 
+     % to preserve the original placement behavior
+     \offset X-offset -5 \tweak font-size 2 \textMark \markup \bold { #text }
+   #})
 
 
 %{
