@@ -1,3 +1,6 @@
+// import data from "./data.json" with { type: "json" };
+// import data from './data.json' assert {type: 'json'};
+
 const root = document.documentElement;
 const select = document.getElementById('photoSelect');
 const placeholder = document.getElementById('placeholder');
@@ -15,6 +18,21 @@ const sliderContainer = document.getElementById('sliderContainer');
 const zoomSlider = document.getElementById("zoomSlider");
 const zoomIndicator = document.getElementById("zoomIndicator");
 
+
+
+window.onload = function() {
+    // console.log("Hi");
+    // console.log(data["sheets"]);
+    data["sheets"].forEach(function(dt, index) {
+        // console.log(dt);
+        var opt = document.createElement('option');
+        opt.value = dt["pathName"];
+        opt.innerHTML = dt["title"];
+        select.appendChild(opt);
+    });
+};
+
+
 zoomSlider.oninput = function() {
     root.style.setProperty("--zoomProperty", this.value + "%");
     zoomIndicator.innerHTML = this.value + "%";
@@ -31,6 +49,8 @@ select.addEventListener('change', function() {
         radioGroup.classList.remove('active');
         toggleButton.classList.remove('active');
         downloadButton.classList.remove('active');
+        sliderContainer.style.display = 'none';
+        downloadButton.style.display = 'none';
         // videoContainer.classList.remove('active');
         currentBase = '';
     } else {
