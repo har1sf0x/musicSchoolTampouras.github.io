@@ -582,16 +582,23 @@ beatAG = #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
 
 themeLabel =
 #(define-music-function (text) (markup?)
-   #{
-     % Apply custom formatting inside the redefinition
-     % \once \override Score.TextMark.color = #blue
-     % \once \override Score.TextMark.font-series = #'bold
-     
-     % Use LilyPond's internal sequential text mark command 
-     % to preserve the original placement behavior
-     \offset X-offset -5 \tweak font-size 2 \textMark \markup \bold { #text }
-   #})
+  #{
+     \override Score.TextMark.break-align-symbols = #'(clef key-signature time-signature)
+     \override Score.TextMark.self-alignment-X = #LEFT
+     \textMark \markup \bold { #text }
+  #})
 
+% themeLabel =
+% #(define-music-function (text) (markup?)
+%    #{
+%      % Apply custom formatting inside the redefinition
+%      % \once \override Score.TextMark.color = #blue
+%      % \once \override Score.TextMark.font-series = #'bold
+     
+%      % Use LilyPond's internal sequential text mark command 
+%      % to preserve the original placement behavior
+%      \offset X-offset -5 \tweak font-size 2 \textMark \markup \bold { #text }
+%    #})
 
 %{
 arrowUp = \markup {

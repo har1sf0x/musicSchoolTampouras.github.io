@@ -33,7 +33,7 @@ melodyA = \relative c'' {
   \set Score.alternativeNumberingStyle = #'numbers-with-letters
   % \time 2/4
   \setKalamTime
-  \sectionLabel "A"
+  \themeLabel "A"
   \repeat segno 2 {
     \repeat volta 2 {
       % measure 1
@@ -50,7 +50,7 @@ melodyA = \relative c'' {
       \RastChord 4 \arrowDown \hiddenGraceArrow \arrowSelpe \RastChord 8 \arrowDown \RastChord 8 \arrowUp
       \fine
     }
-    \section \break \sectionLabel "B"
+    \section \break \themeLabel "B"
     % measure 5
     g4-0\arrowDown g8-0\arrowUp g4-0\arrowDown g8-0\arrowDown g8-0\arrowUp
     % measure 6
@@ -64,7 +64,7 @@ melodyA = \relative c'' {
     \afterGrace bfc8-1\arrowDown (c16-\tweak extra-offset #'(0. . 1.5)-3) a8-0\arrowUp \afterGrace bfc8-1\arrowDown (c16-3) \afterGrace a4-0\arrowDown (bfc16-1) \afterGrace a8-0\arrowDown (bfc16-\tweak extra-offset #'(0. . 1.2)-1) g8-0\arrowDown
     % measure 10
     \afterGrace bfc4-1\arrowDown\vibrato (c16-3) \afterGrace a8-0\arrowUp (bfc16-1) g4-0\arrowDown \hiddenGraceArrow \arrowSelpe \RastChord 8 \arrowDown \RastChord 8 \arrowUp
-    \section \break \sectionLabel "B'"
+    \section \break \themeLabel "B'"
     % measure 11
     \RastChord 4 \arrowDown \RastChord 8 \arrowZeybek \RastChord 4 \arrowDown \hiddenGraceArrow \arrowSelpe \RastChord 8 \arrowDown \RastChord 8 \arrowUp
     % measure 12
@@ -78,7 +78,7 @@ melodyA = \relative c'' {
     bfc4-1\arrowDown \acciaccaturaNote a16-0\arrowZeybekB bfc8-1\arrowUp \ADAChord 4 \arrowDown \acciaccaturaNote bfc16-1\arrowSelpe \afterGrace <a\arrowDown \single \greyNote d, \single \greyNote  a'>8-5 (bfc16-\tweak extra-offset #'(0. . 1.)-1) g8-0\arrowDown
     % measure 16
     bfc4-1\arrowDown \hiddenGraceArrow \arrowZeybekB a8-0\arrowUp \RastChord 4 \arrowDown \hiddenGraceArrow \arrowSelpe \RastChord 8 \arrowDown \RastChord 8 \arrowUp
-    \section \break \sectionLabel "Γ"
+    \section \break \themeLabel "Γ"
     \repeat volta 2 {
       % measure 17
       \afterGrace c8-1\arrowDown (d16-3) \afterGrace c8-1\arrowUp (d16-3) bfc8-5\arrowDown a4-0\arrowDown \afterGrace c8-1\arrowDown (d16-3) \afterGrace c8-1\arrowUp (d16-3)
@@ -95,7 +95,7 @@ melodyA = \relative c'' {
         }
       }
     }
-    \section \break \sectionLabel "Γ'"
+    \section \break \themeLabel "Γ'"
     \repeat volta 2 {
       % measure 20
       \afterGrace c8-1\arrowDown (d16-3) \afterGrace c8-1\arrowUp (d16-3) \afterGrace bfc8-5\arrowDown (g16-0) \ADAChord 4 \arrowDown \hiddenGraceArrow \arrowSelpe  \afterGrace c8-1\arrowDown (d16-3) \afterGrace c8-1\arrowUp (d16-3)
@@ -119,7 +119,7 @@ melodyA = \relative c'' {
 
 % melodyB = \relative c'' {
 %   \setZeybekTime
-%   \section \break \sectionLabel "B"
+%   \section \break \themeLabel "B"
 %   g'2 fb4 efb d c bfc afb g
 % }
 
@@ -210,21 +210,21 @@ extraVerses = \markup {
 }
 
 %%%%%%% pdf %%%%%%%
-% \paper {
-%   #(set-paper-size "a4")
-%   top-margin = 2\cm
-%   left-margin = 1\cm
-%   right-margin = 1\cm
-%   indent = #0
-% }
-
-%%%%%%% svg %%%%%%%
 \paper {
-  paper-width = 210\mm
-  paper-height = 287\mm
+  #(set-paper-size "a4")
+  top-margin = 2\cm
   left-margin = 1\cm
   right-margin = 1\cm
   indent = #0
 }
+
+%%%%%%% svg %%%%%%%
+% \paper {
+%   paper-width = 210\mm
+%   paper-height = 287\mm
+%   left-margin = 1\cm
+%   right-margin = 1\cm
+%   indent = #0
+% }
 
 \include "render_data_01.ly"
