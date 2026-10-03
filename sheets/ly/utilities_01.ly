@@ -228,9 +228,12 @@ downBeatChord = #(define-music-function (p1 p2 p3 fin dur) (ly:pitch? ly:pitch? 
 customDuoChord = #(define-music-function (p1 p2 fin dur arrow) (ly:music? ly:pitch? ly:event? ly:duration? ly:music?) #{
   \fixed c' {< $p1 $arrow \single \greyNote $p2 > $dur $fin }
 #})
-customTriChord = #(define-music-function (p1 p2 p3 fin dur arrow) (ly:pitch? ly:music? ly:pitch? ly:event? ly:duration? ly:music?) #{
+customTriChord = #(define-music-function (p1 p2 p3 fin dur arrow) (ly:music? ly:pitch? ly:pitch? ly:event? ly:duration? ly:music?) #{
   \fixed c' {< $p1 $arrow \single \greyNote $p2 \single \greyNote $p3 > $dur $fin }
 #})
+% customTriChord = #(define-music-function (p1 p2 p3 fin dur arrow) (ly:pitch? ly:music? ly:pitch? ly:event? ly:duration? ly:music?) #{
+%   \fixed c' {< $p1 $arrow \single \greyNote $p2 \single \greyNote $p3 > $dur $fin }
+% #})
 
 % hiddenGraceArrow =
 % #(define-music-function (arrow) (ly:music?) #{

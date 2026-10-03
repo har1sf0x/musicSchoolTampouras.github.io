@@ -9,7 +9,7 @@ source = ""
 keyA = \setNikrizKey
 keyB = \setNikrizBKey
 
-melody = \relative c'' {
+melodyA = \relative c'' {
   % \set Score.dalSegnoTextFormatter = #format-dal-segno-text-brief
   % \set Score.alternativeNumberingStyle = #'numbers-with-letters
   % \time 2/4
@@ -57,7 +57,7 @@ melody = \relative c'' {
         \magnifyStaff #2/3
         firstClef = ##f
       }
-      {\improvisationOn b8\arrowDown 8\arrowUp 8\arrowDown 8\arrowUp 4.\arrowDown \improvisationOff}
+      {\improvisationOn b4\arrowDown 8\arrowDown 8\arrowUp 4.\arrowDown \improvisationOff}
     >>
     % measure 16
     \grace cb8-2\arrowDown (d4-4) bfb4-5\arrowDown \grace cb8-2\arrowDown (d4-4) bfb8-5\arrowDown
@@ -68,6 +68,20 @@ melody = \relative c'' {
   % \RastChord 8 \arrowDown a16-0\arrowDown a-0\arrowUp bfc8-1\arrowDown c-1\arrowUp
   % d8-3\arrowDown c16-1\arrowDown bfc-1\arrowUp \ADAChord 8 \arrowDown \ADAChord 8 \arrowUp
   % \RastChord 8 \arrowDown a16-0\arrowDown a-0\arrowUp bfc8-1\arrowDown bfc-1\arrowUp \ERBarline
+}
+
+pieceOrig = {
+  \keyA
+  \melodyA
+  % \setHicazkarKey
+  % \melodyB
+}
+
+pieceTrans = {
+  \keyB
+  \transpose g c \melodyA
+  % \setHicazkarBKey
+  % \transpose g c \melodyB
 }
 
 verseOne = \lyricmode {
@@ -200,221 +214,21 @@ extraVerses = \markup {
 }
 
 %%%%%%% pdf %%%%%%%
-\paper {
-  #(set-paper-size "a4")
-  top-margin = 2\cm
-  left-margin = 1\cm
-  right-margin = 1\cm
-  indent = #0
-}
-
-%%%%%%% svg %%%%%%%
 % \paper {
-%   paper-width = 210\mm
-%   paper-height = 140\mm
+%   #(set-paper-size "a4")
+%   top-margin = 2\cm
 %   left-margin = 1\cm
 %   right-margin = 1\cm
 %   indent = #0
 % }
 
-\header {
-  title = \pieceName
-  subtitle = \pieceSubtitle
-  copyright = "Χ. Κόχυλας"
+%%%%%%% svg %%%%%%%
+\paper {
+  paper-width = 210\mm
+  paper-height = 140\mm
+  left-margin = 1\cm
+  right-margin = 1\cm
+  indent = #0
 }
-\layout {
-  \override LyricText.font-size=#-2
-  \override Fingering.transparent = ##t
-  \override Fingering.script-priority = #100
-  \omit Fingering
-}
-\book {
-  \bookOutputName \pieceFilename
-  \paper {
-    print-page-number = ##f
-  }
-  \bookpart {
-    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-        <<
-          \new Voice = "one" {
-            \customScripts #hideArrowsArticulationNear
-            \keyA
-            \melody
-          }
-          \new Lyrics \lyricsto "one" {
-            \verseOne
-          }
-        >>
-      }
-    }
-    \extraVerses
-  }
-}
-\layout {
-  \override Fingering.transparent = ##f
-  \override Fingering.script-priority = #-200
-  \undo \omit Fingering
-}
-\book {
-  \bookOutputName #(string-append pieceFilename "_δάχτυλα")
-  \bookpart {
-    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-        <<
-          \new Voice = "one" {
-            \customScripts #hideArrowsArticulationNear
-            \keyA
-            \melody
-          }
-          \new Lyrics \lyricsto "one" {
-            \verseOne
-          }
-        >>
-      }
-    }
-    \extraVerses
-  }
-}
-\layout {
-  \override Fingering.transparent = ##t
-  \override Fingering.script-priority = #100
-  \omit Fingering
-}
-\book {
-  \bookOutputName #(string-append pieceFilename "_πενιές")
-  \bookpart {
-    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-        <<
-          \new Voice = "one" {
-            \customScripts #articulationNear
-            \keyA
-            \melody
-          }
-          \new Lyrics \lyricsto "one" {
-            \verseOne
-          }
-        >>
-      }
-    }
-    \extraVerses
-  }
-}
-\layout {
-  \override Fingering.transparent = ##f
-  \override Fingering.script-priority = #-200
-  \undo \omit Fingering
-}
-\book {
-  \bookOutputName #(string-append pieceFilename "_πενιές_δάχτυλα")
-  \bookpart {
-    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-        <<
-          \new Voice = "one" {
-            \customScripts #articulationNear
-            \keyA
-            \melody
-          }
-          \new Lyrics \lyricsto "one" {
-            \verseOne
-          }
-        >>
-      }
-    }
-    \extraVerses
-  }
-}
-\layout {
-  \override Fingering.transparent = ##t
-  \override Fingering.script-priority = #100
-  \omit Fingering
-}
-\book {
-  \bookOutputName #(string-append pieceFilename "_inΝτο")
-  \bookpart {
-    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-        <<
-          \new Voice = "one" {
-            \customScripts #hideArrowsArticulationNear
-            \keyB
-            \transpose g c \melody
-          }
-          \new Lyrics \lyricsto "one" {
-            \verseOne
-          }
-        >>
-      }
-    }
-    \extraVerses
-  }
-}
-\layout {
-  \override Fingering.transparent = ##f
-  \override Fingering.script-priority = #-200
-  \undo \omit Fingering
-}
-\book {
-  \bookOutputName #(string-append pieceFilename "_inΝτο_δάχτυλα")
-  \bookpart {
-    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-        <<
-          \new Voice = "one" {
-            \customScripts #hideArrowsArticulationNear
-            \keyB
-            \transpose g c \melody
-          }
-          \new Lyrics \lyricsto "one" {
-            \verseOne
-          }
-        >>
-      }
-    }
-    \extraVerses
-  }
-}
-\layout {
-  \override Fingering.transparent = ##t
-  \override Fingering.script-priority = #100
-  \omit Fingering
-}
-\book {
-  \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές")
-  \bookpart {
-    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-        <<
-          \new Voice = "one" {
-            \customScripts #articulationNear
-            \keyB
-            \transpose g c \melody
-          }
-          \new Lyrics \lyricsto "one" {
-            \verseOne
-          }
-        >>
-      }
-    }
-    \extraVerses
-  }
-}
-\layout {
-  \override Fingering.transparent = ##f
-  \override Fingering.script-priority = #-200
-  \undo \omit Fingering
-}
-\book {
-  \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές_δάχτυλα")
-  \bookpart {
-    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-        <<
-          \new Voice = "one" {
-            \customScripts #articulationNear
-            \keyB
-            \transpose g c \melody
-          }
-          \new Lyrics \lyricsto "one" {
-            \verseOne
-          }
-        >>
-      }
-    }
-    \extraVerses
-  }
-}
+
+\include "render_data_01.ly"

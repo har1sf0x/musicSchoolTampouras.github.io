@@ -6,6 +6,8 @@
   copyright = "Χ. Κόχυλας"
 }
 \layout {
+  \omit StringNumber
+  \override StringNumber.script-priority = #-400
   \override LyricText.font-size=#-2
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
@@ -13,6 +15,15 @@
   % \context {
   %   \Staff
   %   \consists Measure_spanner_engraver
+  % }
+  \context {
+    \Voice
+    \customScripts #hideArrowsArticulationNear
+  }
+  % \context {
+  %   \Staff
+  %   \override NoteCollision.merge-differently-dotted = ##t
+  %   \override NoteCollision.merge-differently-headed = ##t
   % }
 }
 \book {
@@ -24,7 +35,7 @@
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
-            \customScripts #hideArrowsArticulationNear
+            % \customScripts #hideArrowsArticulationNear
             \pieceOrig
           }
           \new Lyrics \lyricsto "one" {
@@ -37,9 +48,14 @@
   }
 }
 \layout {
+  \undo \omit StringNumber
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
   \undo \omit Fingering
+  \context {
+    \Voice
+    \customScripts #hideArrowsArticulationNear
+  }
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_δάχτυλα")
@@ -47,7 +63,7 @@
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
-            \customScripts #hideArrowsArticulationNear
+            % \customScripts #hideArrowsArticulationNear
             \pieceOrig
           }
           \new Lyrics \lyricsto "one" {
@@ -60,9 +76,14 @@
   }
 }
 \layout {
+  \omit StringNumber
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
   \omit Fingering
+  \context {
+    \Voice
+    \customScripts #articulationNear
+  }
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_πενιές")
@@ -70,7 +91,7 @@
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
-            \customScripts #articulationNear
+            % \customScripts #articulationNear
             \pieceOrig
           }
           \new Lyrics \lyricsto "one" {
@@ -83,9 +104,14 @@
   }
 }
 \layout {
+  \undo \omit StringNumber
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
   \undo \omit Fingering
+  \context {
+    \Voice
+    \customScripts #articulationNear
+  }
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_πενιές_δάχτυλα")
@@ -93,7 +119,7 @@
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
-            \customScripts #articulationNear
+            % \customScripts #articulationNear
             \pieceOrig
           }
           \new Lyrics \lyricsto "one" {
@@ -106,9 +132,14 @@
   }
 }
 \layout {
+  \omit StringNumber
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
   \omit Fingering
+  \context {
+    \Voice
+    \customScripts #hideArrowsArticulationNear
+  }
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο")
@@ -116,7 +147,7 @@
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
-            \customScripts #hideArrowsArticulationNear
+            % \customScripts #hideArrowsArticulationNear
             \pieceTrans
           }
           \new Lyrics \lyricsto "one" {
@@ -129,9 +160,14 @@
   }
 }
 \layout {
+  \undo \omit StringNumber
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
   \undo \omit Fingering
+  \context {
+    \Voice
+    \customScripts #hideArrowsArticulationNear
+  }
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο_δάχτυλα")
@@ -139,7 +175,7 @@
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
-            \customScripts #hideArrowsArticulationNear
+            % \customScripts #hideArrowsArticulationNear
             \pieceTrans
           }
           \new Lyrics \lyricsto "one" {
@@ -152,9 +188,14 @@
   }
 }
 \layout {
+  \omit StringNumber
   \override Fingering.transparent = ##t
   \override Fingering.script-priority = #100
   \omit Fingering
+  \context {
+    \Voice
+    \customScripts #articulationNear
+  }
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές")
@@ -162,7 +203,7 @@
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
-            \customScripts #articulationNear
+            % \customScripts #articulationNear
             \pieceTrans
           }
           \new Lyrics \lyricsto "one" {
@@ -175,9 +216,14 @@
   }
 }
 \layout {
+  \undo \omit StringNumber
   \override Fingering.transparent = ##f
   \override Fingering.script-priority = #-200
   \undo \omit Fingering
+  \context {
+    \Voice
+    \customScripts #articulationNear
+  }
 }
 \book {
   \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές_δάχτυλα")
@@ -185,7 +231,7 @@
     \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
         <<
           \new Voice = "one" {
-            \customScripts #articulationNear
+            % \customScripts #articulationNear
             \pieceTrans
           }
           \new Lyrics \lyricsto "one" {
