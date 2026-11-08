@@ -9,137 +9,222 @@ pieceFilenameB = #(string-append pieceFilename "_πενιές")
 keyA = \setUssakKey
 keyB = \setUssakBKey
 
-pieceNotes = \new Voice \relative c'' {
-  \setKalamTime
+melodyA = \relative c'' {
+  \set Score.dalSegnoTextFormatter = #format-dal-segno-text-brief
+  \set Score.dalSegnoTextFormatter = #(lambda (context repeat-count markups) #{ \markup \right-column { "D.S. al Coda" } #})
   \set Score.alternativeNumberingStyle = #'numbers-with-letters
-  \partial 4 e8 d
+  % \time 2/4
+  \setKalamTime
+  \partial 4 e8-1\arrowDown d-1\arrowUp
+  \themeLabel "A"
   \repeat segno 2 {
-    \set Score.currentBarNumber = #1
     \repeat volta 2 {
-      d8 d c c bfc bfc a
-      a4 a8 a4 e'8 d
-      d8 d c c bfc bfc a
+      % measure 1
+      e8.-3\arrowDown d16-1\arrowZeybekB c8-1\arrowUp c4-1\arrowDown \acciaccaturaNote bfc8-1\arrowSelpe bfc8-1\arrowDown a8-0\arrowUp
+      % measure 2
+      \ADAChord 4 \arrowDown \ADAChord 8 \arrowZeybek \ADAChord 4 \arrowDown \hiddenGraceArrow \arrowSelpe e'8-1\arrowDown d-1\arrowUp
+      % measure 3
+      e8.-3\arrowDown d16-1\arrowZeybekB c8-1\arrowUp c4-1\arrowDown \acciaccaturaNote bfc8-1\arrowSelpe bfc8-1\arrowDown a8-0\arrowUp
       \alternative {
-        \volta 1 {a4 a8 a4 e'8 d}
-        \volta 2 {a4 a8 a g a bfc}
+        % measure 4a
+        \volta 1 {\ADAChord 4 \arrowDown \ADAChord 8 \arrowZeybek \ADAChord 4 \arrowDown \hiddenGraceArrow \arrowSelpe e'8-1\arrowDown d-1\arrowUp}
+        % measure 4b
+        \volta 2 {\ADAChord 4 \arrowDown \ADAChord 8 \arrowZeybek \ADAChord 8. \arrowDown g,16-0\arrowSelpe \ADAChord 8 \arrowDown bfc8-1\arrowUp}
       }
     }
-    \break
-    \set Score.currentBarNumber = #5
+    \section \break \themeLabel "B" %\set Score.currentBarNumber = #1
     \repeat volta 2 {
-      c8 c c c4 c8 c
-      bfc4 a8 g4 e'8 d
-      d8 d c c bfc bfc a
-      a4 a8 a g a bfc
-      %\break
-      c8 c c c4 c8 c
-      bfc4 a8 g4 e'8 d
-      d8 d c c bfc bfc a
+      % measure 5
+      c4-1\arrowDown c8-1\arrowZeybek c4-1\arrowDown c8-1\arrowDown c8-1\arrowUp
+      % measure 6
+      bfc4-1\arrowDown \hiddenGraceArrow \arrowZeybekB a8-0\arrowUp g4\arrowDown \hiddenGraceArrow \arrowSelpe e'8-1\arrowDown d-1\arrowUp
+      % measure 7
+      e8.-3\arrowDown d16-1\arrowZeybekB c8-1\arrowUp c4-1\arrowDown \acciaccaturaNote bfc8-1\arrowSelpe bfc8-1\arrowDown a8-0\arrowUp
+      % measure 8
+      \ADAChord 4 \arrowDown \ADAChord 8 \arrowZeybek \ADAChord 8. \arrowDown g16-0\arrowSelpe \ADAChord 8 \arrowDown bfc8-1\arrowUp
+      % measure 9
+      c4-1\arrowDown c8-1\arrowZeybek c4-1\arrowDown c8-1\arrowDown c8-1\arrowUp
+      % measure 10
+      bfc4-1\arrowDown \hiddenGraceArrow \arrowZeybekB a8-0\arrowUp g4\arrowDown \hiddenGraceArrow \arrowSelpe e'8-1\arrowDown d-1\arrowUp
+      % measure 11
+      e8.-3\arrowDown d16-1\arrowZeybekB c8-1\arrowUp c4-1\arrowDown \acciaccaturaNote bfc8-1\arrowSelpe bfc8-1\arrowDown a8-0\arrowUp
       \alternative {
-        \volta 1 {a4 a8 a g a bfc}
-        \volta 2 {a4 \offset X-offset -2 \coda a8 a4 e'8 d \FBarline}
+        % measure 12a
+        \volta 1 {\ADAChord 4 \arrowDown \ADAChord 8 \arrowZeybek \ADAChord 8. \arrowDown g16-0\arrowSelpe \ADAChord 8 \arrowDown bfc8-1\arrowUp}
+        % measure 12b
+        \volta 2 {\ADAChord 4 \arrowDown \offset X-offset -2 \coda \ADAChord 8 \arrowZeybek \ADAChord 4 \arrowDown \hiddenGraceArrow \arrowSelpe e8-1\arrowDown d-1\arrowUp}
+          % a4 \offset X-offset -2 \coda a8 a4 e'8 d \FBarline}
       }
     }
-    \section
-    \sectionLabel "Coda"
   }
-  a4 a8 a4
+  \section \offset X-offset 1 \textMark \markup \bold "Coda" %\themeLabel "Coda"
+  % measure 13
+  \ADAChord 4 \arrowDown \ADAChord 8 \arrowZeybek \ADAChord 4 \arrowDown
   \fine
 }
-pieceArrows = \new Voice {
-  s8^\arrowDown s^\arrowUp
-  s8^\arrowDown s^\arrowUp s^\arrowUp s^\arrowDown s^\arrowUp s^\arrowDown s^\arrowUp
-  s4^\arrowDown s8^\arrowUp s4^\arrowDown s8^\arrowDown s^\arrowUp
-  s8^\arrowDown s^\arrowUp s^\arrowUp s^\arrowDown s^\arrowUp s^\arrowDown s^\arrowUp
-  s4^\arrowDown s8^\arrowUp s4^\arrowDown s8^\arrowDown s^\arrowUp
-  s4^\arrowDown s8^\arrowUp s^\arrowDown s^\arrowDown s^\arrowDown s^\arrowUp
-  
-  \repeat unfold 2 {
-    s8^\arrowDown s^\arrowUp s^\arrowUp s4^\arrowDown s8^\arrowDown s^\arrowUp
-    s4^\arrowDown s8^\arrowUp s4^\arrowDown s8^\arrowDown s^\arrowUp
-    s8^\arrowDown s^\arrowUp s^\arrowUp s^\arrowDown s^\arrowUp s^\arrowDown s^\arrowUp
-    s4^\arrowDown s8^\arrowUp s^\arrowDown s^\arrowDown s^\arrowDown s^\arrowUp
-  }
-  s4^\arrowDown s8^\arrowUp s4^\arrowDown s8^\arrowDown s^\arrowUp
-  s4^\arrowDown s8^\arrowUp s4^\arrowDown
+
+pieceOrig = {
+  \keyA
+  \melodyA
+  % \setHicazkarKey
+  % \melodyB
 }
 
-\layout {
+pieceTrans = {
+  \keyB
+  \transpose g c \melodyA
+  % \setHicazkarBKey
+  % \transpose g c \melodyB
+}
+
+verseOne = \lyricmode {
+  % \new Lyrics {
+  %   \set associatedVoice = "one"
+  %   \repeat unfold 5 {\skip 1} %"1α."
+  %   \override StanzaNumber.font-series = #'medium
+  %   \set stanza = "1α."
+  %   Χρι -- στού -- γεν _ -- να, Πρω -- τού -- γεν _ -- να πρώ -- τη -- γιορ _ -- τή _ του χρό _ _ -- νου, για
+  % }
+  % \set fontSize = #-2 
+  % <<
+  %   \new Lyrics {
+  %     \set associatedVoice = "one"
+  %     \set stanza = "1α."
+  %     Χρι -- στού -- γεν _ -- να, Πρω -- τού -- γεν _ -- να πρώ -- τη -- γιορ _ -- τή _ του χρό _ _ -- νου, για
+  %   }
+  %   \new Lyrics {
+  %     \set associatedVoice = "one"
+  %     \set stanza = "1β."
+  %     για 'βγά -- τε _ ιδέ -- στε μά -- θε _ -- τε ν'οπ' ο Χρι _ -- στός _ γεν -- νιέ _ _ -- ται. Γεν... πόρ -- τα
+  %   }
+  % >>
+}
+
+extraVerses = \markup {
+  % \abs-fontsize #10
+  % \fill-line {
+  %   \hspace #1
+  %   \column {
+  %     \line { \bold "1."
+  %       \column {
+  %         "Κάτω στο γιαλό, κατω στο περιγιάλι,"
+  %         "κάτω στο γιαλό κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "2."
+  %       \column {
+  %         "Πλύνουν Χιώτισσες, πλυνουν παπα(δ)οπούλες"
+  %         "πλύνουν Χιώτισσες κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "3."
+  %       \column {
+  %         "Πλύνουν κι άπλωναν, και μεσ’ τον άμμο επαίζαν,"
+  %         "πλύναν κι έπαιζαν κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "4."
+  %       \column {
+  %         "Φύσηξε ο βοριάς, μαΐστρος δραμουντάνας,"
+  %         "φύσηξε ο βοριάς κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "5."
+  %       \column {
+  %         "Κι ανασήκωσε, το μεσοφούστανό της,"
+  %         "κι ανασήκωσε κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "6."
+  %       \column {
+  %         "Και της φάνηκε, το ποδαστράγαλό της,"
+  %         "και της φάνηκε κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "7."
+  %       \column {
+  %         "Κι έλαμψε ο γιαλός, κι ολο το περιγιάλι,"
+  %         "κι έλαμψε ο γιαλός κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %   }
+  %   \hspace #1
+  %   \column {
+  %     \line { \bold "8."
+  %       \column {
+  %         "Κάτεργο περνά, κι ελάμψαν τ’ άρμενά του,"
+  %         "κάτεργο περνά κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "9."
+  %       \column {
+  %         "Λέει ο ναύκληρος, λεει ο καραβοκύρης,"
+  %         "λέει ο ναύκληρος κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "10."
+  %       \column {
+  %         "Άλα βρε παιδιά, αλα βρε παλικάρια"
+  %         "άλα βρε παιδιά κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "11."
+  %       \column {
+  %         "Ν’ αποσώσομε, σ’ αυτό που λάμπει ομπρός μας,"
+  %         "ν’ αποσώσομε κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "12."
+  %       \column {
+  %         "Κι αν ειν’ κάτεργο, να ’ν’ του καραβοκύρη,"
+  %         "κι αν ειν’ κάτεργο κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "13."
+  %       \column {
+  %         "Κι αν ειν’ μάλαμα, να ’ναι της συντροφιάς μας,"
+  %         "κι αν ειν’ μάλαμα κοντή, νεραντζούλα φουντωτή."
+  %       }
+  %     }
+  %     \combine \null \vspace #0.1
+  %     \line { \bold "14."
+  %       \column {
+  %         "Κι αν ειν’ κοπελιά, κι αν είν’ παπαδοπούλα,"
+  %         "κι αν ειν’ κοπελιά κοντή, να ‘ναι του τραγουδιστή."
+  %       }
+  %     }
+  %   }
+  %   \hspace #1
+  % }
+}
+
+%%%%%%% pdf %%%%%%%
+\paper {
+  #(set-paper-size "a4")
+  top-margin = 2\cm
+  left-margin = 1\cm
+  right-margin = 1\cm
   indent = #0
-  #(set-default-paper-size '(cons (* 210 mm) (* 95 mm)))
 }
 
-\layout {
-  \override TextScript.transparent = ##t
-}
-\header {
-  title = \pieceName
-  subtitle = \pieceSubtitle
-  copyright = "Χ. Κόχυλας"
-}
-\book {
-  \bookOutputName \pieceFilename
-  \paper {
-    print-page-number = ##f
-  }
-  \bookpart {
-    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-      \keyA
-      <<
-        \pieceNotes
-        \pieceArrows
-      >>
-      }
-    }
-  }
-}
-\layout {
-  \override TextScript.transparent = ##f
-}
-\book {
-  \bookOutputName \pieceFilenameB
-  \bookpart {
-    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-      \keyA
-      <<
-        \pieceNotes
-        \pieceArrows
-      >>
-      }
-    }
-  }
-}
-\layout {
-  \override TextScript.transparent = ##t
-}
-\book {
-  \bookOutputName #(string-append pieceFilename "_inΝτο")
-  \bookpart {
-    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-      \keyB
-      <<
-        \transpose g c \pieceNotes
-        \pieceArrows
-        
-      >>
-      }
-    }
-  }
-}
-\layout {
-  \override TextScript.transparent = ##f
-}
-\book {
-  \bookOutputName #(string-append pieceFilename "_inΝτο_πενιές")
-  \bookpart {
-    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
-      \keyB
-      <<
-        \transpose g c \pieceNotes
-        \pieceArrows
-      >>
-      }
-    }
-  }
-}
-  
+%%%%%%% svg %%%%%%%
+% \paper {
+%   paper-width = 210\mm
+%   paper-height = 130\mm
+%   left-margin = 1\cm
+%   right-margin = 1\cm
+%   indent = #0
+% }
+
+\include "render_data_01.ly"

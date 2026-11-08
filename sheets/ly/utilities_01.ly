@@ -502,6 +502,7 @@ customTriChord = #(define-music-function (p1 p2 p3 fin dur arrow) (ly:music? ly:
   \override Staff.Script.padding = 0.6
   \override Fingering.staff-padding = #1.0
   \set stringNumberOrientations = #'(down)
+  \override Score.TextMark.outside-staff-priority = #2000
   } } }
 
 #(define (custom-script-tweaks ls)
@@ -590,7 +591,7 @@ beatAG = #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
 themeLabel =
 #(define-music-function (text) (markup?)
   #{
-     \override Score.TextMark.break-align-symbols = #'(clef key-signature time-signature)
+     \override Score.TextMark.break-align-symbols = #'(clef key-signature time-signature segno-mark)
      \override Score.TextMark.self-alignment-X = #LEFT
      \textMark \markup \bold { #text }
   #})
