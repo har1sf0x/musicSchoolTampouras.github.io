@@ -231,12 +231,12 @@ extraVerses = \markup {
 }
 
 %%%%%%% svg %%%%%%%
-\paper {
-  paper-width = 210\mm
-  paper-height = 135\mm
-  left-margin = 1\cm
-  right-margin = 1\cm
-  indent = #0
-}
+% \paper {
+%   paper-width = 210\mm
+%   paper-height = 135\mm
+%   left-margin = 1\cm
+%   right-margin = 1\cm
+%   indent = #0
+% }
 
 \include "render_data_01.ly"
