@@ -20,14 +20,14 @@ melodyA = \relative c'' {
     % measure 1
     g'8-1\arrowDown g16-1\arrowZeybek g-1\arrowUp f-1\arrowDown e-1\arrowUp d8-1\arrowDown
     e8-1\arrowDown e16-1\arrowZeybek e-1\arrowUp d-1\arrowDown c-1\arrowUp b8-1\arrowUp
-    g16-1\arrowDown d'8-1\arrowUp b16-1\arrowUp c8-1\arrowDown \hiddenGraceArrow \arrowZeybekB a-0\arrowUp
+    g16-0\arrowDown d'8-1\arrowUp b16-1\arrowUp c8-1\arrowDown \hiddenGraceArrow \arrowZeybekB a-0\arrowUp
     \RastChord 8 \arrowDown \RastChord 16 \arrowZeybek a16-0\arrowUp
     b8-1\arrowDown \hiddenGraceArrow \arrowZeybekB c8-1\arrowUp
     \once \override Glissando.extra-offset = #'(0 . -0.5) \appoggiaturaNote b16-1\arrowUp \glissando (d4-1)
     % measure 2
     g8-1\arrowDown g16-1\arrowZeybek g-1\arrowUp f-1\arrowDown e-1\arrowUp d8-1\arrowDown
     e8-1\arrowDown e16-1\arrowZeybek e-1\arrowUp d-1\arrowDown c-1\arrowUp b8-1\arrowUp
-    g16-1\arrowDown d'8-1\arrowUp b16-1\arrowUp c8-1\arrowDown \hiddenGraceArrow \arrowZeybekB a-0\arrowUp
+    g16-0\arrowDown d'8-1\arrowUp b16-1\arrowUp c8-1\arrowDown \hiddenGraceArrow \arrowZeybekB a-0\arrowUp
     \RastChord 4 \arrowDown \RastChord 4 \arrowUp \RastChord 4 \arrowDown
   }
 
@@ -40,14 +40,14 @@ melodyA = \relative c'' {
       % measure 3
       \RastChord 8 \arrowDown \RastChord 16 \arrowZeybek b16-1\arrowUp a16-0\arrowDown a16-0\arrowUp c8-1\arrowDown
       b8-1\arrowDown b16-1\arrowZeybek d-3\arrowUp c-1\arrowDown c-1\arrowUp e8-1\arrowUp
-      g,16-1\arrowDown d'8-1\arrowUp b16-1\arrowUp c8-1\arrowDown \hiddenGraceArrow \arrowZeybekB a-0\arrowUp
+      g,16-0\arrowDown d'8-1\arrowUp b16-1\arrowUp c8-1\arrowDown \hiddenGraceArrow \arrowZeybekB a-0\arrowUp
       \RastChord 8 \arrowDown \RastChord 16 \arrowZeybek a16-0\arrowUp
       b8-1\arrowDown \hiddenGraceArrow \arrowZeybekB c8-1\arrowUp
       \once \override Glissando.extra-offset = #'(0 . -0.5) \appoggiaturaNote b16-1\arrowUp \glissando (d4-1)
       % measure 4
       \RastChord 8 \arrowDown \RastChord 16 \arrowZeybek b16-1\arrowUp a16-0\arrowDown a16-0\arrowUp c8-1\arrowDown
       b8-1\arrowDown b16-1\arrowZeybek d-3\arrowUp c-1\arrowDown c-1\arrowUp e8-1\arrowUp
-      g,16-1\arrowDown d'8-1\arrowUp b16-1\arrowUp c8-1\arrowDown \hiddenGraceArrow \arrowZeybekB a-0\arrowUp
+      g,16-0\arrowDown d'8-1\arrowUp b16-1\arrowUp c8-1\arrowDown \hiddenGraceArrow \arrowZeybekB a-0\arrowUp
       \RastChord 4 \arrowDown \RastChord 4 \arrowUp \RastChord 4 \arrowDown \fine
     }
 
