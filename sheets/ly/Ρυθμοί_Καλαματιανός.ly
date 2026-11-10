@@ -4,7 +4,7 @@
 
 pieceName = "7/8 Καλαματιανό"
 pieceSubtitle = ""
-pieceFilename = "ρυθμοί_Καλαματιανός"
+pieceFilename = "Ρυθμοί_Καλαματιανός"
 source = ""
 keyA = \setRastKey
 keyB = \setRastBKey
