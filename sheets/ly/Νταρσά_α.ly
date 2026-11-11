@@ -35,7 +35,7 @@ melodyA = \relative c'' {
     \section \break \themeLabel "B" %\set Score.currentBarNumber = #1
     \repeat volta 2 {
       % measure 5
-      c4-1\arrowDown c8-1\arrowZeybek c4-1\arrowDown c8-1\arrowDown c8-1\arrowUp
+      c4-1\arrowDown c8-1\arrowZeybek c4-1\arrowDown \hiddenGraceArrow\arrowSelpe c8-1\arrowDown c8-1\arrowUp
       % measure 6
       bfc4-1\arrowDown \hiddenGraceArrow \arrowZeybekB a8-0\arrowUp g4\arrowDown \hiddenGraceArrow \arrowSelpe e'8-1\arrowDown d-1\arrowUp
       % measure 7
@@ -43,7 +43,7 @@ melodyA = \relative c'' {
       % measure 8
       \ADAChord 4 \arrowDown \ADAChord 8 \arrowZeybek \ADAChord 8. \arrowDown g16-0\arrowSelpe \ADAChord 8 \arrowDown bfc8-1\arrowUp
       % measure 9
-      c4-1\arrowDown c8-1\arrowZeybek c4-1\arrowDown c8-1\arrowDown c8-1\arrowUp
+      c4-1\arrowDown c8-1\arrowZeybek c4-1\arrowDown \hiddenGraceArrow\arrowSelpe c8-1\arrowDown c8-1\arrowUp
       % measure 10
       bfc4-1\arrowDown \hiddenGraceArrow \arrowZeybekB a8-0\arrowUp g4\arrowDown \hiddenGraceArrow \arrowSelpe e'8-1\arrowDown d-1\arrowUp
       % measure 11
