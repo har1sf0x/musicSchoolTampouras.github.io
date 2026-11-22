@@ -266,10 +266,15 @@
 %                          "accidentals.flat.slash")))))))))))  %; bfb: d = 5/6
 
 % \layout {
+%   \override Fingering.script-priority = #-200
 %   \context {
 %     \TabStaff
 %     stringTunings = \stringTuning <g' d' a'>
 %     tablatureFormat = #makam-tab-format
+%   }
+%   \context {
+%     \TabVoice
+%     \consists "Fingering_engraver"
 %   }
 % }
 

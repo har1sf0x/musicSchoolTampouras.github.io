@@ -23,11 +23,38 @@
                          "accidentals.mirroredflat"    ; bfc: d = 1/6
                          "accidentals.flat.slash")))))))))))  %; bfb: d = 5/6
 
+
+RastChords =
+#(define-music-function (dur arrow) (ly:duration? ly:music?) #{
+  \fixed c' { \omit StringNumber <g \single \greyNote d' \single \greyNote  g\2> $dur -4-3 $arrow \undo \omit StringNumber }  % Notes with $ prefix use the duration argument
+#})
+
+% ADAChords =
+% #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
+%   \fixed c' { \omit StringNumber <a\3  \single \greyNote d\2 \single \greyNote  a\1 > $dur -5 \undo \omit StringNumber }  % Notes with $ prefix use the duration argument
+% #})
+
+ADAChords =
+#(define-music-function (dur arrow) (ly:duration? ly:music?) #{
+  \once \omit StringNumber
+  \fixed c' { <a\3  \single \greyNote d\2 \single \greyNote  a\1 > $dur -5 }
+#})
+
+% ADAChords =
+% #(define-music-function (dur arrow) (ly:duration? ly:music?) #{
+%   \fixed c' {<a $arrow \single \greyNote d \single \greyNote  a> $dur -5}  % Notes with $ prefix use the duration argument
+% #})
+
 \layout {
+  \override Fingering.script-priority = #-200
   \context {
     \TabStaff
     stringTunings = \stringTuning <g' d' a'>
     tablatureFormat = #makam-tab-format
+  }
+  \context {
+    \TabVoice
+    \consists "Fingering_engraver"
   }
 }
 
@@ -41,16 +68,22 @@ threeTwo = \markup {
   }
 }
 
+pieceOrig = \relative c'' {
+      g4\3\arrowDown a ab %{\once \omit StringNumber%} bfb\3-5\arrowDown bfc^\one\arrowDown c\1 d e fb g f e d c bfc a g\3
+      \RastChords 4 \arrowDown
+      \ADAChords 4 \arrowSelpe (g4\3)
+      % \ADAChord 4 \arrowSelpe (g4)
+
+    }
+
 \score {
   \new TabStaff {
     \tabFullNotation
     \override Stem.transparent = ##t
     \override Beam.transparent = ##t
-    \relative c'' {
-      g4\3\arrowDown a ak bfb^\3 bfc^\one\arrowDown c d e fb g f e d c bfc a g\3
-      % \RastChord 4 \arrowDown
 
-    }
+    \pieceOrig
+    
   }
   % \new TabStaff {
   %   \tabFullNotation
@@ -58,6 +91,35 @@ threeTwo = \markup {
   %   e8\4^\one b\2 <g\3 e'\1>^>[ b\2 e\4]
   %   <a\3 fb'\1>^>^\threeTwo[ b\2 e\4]
   % }
+}
+pieceFilename = "test_tablature_02"
+\layout {
+  \undo \omit StringNumber
+  \override Fingering.transparent = ##f
+  \override Fingering.script-priority = #-200
+  \undo \omit Fingering
+  \context {
+    \Voice
+    \customScripts #articulationNear
+  }
+}
+\book {
+  \bookOutputName #(string-append pieceFilename "_πενιές_δάχτυλα")
+  \bookpart {
+    \score { \context Staff = "baglama" {%\with {instrumentName = "Ταμπουράς"} {
+        <<
+          \new Voice = "one" {
+            % \customScripts #articulationNear
+            \pieceOrig
+          }
+          \new Lyrics \lyricsto "one" {
+            % \verseOne
+          }
+        >>
+      }
+    }
+    % \extraVerses
+  }
 }
 
 
