@@ -159,7 +159,7 @@ sheetImage.addEventListener('click', function() {
     }
 });
 
-sheetImage.style.cursor = 'pointer';
+// sheetImage.style.cursor = 'pointer';
 
 // Add click event to all photos for fullscreen view
 // sheets.forEach(sheet => {
