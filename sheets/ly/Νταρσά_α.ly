@@ -37,7 +37,7 @@ melodyA = \relative c'' {
       % measure 5
       c4-1\arrowDown c8-1\arrowZeybek c4-1\arrowDown \hiddenGraceArrow\arrowSelpe c8-1\arrowDown c8-1\arrowUp
       % measure 6
-      bfc4-1\arrowDown \hiddenGraceArrow \arrowZeybekB a8-0\arrowUp g4\arrowDown \hiddenGraceArrow \arrowSelpe e'8-1\arrowDown d-1\arrowUp
+      bfc4-1\arrowDown \hiddenGraceArrow \arrowZeybekB a8-0\arrowUp \RastChord 4 \arrowDown \hiddenGraceArrow \arrowSelpe e'8-1\arrowDown d-1\arrowUp
       % measure 7
       e8.-3\arrowDown d16-1\arrowZeybekB c8-1\arrowUp c4-1\arrowDown \acciaccaturaNote bfc8-1\arrowSelpe bfc8-1\arrowDown a8-0\arrowUp
       % measure 8
@@ -45,7 +45,7 @@ melodyA = \relative c'' {
       % measure 9
       c4-1\arrowDown c8-1\arrowZeybek c4-1\arrowDown \hiddenGraceArrow\arrowSelpe c8-1\arrowDown c8-1\arrowUp
       % measure 10
-      bfc4-1\arrowDown \hiddenGraceArrow \arrowZeybekB a8-0\arrowUp g4\arrowDown \hiddenGraceArrow \arrowSelpe e'8-1\arrowDown d-1\arrowUp
+      bfc4-1\arrowDown \hiddenGraceArrow \arrowZeybekB a8-0\arrowUp \RastChord 4 \arrowDown \hiddenGraceArrow \arrowSelpe e'8-1\arrowDown d-1\arrowUp
       % measure 11
       e8.-3\arrowDown d16-1\arrowZeybekB c8-1\arrowUp c4-1\arrowDown \acciaccaturaNote bfc8-1\arrowSelpe bfc8-1\arrowDown a8-0\arrowUp
       \alternative {
